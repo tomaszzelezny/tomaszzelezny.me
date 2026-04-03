@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o łączeniu perspektyw",
-        "excerpt":"Sprint review. Zespół pokazuje co dostarczył. Wszyscy kiwają głowami. Nikt nie pyta co się zmieniło u użytkowników. Nikt nie pyta co to znaczy dla biznesu. Nikt nie pyta na czym firma może teraz zbudować. Spotkanie kończy się. Zaczyna się następny sprint. To nie jest problem złego Scruma. To brakujący łańcuch...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Cztery poziomy, jeden łańuch. Sprint review. Zespół pokazuje co dostarczył. Wszyscy kiwają głowami. Nikt nie pyta co się zmieniło u użytkowników. Nikt nie pyta co to znaczy dla biznesu. Nikt nie pyta na czym firma może teraz zbudować. Spotkanie kończy się. Zaczyna się następny sprint. To nie jest problem złego...","categories": ["Zarządzanie produktem"],
         "tags": ["Output","Outcome","Impact","Dźwignia","Scrum"],
         "url": "/zarz%C4%85dzanie%20produktem/2026/03/26/laczenie-perspektyw.html",
         "teaser": null
