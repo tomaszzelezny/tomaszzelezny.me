@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" font-family="'Courier New', Courier, monospace">
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f5f4f0"/>
+
+  <!-- Grid lines (subtle) -->
+  <g stroke="#e0ddd6" stroke-width="0.5">
+    <line x1="0" y1="133" x2="800" y2="133"/>
+    <line x1="0" y1="266" x2="800" y2="266"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="533" x2="800" y2="533"/>
+    <line x1="0" y1="666" x2="800" y2="666"/>
+    <line x1="160" y1="0" x2="160" y2="800"/>
+    <line x1="320" y1="0" x2="320" y2="800"/>
+    <line x1="480" y1="0" x2="480" y2="800"/>
+    <line x1="640" y1="0" x2="640" y2="800"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <g stroke="#555" stroke-width="1.5" fill="none">
+    <!-- Top-left -->
+    <polyline points="20,50 20,20 50,20"/>
+    <!-- Top-right -->
+    <polyline points="750,20 780,20 780,50"/>
+    <!-- Bottom-left -->
+    <polyline points="20,750 20,780 50,780"/>
+    <!-- Bottom-right -->
+    <polyline points="750,780 780,780 780,750"/>
+  </g>
+
+  <!-- Top red line -->
+  <line x1="40" y1="65" x2="760" y2="65" stroke="#7a1a1a" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="45" y="120" font-size="48" font-weight="bold" fill="#7a1a1a" letter-spacing="4">PRACA NA TOLERANCJACH</text>
+
+  <!-- Subtitle -->
+  <text x="45" y="150" font-size="16" fill="#444" letter-spacing="1">narzędzie, o którym nikt nie mówi</text>
+
+  <!-- === DIAGRAM === -->
+
+  <!-- Shaded tolerance rectangle -->
+  <rect x="260" y="365" width="280" height="50" fill="#dde3ea" stroke="none"/>
+
+  <!-- Main horizontal arrow -->
+  <line x1="45" y1="390" x2="750" y2="390" stroke="#334" stroke-width="2"/>
+  <!-- Arrow left -->
+  <polygon points="45,390 60,384 60,396" fill="#7a1a1a"/>
+  <!-- Arrow right -->
+  <polygon points="755,390 740,384 740,396" fill="#7a1a1a"/>
+
+  <!-- Dashed vertical lines at tolerance boundaries -->
+  <line x1="260" y1="350" x2="260" y2="430" stroke="#334" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="540" y1="350" x2="540" y2="430" stroke="#334" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- Plan tick mark -->
+  <line x1="400" y1="350" x2="400" y2="410" stroke="#334" stroke-width="1.5"/>
+  <!-- Plan label -->
+  <text x="400" y="342" font-size="15" fill="#334" text-anchor="middle">plan</text>
+
+  <!-- PM decyduje sam label -->
+  <text x="400" y="393" font-size="14" fill="#334" text-anchor="middle">← PM decyduje sam →</text>
+
+  <!-- Left side: przekroczenie / eskalacja -->
+  <text x="45" y="375" font-size="14" fill="#7a1a1a">przekroczenie</text>
+  <text x="45" y="410" font-size="14" fill="#7a1a1a">→ eskalacja</text>
+
+  <!-- Right side: przekroczenie / eskalacja -->
+  <text x="640" y="375" font-size="14" fill="#7a1a1a" text-anchor="start">przekroczenie</text>
+  <text x="640" y="410" font-size="14" fill="#7a1a1a" text-anchor="start">→ eskalacja</text>
+
+  <!-- -tolerancja label -->
+  <text x="260" y="452" font-size="13" fill="#666" text-anchor="middle">-tolerancja</text>
+
+  <!-- +tolerancja label -->
+  <text x="540" y="452" font-size="13" fill="#666" text-anchor="middle">+tolerancja</text>
+
+  <!-- Bottom section -->
+  <text x="45" y="570" font-size="16" font-weight="bold" fill="#334">tolerancja może dotyczyć:</text>
+  <text x="45" y="600" font-size="15" fill="#444" letter-spacing="1">czasu · budżetu · zakresu · jakości · ryzyka · korzyści</text>
+
+  <!-- Bottom red line -->
+  <line x1="40" y1="740" x2="760" y2="740" stroke="#7a1a1a" stroke-width="2"/>
+
+</svg>

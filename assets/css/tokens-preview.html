@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomasz Żelezny — Design Tokens Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-family: var(--font-primary);
+      font-size: var(--font-size-body);
+      line-height: var(--line-height-body);
+      padding: var(--space-xl);
+    }
+
+    h1 {
+      font-size: var(--font-size-title);
+      font-weight: var(--font-weight-bold);
+      line-height: var(--line-height-title);
+      margin-bottom: var(--space-xs);
+    }
+
+    h2 {
+      font-size: var(--font-size-meta);
+      font-weight: var(--font-weight-bold);
+      letter-spacing: var(--letter-spacing-tag);
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: var(--space-md);
+      margin-top: var(--space-xl);
+    }
+
+    .grid { display: grid; gap: var(--space-md); }
+    .grid-2 { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+
+    /* Color swatches */
+    .swatch {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: var(--border);
+    }
+    .swatch-color {
+      height: 64px;
+    }
+    .swatch-label {
+      background: var(--color-bg);
+      padding: var(--space-sm) var(--space-md);
+    }
+    .swatch-name {
+      font-size: var(--font-size-meta);
+      font-weight: var(--font-weight-bold);
+    }
+    .swatch-value {
+      font-size: var(--font-size-tag);
+      opacity: .55;
+      letter-spacing: .05em;
+      margin-top: 2px;
+    }
+
+    /* Typography samples */
+    .type-sample {
+      background: var(--color-bg);
+      border: var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+    }
+    .type-label {
+      font-size: var(--font-size-tag);
+      letter-spacing: var(--letter-spacing-tag);
+      text-transform: uppercase;
+      opacity: .45;
+      margin-bottom: var(--space-xs);
+    }
+
+    /* Spacing ruler */
+    .space-row {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-sm);
+    }
+    .space-bar {
+      background: var(--color-accent);
+      height: 12px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .space-meta {
+      font-size: var(--font-size-tag);
+      letter-spacing: .05em;
+      opacity: .55;
+    }
+
+    /* Radius samples */
+    .radius-box {
+      background: var(--color-bg);
+      border: var(--border);
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--font-size-tag);
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      opacity: .6;
+    }
+
+    /* Components */
+    .component-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      align-items: flex-start;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--color-accent);
+      padding-left: var(--space-md);
+      font-style: italic;
+      opacity: .75;
+      margin: var(--space-md) 0;
+    }
+
+    .divider {
+      border: none;
+      border-top: var(--border);
+      margin: var(--space-lg) 0;
+    }
+
+    /* Quote block component */
+    .quote-block {
+      background: var(--color-block);
+      border-radius: var(--radius-md);
+      padding: var(--space-xl) var(--space-lg);
+      margin: 0;
+    }
+    .quote-block .quote-block__quote {
+      font-family: var(--font-primary);
+      font-size: clamp(18px, 3vw, 24px);
+      font-weight: var(--font-weight-bold);
+      line-height: var(--line-height-title);
+      color: var(--color-block-text);
+      background: transparent;
+      border: none;
+      border-left: none;
+      padding: 0;
+      margin: 0;
+      font-style: normal;
+    }
+    .quote-block .quote-block__quote em {
+      font-style: normal;
+      color: var(--color-accent);
+    }
+    .quote-block__author {
+      font-family: var(--font-primary);
+      font-size: var(--font-size-meta);
+      color: var(--color-block-text);
+      opacity: .55;
+      margin-top: var(--space-md);
+      display: block;
+    }
+
+    /* Header demo */
+    .demo-header {
+      background: var(--color-block);
+      color: var(--color-block-text);
+      padding: var(--space-xl);
+      border-radius: var(--radius-lg);
+      margin-bottom: var(--space-xl);
+    }
+    .demo-header .tag { margin-bottom: var(--space-md); }
+    .demo-header h1 { color: var(--color-block-text); }
+    .demo-header p { opacity: .65; margin-top: var(--space-sm); font-size: var(--font-size-meta); }
+  </style>
+</head>
+<body>
+
+  <!-- Demo header -->
+  <div class="demo-header corner-marks">
+    <span class="tag">Design Tokens</span>
+    <h1>Slate &amp; Ember</h1>
+    <p>Tomasz Żelezny · wersja finalna · tomaszzelezny.me</p>
+  </div>
+
+  <!-- COLORS -->
+  <h2>Kolory</h2>
+  <div class="grid grid-2">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#FFFFFF; outline: 1px solid #E7E5E4;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-bg</div>
+        <div class="swatch-value">#FFFFFF · tło kart, strony</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F5F5F4;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-surface</div>
+        <div class="swatch-value">#F5F5F4 · tło sekcji, hover</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#E7E5E4;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-border</div>
+        <div class="swatch-value">#E7E5E4 · obramowania</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#1C1917;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-text</div>
+        <div class="swatch-value">#1C1917 · tekst główny</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#1E2A3A;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-block</div>
+        <div class="swatch-value">#1E2A3A · blok, nagłówek</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F0EDE6; outline: 1px solid #E7E5E4;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-block-text</div>
+        <div class="swatch-value">#F0EDE6 · tekst na bloku</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#C2400C;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-accent</div>
+        <div class="swatch-value">#C2400C · narożniki, tagi</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#FFF7ED; outline: 1px solid #E7E5E4;"></div>
+      <div class="swatch-label">
+        <div class="swatch-name">--color-accent-subtle</div>
+        <div class="swatch-value">#FFF7ED · tło tagów</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TYPOGRAPHY -->
+  <h2>Typografia</h2>
+  <div class="grid grid-2">
+    <div class="type-sample">
+      <div class="type-label">font-size-title · clamp(20px–28px)</div>
+      <div style="font-size: var(--font-size-title); font-weight: var(--font-weight-bold); line-height: var(--line-height-title);">Nagłówek artykułu</div>
+    </div>
+    <div class="type-sample">
+      <div class="type-label">font-size-body · 14px</div>
+      <div style="font-size: var(--font-size-body); line-height: var(--line-height-body);">Tekst główny akapitu. Projekt to nie lista zadań — to seria decyzji podejmowanych w warunkach niepewności.</div>
+    </div>
+    <div class="type-sample">
+      <div class="type-label">font-size-meta · 11px</div>
+      <div style="font-size: var(--font-size-meta);">26 marca 2026 · 4 min czytania</div>
+    </div>
+    <div class="type-sample">
+      <div class="type-label">font-size-tag · 9px · uppercase</div>
+      <div style="font-size: var(--font-size-tag); letter-spacing: var(--letter-spacing-tag); text-transform: uppercase; font-weight: var(--font-weight-bold);">Zarządzanie · Projekt · Flow</div>
+    </div>
+  </div>
+
+  <!-- SPACING -->
+  <h2>Spacing</h2>
+  <div class="type-sample">
+    <div class="space-row"><div class="space-bar" style="width:4px;"></div><span class="space-meta">--space-xs · 4px</span></div>
+    <div class="space-row"><div class="space-bar" style="width:8px;"></div><span class="space-meta">--space-sm · 8px</span></div>
+    <div class="space-row"><div class="space-bar" style="width:16px;"></div><span class="space-meta">--space-md · 16px</span></div>
+    <div class="space-row"><div class="space-bar" style="width:24px;"></div><span class="space-meta">--space-lg · 24px</span></div>
+    <div class="space-row"><div class="space-bar" style="width:40px;"></div><span class="space-meta">--space-xl · 40px</span></div>
+  </div>
+
+  <!-- BORDER RADIUS -->
+  <h2>Border Radius</h2>
+  <div class="grid grid-3">
+    <div class="radius-box" style="border-radius: var(--radius-sm);">radius-sm · 4px</div>
+    <div class="radius-box" style="border-radius: var(--radius-md);">radius-md · 8px</div>
+    <div class="radius-box" style="border-radius: var(--radius-lg);">radius-lg · 12px</div>
+  </div>
+
+  <!-- COMPONENTS -->
+  <h2>Komponenty</h2>
+  <div class="component-row">
+    <span class="tag">Zarządzanie</span>
+    <span class="tag">Flow efficiency</span>
+    <span class="tag">Projekt</span>
+  </div>
+
+  <hr class="divider">
+
+  <div class="card corner-marks" style="padding: var(--space-lg); max-width: 480px;">
+    <span class="tag">Case study</span>
+    <h1 style="font-size: var(--font-size-title); margin-top: var(--space-sm); line-height: var(--line-height-title);">Na kiedy to będzie?</h1>
+    <p style="margin-top: var(--space-sm); font-size: var(--font-size-body);" class="text-muted">O tym, dlaczego estymaty są fikcją i co zrobić zamiast nich.</p>
+    <hr class="divider">
+    <p style="font-size: var(--font-size-meta);" class="text-muted">26 marca 2026 · 4 min czytania</p>
+  </div>
+
+  <hr class="divider">
+
+  <figure class="quote-block corner-marks" style="max-width: 480px;">
+    <blockquote class="quote-block__quote">Plany są niczym. <em>Planowanie</em> jest wszystkim.</blockquote>
+  </figure>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-03T09:26:34+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master &amp; Konsultant Agile. Pomagam firmom budować efektywne organizacje produktowe, wzmacniać zespoły i dostarczać wartość na każdym etapie produktu.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zachowaniu użytkowników i metrykach biznesowych</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/04/02/retencja-wzrosla-to-dobrze.html" rel="alternate" type="text/html" title="Ten o zachowaniu użytkowników i metrykach biznesowych" /><published>2026-04-02T00:00:00+00:00</published><updated>2026-04-02T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/04/02/retencja-wzrosla-to-dobrze</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/04/02/retencja-wzrosla-to-dobrze.html"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Retencja wzrosła. To dobra wiadomość <em>prawda</em>?</blockquote></figure>
+
+<p>Retencja wzrosła. Dobra wiadomość — i warto się przez chwilę zatrzymać, żeby zrozumieć, co za tym stoi.</p>
+
+<p>„Wrócił, bo produkt rozwiązuje jego problem” i „wrócił, bo nie znalazł jeszcze alternatywy” wyglądają na dashboardzie identycznie. Dziś ta sama liczba. Ale tylko jedna z tych retencji przeżyje pojawienie się konkurencji.</p>
+
+<p>To nie znaczy, że metryki kłamią. Znaczy, że mają kontekst, którego same nie pokazują.</p>
+
+<p>Prosty test: zadaj sobie pytanie — czy gdyby ta liczba rosła przez rok z rzędu, zawsze byłoby to dobra wiadomość? 
+Czas na stronie rośnie — dobrze czy źle? Zależy. 
+Liczba ticketów do supportu rośnie — dobrze czy źle? Zależy. 
+Przychód z powracających klientów rośnie — prawie zawsze dobrze.</p>
+
+<p>Jeśli odpowiedź brzmi „to zależy” — masz wskaźnik wart zbadania, nie gotową metrykę biznesową.</p>
+
+<p>Żeby zachowanie użytkownika stało się metryką biznesową, warto przejść przez trzy pytania.</p>
+
+<p>Co robi? To daje obserwację. 
+Dlaczego to robi? To daje motywację. 
+Co z tego wynika dla celu, który realizujesz? To daje wynik.</p>
+
+<p>Bez środkowego ogniwa masz dashboard. Odpowiedź jest gdzieś dalej.</p>
+
+<p>Które metryki w Twoim zespole przeszły ten test?</p>
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445334270233001984/">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Zachowanie użytkownika" /><category term="Metryki biznesowe" /><summary type="html"><![CDATA[Jak rozpoznać dobrą metryke biznesową]]></summary></entry><entry><title type="html">Ten o świętowaniu</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/31/nie-ma-duzych-okazji.html" rel="alternate" type="text/html" title="Ten o świętowaniu" /><published>2026-03-31T00:00:00+00:00</published><updated>2026-03-31T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/31/nie-ma-duzych-okazji</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/31/nie-ma-duzych-okazji.html"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">W ciągłym dostarczaniu nie ma <em>mety</em>.</blockquote></figure>
+
+<p>Rozmawiałem kiedyś z Product Ownerem, który powiedział:
+„Nie ma dużych okazji do świętowania.”</p>
+
+<p>I to zdanie zostało ze mną.</p>
+
+<p>Możliwe, że miał rację. W ciągłym dostarczaniu i rozwoju nie ma mety. Backlog nie znika. Każda domknięta funkcja otwiera trzy kolejne. Nie ma dnia, w którym zespół może powiedzieć: skończyliśmy.</p>
+
+<p>Kiedyś było inaczej. Duży release miał datę. Wszyscy wiedzieli, że ten dzień jest ważny. Można było się zatrzymać — razem. Był powód, żeby spojrzeć na siebie i powiedzieć: zrobiliśmy to.</p>
+
+<p>I nie chodzi o szampana. Chodzi o coś trudniejszego do zastąpienia — zbiorowe poczucie, że coś się domknęło. Że wysiłek miał koniec.</p>
+
+<p>W ciągłym dostarczaniu trzeba znaleźć inne powody do świętowania. Mniejsze, własne, celowo stworzone. Nie zastąpią launch day — ale mogą dać zespołowi to, czego mu brakuje. Poczucie, że ich praca jest ważna.</p>
+
+<p>Jak to wygląda u Was?</p>
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_rozmawia%C5%82em-kiedy%C5%9B-z-product-ownerem-kt%C3%B3ry-share-7444489935925190656-NwW4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Continuous Delivery" /><category term="Zespół" /><category term="Kultura" /><category term="Agile" /><summary type="html"><![CDATA[Nie ma dużych okazji do świętowania. I co z tym zrobić.]]></summary></entry><entry><title type="html">Ten o łączeniu perspektyw</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/26/laczenie-perspektyw.html" rel="alternate" type="text/html" title="Ten o łączeniu perspektyw" /><published>2026-03-26T00:00:00+00:00</published><updated>2026-03-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/26/laczenie-perspektyw</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20produktem/2026/03/26/laczenie-perspektyw.html"><![CDATA[<p><img src="/assets/images/dzwignia.jpeg" alt="Dźwignia" /></p>
+
+<p>Sprint review. Zespół pokazuje co dostarczył.
+Wszyscy kiwają głowami.
+Nikt nie pyta co się zmieniło u użytkowników.
+Nikt nie pyta co to znaczy dla biznesu.
+Nikt nie pyta na czym firma może teraz zbudować.
+Spotkanie kończy się.
+Zaczyna się następny sprint.</p>
+
+<p>To nie jest problem złego Scruma. To brakujący łańcuch między „dostarczyliśmy” a „firma jest w lepszym miejscu”.</p>
+
+<p><strong>Output</strong> — co powstało. Jedyny poziom, na który twój zespół ma pełną kontrolę. Dlatego większość teamów tutaj się zatrzymuje — i trudno się dziwić, bo za to są rozliczane.</p>
+
+<p><strong>Outcome</strong> — co zmieniło się w zachowaniu twoich użytkowników. Zależy już nie tylko od zespołu. Dlatego większość firm go nie mierzy — za dużo niewiadomych, za mało pewności.</p>
+
+<p><strong>Impact</strong> — co to znaczy dla twojego biznesu. Most między Outcome a tą liczbą rzadko ktoś buduje, bo nikt wprost nie dostał zadania żeby go zbudować.</p>
+
+<p><strong>Dźwignia</strong> — na czym firma może teraz zbudować, czego bez tego wyniku nie byłoby możliwe. Oszczędność 30% kosztów to Impact. To że możesz rosnąć bez zatrudniania kolejnych ludzi — to Dźwignia. Jedno jest wynikiem, drugie jest tym, co na tym wyniku budujesz.</p>
+
+<p>Spójna historia wygląda tak:</p>
+
+<blockquote>
+  <p>Dostarczyliśmy samoobsługowy onboarding <strong>(Output)</strong> — użytkownicy przestali potrzebować asysty przy starcie <strong>(Outcome)</strong> — koszty obsługi spadły o 30% <strong>(Impact)</strong> — teraz możemy rosnąć bez proporcjonalnego wzrostu zespołu <strong>(Dźwignia)</strong>.</p>
+</blockquote>
+
+<p>Cztery zdania. Jeden łańcuch przyczynowy. Każdy w organizacji widzi swój kawałek — ale rzadko ktoś pokazuje im jak się łączy z resztą.</p>
+
+<p>To twoja robota. Łączyć.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_sprint-review-zesp%C3%B3%C5%82-pokazuje-co-dostarczy%C5%82-share-7442685846656393216-2AYr?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Output" /><category term="Outcome" /><category term="Impact" /><category term="Dźwignia" /><category term="Scrum" /><summary type="html"><![CDATA[Output, Outcome, Impact, Dźwignia — cztery poziomy, jeden łańcuch przyczynowy. Twoja robota to je połączyć.]]></summary></entry><entry><title type="html">Na kiedy to będzie?</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/24/na-kiedy-to-bedzie.html" rel="alternate" type="text/html" title="Na kiedy to będzie?" /><published>2026-03-24T00:00:00+00:00</published><updated>2026-03-24T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/24/na-kiedy-to-bedzie</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/24/na-kiedy-to-bedzie.html"><![CDATA[<p><img src="/assets/images/Montecarlo.png" alt="Symulacja Monte Carlo" /></p>
+
+<p>„Na kiedy to będzie?” Kiedyś to pytanie kosztowało mnie pół dnia.</p>
+
+<p>Szukanie narzędzi. Excel ze wzorami, które sam musiałem zrozumieć. Artykuł o Monte Carlo, drugi artykuł żeby zrozumieć pierwszy. Symulacja sklejona z trzech tutoriali i modlitwa żeby się nie rozjechała.</p>
+
+<p>Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.</p>
+
+<p>A podobno „przewidywanie jest trudne, zwłaszcza jeśli chodzi o przyszłość.” Jak mawiał Yogi Berra.</p>
+
+<p>Wiem już, że na 85. percentylu wychodzi 13 tygodni. Wiem, że jak chcę grać bezpiecznie — mówię 14.</p>
+
+<p>I tu zaczyna się prawdziwy świat.</p>
+
+<p>Bo organizacja nie chce rozkładu prawdopodobieństwa. Chce daty. Najlepiej jednej. Najlepiej pewnej.</p>
+
+<p>Więc sprowadzam 10 000 symulacji do jednej liczby — i wchodzę na spotkanie, gdzie ta liczba natychmiast zaczyna żyć swoim życiem.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kiedy-to-b%C4%99dzie-kiedy%C5%9B-to-pytanie-kosztowa%C5%82o-share-7441950877499867136-HDpS">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Monte Carlo" /><category term="prognozowanie" /><category term="probabilistyka" /><summary type="html"><![CDATA[Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.]]></summary></entry><entry><title type="html">Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/19/flow-efficiency.html" rel="alternate" type="text/html" title="Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie." /><published>2026-03-19T00:00:00+00:00</published><updated>2026-03-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/19/flow-efficiency</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/19/flow-efficiency.html"><![CDATA[<p>Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.</p>
+
+<p>Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny.</p>
+
+<p>Reszta? Praca czekała.</p>
+
+<p>Na refinement. Na decyzję. Na zwolnienie się testera. Na odpowiedź z innego zespołu. Na sprint planning.</p>
+
+<p>Nikt nie obijał się. Wszyscy byli zajęci. A feature i tak leżał.</p>
+
+<p>To jest dokładnie ten problem, którego większość organizacji nie mierzy.
+Mierzymy velocity. Mierzymy utilization. Mierzymy czy ludzie są zajęci.</p>
+
+<p>Nie mierzymy czy praca posuwa się do przodu.</p>
+
+<p>W Lean jest na to pojęcie: flow efficiency.</p>
+
+<p>Najłatwiej wytłumaczyć na rowerze.
+Wyobraź sobie trasę: wyjazd o 8:00, przyjazd o 11:20. Trzy godziny dwadzieścia minut od startu do mety. Ale faktyczna jazda — kiedy koło się kręci i zbliżasz się do celu — to dwie godziny dziesięć minut. Reszta to postoje.</p>
+
+<p>Flow efficiency tej trasy: 65%.</p>
+
+<p>W organizacji liczymy to samo.</p>
+
+<p>Czas netto to momenty, w których praca realnie się dzieje — ktoś projektuje, koduje, testuje, wdraża.</p>
+
+<p>Czas brutto to czas od “zaczęliśmy” do “skończyliśmy” — łącznie z całym czekaniem pomiędzy.</p>
+
+<p>Flow efficiency = czas netto / czas brutto.</p>
+
+<p>Problem w tym, że większość zespołów nigdy tego nie liczyła.
+Bo po co? Ludzie są zajęci, sprinty się kręcą, burndown wygląda nieźle.
+Ale jeśli feature, który wymaga trzech dni pracy, jest wdrażany po trzech tygodniach — to gdzieś po drodze gubi się 90% czasu.</p>
+
+<p>I zwykle nikt nie wie gdzie.</p>
+
+<p>Pierwsze mapowanie value stream jest zawsze niewygodne.</p>
+
+<p>Nie dlatego że jest trudne. Dlatego że pokazuje rzeczy, które były widoczne od dawna — tylko nikt ich nie mierzył.</p>
+
+<p>Jeśli chcesz zacząć — jedno proste ćwiczenie.</p>
+
+<p>Weź ostatnie pięć funkcjonalności wdrożonych przez Twój zespół. Dla każdej zapisz dwie daty: kiedy praca faktycznie się zaczęła i kiedy trafiła na produkcję.</p>
+
+<p>Potem zastanów się uczciwie: ile z tego czasu ktoś przy tym siedział?</p>
+
+<p>Odpowiedź wystarczy żeby wiedzieć, czy masz problem.
+A jeśli nie chcesz liczyć — zadaj sobie jedno pytanie:
+Co w tej chwili czeka w Twoim zespole i na co?</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Lean" /><category term="flow efficiency" /><category term="value stream" /><summary type="html"><![CDATA[Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała.]]></summary></entry><entry><title type="html">Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy?</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/16/tolerancje-w-projekcie.html" rel="alternate" type="text/html" title="Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy?" /><published>2026-03-16T00:00:00+00:00</published><updated>2026-03-16T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/16/tolerancje-w-projekcie</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie%20projektami/2026/03/16/tolerancje-w-projekcie.html"><![CDATA[<p><img src="/assets/images/tolerancje-diagram.svg" alt="Praca na tolerancjach — diagram" /></p>
+
+<p>Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy?</p>
+
+<p>Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie. Efekt? Albo PM eskaluje wszystko, bo nie wie, co może zdecydować sam. Albo nie eskaluje nic, bo boi się wyjść na słabego. Żadna z tych sytuacji nie jest dobra.</p>
+
+<p>PRINCE2 ma na to odpowiedź: tolerancje. Przedział, w którym PM działa autonomicznie. Poza nim — decyzja wraca do sponsora. Proste. I prawie nigdzie nieużywane poza projektami „z metodologią”.</p>
+
+<p>Ale tolerancje to nie tylko limit. To kontrakt między PM-em a sponsorem — „w tym przedziale ufam twojej ocenie, poza nim rozmawiamy”. I co ważniejsze: przekroczenie tolerancji to nie porażka. To sygnał, że plan zderzył się z rzeczywistością mocniej niż zakładano. Najcenniejsza informacja w projekcie często przychodzi właśnie w tym momencie.</p>
+
+<p>Macie w swoich projektach zdefiniowane tolerancje? Czy liczycie, że traficie dokładnie w punkt?</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="PRINCE2" /><category term="tolerancje" /><category term="PM" /><summary type="html"><![CDATA[Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.]]></summary></entry><entry><title type="html">Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach.</title><link href="https://tomaszzelezny.me/zarz%C4%85dzanie/2026/03/12/cele-vs-zadania.html" rel="alternate" type="text/html" title="Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach." /><published>2026-03-12T00:00:00+00:00</published><updated>2026-03-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/zarz%C4%85dzanie/2026/03/12/cele-vs-zadania</id><content type="html" xml:base="https://tomaszzelezny.me/zarz%C4%85dzanie/2026/03/12/cele-vs-zadania.html"><![CDATA[<p>Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.</p>
+
+<p>Praca na celach mówi: “chcemy zwiększyć retencję o 15% w Q3.” Praca na zadaniach mówi: “zrób ticket, oszacuj, zamknij, zaraportuj.” Obie mają sens. Jedno i drugie istnieje w tej samej firmie. Ale tylko jedno ma kolumnę w raporcie.</p>
+
+<p>Wtedy dzieje się coś podstępnego. Cel ucieka. Prawdziwa gra toczy się gdzie indziej — na velocity, na burndownach, na liczbie story pointów zamkniętych w sprincie. Bezpieczniej jest dowieźć zadania niż ryzykować w imię celu.</p>
+
+<p>I nikt tego głośno nie mówi. To dostosowanie się do zasad gry, które organizacja sama ustanowiła.</p>
+
+<p>Ludzie robią to, co jest nagradzane. Nie to, co jest napisane w strategii. Nie to, co padło na prezentacji rocznej. To, o co pyta manager i co wywołuje komentarze na przeglądzie sprintu.</p>
+
+<p>Spójrz na to, o czym rozmawiacie. Popatrz na spotkania, przeglądy, pytania które padają. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja.</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="OKR" /><category term="agile" /><category term="organizacja" /><summary type="html"><![CDATA[To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.]]></summary></entry></feed>

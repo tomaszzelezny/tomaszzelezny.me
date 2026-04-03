@@ -1,0 +1,578 @@
+/* ================================================
+   Tomasz Żelezny — Theme overrides using design tokens
+   tomaszzelezny.me
+   ================================================ */
+
+/* Base */
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+a {
+  color: var(--color-accent);
+}
+a:visited {
+  color: var(--color-accent);
+}
+a:hover {
+  color: var(--color-accent);
+  opacity: .75;
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------
+   Masthead / Navigation
+   ------------------------------------------------ */
+.masthead {
+  background-color: var(--color-block);
+  border-bottom: none;
+}
+.masthead__inner-wrap {
+  background-color: var(--color-block);
+}
+.greedy-nav {
+  background-color: var(--color-block);
+}
+.greedy-nav a,
+.greedy-nav .site-title {
+  color: var(--color-block-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+}
+.greedy-nav a:hover,
+.greedy-nav .site-title:hover {
+  color: var(--color-accent);
+  opacity: 1;
+  text-decoration: none;
+}
+.greedy-nav .visible-links a::before {
+  background: var(--color-accent);
+}
+.greedy-nav button {
+  color: var(--color-block-text);
+  background-color: var(--color-block);
+}
+
+/* ------------------------------------------------
+   Page titles & headings
+   ------------------------------------------------ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-text);
+}
+.page__title {
+  font-size: var(--font-size-title);
+  color: var(--color-text);
+}
+.archive__item-title {
+  font-size: var(--font-size-title);
+}
+.archive__item-title a {
+  color: var(--color-text);
+}
+.archive__item-title a:hover {
+  color: var(--color-accent);
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------
+   Post meta (date, read time)
+   ------------------------------------------------ */
+.page__meta,
+.page__meta a,
+.page__date {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  color: var(--color-text);
+  opacity: .55;
+}
+
+/* ------------------------------------------------
+   Tags / categories
+   ------------------------------------------------ */
+.page__taxonomy-item {
+  display: inline-block;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: var(--color-accent-subtle);
+  border: 1px solid #f0c4a0;
+  padding: 3px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.page__taxonomy-item:hover {
+  color: var(--color-accent);
+  background: var(--color-surface);
+  opacity: 1;
+  text-decoration: none;
+}
+.taxonomy__section-label {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* ------------------------------------------------
+   Blockquotes
+   ------------------------------------------------ */
+blockquote {
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* ------------------------------------------------
+   Sidebar / Author profile
+   ------------------------------------------------ */
+.sidebar .author__name {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+.sidebar .author__bio {
+  font-family: var(--font-body);
+  font-size: var(--font-size-meta);
+  color: var(--color-text);
+  opacity: .7;
+}
+.sidebar .author__urls-wrapper a,
+.sidebar .author__urls a {
+  font-family: var(--font-body);
+  font-size: var(--font-size-meta);
+  color: var(--color-text);
+}
+.sidebar .author__urls-wrapper a:hover,
+.sidebar .author__urls a:hover {
+  color: var(--color-accent);
+  opacity: 1;
+}
+.sidebar .btn--inverse {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+/* ------------------------------------------------
+   Buttons
+   ------------------------------------------------ */
+.btn,
+.btn--primary {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+}
+.btn--primary {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-block-text);
+}
+.btn--primary:hover {
+  background-color: var(--color-block);
+  border-color: var(--color-block);
+  color: var(--color-block-text);
+}
+.btn--inverse {
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+/* ------------------------------------------------
+   Splash page header
+   ------------------------------------------------ */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  font-family: var(--font-primary);
+  color: var(--color-block-text);
+}
+.page__hero--overlay .page__title {
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+}
+.page__hero--overlay .page__lead {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  opacity: .85;
+}
+
+/* ------------------------------------------------
+   Feature rows (homepage sections)
+   ------------------------------------------------ */
+.feature__wrapper {
+  border-top: none;
+  padding-top: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+.archive__item-excerpt,
+.feature__item .archive__item-excerpt {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+  opacity: .75;
+}
+
+/* Feature tiles — card style */
+.feature__item .archive__item {
+  background: var(--color-surface);
+  border: var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.feature__item .archive__item:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 20px rgba(28, 25, 23, .06);
+}
+.feature__item .archive__item-title {
+  font-size: var(--font-size-meta) !important;
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-block);
+  border-bottom: var(--border);
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  margin-top: 0 !important;
+}
+
+/* Homepage section labels (## headings) */
+.page__content h2 {
+  font-size: var(--font-size-meta) !important;
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  border: none !important;
+  border-top: 2px solid var(--color-accent) !important;
+  padding-top: var(--space-sm);
+  margin-top: var(--space-xl);
+  margin-bottom: 0;
+}
+
+/* Fix intro "center" feature row: full-width, proper centering */
+.feature__item--center {
+  width: 100% !important;
+  float: none !important;
+}
+.feature__item--center .archive__item {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  text-align: left !important;
+  padding: var(--space-xl) var(--space-lg) !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.feature__item--center .archive__item-excerpt {
+  opacity: 1;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* CTA block (feature_row3 — last center row) */
+.feature__item--center:last-of-type .archive__item {
+  background: var(--color-surface) !important;
+  border: var(--border) !important;
+  border-left: 3px solid var(--color-accent) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: var(--space-xl) !important;
+}
+
+/* ------------------------------------------------
+   Post content body
+   ------------------------------------------------ */
+.page__content {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+}
+.page__content p,
+.page__content li {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+/* ------------------------------------------------
+   Footer
+   ------------------------------------------------ */
+.page__footer {
+  background-color: var(--color-block);
+  color: var(--color-block-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+}
+.page__footer-copyright {
+  color: var(--color-block-text);
+  opacity: .55;
+}
+.page__footer a {
+  color: var(--color-block-text);
+}
+.page__footer a:hover {
+  color: var(--color-accent);
+  opacity: 1;
+}
+
+/* ------------------------------------------------
+   Archive / Blog list
+   ------------------------------------------------ */
+.archive__item {
+  border-bottom: var(--border);
+  padding-bottom: var(--space-lg);
+}
+.archive__item-excerpt {
+  margin-top: var(--space-sm);
+}
+
+/* ------------------------------------------------
+   Horizontal rule / dividers
+   ------------------------------------------------ */
+hr {
+  border: none;
+  border-top: var(--border);
+  margin: var(--space-lg) 0;
+}
+
+/* ------------------------------------------------
+   Code blocks
+   ------------------------------------------------ */
+code,
+pre {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  background: var(--color-surface);
+  border: var(--border);
+  border-radius: var(--radius-sm);
+}
+pre {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+}
+
+/* ------------------------------------------------
+   Table
+   ------------------------------------------------ */
+table {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  border-collapse: collapse;
+  width: 100%;
+}
+table th {
+  background: var(--color-block);
+  color: var(--color-block-text);
+  font-size: var(--font-size-tag);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  padding: var(--space-sm) var(--space-md);
+  font-weight: var(--font-weight-bold);
+}
+table td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: var(--border);
+  color: var(--color-text);
+}
+table tr:hover td {
+  background: var(--color-surface);
+}
+
+/* ------------------------------------------------
+   Quote block component
+   ------------------------------------------------ */
+.quote-block {
+  background: var(--color-block);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl) var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+
+.quote-block .quote-block__quote {
+  font-family: var(--font-primary);
+  font-size: clamp(18px, 3vw, 24px);
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  line-height: var(--line-height-title);
+  color: var(--color-block-text);
+  background: transparent;
+  border: none;
+  border-left: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.quote-block .quote-block__quote em {
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+.quote-block__author {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  color: var(--color-block-text);
+  opacity: .55;
+  margin-top: var(--space-md);
+  display: block;
+}
+
+/* ------------------------------------------------
+   Blog post list — karty
+   ------------------------------------------------ */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.post-list__year-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.post-list__year-label {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  padding: var(--space-xs) 0;
+  border-top: 2px solid var(--color-accent);
+  margin-top: var(--space-lg);
+}
+
+.post-list__year-group:first-child .post-list__year-label {
+  margin-top: 0;
+}
+
+.post-card {
+  background: var(--color-bg);
+  border: var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+.post-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 20px rgba(28, 25, 23, .06);
+}
+
+.post-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.post-card__meta {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  color: var(--color-text);
+  opacity: .5;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.post-card__sep {
+  opacity: .4;
+}
+
+.post-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.post-card__divider {
+  border: none;
+  border-top: 1px solid var(--color-border, currentColor);
+  opacity: .2;
+  margin: var(--space-sm) 0 0;
+}
+
+.post-card__title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  margin: 0 0 var(--space-sm);
+  border: none;
+  padding: 0;
+}
+
+.post-card__title a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.post-card__title a:hover,
+.post-card__title a:visited {
+  color: var(--color-text);
+  opacity: 1;
+  text-decoration: none;
+}
+
+.post-card:hover .post-card__title a {
+  color: var(--color-accent);
+}
+
+.post-card__excerpt {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+  opacity: .65;
+  margin: 0 0 var(--space-md);
+}
+
+.post-card__read-more {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  text-decoration: none;
+  opacity: 1;
+}
+
+.post-card__read-more:hover,
+.post-card__read-more:visited {
+  color: var(--color-accent);
+  opacity: .75;
+  text-decoration: none;
+}

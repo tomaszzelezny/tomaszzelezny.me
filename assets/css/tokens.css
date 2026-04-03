@@ -1,0 +1,100 @@
+/* ================================================
+   Tomasz Żelezny — Design Tokens
+   Slate & Ember · wersja finalna
+   tomaszzelezny.me
+   ================================================ */
+
+:root {
+
+  /* Kolory */
+  --color-bg:             #FFFFFF;  /* tło kart, slajdów, strony         */
+  --color-surface:        #F5F5F4;  /* tło sekcji, hover state            */
+  --color-border:         #E7E5E4;  /* obramowania, separatory            */
+  --color-text:           #1C1917;  /* tekst główny                       */
+  --color-block:          #1E2A3A;  /* blok cytatu, nagłówek z inv. text  */
+  --color-block-text:     #F0EDE6;  /* tekst na bloku --color-block       */
+  --color-accent:         #C2400C;  /* narożniki, tagi, akcent w cytacie  */
+  --color-accent-subtle:  #FFF7ED;  /* tło tagów, etykiet                 */
+
+  /* Typografia */
+  --font-primary:         'Space Mono', monospace;
+  --font-body:            'Inter', sans-serif;
+
+  --font-size-title:      clamp(20px, 4vw, 28px);
+  --font-size-body:       14px;
+  --font-size-meta:       11px;
+  --font-size-tag:        9px;
+
+  --font-weight-regular:  400;
+  --font-weight-bold:     700;
+
+  --letter-spacing-tag:   .09em;
+  --line-height-body:     1.65;
+  --line-height-title:    1.3;
+
+  /* Spacing */
+  --space-xs:   4px;
+  --space-sm:   8px;
+  --space-md:   16px;
+  --space-lg:   24px;
+  --space-xl:   40px;
+
+  /* Border */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --border:     1.5px solid var(--color-border);
+
+}
+
+/* ================================================
+   Przykładowe utility classes
+   ================================================ */
+
+.text-accent   { color: var(--color-accent); }
+.text-muted    { color: var(--color-text); opacity: .55; }
+.bg-surface    { background: var(--color-surface); }
+.bg-block      { background: var(--color-block); color: var(--color-block-text); }
+
+.tag {
+  display: inline-block;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-tag);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: var(--color-accent-subtle);
+  border: 1px solid #f0c4a0;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.card {
+  background: var(--color-bg);
+  border: var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+/* Corner marks — sygnatura graficzna */
+.corner-marks {
+  position: relative;
+}
+.corner-marks::before,
+.corner-marks::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--color-accent);
+  border-style: solid;
+}
+.corner-marks::before {
+  top: 14px; left: 14px;
+  border-width: 1.5px 0 0 1.5px;
+}
+.corner-marks::after {
+  bottom: 14px; right: 14px;
+  border-width: 0 1.5px 1.5px 0;
+}
