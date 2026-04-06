@@ -24,6 +24,19 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Visually hidden — present in DOM for SEO, invisible to users */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* ------------------------------------------------
    Masthead / Navigation
    ------------------------------------------------ */
@@ -37,14 +50,24 @@ a:hover {
 .greedy-nav {
   background-color: var(--color-block);
 }
-.greedy-nav a,
-.greedy-nav .site-title {
+.greedy-nav a {
   color: var(--color-block-text);
   font-family: var(--font-primary);
   font-size: var(--font-size-meta);
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-tag);
   text-transform: uppercase;
+}
+.greedy-nav .site-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .greedy-nav a:hover,
 .greedy-nav .site-title:hover {
