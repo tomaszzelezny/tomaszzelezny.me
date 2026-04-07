@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-06T21:52:56+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zachowaniu użytkowników i metrykach biznesowych</title><link href="https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/" rel="alternate" type="text/html" title="Ten o zachowaniu użytkowników i metrykach biznesowych" /><published>2026-04-02T00:00:00+00:00</published><updated>2026-04-02T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/retencja-wzrosla-to-dobrze</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-07T08:01:25+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o przedwczesniej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/" rel="alternate" type="text/html" title="Ten o przedwczesniej optymalizacji" /><published>2026-04-07T00:00:00+00:00</published><updated>2026-04-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/przedwczesna-optymalizacja</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote"><em>Przedwczesna optymalizacja</em> to jest źródłem wszelkiego zła — Donald Knuth, 1974</blockquote></figure>
+
+<p>Knuth napisał to w 1974, o kodzie. Część ludzi zna ten cytat. Mało kto stosuje go poza programowaniem.</p>
+
+<p>A szkoda — bo ten sam błąd pojawia się w produktach, procesach i zespołach. Pod innymi nazwami.</p>
+
+<p>Zanim cokolwiek usprawnisz — zadaj trzy pytania:</p>
+
+<p>Czy to w ogóle jest problem?<br />
+Czy to jest problem który wymaga rozwiązania?<br />
+Czy to jest największy problem, który mam teraz?</p>
+
+<p>Jeśli nie — nie optymalizuj.</p>
+
+<p>Przedwczesna optymalizacja w produkcie to feature, którego nikt nie używa.<br />
+W procesie — usprawnienie, który nie jest wąskim gardłem.<br />
+W zespole — podnoszenie velocity, gdy problemem jest kierunek.</p>
+
+<p>Trzy pytania. Przed każdą “inicjatywą usprawnieniową”.</p>
+
+<p>To wszystko.</p>
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_knuth-napisa%C5%82-to-w-1974-o-kodzie-cz%C4%99%C5%9B%C4%87-share-7447031889460125696-y30e">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Optymalizacja" /><category term="Procesy" /><category term="Zarządzanie zespołem" /><summary type="html"><![CDATA[Knuth napisał to w 1974 w kontekście tworzenia oprogramowania. Można też zastosować w innych kontekstach.]]></summary></entry><entry><title type="html">Ten o zachowaniu użytkowników i metrykach biznesowych</title><link href="https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/" rel="alternate" type="text/html" title="Ten o zachowaniu użytkowników i metrykach biznesowych" /><published>2026-04-02T00:00:00+00:00</published><updated>2026-04-02T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/retencja-wzrosla-to-dobrze</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Retencja wzrosła. To dobra wiadomość <em>prawda</em>?</blockquote></figure>
 
 <p>Retencja wzrosła. Dobra wiadomość — i warto się przez chwilę zatrzymać, żeby zrozumieć, co za tym stoi.</p>

@@ -40,4 +40,10 @@ var store = [{
         "tags": ["Zachowanie użytkownika","Metryki biznesowe"],
         "url": "/blog/2026-04-02-retencja-wzrosla-to-dobrze/",
         "teaser": null
+      },{
+        "title": "Ten o przedwczesniej optymalizacji",
+        "excerpt":"Przedwczesna optymalizacja to jest źródłem wszelkiego zła — Donald Knuth, 1974 Knuth napisał to w 1974, o kodzie. Część ludzi zna ten cytat. Mało kto stosuje go poza programowaniem. A szkoda — bo ten sam błąd pojawia się w produktach, procesach i zespołach. Pod innymi nazwami. Zanim cokolwiek usprawnisz —...","categories": ["Zarządzanie produktem"],
+        "tags": ["Optymalizacja","Procesy","Zarządzanie zespołem"],
+        "url": "/blog/2026-04-07-przedwczesna-optymalizacja/",
+        "teaser": null
       }]
