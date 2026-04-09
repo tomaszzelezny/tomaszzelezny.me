@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-08T20:41:04+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o przedwczesniej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/" rel="alternate" type="text/html" title="Ten o przedwczesniej optymalizacji" /><published>2026-04-07T00:00:00+00:00</published><updated>2026-04-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/przedwczesna-optymalizacja</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-09T06:45:27+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o agile i opcjonalności</title><link href="https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/" rel="alternate" type="text/html" title="Ten o agile i opcjonalności" /><published>2026-04-09T00:00:00+00:00</published><updated>2026-04-09T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/agile-opcjonalnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Agile nie jest zwinny. Jest <em>opcjonalny</em>.</blockquote></figure>
+
+<p>Agile nie jest zwinny. Jest opcjonalny. I to jest całkowicie inna rzecz.</p>
+
+<p>Jest takie pojęcie z finansów: opcjonalność.</p>
+
+<p>Opcja to prawo — ale nie obowiązek — do zrobienia czegoś w przyszłości. Płacisz za tę możliwość z góry, niewiele. W zamian twoja strata jest ograniczona, a potencjalny zysk — otwarty.</p>
+
+<p>Kluczowe słowo: prawo, nie obowiązek.</p>
+
+<p>Zespół dostaje wymagania na nową funkcjonalność. Można wziąć je i jechać przez trzy miesiące. Albo można wziąć dwa tygodnie, dostarczyć coś małego i sprawdzić, czy klient w ogóle tego używa.</p>
+
+<p>Druga ścieżka kupuje coś cennego: prawo do zmiany zdania po dwóch tygodniach, zanim włożyłeś w to kwartał pracy.</p>
+
+<p>Im bardziej zmienne otoczenie — rynek, technologia, decyzje biznesowe — tym ta możliwość korekty jest cenniejsza.</p>
+
+<p>Agile nie jest wartościowy dlatego, że jest zwinny.</p>
+
+<p>Jest wartościowy dlatego, że pozwala podejmować lepsze decyzje w niepewnym środowisku — jeśli ktoś faktycznie z tej możliwości korzysta.</p>
+
+<p>Czy w Twoim zespole sprint to opcja, czy kontrakt?</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Agile" /><category term="Procesy" /><category term="Zarządzanie zespołem" /><summary type="html"><![CDATA[Agile nie jest wartościowy dlatego, że jest zwinny. Jest wartościowy dlatego, że pozwala podejmować lepsze decyzje w niepewnym środowisku — jeśli ktoś faktycznie z tej możliwości korzysta.]]></summary></entry><entry><title type="html">Ten o przedwczesniej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/" rel="alternate" type="text/html" title="Ten o przedwczesniej optymalizacji" /><published>2026-04-07T00:00:00+00:00</published><updated>2026-04-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/przedwczesna-optymalizacja</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote"><em>Przedwczesna optymalizacja</em> jest źródłem wszelkiego zła — Donald Knuth, 1974</blockquote></figure>
 
 <p>Knuth napisał to w 1974, o kodzie. Część ludzi zna ten cytat. Mało kto stosuje go poza programowaniem.</p>

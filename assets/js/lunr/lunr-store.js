@@ -46,4 +46,10 @@ var store = [{
         "tags": ["Optymalizacja","Procesy","Zarządzanie zespołem"],
         "url": "/blog/2026-04-07-przedwczesna-optymalizacja/",
         "teaser": null
+      },{
+        "title": "Ten o agile i opcjonalności",
+        "excerpt":"Agile nie jest zwinny. Jest opcjonalny. Agile nie jest zwinny. Jest opcjonalny. I to jest całkowicie inna rzecz. Jest takie pojęcie z finansów: opcjonalność. Opcja to prawo — ale nie obowiązek — do zrobienia czegoś w przyszłości. Płacisz za tę możliwość z góry, niewiele. W zamian twoja strata jest ograniczona,...","categories": ["Zarządzanie produktem"],
+        "tags": ["Agile","Procesy","Zarządzanie zespołem"],
+        "url": "/blog/2026-04-09-agile-opcjonalnosc/",
+        "teaser": null
       }]
