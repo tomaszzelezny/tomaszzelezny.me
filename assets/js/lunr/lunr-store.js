@@ -52,4 +52,10 @@ var store = [{
         "tags": ["Agile","Procesy","Zarządzanie zespołem"],
         "url": "/blog/2026-04-09-agile-opcjonalnosc/",
         "teaser": null
+      },{
+        "title": "Ten o tym, co jest ważniejsze",
+        "excerpt":"Mózg czy serce? Które jest ważniejsze? Można by się zastanawiać, co jest ważniejsze — IT czy biznes. Ale to złe pytanie. To jak pytać, czy ważniejszy jest mózg czy serce. Mózg przetwarza informacje, podejmuje decyzje, steruje. Serce pompuje krew, dostarcza tlen, utrzymuje wszystko przy życiu. Każde ma swoją rolę. Żadne...","categories": ["Zarządzanie produktem"],
+        "tags": ["IT","Biznes","Współpraca"],
+        "url": "/blog/2026-04-14-mozg-czy-serce/",
+        "teaser": null
       }]
