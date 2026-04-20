@@ -58,4 +58,10 @@ var store = [{
         "tags": ["IT","Biznes","Współpraca"],
         "url": "/blog/2026-04-14-mozg-czy-serce/",
         "teaser": null
+      },{
+        "title": "Ten o potrzebie znalezienia właściwego problemu",
+        "excerpt":"Jaki problem próbujesz rozwiązać? Nie znoszę tego pytania. Jest oklepane. Brzmi jak z podręcznika. I mimo to — wciąż robi robotę. Za rzadko się przy nim zatrzymujemy. A nawet najlepsze rozwiązanie złego problemu to tylko sprawnie wykonana nikomu niepotrzebna robota. 💬 Dołącz do dyskusji na LinkedIn → Komentuj i podziel...","categories": ["Zarządzanie produktem"],
+        "tags": ["Problem","Produkt","Myślenie"],
+        "url": "/blog/2026-04-16-wlasciwy-problem/",
+        "teaser": null
       }]
