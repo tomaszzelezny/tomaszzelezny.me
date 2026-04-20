@@ -606,3 +606,67 @@ table tr:hover td {
   opacity: .75;
   text-decoration: none;
 }
+
+/* ================================================
+   Desktop layout & typography overrides (>= 1024px)
+   ================================================ */
+@media (min-width: 1024px) {
+
+  /* -- 1. Token overrides: większe czcionki na desktopie -- */
+  :root {
+    --font-size-body: 16px;
+    --font-size-meta: 13px;
+    --font-size-tag:  11px;
+  }
+
+  /* -- 2. Blog list: 2-column grid per year group -- */
+  .post-list__year-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-lg);
+    row-gap: var(--space-md);
+    align-items: start;
+  }
+
+  .post-list__year-label {
+    grid-column: 1 / -1;
+  }
+
+  .post-list__year-group + .post-list__year-group {
+    margin-top: var(--space-xl);
+  }
+
+  /* -- 3. Feature rows: replace floats with flexbox -- */
+  .feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+    padding-bottom: 0;
+    margin-bottom: var(--space-xl);
+  }
+
+  .feature__item {
+    float: none !important;
+    width: auto !important;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important;
+  }
+
+  .feature__item .archive__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .feature__item .archive__item-excerpt {
+    flex: 1;
+  }
+
+  .feature__item--center {
+    flex: 1 1 100%;
+  }
+
+}
