@@ -64,4 +64,10 @@ var store = [{
         "tags": ["Problem","Produkt","Myślenie"],
         "url": "/blog/2026-04-16-wlasciwy-problem/",
         "teaser": null
+      },{
+        "title": "Ten o zrozumieniu kontekstu",
+        "excerpt":"&ldquo;Dlaczego to działa?&rdquo; zamiast &ldquo;Jak to działa?&rdquo; U innych działa. U mnie już niekoniecznie. Nie dlatego, że naśladowanie jest złe. Dlatego, że naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo. Heurystyka to skrót poznawczy — uproszczona reguła, która pozwala podjąć decyzję bez analizowania wszystkiego od zera. Zamiast rozumieć problem głęboko,...","categories": ["Zarządzanie produktem"],
+        "tags": ["Kontekst","Heurystyka","Myślenie","Nauka"],
+        "url": "/blog/2026-04-21-zrozumienie-kontekstu/",
+        "teaser": null
       }]
