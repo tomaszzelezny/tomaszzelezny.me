@@ -790,3 +790,41 @@ table tr:hover td {
   }
 
 }
+
+/* ------------------------------------------------
+   CTA buttons — wariant B
+   ------------------------------------------------ */
+
+/* Primary button — solid accent fill */
+.hero-split__actions a:first-child {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff !important;
+}
+.hero-split__actions a:first-child:hover {
+  background-color: #a3340a;
+  border-color: #a3340a;
+  color: #fff !important;
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Secondary button — ghost link with arrow */
+.hero-split__actions a:last-child {
+  background: transparent;
+  border-color: transparent;
+  color: var(--color-block-text);
+  opacity: .6;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.hero-split__actions a:last-child::after {
+  content: ' →';
+}
+.hero-split__actions a:last-child:hover {
+  opacity: 1;
+  color: var(--color-block-text);
+  text-decoration: none;
+  background: transparent;
+  border-color: transparent;
+}
