@@ -638,6 +638,19 @@ table tr:hover td {
   margin-top: var(--space-md);
 }
 
+.hero-split__actions .btn i {
+  margin-right: var(--space-xs);
+}
+
+/* Global .btn--primary:hover fades to --color-block, which matches the hero
+   overlay. Invert on hover so the CTA stays visible against the dark hero. */
+.hero-split__actions .btn--primary:hover,
+.hero-split__actions .btn--primary:focus {
+  background-color: var(--color-bg);
+  border-color: var(--color-bg);
+  color: var(--color-accent);
+}
+
 /* Photo frame with 4 rust-colored corner marks */
 .photo-frame {
   position: relative;
