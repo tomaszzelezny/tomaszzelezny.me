@@ -70,4 +70,10 @@ var store = [{
         "tags": ["Kontekst","Heurystyka","Myślenie","Nauka"],
         "url": "/blog/2026-04-21-zrozumienie-kontekstu/",
         "teaser": null
+      },{
+        "title": "Ten o zamrożonych środkach u brokera",
+        "excerpt":"Development bez release, jest jak odkładanie środków do skarpety. Wpłaciłeś. Czekasz. Nic się jeszcze nie wydarzyło. Broker trzyma Twój kapitał — gotówka leży na rachunku, żadnej pozycji jeszcze nie ma. Dopiero gdy kupujesz instrument, otwierasz pozycję. Masz ekspozycję, ale wartość wciąż niezrealizowaną. Nie możesz tego wydać. Nie możesz tego pokazać....","categories": ["Zarządzanie produktem"],
+        "tags": ["Development","Release","Wartość","Produkt","Inwestowanie"],
+        "url": "/blog/2026-04-22-ten-o-zamrozonych-srodkach/",
+        "teaser": null
       }]

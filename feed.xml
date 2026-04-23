@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-22T20:03:49+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zrozumieniu kontekstu</title><link href="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/" rel="alternate" type="text/html" title="Ten o zrozumieniu kontekstu" /><published>2026-04-21T00:00:00+00:00</published><updated>2026-04-21T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/zrozumienie-kontekstu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-23T06:50:59+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zamrożonych środkach u brokera</title><link href="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/" rel="alternate" type="text/html" title="Ten o zamrożonych środkach u brokera" /><published>2026-04-22T00:00:00+00:00</published><updated>2026-04-22T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-zamrozonych-srodkach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Development <em>bez release</em>, jest jak odkładanie środków do skarpety.</blockquote></figure>
+
+<p>Wpłaciłeś. Czekasz. Nic się jeszcze nie wydarzyło. Broker trzyma Twój kapitał — gotówka leży na rachunku, żadnej pozycji jeszcze nie ma.</p>
+
+<p>Dopiero gdy kupujesz instrument, otwierasz pozycję.</p>
+
+<p>Masz ekspozycję, ale wartość wciąż niezrealizowaną. Nie możesz tego wydać. Nie możesz tego pokazać. Wartość istnieje tylko na papierze — i tylko pod warunkiem, że rynek to potwierdzi.</p>
+
+<p>Development działa tak samo.</p>
+
+<p>Każda wypłacona pensja, każdy sprint, każda historia użytkownika domknięta w backlogu — to środki zablokowane w otwartej pozycji. Feature napisany, ale niewdrożony, to kapitał zamrożony — nie generuje zwrotu, nie weryfikuje założeń, nie zmienia niczego w zachowaniu użytkownika.</p>
+
+<p>Release to moment realizacji.</p>
+
+<p>Dopiero wtedy pozycja się zamyka. Dopiero wtedy możesz zobaczyć, czy wycena była trafna. Czy rynek — czyli użytkownik — potwierdził wartość, którą zakładałeś w momencie inwestycji.</p>
+
+<p>W inwestowaniu nikt nie twierdzi, że “prawie sprzedałem” liczy się jako zysk.
+W developmencie wciąż zdarza się myśleć, że “prawie skończyliśmy” oznacza, że wartość już jest.</p>
+
+<p>Nie jest.</p>
+
+<p>Ona czeka w kolejce — razem ze wszystkimi innymi otwartymi pozycjami, które nigdy nie trafiły na produkcję.</p>
+
+<p>Im dłużej pozycja pozostaje otwarta, tym dłużej rynek może zmienić zdanie na Twój temat. Im więcej otwartych pozycji jednocześnie, tym trudniej którąkolwiek zamknąć.</p>
+
+<p>Portfel złożony wyłącznie z niezrealizowanych zysków nie jest sukcesem. To ryzyko.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wp%C5%82aci%C5%82e%C5%9B-czekasz-nic-si%C4%99-jeszcze-nie-wydarzy%C5%82o-share-7452805699551600641-RREt">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Development" /><category term="Release" /><category term="Wartość" /><category term="Produkt" /><category term="Inwestowanie" /><summary type="html"><![CDATA[Wpłacasz, ale nic nie kupujesz.]]></summary></entry><entry><title type="html">Ten o zrozumieniu kontekstu</title><link href="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/" rel="alternate" type="text/html" title="Ten o zrozumieniu kontekstu" /><published>2026-04-21T00:00:00+00:00</published><updated>2026-04-21T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/zrozumienie-kontekstu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">&ldquo;<em>Dlaczego</em> to działa?&rdquo; zamiast <br />&ldquo;Jak to działa?&rdquo;</blockquote></figure>
 
 <p>U innych działa. U mnie już niekoniecznie.</p>
@@ -188,52 +218,4 @@ Zaczyna się następny sprint.</p>
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kiedy-to-b%C4%99dzie-kiedy%C5%9B-to-pytanie-kosztowa%C5%82o-share-7441950877499867136-HDpS">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Monte Carlo" /><category term="prognozowanie" /><category term="probabilistyka" /><summary type="html"><![CDATA[Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.]]></summary></entry><entry><title type="html">Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.</title><link href="https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/" rel="alternate" type="text/html" title="Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie." /><published>2026-03-19T00:00:00+00:00</published><updated>2026-03-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/flow-efficiency</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/"><![CDATA[<p>Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.</p>
-
-<p>Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny.</p>
-
-<p>Reszta? Praca czekała.</p>
-
-<p>Na refinement. Na decyzję. Na zwolnienie się testera. Na odpowiedź z innego zespołu. Na sprint planning.</p>
-
-<p>Nikt nie obijał się. Wszyscy byli zajęci. A feature i tak leżał.</p>
-
-<p>To jest dokładnie ten problem, którego większość organizacji nie mierzy.
-Mierzymy velocity. Mierzymy utilization. Mierzymy czy ludzie są zajęci.</p>
-
-<p>Nie mierzymy czy praca posuwa się do przodu.</p>
-
-<p>W Lean jest na to pojęcie: flow efficiency.</p>
-
-<p>Najłatwiej wytłumaczyć na rowerze.
-Wyobraź sobie trasę: wyjazd o 8:00, przyjazd o 11:20. Trzy godziny dwadzieścia minut od startu do mety. Ale faktyczna jazda — kiedy koło się kręci i zbliżasz się do celu — to dwie godziny dziesięć minut. Reszta to postoje.</p>
-
-<p>Flow efficiency tej trasy: 65%.</p>
-
-<p>W organizacji liczymy to samo.</p>
-
-<p>Czas netto to momenty, w których praca realnie się dzieje — ktoś projektuje, koduje, testuje, wdraża.</p>
-
-<p>Czas brutto to czas od “zaczęliśmy” do “skończyliśmy” — łącznie z całym czekaniem pomiędzy.</p>
-
-<p>Flow efficiency = czas netto / czas brutto.</p>
-
-<p>Problem w tym, że większość zespołów nigdy tego nie liczyła.
-Bo po co? Ludzie są zajęci, sprinty się kręcą, burndown wygląda nieźle.
-Ale jeśli feature, który wymaga trzech dni pracy, jest wdrażany po trzech tygodniach — to gdzieś po drodze gubi się 90% czasu.</p>
-
-<p>I zwykle nikt nie wie gdzie.</p>
-
-<p>Pierwsze mapowanie value stream jest zawsze niewygodne.</p>
-
-<p>Nie dlatego że jest trudne. Dlatego że pokazuje rzeczy, które były widoczne od dawna — tylko nikt ich nie mierzył.</p>
-
-<p>Jeśli chcesz zacząć — jedno proste ćwiczenie.</p>
-
-<p>Weź ostatnie pięć funkcjonalności wdrożonych przez Twój zespół. Dla każdej zapisz dwie daty: kiedy praca faktycznie się zaczęła i kiedy trafiła na produkcję.</p>
-
-<p>Potem zastanów się uczciwie: ile z tego czasu ktoś przy tym siedział?</p>
-
-<p>Odpowiedź wystarczy żeby wiedzieć, czy masz problem.
-A jeśli nie chcesz liczyć — zadaj sobie jedno pytanie:
-Co w tej chwili czeka w Twoim zespole i na co?</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Lean" /><category term="flow efficiency" /><category term="value stream" /><summary type="html"><![CDATA[Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kiedy-to-b%C4%99dzie-kiedy%C5%9B-to-pytanie-kosztowa%C5%82o-share-7441950877499867136-HDpS">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Monte Carlo" /><category term="prognozowanie" /><category term="probabilistyka" /><summary type="html"><![CDATA[Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.]]></summary></entry></feed>
