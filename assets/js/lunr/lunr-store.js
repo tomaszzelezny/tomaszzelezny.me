@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o matematycznej pułapce lokalnej optymalizacji",
-        "excerpt":"Optymalizacja lokalna to matematyczna pułapka. W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Optymalizacja *lokalna* to matematyczna pułapka. W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu...","categories": ["Zarządzanie produktem"],
         "tags": ["Optymalizacja","Metryki","Procesy","Organizacja","Myślenie systemowe"],
         "url": "/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/",
         "teaser": null
