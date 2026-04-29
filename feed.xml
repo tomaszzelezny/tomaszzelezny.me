@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-23T06:50:59+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zamrożonych środkach u brokera</title><link href="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/" rel="alternate" type="text/html" title="Ten o zamrożonych środkach u brokera" /><published>2026-04-22T00:00:00+00:00</published><updated>2026-04-22T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-zamrozonych-srodkach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-29T07:21:14+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o matematycznej pułapce lokalnej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/" rel="alternate" type="text/html" title="Ten o matematycznej pułapce lokalnej optymalizacji" /><published>2026-04-28T00:00:00+00:00</published><updated>2026-04-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-matematycznej-pulapce-lokalnej</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Optymalizacja <strong>lokalna</strong> to matematyczna pułapka.</blockquote></figure>
+
+<p>W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu wygląda jak pogorszenie.</p>
+
+<p>Organizacje też w to wpadają.</p>
+
+<p>Dział skraca czas wdrożeń o 30% i wszystkie jego metryki rosną. Decyzja jest racjonalna — bo nikt nie jest rozliczany z tego, co dzieje się na styku z następnym ogniwem.</p>
+
+<p>Przejście do lepszego stanu systemu wymaga wejścia w dolinę: chwilowego pogorszenia wyników, regresu w trakcie zmiany, kroków, które każda metryka oznaczy jako krok wstecz. Menedżer, który to inicjuje, przez kwartał będzie miał złe liczby — i będzie musiał to komuś wytłumaczyć.</p>
+
+<p>Źródło nie leży w decyzjach. Leży w tym, co jest mierzone i za co ktoś odpowiada.</p>
+
+<p>W lokalnym maksimum organizacje nie stoją przez przypadek. Stoją, bo system nagradza pozostanie.</p>
+
+<p>Żeby wyjść z maksimum lokalnego, trzeba na chwilę przestać patrzeć na gradient i zacząć patrzeć na krajobraz. Ale do tego potrzeba kogoś, kto widzi cały teren — i ma mandat, żeby chwilowe pogorszenie nazwać inwestycją, a nie porażką.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_w-analizie-funkcji-maksimum-lokalne-to-punkt-share-7454630279589130240-N_b2?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Optymalizacja" /><category term="Metryki" /><category term="Procesy" /><category term="Organizacja" /><category term="Myślenie systemowe" /><summary type="html"><![CDATA[W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero.]]></summary></entry><entry><title type="html">Ten o zamrożonych środkach u brokera</title><link href="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/" rel="alternate" type="text/html" title="Ten o zamrożonych środkach u brokera" /><published>2026-04-22T00:00:00+00:00</published><updated>2026-04-22T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-zamrozonych-srodkach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Development <em>bez release</em>, jest jak odkładanie środków do skarpety.</blockquote></figure>
 
 <p>Wpłaciłeś. Czekasz. Nic się jeszcze nie wydarzyło. Broker trzyma Twój kapitał — gotówka leży na rachunku, żadnej pozycji jeszcze nie ma.</p>
@@ -198,24 +217,4 @@ Zaczyna się następny sprint.</p>
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_sprint-review-zesp%C3%B3%C5%82-pokazuje-co-dostarczy%C5%82-share-7442685846656393216-2AYr">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Output" /><category term="Outcome" /><category term="Impact" /><category term="Dźwignia" /><category term="Scrum" /><summary type="html"><![CDATA[Output, Outcome, Impact, Dźwignia — cztery poziomy, jeden łańcuch przyczynowy. Twoja robota to je połączyć.]]></summary></entry><entry><title type="html">Na kiedy to będzie?</title><link href="https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/" rel="alternate" type="text/html" title="Na kiedy to będzie?" /><published>2026-03-24T00:00:00+00:00</published><updated>2026-03-24T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/na-kiedy-to-bedzie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/"><![CDATA[<p><img src="/assets/images/Montecarlo.png" alt="Symulacja Monte Carlo" /></p>
-
-<p>„Na kiedy to będzie?” Kiedyś to pytanie kosztowało mnie pół dnia.</p>
-
-<p>Szukanie narzędzi. Excel ze wzorami, które sam musiałem zrozumieć. Artykuł o Monte Carlo, drugi artykuł żeby zrozumieć pierwszy. Symulacja sklejona z trzech tutoriali i modlitwa żeby się nie rozjechała.</p>
-
-<p>Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.</p>
-
-<p>A podobno „przewidywanie jest trudne, zwłaszcza jeśli chodzi o przyszłość.” Jak mawiał Yogi Berra.</p>
-
-<p>Wiem już, że na 85. percentylu wychodzi 13 tygodni. Wiem, że jak chcę grać bezpiecznie — mówię 14.</p>
-
-<p>I tu zaczyna się prawdziwy świat.</p>
-
-<p>Bo organizacja nie chce rozkładu prawdopodobieństwa. Chce daty. Najlepiej jednej. Najlepiej pewnej.</p>
-
-<p>Więc sprowadzam 10 000 symulacji do jednej liczby — i wchodzę na spotkanie, gdzie ta liczba natychmiast zaczyna żyć swoim życiem.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kiedy-to-b%C4%99dzie-kiedy%C5%9B-to-pytanie-kosztowa%C5%82o-share-7441950877499867136-HDpS">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="Monte Carlo" /><category term="prognozowanie" /><category term="probabilistyka" /><summary type="html"><![CDATA[Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_sprint-review-zesp%C3%B3%C5%82-pokazuje-co-dostarczy%C5%82-share-7442685846656393216-2AYr">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Output" /><category term="Outcome" /><category term="Impact" /><category term="Dźwignia" /><category term="Scrum" /><summary type="html"><![CDATA[Output, Outcome, Impact, Dźwignia — cztery poziomy, jeden łańcuch przyczynowy. Twoja robota to je połączyć.]]></summary></entry></feed>
