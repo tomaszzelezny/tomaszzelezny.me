@@ -82,4 +82,10 @@ var store = [{
         "tags": ["Optymalizacja","Metryki","Procesy","Organizacja","Myślenie systemowe"],
         "url": "/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/",
         "teaser": null
+      },{
+        "title": "Ten o niewidocznej transparencji",
+        "excerpt":"Widoczność to nie transparencja Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje. Widoczność to raport ze statusem. Transparencja to wiedzieć, co rozważano i odrzucono zanim ten status powstał. Transparencja nie jest synonimem “wszyscy widzą wszystko”. Jest synonimem: wiemy, dlaczego takie decyzje zostały podjęte. Bez...","categories": ["Zarządzanie produktem"],
+        "tags": ["Transparencja","Komunikacja","Organizacja","Procesy","Zarządzanie"],
+        "url": "/blog/2026-04-30-ten-o-niewidocznej-transparencji/",
+        "teaser": null
       }]

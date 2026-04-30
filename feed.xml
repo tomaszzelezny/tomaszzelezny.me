@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-29T07:39:04+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o matematycznej pułapce lokalnej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/" rel="alternate" type="text/html" title="Ten o matematycznej pułapce lokalnej optymalizacji" /><published>2026-04-28T00:00:00+00:00</published><updated>2026-04-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-matematycznej-pulapce-lokalnej</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-30T06:40:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o niewidocznej transparencji</title><link href="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/" rel="alternate" type="text/html" title="Ten o niewidocznej transparencji" /><published>2026-04-30T00:00:00+00:00</published><updated>2026-04-30T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-niewidocznej-transparencji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote"><em>Widoczność</em> to nie transparencja</blockquote></figure>
+
+<p>Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje. Widoczność to raport ze statusem. Transparencja to wiedzieć, co rozważano i odrzucono zanim ten status powstał.</p>
+
+<p>Transparencja nie jest synonimem “wszyscy widzą wszystko”. Jest synonimem: wiemy, dlaczego takie decyzje zostały podjęte.</p>
+
+<p>Bez tego każda zmiana priorytetu to negocjacja od zera. Każdy nowy członek zespołu spędza tygodnie na rekonstruowaniu kontekstu. Każdy stakeholder, który nie był na tamtym spotkaniu, kwestionuje kierunek — bo nie ma dostępu do rozumowania, tylko do wyniku.</p>
+
+<p>Widoczność jest łatwa. Wystarczy dashboard.</p>
+
+<p>Transparencja wymaga czegoś więcej niż dokumentu — wymaga rozmowy.</p>
+
+<p>Miejsca, gdzie można zapytać dlaczego. I kogoś, kto odpowie.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_widoczno%C5%9B%C4%87-to-tablica-z-taskami-transparencja-activity-7455481102913200128-BO-7">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Transparencja" /><category term="Komunikacja" /><category term="Organizacja" /><category term="Procesy" /><category term="Zarządzanie" /><summary type="html"><![CDATA[Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje.]]></summary></entry><entry><title type="html">Ten o matematycznej pułapce lokalnej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/" rel="alternate" type="text/html" title="Ten o matematycznej pułapce lokalnej optymalizacji" /><published>2026-04-28T00:00:00+00:00</published><updated>2026-04-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-matematycznej-pulapce-lokalnej</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Optymalizacja <em>lokalna</em> to matematyczna pułapka.</blockquote></figure>
 
 <p>W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu wygląda jak pogorszenie.</p>
@@ -182,39 +199,4 @@ Co z tego wynika dla celu, który realizujesz? To daje wynik.</p>
 
 <p>Jak to wygląda u Was?</p>
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_rozmawia%C5%82em-kiedy%C5%9B-z-product-ownerem-kt%C3%B3ry-share-7444489935925190656-NwW4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Continuous Delivery" /><category term="Zespół" /><category term="Kultura" /><category term="Agile" /><summary type="html"><![CDATA[Nie ma dużych okazji do świętowania. I co z tym zrobić.]]></summary></entry><entry><title type="html">Ten o łączeniu perspektyw</title><link href="https://tomaszzelezny.me/blog/2026-03-26-laczenie-perspektyw/" rel="alternate" type="text/html" title="Ten o łączeniu perspektyw" /><published>2026-03-26T00:00:00+00:00</published><updated>2026-03-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/laczenie-perspektyw</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-03-26-laczenie-perspektyw/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Cztery poziomy, <em>jeden</em> łańuch.</blockquote></figure>
-
-<p>Sprint review. Zespół pokazuje co dostarczył.
-Wszyscy kiwają głowami.
-Nikt nie pyta co się zmieniło u użytkowników.
-Nikt nie pyta co to znaczy dla biznesu.
-Nikt nie pyta na czym firma może teraz zbudować.
-Spotkanie kończy się.
-Zaczyna się następny sprint.</p>
-
-<p>To nie jest problem złego Scruma. To brakujący łańcuch między „dostarczyliśmy” a „firma jest w lepszym miejscu”.</p>
-
-<p><img src="/assets/images/dzwignia.jpeg" alt="Dźwignia" /></p>
-
-<p><strong>Output</strong> — co powstało. Jedyny poziom, na który twój zespół ma pełną kontrolę. Dlatego większość teamów tutaj się zatrzymuje — i trudno się dziwić, bo za to są rozliczane.</p>
-
-<p><strong>Outcome</strong> — co zmieniło się w zachowaniu twoich użytkowników. Zależy już nie tylko od zespołu. Dlatego większość firm go nie mierzy — za dużo niewiadomych, za mało pewności.</p>
-
-<p><strong>Impact</strong> — co to znaczy dla twojego biznesu. Most między Outcome a tą liczbą rzadko ktoś buduje, bo nikt wprost nie dostał zadania żeby go zbudować.</p>
-
-<p><strong>Dźwignia</strong> — na czym firma może teraz zbudować, czego bez tego wyniku nie byłoby możliwe. Oszczędność 30% kosztów to Impact. To że możesz rosnąć bez zatrudniania kolejnych ludzi — to Dźwignia. Jedno jest wynikiem, drugie jest tym, co na tym wyniku budujesz.</p>
-
-<p>Spójna historia wygląda tak:</p>
-
-<blockquote>
-  <p>Dostarczyliśmy samoobsługowy onboarding <strong>(Output)</strong> — użytkownicy przestali potrzebować asysty przy starcie <strong>(Outcome)</strong> — koszty obsługi spadły o 30% <strong>(Impact)</strong> — teraz możemy rosnąć bez proporcjonalnego wzrostu zespołu <strong>(Dźwignia)</strong>.</p>
-</blockquote>
-
-<p>Cztery zdania. Jeden łańcuch przyczynowy. Każdy w organizacji widzi swój kawałek — ale rzadko ktoś pokazuje im jak się łączy z resztą.</p>
-
-<p>To twoja robota. Łączyć.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_sprint-review-zesp%C3%B3%C5%82-pokazuje-co-dostarczy%C5%82-share-7442685846656393216-2AYr">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Output" /><category term="Outcome" /><category term="Impact" /><category term="Dźwignia" /><category term="Scrum" /><summary type="html"><![CDATA[Output, Outcome, Impact, Dźwignia — cztery poziomy, jeden łańcuch przyczynowy. Twoja robota to je połączyć.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_rozmawia%C5%82em-kiedy%C5%9B-z-product-ownerem-kt%C3%B3ry-share-7444489935925190656-NwW4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Continuous Delivery" /><category term="Zespół" /><category term="Kultura" /><category term="Agile" /><summary type="html"><![CDATA[Nie ma dużych okazji do świętowania. I co z tym zrobić.]]></summary></entry></feed>
