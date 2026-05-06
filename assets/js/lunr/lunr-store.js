@@ -88,4 +88,10 @@ var store = [{
         "tags": ["Transparencja","Komunikacja","Organizacja","Procesy","Zarządzanie"],
         "url": "/blog/2026-04-30-ten-o-niewidocznej-transparencji/",
         "teaser": null
+      },{
+        "title": "Ten o zbyt bezpiecznym bezpieczeństwie",
+        "excerpt":"Bezpieczeństwo psychologiczne zrobiło karierę jako warunek dobrego zespołu. Badania Edmondson, projekt Aristotle w Google — wszyscy wiedzą, że ludzie potrzebują przestrzeni, żeby się nie bać. To prawda. Ale przestrzeń bez napięcia to nie azyl. To powolna stagnacja. Bezpieczeństwo działa jak zwolniony hamulec — usuwa lęk przed mówieniem, błądzeniem, pytaniem. Samo...","categories": ["Przywództwo"],
+        "tags": ["psychologia","zespoły","bezpieczeństwo"],
+        "url": "/blog/2026-05-05-ten-o-zbyt-bezpiecznym/",
+        "teaser": null
       }]

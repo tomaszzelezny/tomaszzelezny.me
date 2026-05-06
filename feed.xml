@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-04-30T06:40:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o niewidocznej transparencji</title><link href="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/" rel="alternate" type="text/html" title="Ten o niewidocznej transparencji" /><published>2026-04-30T00:00:00+00:00</published><updated>2026-04-30T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-niewidocznej-transparencji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-05-06T07:35:46+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o zbyt bezpiecznym bezpieczeństwie</title><link href="https://tomaszzelezny.me/blog/2026-05-05-ten-o-zbyt-bezpiecznym/" rel="alternate" type="text/html" title="Ten o zbyt bezpiecznym bezpieczeństwie" /><published>2026-05-05T00:00:00+00:00</published><updated>2026-05-05T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-zbyt-bezpiecznym</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-05-ten-o-zbyt-bezpiecznym/"><![CDATA[<p>Bezpieczeństwo psychologiczne zrobiło karierę jako warunek dobrego zespołu. Badania Edmondson, projekt Aristotle w Google — wszyscy wiedzą, że ludzie potrzebują przestrzeni, żeby się nie bać. To prawda.</p>
+
+<p>Ale przestrzeń bez napięcia to nie azyl. To powolna stagnacja.</p>
+
+<p>Bezpieczeństwo działa jak zwolniony hamulec — usuwa lęk przed mówieniem, błądzeniem, pytaniem. Samo w sobie nie popycha do przodu. Granica przebiega tam, gdzie brak zagrożenia staje się brakiem bodźca.</p>
+
+<p>Widziałem zespoły, w których nikt nikogo nie atakuje, nikt niczego nie blokuje, nikt nikomu nie przeszkadza — bo nie ma o co. Psychologicznie bezpieczne.</p>
+
+<p>Zawodowo martwe.</p>
+
+<p>Długotrwałe przebywanie w środowisku bez wyzwań ma swoje konsekwencje. Umiejętność radzenia sobie z niepewnością zanika — bo nie było okazji jej ćwiczyć. Kiedy pojawia się prawdziwy problem, ludzie nie są gotowi.</p>
+
+<p>Bezpieczeństwo zdejmuje lęk. Ale lęk to nie jedyna rzecz, która hamuje wzrost.
+Drugą jest obojętność.</p>
+
+<p>Antidotum nie jest presja. Antidotum jest ciekawość. Ciekawość to napięcie bez zagrożenia — pytanie, które wciąga, nie problem, który przygniata. Środowisko, które pielęgnuje ciekawość, nie musi wymuszać zaangażowania. Ono je prowokuje.</p>
+
+<p>Co w Twoim środowisku pracy prowokuje ciekawość — a co ją tłumi?</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_bezpiecze%C5%84stwo-psychologiczne-zrobi%C5%82o-karier%C4%99-share-7457153898680778755-ZUwf">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Przywództwo" /><category term="psychologia" /><category term="zespoły" /><category term="bezpieczeństwo" /><summary type="html"><![CDATA[Bezpieczeństwo psychologiczne to za mało]]></summary></entry><entry><title type="html">Ten o niewidocznej transparencji</title><link href="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/" rel="alternate" type="text/html" title="Ten o niewidocznej transparencji" /><published>2026-04-30T00:00:00+00:00</published><updated>2026-04-30T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-niewidocznej-transparencji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote"><em>Widoczność</em> to nie transparencja</blockquote></figure>
 
 <p>Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje. Widoczność to raport ze statusem. Transparencja to wiedzieć, co rozważano i odrzucono zanim ten status powstał.</p>
@@ -181,22 +202,4 @@ Co z tego wynika dla celu, który realizujesz? To daje wynik.</p>
 
 <p>Które metryki w Twoim zespole przeszły ten test?</p>
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445334270233001984/">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Zachowanie użytkownika" /><category term="Metryki biznesowe" /><summary type="html"><![CDATA[Jak rozpoznać dobrą metryke biznesową]]></summary></entry><entry><title type="html">Ten o świętowaniu</title><link href="https://tomaszzelezny.me/blog/2026-03-31-nie-ma-duzych-okazji/" rel="alternate" type="text/html" title="Ten o świętowaniu" /><published>2026-03-31T00:00:00+00:00</published><updated>2026-03-31T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/nie-ma-duzych-okazji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-03-31-nie-ma-duzych-okazji/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">W ciągłym dostarczaniu nie ma <em>mety</em>.</blockquote></figure>
-
-<p>Rozmawiałem kiedyś z Product Ownerem, który powiedział:
-„Nie ma dużych okazji do świętowania.”</p>
-
-<p>I to zdanie zostało ze mną.</p>
-
-<p>Możliwe, że miał rację. W ciągłym dostarczaniu i rozwoju nie ma mety. Backlog nie znika. Każda domknięta funkcja otwiera trzy kolejne. Nie ma dnia, w którym zespół może powiedzieć: skończyliśmy.</p>
-
-<p>Kiedyś było inaczej. Duży release miał datę. Wszyscy wiedzieli, że ten dzień jest ważny. Można było się zatrzymać — razem. Był powód, żeby spojrzeć na siebie i powiedzieć: zrobiliśmy to.</p>
-
-<p>I nie chodzi o szampana. Chodzi o coś trudniejszego do zastąpienia — zbiorowe poczucie, że coś się domknęło. Że wysiłek miał koniec.</p>
-
-<p>W ciągłym dostarczaniu trzeba znaleźć inne powody do świętowania. Mniejsze, własne, celowo stworzone. Nie zastąpią launch day — ale mogą dać zespołowi to, czego mu brakuje. Poczucie, że ich praca jest ważna.</p>
-
-<p>Jak to wygląda u Was?</p>
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_rozmawia%C5%82em-kiedy%C5%9B-z-product-ownerem-kt%C3%B3ry-share-7444489935925190656-NwW4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Continuous Delivery" /><category term="Zespół" /><category term="Kultura" /><category term="Agile" /><summary type="html"><![CDATA[Nie ma dużych okazji do świętowania. I co z tym zrobić.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445334270233001984/">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Zachowanie użytkownika" /><category term="Metryki biznesowe" /><summary type="html"><![CDATA[Jak rozpoznać dobrą metryke biznesową]]></summary></entry></feed>
