@@ -1,24 +1,24 @@
 var store = [{
         "title": "Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach.",
-        "excerpt":"Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony. Praca na celach mówi: “chcemy zwiększyć retencję o 15% w Q3.”...","categories": ["Zarządzanie"],
+        "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
         "url": "/blog/2026-03-12-cele-vs-zadania/",
         "teaser": null
       },{
         "title": "Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy?",
-        "excerpt":"Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy? Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie. Efekt? Albo PM eskaluje wszystko, bo nie wie, co może zdecydować sam. Albo nie eskaluje nic, bo boi się wyjść na...","categories": ["Zarządzanie projektami"],
+        "excerpt":"Przedział, w którym PM działa autonomicznie. Poza nim — decyzja wraca do sponsora. Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy? Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie. Efekt? Albo PM eskaluje wszystko, bo nie wie,...","categories": ["Zarządzanie projektami"],
         "tags": ["PRINCE2","tolerancje","PM"],
         "url": "/blog/2026-03-16-tolerancje-w-projekcie/",
         "teaser": null
       },{
         "title": "Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.",
-        "excerpt":"Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie. Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała. Na refinement. Na decyzję. Na zwolnienie się testera. Na odpowiedź z innego zespołu. Na sprint planning. Nikt nie obijał się. Wszyscy byli zajęci. A...","categories": ["Zarządzanie projektami"],
+        "excerpt":"Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie. Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie. Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała. Na...","categories": ["Zarządzanie projektami"],
         "tags": ["Lean","flow efficiency","value stream"],
         "url": "/blog/2026-03-19-flow-efficiency/",
         "teaser": null
       },{
         "title": "Na kiedy to będzie?",
-        "excerpt":"„Na kiedy to będzie?” Kiedyś to pytanie kosztowało mnie pół dnia. Szukanie narzędzi. Excel ze wzorami, które sam musiałem zrozumieć. Artykuł o Monte Carlo, drugi artykuł żeby zrozumieć pierwszy. Symulacja sklejona z trzech tutoriali i modlitwa żeby się nie rozjechała. Teraz wklejam dane do Clauda i mam wynik szybciej niż...","categories": ["Zarządzanie projektami"],
+        "excerpt":"Organizacja nie chce rozkładu prawdopodobieństwa. Chce daty. Najlepiej jednej. Najlepiej pewnej. „Na kiedy to będzie?” Kiedyś to pytanie kosztowało mnie pół dnia. Szukanie narzędzi. Excel ze wzorami, które sam musiałem zrozumieć. Artykuł o Monte Carlo, drugi artykuł żeby zrozumieć pierwszy. Symulacja sklejona z trzech tutoriali i modlitwa żeby się nie...","categories": ["Zarządzanie projektami"],
         "tags": ["Monte Carlo","prognozowanie","probabilistyka"],
         "url": "/blog/2026-03-24-na-kiedy-to-bedzie/",
         "teaser": null
@@ -90,19 +90,19 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o zbyt bezpiecznym bezpieczeństwie",
-        "excerpt":"Bezpieczeństwo psychologiczne zrobiło karierę jako warunek dobrego zespołu. Badania Edmondson, projekt Aristotle w Google — wszyscy wiedzą, że ludzie potrzebują przestrzeni, żeby się nie bać. To prawda. Ale przestrzeń bez napięcia to nie azyl. To powolna stagnacja. Bezpieczeństwo działa jak zwolniony hamulec — usuwa lęk przed mówieniem, błądzeniem, pytaniem. Samo...","categories": ["Przywództwo"],
+        "excerpt":"Przestrzeń bez napięcia to nie azyl. To powolna stagnacja. Bezpieczeństwo psychologiczne zrobiło karierę jako warunek dobrego zespołu. Badania Edmondson, projekt Aristotle w Google — wszyscy wiedzą, że ludzie potrzebują przestrzeni, żeby się nie bać. To prawda. Ale przestrzeń bez napięcia to nie azyl. To powolna stagnacja. Bezpieczeństwo działa jak zwolniony...","categories": ["Przywództwo"],
         "tags": ["psychologia","zespoły","bezpieczeństwo"],
         "url": "/blog/2026-05-05-ten-o-zbyt-bezpiecznym/",
         "teaser": null
       },{
         "title": "Ten o spotkaniu, które nie mogło byc mailem",
-        "excerpt":"To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie. Cytat: “To spotkanie nie mogło być mailem. Ale bywa, że to prawda. Ustalaliśmy nowy kierunek strony. Piętnaście osób przy wspólnym muralu — SEO, marketing, UX, sprzedaż, content, IT. Każdy widział inny fragment układanki. Każdy miał rację...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Przy muralu można dyskutować i decydować w tym samym momencie. Widać, gdzie jest zgoda. Widać, gdzie jest napięcie. To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie. Cytat: “To spotkanie nie mogło być mailem. Ale bywa, że to prawda. Ustalaliśmy nowy kierunek strony. Piętnaście osób...","categories": ["Zarządzanie produktem"],
         "tags": ["komunikacja","decyzje","zespoły","synchronizacja"],
         "url": "/blog/2026-05-12-ten-o-spotkaniu-ktore/",
         "teaser": null
       },{
         "title": "Ten o stylu zarządzania",
-        "excerpt":"Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić. Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem wiedzy o systemie. Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z ludzi. Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić. Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem wiedzy o...","categories": ["Zarządzanie produktem"],
         "tags": ["Deming","Tayloryzm","kultura organizacyjna"],
         "url": "/blog/2026-05-12-ten-o-stylu-zarzadzania/",
         "teaser": null
