@@ -94,4 +94,10 @@ var store = [{
         "tags": ["psychologia","zespoły","bezpieczeństwo"],
         "url": "/blog/2026-05-05-ten-o-zbyt-bezpiecznym/",
         "teaser": null
+      },{
+        "title": "Ten o spotkaniu, które nie mogło byc mailem",
+        "excerpt":"To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie. Cytat: “To spotkanie nie mogło być mailem. Ale bywa, że to prawda. Ustalaliśmy nowy kierunek strony. Piętnaście osób przy wspólnym muralu — SEO, marketing, UX, sprzedaż, content, IT. Każdy widział inny fragment układanki. Każdy miał rację...","categories": ["Zarządzanie produktem"],
+        "tags": ["komunikacja","decyzje","zespoły","synchronizacja"],
+        "url": "/blog/2026-05-12-ten-o-spotkaniu-ktore/",
+        "teaser": null
       }]
