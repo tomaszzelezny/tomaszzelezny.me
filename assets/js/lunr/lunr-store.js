@@ -100,4 +100,10 @@ var store = [{
         "tags": ["komunikacja","decyzje","zespoły","synchronizacja"],
         "url": "/blog/2026-05-12-ten-o-spotkaniu-ktore/",
         "teaser": null
+      },{
+        "title": "Ten o stylu zarządzania",
+        "excerpt":"Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić. Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem wiedzy o systemie. Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z...","categories": ["Zarządzanie produktem"],
+        "tags": ["Deming","Tayloryzm","kultura organizacyjna"],
+        "url": "/blog/2026-05-12-ten-o-stylu-zarzadzania/",
+        "teaser": null
       }]
