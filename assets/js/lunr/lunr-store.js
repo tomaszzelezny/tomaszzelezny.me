@@ -106,4 +106,10 @@ var store = [{
         "tags": ["Deming","Tayloryzm","kultura organizacyjna"],
         "url": "/blog/2026-05-12-ten-o-stylu-zarzadzania/",
         "teaser": null
+      },{
+        "title": null,
+        "excerpt":"„Robię backend, nie mam użytkownika.” Słyszę to regularnie. I rozumiem, skąd się to bierze — nie siedzisz przy interfejsie, nie klikasz przycisków, nie wypełniasz formularzy. Twoja praca jest po drugiej stronie warstwy abstrakcji. Użytkownik nie doświadcza warstw. On doświadcza całości. Ale użytkownik nie doświadcza warstw. On doświadcza całości. Dane, które...","categories": [],
+        "tags": null,
+        "url": "/blog/2026-05-26-2026-05-26-ten-o-backendzie-bez-uzytkownika/",
+        "teaser": null
       }]

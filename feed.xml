@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-05-12T20:24:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o spotkaniu, które nie mogło byc mailem</title><link href="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/" rel="alternate" type="text/html" title="Ten o spotkaniu, które nie mogło byc mailem" /><published>2026-05-12T00:00:00+00:00</published><updated>2026-05-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-spotkaniu-ktore</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-05-26T07:07:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html"></title><link href="https://tomaszzelezny.me/blog/2026-05-26-2026-05-26-ten-o-backendzie-bez-uzytkownika/" rel="alternate" type="text/html" title="" /><published>2026-05-26T07:07:26+00:00</published><updated>2026-05-26T07:07:26+00:00</updated><id>https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-26-2026-05-26-ten-o-backendzie-bez-uzytkownika/"><![CDATA[<p>„Robię backend, nie mam użytkownika.” Słyszę to regularnie.</p>
+
+<p>I rozumiem, skąd się to bierze — nie siedzisz przy interfejsie, nie klikasz przycisków, nie wypełniasz formularzy. Twoja praca jest po drugiej stronie warstwy abstrakcji.</p>
+
+<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Użytkownik <em>nie doświadcza warstw.</em> On doświadcza całości.</blockquote></figure>
+
+<p>Ale użytkownik nie doświadcza warstw. On doświadcza całości.</p>
+
+<p>Dane, które widzi — świeże albo nieaktualne. Czas, w którym ekran się ładuje. Stabilność w tygodniu, gdy wszyscy wracają z urlopu i ruch skacze trzykrotnie. To wszystko jest jego doświadczeniem. Nie Twoim kodem. Jego doświadczeniem.</p>
+
+<p>I użytkownik ma jedno kryterium: czy mogę zrobić to, po co tu przyszedłem?</p>
+
+<p>Jeśli tak — zostaje. Jeśli nie — wychodzi. Bez ticketa, bez feedbacku, bez szansy na poprawkę.</p>
+
+<p>Nie widzisz go? Idź za połączeniami w systemie. Na pewno go znajdziesz.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_robi%C4%99-backend-nie-mam-u%C5%BCytkownika-s%C5%82ysz%C4%99-share-7464925520506400768-hkbh">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author></entry><entry><title type="html">Ten o spotkaniu, które nie mogło byc mailem</title><link href="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/" rel="alternate" type="text/html" title="Ten o spotkaniu, które nie mogło byc mailem" /><published>2026-05-12T00:00:00+00:00</published><updated>2026-05-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-spotkaniu-ktore</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Przy muralu można dyskutować i decydować w tym samym momencie. Widać, gdzie jest zgoda. Widać, gdzie jest napięcie.</blockquote></figure>
 
 <p>To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie.</p>
@@ -179,27 +198,4 @@ W developmencie wciąż zdarza się myśleć, że “prawie skończyliśmy” oz
 
 <p>Organizacje, które to rozumieją, nie pytają, kto jest ważniejszy. Pytają, co im przeszkadza działać razem.</p>
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_mo%C5%BCna-by-si%C4%99-zastanawia%C4%87-co-jest-wa%C5%BCniejsze-activity-7449682878747156481-goyg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="IT" /><category term="Biznes" /><category term="Współpraca" /><summary type="html"><![CDATA[Można by się zastanawiać, co jest ważniejsze — IT czy biznes. Ale to złe pytanie.]]></summary></entry><entry><title type="html">Ten o agile i opcjonalności</title><link href="https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/" rel="alternate" type="text/html" title="Ten o agile i opcjonalności" /><published>2026-04-09T00:00:00+00:00</published><updated>2026-04-09T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/agile-opcjonalnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Agile nie jest zwinny. Jest <em>opcjonalny</em>.</blockquote></figure>
-
-<p>Agile nie jest zwinny. Jest opcjonalny. I to jest całkowicie inna rzecz.</p>
-
-<p>Jest takie pojęcie z finansów: opcjonalność.</p>
-
-<p>Opcja to prawo — ale nie obowiązek — do zrobienia czegoś w przyszłości. Płacisz za tę możliwość z góry, niewiele. W zamian twoja strata jest ograniczona, a potencjalny zysk — otwarty.</p>
-
-<p>Kluczowe słowo: prawo, nie obowiązek.</p>
-
-<p>Zespół dostaje wymagania na nową funkcjonalność. Można wziąć je i jechać przez trzy miesiące. Albo można wziąć dwa tygodnie, dostarczyć coś małego i sprawdzić, czy klient w ogóle tego używa.</p>
-
-<p>Druga ścieżka kupuje coś cennego: prawo do zmiany zdania po dwóch tygodniach, zanim włożyłeś w to kwartał pracy.</p>
-
-<p>Im bardziej zmienne otoczenie — rynek, technologia, decyzje biznesowe — tym ta możliwość korekty jest cenniejsza.</p>
-
-<p>Agile nie jest wartościowy dlatego, że jest zwinny.</p>
-
-<p>Jest wartościowy dlatego, że pozwala podejmować lepsze decyzje w niepewnym środowisku — jeśli ktoś faktycznie z tej możliwości korzysta.</p>
-
-<p>Czy w Twoim zespole sprint to opcja, czy kontrakt?</p>
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_agile-nie-jest-zwinny-jest-opcjonalny-i-share-7447745421315252224-JzB6">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Agile" /><category term="Procesy" /><category term="Zarządzanie zespołem" /><summary type="html"><![CDATA[Agile nie jest zwinny. Jest opcjonalny. I to jest całkowicie inna rzecz.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_mo%C5%BCna-by-si%C4%99-zastanawia%C4%87-co-jest-wa%C5%BCniejsze-activity-7449682878747156481-goyg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="IT" /><category term="Biznes" /><category term="Współpraca" /><summary type="html"><![CDATA[Można by się zastanawiać, co jest ważniejsze — IT czy biznes. Ale to złe pytanie.]]></summary></entry></feed>
