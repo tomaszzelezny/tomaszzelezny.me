@@ -1,88 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-12-cele-vs-zadania/</loc>
-<lastmod>2026-03-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-16-tolerancje-w-projekcie/</loc>
-<lastmod>2026-03-16T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/</loc>
-<lastmod>2026-03-19T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/</loc>
-<lastmod>2026-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-26-laczenie-perspektyw/</loc>
-<lastmod>2026-03-26T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-03-31-nie-ma-duzych-okazji/</loc>
-<lastmod>2026-03-31T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/</loc>
-<lastmod>2026-04-02T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/</loc>
-<lastmod>2026-04-07T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/</loc>
-<lastmod>2026-04-09T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-14-mozg-czy-serce/</loc>
-<lastmod>2026-04-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-16-wlasciwy-problem/</loc>
-<lastmod>2026-04-16T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/</loc>
-<lastmod>2026-04-21T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/</loc>
-<lastmod>2026-04-22T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/</loc>
-<lastmod>2026-04-28T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/</loc>
-<lastmod>2026-04-30T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-05-05-ten-o-zbyt-bezpiecznym/</loc>
-<lastmod>2026-05-05T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/</loc>
-<lastmod>2026-05-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/</loc>
-<lastmod>2026-05-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/</loc>
-<lastmod>2026-05-26T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/o-mnie/</loc>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/blog/</loc>
-</url>
-<url>
-<loc>https://tomaszzelezny.me/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-05-05-ten-o-zbyt-bezpiecznym/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-30-ten-o-niewidocznej-transparencji/</loc>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/</loc>
+    <lastmod>2026-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-22-ten-o-zamrozonych-srodkach/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-16-wlasciwy-problem/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-14-mozg-czy-serce/</loc>
+    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-07-przedwczesna-optymalizacja/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-04-02-retencja-wzrosla-to-dobrze/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-31-nie-ma-duzych-okazji/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-26-laczenie-perspektyw/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-16-tolerancje-w-projekcie/</loc>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-12-cele-vs-zadania/</loc>
+    <lastmod>2026-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/</loc>
+  </url>
+  <url>
+    <loc>https://tomaszzelezny.me/o-mnie/</loc>
+  </url>
+  <url>
+    <loc>https://tomaszzelezny.me/blog/</loc>
+  </url>
 </urlset>
