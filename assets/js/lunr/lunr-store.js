@@ -113,7 +113,7 @@ var store = [{
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
         "teaser": null
       },{
-        "title": "Resolver — z wyboru czy z przymusu?",
+        "title": "Resolver — z wyboru?",
         "excerpt":"Resolver z wyboru? Na Kubie z niedoboru wyłoniło się pewne podejście: resolver. Dosłownie znaczy „rozwiązać”. W praktyce znaczy coś więcej — załatwić, ogarnąć, dorwać, sklecić z tego, co akurat jest pod ręką. Zepsuł się alternator w Ładzie z 1983 roku? Ktoś w dzielnicy ma kuzyna, który wie, gdzie leży część...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["autonomia","odpowiedzialność","systemy","decyzje"],
         "url": "/blog/2026-08-11-resolver-choice-vs-necessity/",
