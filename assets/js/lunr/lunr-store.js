@@ -118,4 +118,10 @@ var store = [{
         "tags": ["autonomia","odpowiedzialność","systemy","decyzje"],
         "url": "/blog/2026-08-11-resolver-choice-vs-necessity/",
         "teaser": null
+      },{
+        "title": "Specjalizacja a odpowiedzialność",
+        "excerpt":"Wyobraź sobie zespół złożony z samych świetnych specjalistów. Wyobraź sobie zespół złożony z samych świetnych specjalistów. Każdy jest najlepszy w swojej wąskiej działce. Brzmi jak marzenie — a jednak im lepiej dobrana specjalizacja, tym łatwiej o sytuację, w której coś się sypie, a mimo to nikt nie jest winny. To...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
+        "tags": ["odpowiedzialność","specjalizacja","ryzyko","zarządzanie","systemy"],
+        "url": "/blog/2026-08-13-specjalizacja-odpowiedzialnosc/",
+        "teaser": null
       }]

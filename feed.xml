@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-11T13:18:52+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Resolver — z wyboru?</title><link href="https://tomaszzelezny.me/blog/2026-08-11-resolver-choice-vs-necessity/" rel="alternate" type="text/html" title="Resolver — z wyboru?" /><published>2026-08-11T00:00:00+00:00</published><updated>2026-08-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/resolver-choice-vs-necessity</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-11-resolver-choice-vs-necessity/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-13T11:55:42+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Specjalizacja a odpowiedzialność</title><link href="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/" rel="alternate" type="text/html" title="Specjalizacja a odpowiedzialność" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/specjalizacja-odpowiedzialnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Wyobraź sobie zespół złożony z samych świetnych specjalistów.</blockquote></figure>
+
+<p>Wyobraź sobie zespół złożony z samych świetnych specjalistów. Każdy jest najlepszy w swojej wąskiej działce. Brzmi jak marzenie — a jednak im lepiej dobrana specjalizacja, tym łatwiej o sytuację, w której coś się sypie, a mimo to nikt nie jest winny. To nie pech ani zły dobór ludzi. To dwa mechanizmy, które specjalizacja uruchamia naraz, ciągnąc w przeciwne strony.</p>
+
+<h2 id="problem-wielu-rąk">Problem wielu rąk</h2>
+
+<p>Pierwszy dotyczy odpowiedzialności, która zaczyna się rozłazić. Filozof polityki Dennis Thompson nazwał to kiedyś problemem wielu rąk: gdy do jednego wyniku przykłada się wielu ludzi, samo umiejscowienie sprawstwa się zaciera. Najłatwiej zobaczyć to w szpitalu. Kardiolog patrzy na serce, pulmonolog na płuca, nefrolog na nerki. Każdy robi swoją część bez zarzutu. Tyle że ostatecznie okazuje się, że nikt nie patrzył na pacjenta jako całość, i właśnie tam, w przestrzeni „między narządami”, coś umyka.</p>
+
+<p>Im więcej rąk przy jednym wyniku, tym trudniej wskazać, kto za ten wynik odpowiada. Charakterystyczne zdanie tej sytuacji brzmi: „ja swoje zrobiłem”, wypowiedziane nad czymś, co i tak nie działa.</p>
+
+<p>Ciekawe, że specjalista tej dziury nie tworzy. On ją tylko odsłania. W zespole, gdzie każdy trochę zna się na wszystkim, brak gospodarza całości maskuje się sam. Dopiero ostra specjalizacja zdejmuje tę zasłonę i pokazuje, że właściciela wyniku po prostu nie było.</p>
+
+<h2 id="gęstnieje-ryzyko">Gęstnieje ryzyko</h2>
+
+<p>Drugi mechanizm dotyczy ryzyka i tu kierunek się odwraca. Ryzyko nie rozprasza się, tylko gęstnieje. Wiedza, która kiedyś żyła w kilku głowach, teraz mieści się w jednej. Programiści mają na to obrazowe pojęcie: <strong>bus factor</strong>, czyli najmniejsza liczba osób, które musiałyby nagle zniknąć z projektu, żeby ten stanął z braku kompetentnych ludzi.</p>
+
+<p>Przy dobrym specjaliście ten wskaźnik często spada do jedynki. „Tylko Kasia wie, jak działa rozliczanie” to nie komplement dla Kasi — to opis kruchości, którą wbudowaliśmy sobie w zespół, nie zauważając kiedy.</p>
+
+<p>I nie jest to przypadek: najprościej zostawić temat osobie, która już się na nim zna, a to mimowolnie utrwala specjalizację i drąży silosy wiedzy.</p>
+
+<h2 id="dwie-siły-na-krzyż">Dwie siły na krzyż</h2>
+
+<p>Te dwie siły działają dokładnie na krzyż. Odpowiedzialność rozlewa się na zewnątrz, coraz mniej osób czuje się autorem efektu. Ryzyko ściąga do środka, coraz więcej zależy od jednej osoby.</p>
+
+<p>A na dokładkę samo ryzyko ma dwie twarze. Część zbija się w gęsty węzeł, którym staje się specjalista. Reszta zostaje osierocona w tej samej szczelinie, w której gubi się odpowiedzialność: nikt nie pilnuje, czy fragmenty w ogóle zejdą się w działającą całość. Ten sam brak gospodarza, który rozprasza odpowiedzialność, zostawia ryzyko bez opieki dokładnie tam, gdzie najbardziej boli.</p>
+
+<h2 id="strażnik-całości">Strażnik całości</h2>
+
+<p>To nie jest argument przeciwko specjalistom. Thompson, szukając lekarstwa na problem wielu rąk, wskazywał gdzie indziej: <strong>trzeba kogoś wyznaczyć na strażnika całości</strong>, osobę, której zadaniem jest pilnować, że fragmenty schodzą się w działający wynik.</p>
+
+<p>Dlatego w momencie, w którym wprowadzasz specjalizację, ktoś musi świadomie wziąć na siebie całość. Inaczej rozdasz kompetencje, a odpowiedzialność i ryzyko rozejdą się każde w swoją stronę.</p>
+
+<hr />
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Thompson, D. F. (1980). Moral Responsibility of Public Officials: The Problem of Many Hands. „American Political Science Review”, 74(4), 905–916.</li>
+  <li>Thompson, D. F. (2017). Designing Responsibility: The Problem of Many Hands in Complex Organizations. W: J. van den Hoven, S. Miller, T. Pogge (red.), Designing in Ethics (s. 32–56). Cambridge University Press.</li>
+  <li>Williams, L., Kessler, R. (2003). Pair Programming Illuminated. Addison-Wesley — formalizacja pojęcia „bus factor” (za Jamesem Coplienem).</li>
+</ul>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wyobra%C5%BA-sobie-zesp%C3%B3%C5%82-z%C5%82o%C5%BCony-z-samych-%C5%9Bwietnych-share-7493217411362439168-mfML/">Komentuj i podziel się swoją opinią</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="odpowiedzialność" /><category term="specjalizacja" /><category term="ryzyko" /><category term="zarządzanie" /><category term="systemy" /><summary type="html"><![CDATA[Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?]]></summary></entry><entry><title type="html">Resolver — z wyboru?</title><link href="https://tomaszzelezny.me/blog/2026-08-11-resolver-choice-vs-necessity/" rel="alternate" type="text/html" title="Resolver — z wyboru?" /><published>2026-08-11T00:00:00+00:00</published><updated>2026-08-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/resolver-choice-vs-necessity</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-11-resolver-choice-vs-necessity/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote"><em>Resolver</em> z wyboru?</blockquote></figure>
 
 <p>Na Kubie z niedoboru wyłoniło się pewne podejście: resolver.</p>
@@ -195,17 +240,4 @@ W developmencie wciąż zdarza się myśleć, że “prawie skończyliśmy” oz
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_u-innych-dzia%C5%82a-u-mnie-ju%C5%BC-niekoniecznie-share-7452079661783764992-XSgH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kontekst" /><category term="Heurystyka" /><category term="Myślenie" /><category term="Nauka" /><summary type="html"><![CDATA[Naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo.]]></summary></entry><entry><title type="html">Ten o potrzebie znalezienia właściwego problemu</title><link href="https://tomaszzelezny.me/blog/2026-04-16-wlasciwy-problem/" rel="alternate" type="text/html" title="Ten o potrzebie znalezienia właściwego problemu" /><published>2026-04-16T00:00:00+00:00</published><updated>2026-04-16T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/wlasciwy-problem</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-16-wlasciwy-problem/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Jaki problem próbujesz rozwiązać?</blockquote></figure>
-
-<p>Nie znoszę tego pytania.</p>
-
-<p>Jest oklepane. Brzmi jak z podręcznika.</p>
-
-<p>I mimo to — wciąż robi robotę.</p>
-
-<p>Za rzadko się przy nim zatrzymujemy.</p>
-
-<p>A nawet najlepsze rozwiązanie złego problemu to tylko sprawnie wykonana nikomu niepotrzebna robota.</p>
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_jaki-problem-pr%C3%B3bujesz-rozwi%C4%85za%C4%87-nie-znosz%C4%99-share-7450265835836932096-dEbh">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Problem" /><category term="Produkt" /><category term="Myślenie" /><summary type="html"><![CDATA[Nie znoszę tego pytania. Jest oklepane. Brzmi jak z podręcznika. I mimo to — wciąż robi robotę.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_u-innych-dzia%C5%82a-u-mnie-ju%C5%BC-niekoniecznie-share-7452079661783764992-XSgH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kontekst" /><category term="Heurystyka" /><category term="Myślenie" /><category term="Nauka" /><summary type="html"><![CDATA[Naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo.]]></summary></entry></feed>
