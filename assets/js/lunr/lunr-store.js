@@ -124,4 +124,10 @@ var store = [{
         "tags": ["odpowiedzialność","specjalizacja","ryzyko","zarządzanie","systemy"],
         "url": "/blog/2026-08-13-specjalizacja-odpowiedzialnosc/",
         "teaser": null
+      },{
+        "title": "Grupa dzieli zadania. Zespół dzieli cel.",
+        "excerpt":"Grupa dzieli zadania. Zespół dzieli cel. Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
+        "tags": ["cel","zespół","wspólny cel","optymalizacja","system"],
+        "url": "/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/",
+        "teaser": null
       }]

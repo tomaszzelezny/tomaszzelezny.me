@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-13T11:55:42+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Specjalizacja a odpowiedzialność</title><link href="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/" rel="alternate" type="text/html" title="Specjalizacja a odpowiedzialność" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/specjalizacja-odpowiedzialnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/"><![CDATA[<figure class="quote-block corner-marks">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-18T12:34:02+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Grupa dzieli zadania. Zespół dzieli cel.</title><link href="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/" rel="alternate" type="text/html" title="Grupa dzieli zadania. Zespół dzieli cel." /><published>2026-08-18T00:00:00+00:00</published><updated>2026-08-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/grupa-vs-zespol-wsp%C3%B3lny-cel</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/"><![CDATA[<figure class="quote-block corner-marks">
+  <blockquote class="quote-block__quote">Grupa dzieli zadania. Zespół dzieli cel.</blockquote></figure>
+
+<p>Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił kwartalny wskaźnik. Wszyscy są zajęci, wszyscy są kompetentni i wszyscy ciągną w trochę inną stronę. To nie jest awaria współpracy. To jej brak, przebrany za współpracę.</p>
+
+<p>Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie „czy maszyny pracują”, nie „czy ludzie są zajęci”, tylko po co. Dopiero odpowiedź na to pytanie pozwala odróżnić ruch od postępu. Bez niej każda aktywność wygląda na wartościową, bo każdą da się czymś uzasadnić. Zajętość zaczyna udawać produktywność. A zajętość jest tania — można jej wyprodukować dowolnie dużo i nadal stać w miejscu.</p>
+
+<p>Grupa i zespół różnią się jedną rzeczą, której nie widać na schemacie organizacyjnym. Grupa ma tyle celów, ile ma osób. Każdy przynosi swój — wynikający z roli, premii, ambicji, lęku przed oceną. Zespół ma jeden cel, do którego te osoby się zestrajają. Wspólny cel działa jak mechanizm, który dopiero zamienia zbiór ludzi w system zdolny do wspólnego działania. Bez niego zostaje sama współobecność w kalendarzu.</p>
+
+<p>Kiedy tego mechanizmu brakuje, włącza się coś przewidywalnego: każdy optymalizuje własną miarę. Programista maksymalizuje jakość swojego kodu. Tester maksymalizuje liczbę wykrytych błędów. Kierownik maksymalizuje wykorzystanie swojego zespołu. Osobno każdy z tych ruchów wygląda na słuszny. Razem potrafią się znosić, bo suma lokalnych maksimów prawie nigdy nie daje maksimum całości. Lokalna wygrana kupiona kosztem przepływu to wciąż strata — tyle że rozpisana na kilka arkuszy, więc trudniej ją zauważyć.</p>
+
+<p>Deming powtarzał, że system trzeba definiować przez jego cel; bez celu nie ma systemu, jest tylko zestaw części. I że o wyniku decyduje nie jakość poszczególnych elementów, ale sposób, w jaki na siebie oddziałują. Można złożyć drużynę z samych gwiazd i przegrać, jeśli każda gra swój mecz. Cel jest tym, co ustawia te oddziaływania w jedną stronę. Nie podnosi sprawności pojedynczych osób — porządkuje to, co z ich pracy faktycznie się składa.</p>
+
+<p>Najbardziej praktyczna funkcja wspólnego celu ujawnia się w sporze. Dwie sensowne opcje, dwoje mądrych ludzi, każde z dobrym argumentem. Bez celu taki spór rozstrzyga się hierarchią, głośnością albo zmęczeniem. Z celem rozstrzyga się pytaniem: która z tych opcji przybliża nas do niego bardziej. Cel, który nie potrafi rozstrzygnąć konkretnego kompromisu — czy dokończyć funkcję, czy spłacić dług; czy wydać dziś, czy dopieścić do jutra — zostaje deklaracją na ścianie, nie kryterium pracy. Prawdziwy cel poznaje się po tym, że czasem każe zrobić coś niewygodnego komuś, kto go akceptuje.</p>
+
+<p>Dlatego zanim zbierze się ludzi do wspólnej pracy, warto sprawdzić coś prostszego niż kompetencje i narzędzia. Czy potrafią dokończyć zdanie „robimy to, żeby…” tak samo. Jeśli każdy kończy je inaczej, nie macie jeszcze zespołu. Macie grupę, która na razie pracuje w tym samym pokoju.</p>
+
+<hr />
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li><strong>Eliyahu M. Goldratt, Jeff Cox</strong>, The Goal: A Process of Ongoing Improvement, North River Press, 1984 (wyd. pol. Cel I. Doskonałość w produkcji, Mint Books) — cel jako miara odróżniająca ruch od postępu, teoria ograniczeń, pułapka optymalizacji lokalnej.</li>
+  <li><strong>W. Edwards Deming</strong>, The New Economics for Industry, Government, Education, MIT Press, 1993 — system definiowany przez swój cel oraz prymat interakcji między częściami nad jakością pojedynczych elementów.</li>
+  <li><strong>Russell L. Ackoff</strong>, Creating the Corporate Future, Wiley, 1981 — myślenie systemowe: całość jako efekt oddziaływań, a nie sumy części.</li>
+</ul>
+
+<hr />]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="cel" /><category term="zespół" /><category term="wspólny cel" /><category term="optymalizacja" /><category term="system" /><summary type="html"><![CDATA[Różnica między grupą a zespołem to jeden wspólny cel, który orientuje działania w jedną stronę.]]></summary></entry><entry><title type="html">Specjalizacja a odpowiedzialność</title><link href="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/" rel="alternate" type="text/html" title="Specjalizacja a odpowiedzialność" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/specjalizacja-odpowiedzialnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Wyobraź sobie zespół złożony z samych świetnych specjalistów.</blockquote></figure>
 
 <p>Wyobraź sobie zespół złożony z samych świetnych specjalistów. Każdy jest najlepszy w swojej wąskiej działce. Brzmi jak marzenie — a jednak im lepiej dobrana specjalizacja, tym łatwiej o sytuację, w której coś się sypie, a mimo to nikt nie jest winny. To nie pech ani zły dobór ludzi. To dwa mechanizmy, które specjalizacja uruchamia naraz, ciągnąc w przeciwne strony.</p>
@@ -219,25 +246,4 @@ W developmencie wciąż zdarza się myśleć, że “prawie skończyliśmy” oz
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wp%C5%82aci%C5%82e%C5%9B-czekasz-nic-si%C4%99-jeszcze-nie-wydarzy%C5%82o-share-7452805699551600641-RREt">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Development" /><category term="Release" /><category term="Wartość" /><category term="Produkt" /><category term="Inwestowanie" /><summary type="html"><![CDATA[Wpłacasz, ale nic nie kupujesz.]]></summary></entry><entry><title type="html">Ten o zrozumieniu kontekstu</title><link href="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/" rel="alternate" type="text/html" title="Ten o zrozumieniu kontekstu" /><published>2026-04-21T00:00:00+00:00</published><updated>2026-04-21T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/zrozumienie-kontekstu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">&ldquo;<em>Dlaczego</em> to działa?&rdquo; zamiast <br />&ldquo;Jak to działa?&rdquo;</blockquote></figure>
-
-<p>U innych działa. U mnie już niekoniecznie.</p>
-
-<p>Nie dlatego, że naśladowanie jest złe. Dlatego, że naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo.</p>
-
-<p>Heurystyka to skrót poznawczy — uproszczona reguła, która pozwala podjąć decyzję bez analizowania wszystkiego od zera. Zamiast rozumieć problem głęboko, pytamy: kto już to rozwiązał i jak? Potem kopiujemy.</p>
-
-<p>To naturalne. Tak działa ludzki mózg, tak działa gospodarka, tak działa ewolucja. Uczenie się od innych jest jedną z najbardziej efektywnych strategii adaptacji, jakie znamy.</p>
-
-<p>Problem pojawia się wtedy, gdy zapominamy, że heurystyka to przybliżenie. Że “zadziałało tam” nie znaczy “zadziała tu”. Że Spotify nie stosuje już modelu, który rozsławił. Że Google ma kulturę i zasoby, których ty nie masz. Że OKR-y bez fundamentu transparentności stają się kolejnym rytuałem raportowania. Że daily standup bez kultury samoorganizacji zamienia się w status meeting dla managera.</p>
-
-<p>Forma zostaje. Kontekst też zostaje, ale za drzwiami.</p>
-
-<p>Zanim skopiujesz cudze rozwiązanie, zadaj jedno pytanie: Co sprawiło, że tam zadziałało?</p>
-
-<p>Heurystyka skraca czas myślenia. Nie zwalnia z myślenia.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_u-innych-dzia%C5%82a-u-mnie-ju%C5%BC-niekoniecznie-share-7452079661783764992-XSgH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kontekst" /><category term="Heurystyka" /><category term="Myślenie" /><category term="Nauka" /><summary type="html"><![CDATA[Naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wp%C5%82aci%C5%82e%C5%9B-czekasz-nic-si%C4%99-jeszcze-nie-wydarzy%C5%82o-share-7452805699551600641-RREt">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Development" /><category term="Release" /><category term="Wartość" /><category term="Produkt" /><category term="Inwestowanie" /><summary type="html"><![CDATA[Wpłacasz, ale nic nie kupujesz.]]></summary></entry></feed>
