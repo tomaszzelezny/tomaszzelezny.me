@@ -131,6 +131,12 @@ var store = [{
         "url": "/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/",
         "teaser": null
       },{
+        "title": "Cel Sprintu. Jedno zdanie, którego brak kosztuje najwięcej",
+        "excerpt":"Uwaga: Artykuł odnosi się do Scrum Guide 2017 (19 stron). W wersji 2020 Sprint Goal wzmocniono, czyniąc go osobnym komponentem Sprint Backlogu i trzecim tematem Sprint Planning, obok “Co” i “Jak” pojawiło się “Dlaczego”. Mały eksperyment na start. Otwórz Scrum Guide, te dziewiętnaście stron, i policz, ile razy pada w...","categories": ["Zarządzanie produktem","Scrum"],
+        "tags": ["Sprint Goal","cel sprintu","scrum","zarządzanie produktem","zespół"],
+        "url": "/blog/2026-08-19-cel-sprintu/",
+        "teaser": null
+      },{
         "title": "Zajętość kosztuje tyle samo co postęp.",
         "excerpt":"Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach. Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co....","categories": ["Zarządzanie"],
         "tags": ["zajętość","postęp","efektywność","cel"],

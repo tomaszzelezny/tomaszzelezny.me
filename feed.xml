@@ -1,8 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-19T07:37:04+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Zajętość kosztuje tyle samo co postęp.</title><link href="https://tomaszzelezny.me/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/" rel="alternate" type="text/html" title="Zajętość kosztuje tyle samo co postęp." /><published>2026-08-19T00:00:00+00:00</published><updated>2026-08-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/zajeto%C5%9B%C4%87-vs-post%C4%99p</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/"><![CDATA[<p>Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-08-19T12:43:38+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny - Jak mogę pomóc?</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Cel Sprintu. Jedno zdanie, którego brak kosztuje najwięcej</title><link href="https://tomaszzelezny.me/blog/2026-08-19-cel-sprintu/" rel="alternate" type="text/html" title="Cel Sprintu. Jedno zdanie, którego brak kosztuje najwięcej" /><published>2026-08-19T00:00:00+00:00</published><updated>2026-08-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/cel-sprintu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-19-cel-sprintu/"><![CDATA[<blockquote>
+  <p><strong>Uwaga:</strong> Artykuł odnosi się do <strong>Scrum Guide 2017</strong> (19 stron). W wersji 2020 Sprint Goal wzmocniono, czyniąc go osobnym komponentem Sprint Backlogu i trzecim tematem Sprint Planning, obok “Co” i “Jak” pojawiło się “Dlaczego”.</p>
+</blockquote>
+
+<p>Mały eksperyment na start. Otwórz Scrum Guide, te dziewiętnaście stron, i policz, ile razy pada w nim „Cel Sprintu”.</p>
+
+<p>Wyjdzie kilkanaście. Na dokument, który spora część branży traktuje jak tekst założycielski. Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić.</p>
+
+<p>Guide opisuje go oszczędnie: każdy Sprint ma cel tego, co ma powstać, oraz elastyczny plan prowadzący przez pracę i przez powstający przyrost. Dwie rzeczy naraz — kierunek i swoboda. Zespoły pamiętają o kierunku. Swobodę gubią po drodze.</p>
+
+<h2 id="co-się-dzieje-gdy-celu-nie-ma">Co się dzieje, gdy celu nie ma</h2>
+
+<p>Kiedy Sprint nie ma celu, cel pojawia się sam. Brzmi: „skończyć wszystko ze Sprint Backlogu”.</p>
+
+<p>I tu zaczyna się problem. Praca produktowa jest nieprzewidywalna. W połowie Sprintu okazuje się, że jedno zadanie było banalne, drugie kryło pod sobą trzy kolejne, a klient w międzyczasie zmienił zdanie. Zespół, którego jedynym celem jest domknięcie listy, nie ma jak na to zareagować. Lista staje się święta. Każda zmiana zakresu wygląda jak porażka względem planu.</p>
+
+<p>Tak wygląda jeden z objawów Zombie Scruma. Wszystkie wydarzenia się odbywają — planowanie, daily, review, retrospektywa — a pod spodem nic nie pulsuje. Zespół przerabia backlog zamiast rozwiązywać problem.</p>
+
+<h2 id="praca-złożona-rządzi-się-inną-logiką">Praca złożona rządzi się inną logiką</h2>
+
+<p>Wytwarzanie oprogramowania to praca złożona. W klasyfikacji Cynefin ląduje po stronie, gdzie związku przyczyny ze skutkiem nie da się ustalić z góry — widać go dopiero z perspektywy czasu. Bywa nazywana „wicked problem”: zadaniem, które definiujesz dopiero wtedy, gdy próbujesz je rozwiązać.</p>
+
+<p>W takiej pracy zmienia się wszystko jednocześnie. Wymagania, technologia, ludzie, zależności między zespołami. Plan zbudowany w poniedziałek bywa nieaktualny w czwartek.</p>
+
+<p>Dlatego Scrum Guide przypisuje Celowi Sprintu konkretną funkcję: daje zespołowi elastyczność co do zakresu funkcjonalności dostarczonej w Sprincie. Kiedy celem jest „czternaście ticketów”, każda niespodzianka jest zagrożeniem. Kiedy celem jest efekt, tickety stają się środkiem, który można wymienić.</p>
+
+<h2 id="apollo-13-czyli-po-co-ważniejsze-od-jak">Apollo 13, czyli „po co” ważniejsze od „jak”</h2>
+
+<p>Jest w „Apollo 13” scena warta trzymania przy sobie jako obraz Celu Sprintu. Na Ziemi inżynierowie wysypują na stół dokładnie te przedmioty, które astronauci mają na pokładzie. Zadanie: dopasować kwadratowy filtr do okrągłego otworu, bo inaczej załoga udusi się własnym dwutlenkiem węgla. Cel jest sztywny — utrzymać ludzi przy życiu. Cała reszta to improwizacja w granicach tego, co jest pod ręką.</p>
+
+<p>Cel Sprintu działa podobnie. Ustala „po co” i zostawia „jak” zespołowi. Ta jedna decyzja uruchamia samoorganizację. Trudno samoorganizować się wokół listy poleceń. Łatwo wokół problemu do rozwiązania.</p>
+
+<h2 id="jak-cel-dojrzewa-w-zespole">Jak cel dojrzewa w zespole</h2>
+
+<p>Cel Sprintu rzadko rodzi się od razu dojrzały. Przechodzi drogę, którą widać w zespołach pracujących nad nim świadomie.</p>
+
+<p>Najpierw znika słowo „oraz”. Cel z „oraz” to dwa cele w przebraniu jednego. Dobry cel mieści się w jednym zdaniu, jednej myśli, jednym najwyższym priorytecie. Jeśli w środku Sprintu zespół musi wybierać między dwiema połówkami celu, to od początku nie był to cel.</p>
+
+<p>Potem pojawia się grupowanie. Ktoś zauważa, że kilka elementów backlogu dotyka tego samego obszaru, i łączy je w jeden Sprint. Zespół dostaje punkt skupienia zamiast rozproszenia po pięciu frontach.</p>
+
+<p>Kolejny etap to zmiana formy. Cel zaczyna brzmieć jak pytanie otwarte: „Jak moglibyśmy…”, „Czy da się…”, „Co byłoby dobrym sposobem na…”. Pytanie zaprasza zespół do wymyślenia „jak”. Rozkaz tylko go egzekwuje.</p>
+
+<p>Najbardziej dojrzała wersja celu mówi o skutku. Zespół pyta, jaka zmiana w zachowaniu użytkownika pokaże, że cel został osiągnięty. Nazywa założenia, które Sprint ma potwierdzić albo obalić. Stawia hipotezę: jaki wynik albo jaka zmiana zachowania dowiedzie, że kierunek był słuszny. Sprint przestaje być listą do odhaczenia, a zaczyna być eksperymentem z postawionym pytaniem.</p>
+
+<h2 id="cel-sprintu-w-sprint-review">Cel Sprintu w Sprint Review</h2>
+
+<p>Sprint Review to wydarzenie strategiczne. Służy optymalizacji wartości i budowaniu przejrzystości między zespołem a interesariuszami.</p>
+
+<p>Bez celu Review zsuwa się do pokazu ticketów: zrobiliśmy to, to i tamto. Z celem staje się rozmową o wartości — o tym, czy Sprint przybliżył nas do tego, po co w ogóle był. To dwie zupełnie różne rozmowy, choć na sali siedzą ci sami ludzie.</p>
+
+<h2 id="cel-osiągnięty-i-nieosiągnięty">Cel osiągnięty i nieosiągnięty</h2>
+
+<p>Osiągnięty cel warto odnotować. Zespół, który wiedział, po co pracuje, i widzi, że dowiózł, dostaje coś więcej niż zamknięte zadania. Dostaje poczucie, że jego praca miała kierunek.</p>
+
+<p>Nieosiągnięty cel też coś daje. Niesie informację, czasem cenniejszą niż cel dowieziony. Pokazuje, gdzie założenia rozminęły się z rzeczywistością, które oszacowanie było życzeniowe, gdzie leży prawdziwa złożoność. Zespół, który tego nie chowa, uczy się szybciej niż ten, który za wszelką cenę broni statystyki „zielonych” Sprintów.</p>
+
+<h2 id="na-koniec">Na koniec</h2>
+
+<p>Cel Sprintu mieści się w jednym zdaniu. Właśnie dlatego tak łatwo go pominąć — wygląda na drobiazg obok całego Sprint Backlogu. I dlatego jego brak widać dopiero po dwóch tygodniach odhaczania zadań, których nikt w zespole nie umie streścić jednym zdaniem.</p>
+
+<hr />
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li><strong>Ken Schwaber, Jeff Sutherland</strong>, The Scrum Guide, 2017 — definicja i rola Celu Sprintu w Scrum</li>
+  <li><strong>Jeff Sutherland</strong>, Scrum: The Art of Doing Twice the Work in Half the Time, Crown Business, 2014 — praktyczne zastosowanie Sprint Goals w zespołach</li>
+  <li><strong>Eliyahu M. Goldratt, Jeff Cox</strong>, The Goal: A Process of Ongoing Improvement, North River Press, 1984 (wyd. pol. Cel I. Doskonałość w produkcji, Mint Books) — cel jako miara odróżniająca ruch od postępu</li>
+  <li><strong>David Snowden, Mary E. Boone</strong>, A Leader’s Framework for Decision Making, Harvard Business Review, 2007 — klasyfikacja Cynefin i praca w warunkach złożoności</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Scrum" /><category term="Sprint Goal" /><category term="cel sprintu" /><category term="scrum" /><category term="zarządzanie produktem" /><category term="zespół" /><summary type="html"><![CDATA[Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić.]]></summary></entry><entry><title type="html">Zajętość kosztuje tyle samo co postęp.</title><link href="https://tomaszzelezny.me/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/" rel="alternate" type="text/html" title="Zajętość kosztuje tyle samo co postęp." /><published>2026-08-19T00:00:00+00:00</published><updated>2026-08-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/zajeto%C5%9B%C4%87-vs-post%C4%99p</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/"><![CDATA[<p>Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach.</p>
 
 <p>Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co.</p>
 
-<p>Dopiero ta odpowiedź, pozwala rozróżnić ruchu od postępu. Bez kontekstu celu każda aktywność wygląda na wartościową, bo każdą da się czymś uzasadnić.</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="zajętość" /><category term="postęp" /><category term="efektywność" /><category term="cel" /><summary type="html"><![CDATA[Dziś koszt zajętości jest taki sam jak postępu, różnica jest w wynikach.]]></summary></entry><entry><title type="html">Grupa dzieli zadania. Zespół dzieli cel.</title><link href="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/" rel="alternate" type="text/html" title="Grupa dzieli zadania. Zespół dzieli cel." /><published>2026-08-18T00:00:00+00:00</published><updated>2026-08-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/grupa-vs-zespol-wsp%C3%B3lny-cel</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/"><![CDATA[<figure class="quote-block corner-marks">
+<p>Dopiero ta odpowiedź, pozwala rozróżnić ruchu od postępu. Bez kontekstu celu każda aktywność wygląda na wartościową, bo każdą da się czymś uzasadnić.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_zaj%C4%99to%C5%9B%C4%87-%C5%82atwo-wyprodukowa%C4%87-w-kosztach-firmy-share-7495528856813096960-sE0X">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="zajętość" /><category term="postęp" /><category term="efektywność" /><category term="cel" /><summary type="html"><![CDATA[Dziś koszt zajętości jest taki sam jak postępu, różnica jest w wynikach.]]></summary></entry><entry><title type="html">Grupa dzieli zadania. Zespół dzieli cel.</title><link href="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/" rel="alternate" type="text/html" title="Grupa dzieli zadania. Zespół dzieli cel." /><published>2026-08-18T00:00:00+00:00</published><updated>2026-08-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/grupa-vs-zespol-wsp%C3%B3lny-cel</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/"><![CDATA[<figure class="quote-block corner-marks">
   <blockquote class="quote-block__quote">Grupa dzieli zadania. Zespół dzieli cel.</blockquote></figure>
 
 <p>Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił kwartalny wskaźnik. Wszyscy są zajęci, wszyscy są kompetentni i wszyscy ciągną w trochę inną stronę. To nie jest awaria współpracy. To jej brak, przebrany za współpracę.</p>
@@ -201,23 +274,4 @@ Drugą jest obojętność.</p>
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_widoczno%C5%9B%C4%87-to-tablica-z-taskami-transparencja-activity-7455481102913200128-BO-7">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Transparencja" /><category term="Komunikacja" /><category term="Organizacja" /><category term="Procesy" /><category term="Zarządzanie" /><summary type="html"><![CDATA[Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje.]]></summary></entry><entry><title type="html">Ten o matematycznej pułapce lokalnej optymalizacji</title><link href="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/" rel="alternate" type="text/html" title="Ten o matematycznej pułapce lokalnej optymalizacji" /><published>2026-04-28T00:00:00+00:00</published><updated>2026-04-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-matematycznej-pulapce-lokalnej</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Optymalizacja <em>lokalna</em> to matematyczna pułapka.</blockquote></figure>
-
-<p>W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu wygląda jak pogorszenie.</p>
-
-<p>Organizacje też w to wpadają.</p>
-
-<p>Dział skraca czas wdrożeń o 30% i wszystkie jego metryki rosną. Decyzja jest racjonalna — bo nikt nie jest rozliczany z tego, co dzieje się na styku z następnym ogniwem.</p>
-
-<p>Przejście do lepszego stanu systemu wymaga wejścia w dolinę: chwilowego pogorszenia wyników, regresu w trakcie zmiany, kroków, które każda metryka oznaczy jako krok wstecz. Menedżer, który to inicjuje, przez kwartał będzie miał złe liczby — i będzie musiał to komuś wytłumaczyć.</p>
-
-<p>Źródło nie leży w decyzjach. Leży w tym, co jest mierzone i za co ktoś odpowiada.</p>
-
-<p>W lokalnym maksimum organizacje nie stoją przez przypadek. Stoją, bo system nagradza pozostanie.</p>
-
-<p>Żeby wyjść z maksimum lokalnego, trzeba na chwilę przestać patrzeć na gradient i zacząć patrzeć na krajobraz. Ale do tego potrzeba kogoś, kto widzi cały teren — i ma mandat, żeby chwilowe pogorszenie nazwać inwestycją, a nie porażką.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_w-analizie-funkcji-maksimum-lokalne-to-punkt-share-7454630279589130240-N_b2?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABYTE7wB54HUOCMDq5m9OBxlYhapd-eoQXg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Optymalizacja" /><category term="Metryki" /><category term="Procesy" /><category term="Organizacja" /><category term="Myślenie systemowe" /><summary type="html"><![CDATA[W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_widoczno%C5%9B%C4%87-to-tablica-z-taskami-transparencja-activity-7455481102913200128-BO-7">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Transparencja" /><category term="Komunikacja" /><category term="Organizacja" /><category term="Procesy" /><category term="Zarządzanie" /><summary type="html"><![CDATA[Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje.]]></summary></entry></feed>
