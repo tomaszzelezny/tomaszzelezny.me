@@ -130,4 +130,10 @@ var store = [{
         "tags": ["cel","zespół","wspólny cel","optymalizacja","system"],
         "url": "/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/",
         "teaser": null
+      },{
+        "title": "Zajętość kosztuje tyle samo co postęp.",
+        "excerpt":"Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach. Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co....","categories": ["Zarządzanie"],
+        "tags": ["zajętość","postęp","efektywność","cel"],
+        "url": "/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/",
+        "teaser": null
       }]
