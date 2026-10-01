@@ -1,23 +1,23 @@
 var store = [{
-        "title": "Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach.",
+        "title": "Ten o celach, które giną w taskach",
         "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
         "url": "/blog/2026-03-12-cele-vs-zadania/",
         "teaser": null
       },{
-        "title": "Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy?",
+        "title": "Ten o tolerancjach w projekcie",
         "excerpt":"Przedział, w którym PM działa autonomicznie. Poza nim — decyzja wraca do sponsora. Większość projektów ma budżet, termin i zakres. Czym właściwie sterujemy? Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie. Efekt? Albo PM eskaluje wszystko, bo nie wie,...","categories": ["Zarządzanie projektami"],
         "tags": ["PRINCE2","tolerancje","PM"],
         "url": "/blog/2026-03-16-tolerancje-w-projekcie/",
         "teaser": null
       },{
-        "title": "Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie.",
+        "title": "Ten o pracy, która czeka",
         "excerpt":"Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie. Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Ticket stworzony w poniedziałek. Wdrożony w piątek za trzy tygodnie. Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała. Na...","categories": ["Zarządzanie projektami"],
         "tags": ["Lean","flow efficiency","value stream"],
         "url": "/blog/2026-03-19-flow-efficiency/",
         "teaser": null
       },{
-        "title": "Na kiedy to będzie?",
+        "title": "Ten o tym na kiedy to będzie",
         "excerpt":"Organizacja nie chce rozkładu prawdopodobieństwa. Chce daty. Najlepiej jednej. Najlepiej pewnej. „Na kiedy to będzie?” Kiedyś to pytanie kosztowało mnie pół dnia. Szukanie narzędzi. Excel ze wzorami, które sam musiałem zrozumieć. Artykuł o Monte Carlo, drugi artykuł żeby zrozumieć pierwszy. Symulacja sklejona z trzech tutoriali i modlitwa żeby się nie...","categories": ["Zarządzanie projektami"],
         "tags": ["Monte Carlo","prognozowanie","probabilistyka"],
         "url": "/blog/2026-03-24-na-kiedy-to-bedzie/",
@@ -41,7 +41,7 @@ var store = [{
         "url": "/blog/2026-04-02-retencja-wzrosla-to-dobrze/",
         "teaser": null
       },{
-        "title": "Ten o przedwczesniej optymalizacji",
+        "title": "Ten o przedwczesnej optymalizacji",
         "excerpt":"Przedwczesna optymalizacja jest źródłem wszelkiego zła — Donald Knuth, 1974 Knuth napisał to w 1974, o kodzie. Część ludzi zna ten cytat. Mało kto stosuje go poza programowaniem. A szkoda — bo ten sam błąd pojawia się w produktach, procesach i zespołach. Pod innymi nazwami. Zanim cokolwiek usprawnisz — zadaj...","categories": ["Zarządzanie produktem"],
         "tags": ["Optymalizacja","Procesy","Zarządzanie zespołem"],
         "url": "/blog/2026-04-07-przedwczesna-optymalizacja/",
@@ -95,7 +95,7 @@ var store = [{
         "url": "/blog/2026-05-05-ten-o-zbyt-bezpiecznym/",
         "teaser": null
       },{
-        "title": "Ten o spotkaniu, które nie mogło byc mailem",
+        "title": "Ten o spotkaniu, które nie mogło być mailem",
         "excerpt":"Przy muralu można dyskutować i decydować w tym samym momencie. Widać, gdzie jest zgoda. Widać, gdzie jest napięcie. To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie. Cytat: “To spotkanie nie mogło być mailem. Ale bywa, że to prawda. Ustalaliśmy nowy kierunek strony. Piętnaście osób...","categories": ["Zarządzanie produktem"],
         "tags": ["komunikacja","decyzje","zespoły","synchronizacja"],
         "url": "/blog/2026-05-12-ten-o-spotkaniu-ktore/",
@@ -113,39 +113,45 @@ var store = [{
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
         "teaser": null
       },{
-        "title": "Resolver — z wyboru?",
+        "title": "Ten o resolverze z wyboru i z przymusu",
         "excerpt":"Resolver z wyboru? Na Kubie z niedoboru wyłoniło się pewne podejście: resolver. Dosłownie znaczy „rozwiązać”. W praktyce znaczy coś więcej — załatwić, ogarnąć, dorwać, sklecić z tego, co akurat jest pod ręką. Zepsuł się alternator w Ładzie z 1983 roku? Ktoś w dzielnicy ma kuzyna, który wie, gdzie leży część...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["autonomia","odpowiedzialność","systemy","decyzje"],
         "url": "/blog/2026-08-11-resolver-choice-vs-necessity/",
         "teaser": null
       },{
-        "title": "Specjalizacja a odpowiedzialność",
+        "title": "Ten o specjalistach i rozmytej odpowiedzialności",
         "excerpt":"Wyobraź sobie zespół złożony z samych świetnych specjalistów. Wyobraź sobie zespół złożony z samych świetnych specjalistów. Każdy jest najlepszy w swojej wąskiej działce. Brzmi jak marzenie — a jednak im lepiej dobrana specjalizacja, tym łatwiej o sytuację, w której coś się sypie, a mimo to nikt nie jest winny. To...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["odpowiedzialność","specjalizacja","ryzyko","zarządzanie","systemy"],
         "url": "/blog/2026-08-13-specjalizacja-odpowiedzialnosc/",
         "teaser": null
       },{
-        "title": "Grupa dzieli zadania. Zespół dzieli cel.",
+        "title": "Ten o różnicy między grupą a zespołem",
         "excerpt":"Grupa dzieli zadania. Zespół dzieli cel. Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["cel","zespół","wspólny cel","optymalizacja","system"],
         "url": "/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/",
         "teaser": null
       },{
-        "title": "Cel Sprintu. Jedno zdanie, którego brak kosztuje najwięcej",
+        "title": "Ten o tym ile może kosztować brak jednego zdania",
         "excerpt":"Uwaga: Artykuł odnosi się do Scrum Guide 2017 (19 stron). W wersji 2020 Sprint Goal wzmocniono, czyniąc go osobnym komponentem Sprint Backlogu i trzecim tematem Sprint Planning, obok “Co” i “Jak” pojawiło się “Dlaczego”. Mały eksperyment na start. Otwórz Scrum Guide, te dziewiętnaście stron, i policz, ile razy pada w...","categories": ["Zarządzanie produktem","Scrum"],
         "tags": ["Sprint Goal","cel sprintu","scrum","zarządzanie produktem","zespół"],
         "url": "/blog/2026-08-19-cel-sprintu/",
         "teaser": null
       },{
-        "title": "Zajętość kosztuje tyle samo co postęp.",
+        "title": "Ten o zajętości, która udaje postęp",
         "excerpt":"Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach. Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co....","categories": ["Zarządzanie"],
         "tags": ["zajętość","postęp","efektywność","cel"],
         "url": "/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/",
         "teaser": null
       },{
-        "title": "Szybkość robi wrażenie. Przewidywalność buduje zaufanie.",
+        "title": "Ten o przewidywalności, która buduje zaufanie",
         "excerpt":"Szybkość robi wrażenie. Przewidywalność buduje zaufanie. Weźmy zespół, któremu w ciągu dwóch lat mediana cycle time spadła z 21 do 14 dni. Wygląda to na sukces i dobrze jest nim się cieszyć. W tym samym czasie 85. percentyl urósł z 61 do 83 dni. Połowa elementów kończy się w dwa...","categories": ["Zarządzanie produktem"],
         "tags": ["przewidywalność","cycle time","percentyle","prognozowanie"],
         "url": "/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/",
+        "teaser": null
+      },{
+        "title": "Ten o tym czy kolumna Blocked rozwiązuje problem",
+        "excerpt":"Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji. Część pracy wykonana, budżet poszedł, a potem pojawiło się czekanie. Jeśli coś czekało na zewnętrzną firmę albo na inny zespół, trafiało na bok, żeby nie zawyżało pracy w toku i nie straszyło wiekiem na tablicy. Sprawdziłem w historii...","categories": ["Zarządzanie produktem"],
+        "tags": ["blocked","przepływ pracy","cycle time","tablica"],
+        "url": "/blog/2026-09-30-ten-o-tym-czy-kolumna/",
         "teaser": null
       }]
