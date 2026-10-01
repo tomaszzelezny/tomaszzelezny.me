@@ -142,4 +142,10 @@ var store = [{
         "tags": ["zajętość","postęp","efektywność","cel"],
         "url": "/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/",
         "teaser": null
+      },{
+        "title": "Szybkość robi wrażenie. Przewidywalność buduje zaufanie.",
+        "excerpt":"Szybkość robi wrażenie. Przewidywalność buduje zaufanie. Weźmy zespół, któremu w ciągu dwóch lat mediana cycle time spadła z 21 do 14 dni. Wygląda to na sukces i dobrze jest nim się cieszyć. W tym samym czasie 85. percentyl urósł z 61 do 83 dni. Połowa elementów kończy się w dwa...","categories": ["Zarządzanie produktem"],
+        "tags": ["przewidywalność","cycle time","percentyle","prognozowanie"],
+        "url": "/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/",
+        "teaser": null
       }]
