@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-01T08:35:38+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o tym czy kolumna Blocked rozwiązuje problem</title><link href="https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/" rel="alternate" type="text/html" title="Ten o tym czy kolumna Blocked rozwiązuje problem" /><published>2026-09-30T00:00:00+00:00</published><updated>2026-09-30T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-czy-kolumna</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/"><![CDATA[<p>Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-05T15:13:57+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o trzech pytaniach w jednym</title><link href="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/" rel="alternate" type="text/html" title="Ten o trzech pytaniach w jednym" /><published>2026-10-05T00:00:00+00:00</published><updated>2026-10-05T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-pytaniach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/"><![CDATA[<p>„Jak to jest duże?”
+„No, tak z 2 dni.”</p>
+
+<p>Tydzień później ktoś pyta, czemu jeszcze nie ma. I obie strony mają trochę racji.</p>
+
+<p><img src="/assets/images/effort-trzy-pytania.webp" alt="„2 dni”, ale co to znaczy? Wielkość, termin i koszt to trzy różne pytania" /></p>
+
+<p>Odpowiedź w dniach sprawiła, że pytający usłyszał „Kiedy to dostanę?”. A możliwe, że chciał wiedzieć jeszcze coś innego: „Ile to będzie kosztować?”.</p>
+
+<p>Tyle że „2 dni” nie odpowiada na pytanie „kiedy”. Dwa dni pracy nie oznaczają wyniku za dwa dni. Jeśli zaczniemy za tydzień albo będziemy siadać do tematu na godzinę raz w miesiącu, wynik będzie za kilka miesięcy.</p>
+
+<p>Z kosztem jest podobnie: żeby go policzyć, trzeba wiedzieć, kto i jak długo będzie nad tym siedział. I znowu wracamy do czasu.</p>
+
+<p>Estymacje relatywne miały pozwolić odpowiedzieć na „Jak to jest duże?” bez mówienia o czasie. W praktyce punkty i tak często przelicza się w głowie na godziny, więc pytania dalej się zlewają.</p>
+
+<p>Co można zrobić, żeby te trzy pytania łatwo było od siebie odróżnić?</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dQUx8nu9">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="estymacje" /><category term="effort" /><category term="termin" /><category term="koszty" /><summary type="html"><![CDATA[„Jak to jest duże?” „No, tak z 2 dni.”]]></summary></entry><entry><title type="html">Ten o tym czy kolumna Blocked rozwiązuje problem</title><link href="https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/" rel="alternate" type="text/html" title="Ten o tym czy kolumna Blocked rozwiązuje problem" /><published>2026-09-30T00:00:00+00:00</published><updated>2026-09-30T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-czy-kolumna</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/"><![CDATA[<p>Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.</p>
 
 <p><img src="/assets/images/kolumna-blocked.webp" alt="Kolumna Blocked — jak kończą się pobyty zadań w statusie Blocked" /></p>
 
@@ -246,27 +265,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_to-spotkanie-nie-mog%C5%82o-by%C4%87-mailem-s%C5%82yszysz-share-7459689150670319616-drsi">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="komunikacja" /><category term="decyzje" /><category term="zespoły" /><category term="synchronizacja" /><summary type="html"><![CDATA[To spotkanie nie mogło być mailem. Słyszysz to rzadko. Ale bywa, że to prawda.]]></summary></entry><entry><title type="html">Ten o stylu zarządzania</title><link href="https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/" rel="alternate" type="text/html" title="Ten o stylu zarządzania" /><published>2026-05-12T00:00:00+00:00</published><updated>2026-05-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stylu-zarzadzania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z ludzi.</blockquote></figure>
-
-<p>Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić.</p>
-
-<p>Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem wiedzy o systemie.</p>
-
-<p>Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z ludzi. Nie leniwi pracownicy. Nie słaba motywacja. System, który ogranicza, mierzy nie to co trzeba i nagradza zachowania, które niszczy to, co miałoby działać.</p>
-
-<p>Kiedy coś idzie nie tak — w którą stronę automatycznie idziesz?</p>
-
-<p>W stronę człowieka czy systemu? Deming twierdził, że odpowiedź na to pytanie mówi więcej o organizacji niż jakikolwiek KPI.</p>
-
-<p>To nie semantyka. To różnica w tym, co robisz dalej.</p>
-
-<p>Możesz zwolnić człowieka. Ale jeśli system zostaje — problem zostaje razem z nim. W drugim przypadku naprawiasz system i problem znika razem z przyczyną, nie z osobą. Zmiany nie przychodzą od razu — ale procentują w przyszłości.</p>
-
-<p>Większość organizacji nadal zarządza jak Taylor, a chcieliby jak Deming.</p>
-
-<p>Jak jest w Twojej?</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_tayloryzm-da%C5%82-nam-normy-i-czas-pracy-mierzony-share-7458042960170090496-qxCg">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Deming" /><category term="Tayloryzm" /><category term="kultura organizacyjna" /><summary type="html"><![CDATA[Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_to-spotkanie-nie-mog%C5%82o-by%C4%87-mailem-s%C5%82yszysz-share-7459689150670319616-drsi">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="komunikacja" /><category term="decyzje" /><category term="zespoły" /><category term="synchronizacja" /><summary type="html"><![CDATA[To spotkanie nie mogło być mailem. Słyszysz to rzadko. Ale bywa, że to prawda.]]></summary></entry></feed>

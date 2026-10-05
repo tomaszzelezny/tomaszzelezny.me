@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Ten o effortcie i timelinie",
+        "excerpt":"Jedną z rzeczy, na które zwracam uwagę podczas różnych rozmów, jest rozróżnianie “effortu” od “timeline’u”. Jakoś tak naturalnie wychodzi, że na pytanie “Jak to jest duże?” często słyszy się odpowiedź: “4h” albo “No, tak z tydzień pracy”. W moim mniemaniu używanie jednostki związanej z czasem wprowadza nas w myślenie: “Na...","categories": ["Zarządzanie produktem"],
+        "tags": ["estymacje","effort","timeline","koszty"],
+        "url": "/blog/2025-02-13-ten-o-effortcie-i-timelinie/",
+        "teaser": null
+      },{
         "title": "Ten o celach, które giną w taskach",
         "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
@@ -153,5 +159,11 @@ var store = [{
         "excerpt":"Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji. Część pracy wykonana, budżet poszedł, a potem pojawiło się czekanie. Jeśli coś czekało na zewnętrzną firmę albo na inny zespół, trafiało na bok, żeby nie zawyżało pracy w toku i nie straszyło wiekiem na tablicy. Sprawdziłem w historii...","categories": ["Zarządzanie produktem"],
         "tags": ["blocked","przepływ pracy","cycle time","tablica"],
         "url": "/blog/2026-09-30-ten-o-tym-czy-kolumna/",
+        "teaser": null
+      },{
+        "title": "Ten o trzech pytaniach w jednym",
+        "excerpt":"„Jak to jest duże?” „No, tak z 2 dni.” Tydzień później ktoś pyta, czemu jeszcze nie ma. I obie strony mają trochę racji. Odpowiedź w dniach sprawiła, że pytający usłyszał „Kiedy to dostanę?”. A możliwe, że chciał wiedzieć jeszcze coś innego: „Ile to będzie kosztować?”. Tyle że „2 dni” nie...","categories": ["Zarządzanie produktem"],
+        "tags": ["estymacje","effort","termin","koszty"],
+        "url": "/blog/2026-10-05-ten-o-trzech-pytaniach/",
         "teaser": null
       }]
