@@ -166,4 +166,16 @@ var store = [{
         "tags": ["estymacje","effort","termin","koszty"],
         "url": "/blog/2026-10-05-ten-o-trzech-pytaniach/",
         "teaser": null
+      },{
+        "title": "Ten o ludziach, którzy po cichu łamią proces",
+        "excerpt":"Twój proces działa dzięki ludziom, którzy go po cichu łamią. Widać to po każdej nowej osobie w zespole. Dostaje dokumentację, dostęp do Jiry i robi wszystko zgodnie z opisem. Przez pierwsze tygodnie co chwilę utyka. Zgłoszenie od jednego klienta trzeba najpierw doprecyzować telefonicznie, jeden krok z instrukcji wszyscy pomijają, a...","categories": ["Zarządzanie produktem"],
+        "tags": ["proces","mêtis","techne","zespół"],
+        "url": "/blog/2026-10-07-ten-o-ludziach-ktorzy-po/",
+        "teaser": null
+      },{
+        "title": "Ten o zapomnianej pracy",
+        "excerpt":"Zrobiłem coś, czego pewnie nikt nie użyje. Plugin do Azure DevOpsa pokazujący zapomnianą pracę. Wiek otwartych work itemów i to, jak długo wiszą w obecnym stanie. Na przestrzeni lat pomysł wracał, jednak próg wejścia był zbyt duży. Teraz ja prowadziłem, Claude robił. Pierwsza wersja zajęła mniej czasu niż oglądanie tutoriala,...","categories": ["Zarządzanie produktem"],
+        "tags": ["aging WIP","Azure DevOps","cycle time","work item"],
+        "url": "/blog/2026-10-07-ten-o-zapomnianej-pracy/",
+        "teaser": null
       }]

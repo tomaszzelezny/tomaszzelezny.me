@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-05T15:13:57+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o trzech pytaniach w jednym</title><link href="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/" rel="alternate" type="text/html" title="Ten o trzech pytaniach w jednym" /><published>2026-10-05T00:00:00+00:00</published><updated>2026-10-05T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-pytaniach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/"><![CDATA[<p>„Jak to jest duże?”
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-07T08:03:11+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o ludziach, którzy po cichu łamią proces</title><link href="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/" rel="alternate" type="text/html" title="Ten o ludziach, którzy po cichu łamią proces" /><published>2026-10-07T00:00:00+00:00</published><updated>2026-10-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-ludziach-ktorzy-po</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/"><![CDATA[<p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
+
+<p><img src="/assets/images/metis-techne.webp" alt="Mêtis vs techne: proces w instrukcji i proces w praktyce" /></p>
+
+<p>Widać to po każdej nowej osobie w zespole. Dostaje dokumentację, dostęp do Jiry i robi wszystko zgodnie z opisem. Przez pierwsze tygodnie co chwilę utyka. Zgłoszenie od jednego klienta trzeba najpierw doprecyzować telefonicznie, jeden krok z instrukcji wszyscy pomijają, a odpowiedź z innego działu przychodzi szybko tylko wtedy, gdy napisze się do właściwej osoby. Reszta zespołu nauczyła się tego dawno. Gdyby wszyscy pracowali tak jak nowa osoba, czyli dokładnie według instrukcji, zespół stanąłby w miejscu.</p>
+
+<p>James C. Scott w „Seeing Like a State” nazywa tę wiedzę mêtis. Jest praktyczna, lokalna i nabyta latami pracy w konkretnym miejscu. Jej przeciwieństwem jest techne, czyli wszystko, co da się spisać w procesie, frameworku albo workflow. Jako manager masz na co dzień dostęp głównie do techne. Mêtis zaczynasz widzieć dopiero wtedy, gdy siadasz do pracy razem z zespołem.</p>
+
+<p>Scott kończy książkę czterema zasadami dla każdego, kto planuje zmianę z góry: rób małe kroki, wybieraj rozwiązania odwracalne, zakładaj niespodzianki i licz na pomysłowość ludzi.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/eDK7aygk">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="proces" /><category term="mêtis" /><category term="techne" /><category term="zespół" /><summary type="html"><![CDATA[Twój proces działa dzięki ludziom, którzy go po cichu łamią.]]></summary></entry><entry><title type="html">Ten o zapomnianej pracy</title><link href="https://tomaszzelezny.me/blog/2026-10-07-ten-o-zapomnianej-pracy/" rel="alternate" type="text/html" title="Ten o zapomnianej pracy" /><published>2026-10-07T00:00:00+00:00</published><updated>2026-10-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-zapomnianej-pracy</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-07-ten-o-zapomnianej-pracy/"><![CDATA[<p>Zrobiłem coś, czego pewnie nikt nie użyje. <a href="https://marketplace.visualstudio.com/items?itemName=TomaszZelezny.aging-wip">Plugin do Azure DevOpsa</a> pokazujący zapomnianą pracę. Wiek otwartych work itemów i to, jak długo wiszą w obecnym stanie.</p>
+
+<p><img src="/assets/images/aging-wip.webp" alt="Aging WIP: wiek otwartych work itemów i czas w obecnym stanie" /></p>
+
+<p>Na przestrzeni lat pomysł wracał, jednak próg wejścia był zbyt duży. Teraz ja prowadziłem, Claude robił. Pierwsza wersja zajęła mniej czasu niż oglądanie tutoriala, a potem wskoczyło jeszcze kilka iteracji.</p>
+
+<p>Jeśli chcecie zobaczyć, co porzuciliście na pewnym etapie, czy to z powodu zapomnienia, zmiany priorytetów, czy innej zawieruchy, teraz widać to jak na dłoni.</p>
+
+<p>Tylko uwaga: zamykanie tych zadań wpłynie na statystyki cycle time, więc może lepiej je usunąć i udawać, że nigdy ich nie było.</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/evvti4jK">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="aging WIP" /><category term="Azure DevOps" /><category term="cycle time" /><category term="work item" /><summary type="html"><![CDATA[Zrobiłem coś, czego pewnie nikt nie użyje.]]></summary></entry><entry><title type="html">Ten o trzech pytaniach w jednym</title><link href="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/" rel="alternate" type="text/html" title="Ten o trzech pytaniach w jednym" /><published>2026-10-05T00:00:00+00:00</published><updated>2026-10-05T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-pytaniach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/"><![CDATA[<p>„Jak to jest duże?”
 „No, tak z 2 dni.”</p>
 
 <p>Tydzień później ktoś pyta, czemu jeszcze nie ma. I obie strony mają trochę racji.</p>
@@ -223,46 +247,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kubie-z-niedoboru-wy%C5%82oni%C5%82o-si%C4%99-pewne-podej%C5%9Bcie-share-7492578465322455040-VF6D/">Komentuj i podziel się swoją opinią</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="autonomia" /><category term="odpowiedzialność" /><category term="systemy" /><category term="decyzje" /><summary type="html"><![CDATA[Na Kubie z niedoboru wyłoniło się pewne podejście - Resolver.]]></summary></entry><entry><title type="html">Ten o backendzie bez użytkownika</title><link href="https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/" rel="alternate" type="text/html" title="Ten o backendzie bez użytkownika" /><published>2026-05-26T00:00:00+00:00</published><updated>2026-05-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-backendzie-bez-uzytkownika</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Użytkownik <em>nie doświadcza warstw.</em> On doświadcza całości.</blockquote></figure>
-
-<p>„Robię backend, nie mam użytkownika.” Słyszę to regularnie.</p>
-
-<p>I rozumiem, skąd się to bierze — nie siedzisz przy interfejsie, nie klikasz przycisków, nie wypełniasz formularzy. Twoja praca jest po drugiej stronie warstwy abstrakcji.</p>
-
-<p>Ale użytkownik nie doświadcza warstw. On doświadcza całości.</p>
-
-<p>Dane, które widzi — świeże albo nieaktualne. Czas, w którym ekran się ładuje. Stabilność w tygodniu, gdy wszyscy wracają z urlopu i ruch skacze trzykrotnie. To wszystko jest jego doświadczeniem. Nie Twoim kodem. Jego doświadczeniem.</p>
-
-<p>I użytkownik ma jedno kryterium: czy mogę zrobić to, po co tu przyszedłem?</p>
-
-<p>Jeśli tak — zostaje. Jeśli nie — wychodzi. Bez ticketa, bez feedbacku, bez szansy na poprawkę.</p>
-
-<p>Nie widzisz go? Idź za połączeniami w systemie. Na pewno go znajdziesz.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_robi%C4%99-backend-nie-mam-u%C5%BCytkownika-s%C5%82ysz%C4%99-share-7464925520506400768-hkbh">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="backend" /><category term="użytkownik" /><category term="doświadczenie" /><category term="perspektywa" /><summary type="html"><![CDATA[Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.]]></summary></entry><entry><title type="html">Ten o spotkaniu, które nie mogło być mailem</title><link href="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/" rel="alternate" type="text/html" title="Ten o spotkaniu, które nie mogło być mailem" /><published>2026-05-12T00:00:00+00:00</published><updated>2026-05-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-spotkaniu-ktore</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-05-12-ten-o-spotkaniu-ktore/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Przy muralu można dyskutować i decydować w tym samym momencie. Widać, gdzie jest zgoda. Widać, gdzie jest napięcie.</blockquote></figure>
-
-<p>To spotkanie nie mogło być mailem.” Słyszysz to rzadko. Znacznie częściej słyszysz odwrotne twierdzenie.</p>
-
-<p>Cytat: “To spotkanie <em>nie</em> mogło być mailem.</p>
-
-<p>Ale bywa, że to prawda.</p>
-
-<p>Ustalaliśmy nowy kierunek strony. Piętnaście osób przy wspólnym muralu — SEO, marketing, UX, sprzedaż, content, IT. Każdy widział inny fragment układanki. Każdy miał rację w swoim wycinku. I każdy, osobno, podjąłby inną decyzję.</p>
-
-<p>Przy muralu można dyskutować i decydować w tym samym momencie. Widać, gdzie jest zgoda. Widać, gdzie jest napięcie. Nic nie ginie między wątkami.</p>
-
-<p>Wyobraź sobie, że próbujesz to samo rozgryźć przez komunikator. Kontekst się urywa. Ktoś odpowiada za tydzień. Ktoś inny podjął już decyzję bez reszty.</p>
-
-<p>Nie każde spotkanie jest potrzebne. Ale są decyzje, które bez obecności wszystkich zainteresowanych stron po prostu nie zapadną dobrze.</p>
-
-<p>Synchronizacja wielu perspektyw w czasie rzeczywistym to nie strata, to przywilej.</p>
-
-<p>Narzędzie, które jak każde — działa tylko wtedy, kiedy używasz go we właściwym miejscu.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_to-spotkanie-nie-mog%C5%82o-by%C4%87-mailem-s%C5%82yszysz-share-7459689150670319616-drsi">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="komunikacja" /><category term="decyzje" /><category term="zespoły" /><category term="synchronizacja" /><summary type="html"><![CDATA[To spotkanie nie mogło być mailem. Słyszysz to rzadko. Ale bywa, że to prawda.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_na-kubie-z-niedoboru-wy%C5%82oni%C5%82o-si%C4%99-pewne-podej%C5%9Bcie-share-7492578465322455040-VF6D/">Komentuj i podziel się swoją opinią</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="autonomia" /><category term="odpowiedzialność" /><category term="systemy" /><category term="decyzje" /><summary type="html"><![CDATA[Na Kubie z niedoboru wyłoniło się pewne podejście - Resolver.]]></summary></entry></feed>
