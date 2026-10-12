@@ -5,6 +5,12 @@ var store = [{
         "url": "/blog/2025-02-13-ten-o-effortcie-i-timelinie/",
         "teaser": null
       },{
+        "title": "Ten o efektywności w cieniu",
+        "excerpt":"Efektywność naraża bezpieczeństwo? Zazwyczaj uważamy jednak, że to bezpieczeństwo ogranicza efektywność. Więc jak to jest? Ostatnio wpadł mi w ręce temat związany z Shadow IT – w skrócie, chodzi o używanie w firmach narzędzi niezaakceptowanych do użytku. Przypadki i przyczyny bywają różne. Jednym z ciekawszych powodów używania narzędzi z grupy...","categories": ["Zarządzanie produktem"],
+        "tags": ["Shadow IT","bezpieczeństwo","efektywność"],
+        "url": "/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/",
+        "teaser": null
+      },{
         "title": "Ten o celach, które giną w taskach",
         "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
@@ -177,5 +183,11 @@ var store = [{
         "excerpt":"Zrobiłem coś, czego pewnie nikt nie użyje. Plugin do Azure DevOpsa pokazujący zapomnianą pracę. Wiek otwartych work itemów i to, jak długo wiszą w obecnym stanie. Na przestrzeni lat pomysł wracał, jednak próg wejścia był zbyt duży. Teraz ja prowadziłem, Claude robił. Pierwsza wersja zajęła mniej czasu niż oglądanie tutoriala,...","categories": ["Zarządzanie produktem"],
         "tags": ["aging WIP","Azure DevOps","cycle time","work item"],
         "url": "/blog/2026-10-07-ten-o-zapomnianej-pracy/",
+        "teaser": null
+      },{
+        "title": "Ten o szarej strefie",
+        "excerpt":"Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia. Tak powstaje szara strefa: arkusz na prywatnym dysku, notatki w aplikacji, której nikt nie zatwierdził, automatyzacja podpięta pod osobiste konto. Każda z tych rzeczy z osobna wygląda niewinnie. Razem tworzą obszar, o...","categories": ["Zarządzanie produktem"],
+        "tags": ["Shadow IT","bezpieczeństwo","efektywność"],
+        "url": "/blog/2026-10-12-ten-o-szarej-strefie/",
         "teaser": null
       }]
