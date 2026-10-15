@@ -11,6 +11,30 @@ var store = [{
         "url": "/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/",
         "teaser": null
       },{
+        "title": "Ten o zerojedynkowym myśleniu",
+        "excerpt":"Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach. Skupianie się wyłącznie na tych przeciwstawnych biegunach pomija całe spektrum możliwości, które istnieją pomiędzy nimi. To zjawisko, znane jako „dychotomia myślenia”, jest jednym z błędów poznawczych. Natknąłem się na to pojęcie...","categories": ["Zarządzanie produktem"],
+        "tags": ["dychotomia myślenia","błędy poznawcze","podejmowanie decyzji"],
+        "url": "/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/",
+        "teaser": null
+      },{
+        "title": "Ten o wartości jak kot Schrödingera",
+        "excerpt":"“Wartość” (value) stała się Świętym Graalem w świecie IT, chociaż tak naprawdę bliżej jej do “Kota Schrödingera”. Jedni ją tworzą, inni maksymalizują, a jeszcze inni optymalizują jej dostarczanie. W każdym razie wszystko kręci się wokół niej. Niejednokrotnie spotkałem się z sytuacją, w której “wartość” była używana jako uzasadnienie prac lub...","categories": ["Zarządzanie produktem"],
+        "tags": ["wartość","mierzenie","feedback"],
+        "url": "/blog/2025-03-12-ten-o-wartosci-jak-kot/",
+        "teaser": null
+      },{
+        "title": "Ten o niewykonanej pracy",
+        "excerpt":"Dużo mówimy o Agile, aby tam dojść trzeba najpierw zrozumieć Lean. To nie przypadek, że zwinne podejścia czerpią z lean managementu - obie filozofie dzielą wspólne DNA. Ten, kto zajrzał w Zasady Zwinnego Manifestu zauważył (lub mógł zauważyć) zasadę “Simplicity—the art of maximizing the amount of work not done—is essential”...","categories": ["Zarządzanie produktem"],
+        "tags": ["Lean","Agile","marnotrawstwo"],
+        "url": "/blog/2025-03-19-ten-o-niewykonanej-pracy/",
+        "teaser": null
+      },{
+        "title": "Ten o oprogramowaniu, które nigdy nie jest skończone",
+        "excerpt":"Współczesny biznes wymaga elastyczności i zdolności szybkiego dostosowania się do zmian. Oprogramowanie to kluczowy zasób wspierający cele firmy – narzędzie, które powinno budować przewagę konkurencyjną. Aby spełniało tę rolę, jego rozwój musi nadążać za potrzebami użytkowników i strategią biznesową. Systemy IT rzadko są czymś skończonym – powinny pozostać otwarte na...","categories": ["Zarządzanie produktem"],
+        "tags": ["oprogramowanie","rozwój produktu","zwinność"],
+        "url": "/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/",
+        "teaser": null
+      },{
         "title": "Ten o celach, które giną w taskach",
         "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
@@ -185,9 +209,21 @@ var store = [{
         "url": "/blog/2026-10-07-ten-o-zapomnianej-pracy/",
         "teaser": null
       },{
+        "title": "Ten o iteracji starszej niż jej nazwa",
+        "excerpt":"Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy. Można to czytać jako zmęczenie tematem. Ja widzę w tym powrót iteracji do miejsca, w którym stała przez większość historii inżynierii: do rzeczy oczywistej, która nie potrzebuje etykiety. Zespół piszący oprogramowanie dla programu Mercury pracował w półdniowych iteracjach na...","categories": ["Zarządzanie produktem"],
+        "tags": ["iteracja","Agile","wodospad","historia"],
+        "url": "/blog/2026-10-09-ten-o-iteracji-starszej-niz/",
+        "teaser": null
+      },{
         "title": "Ten o szarej strefie",
         "excerpt":"Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia. Tak powstaje szara strefa: arkusz na prywatnym dysku, notatki w aplikacji, której nikt nie zatwierdził, automatyzacja podpięta pod osobiste konto. Każda z tych rzeczy z osobna wygląda niewinnie. Razem tworzą obszar, o...","categories": ["Zarządzanie produktem"],
         "tags": ["Shadow IT","bezpieczeństwo","efektywność"],
         "url": "/blog/2026-10-12-ten-o-szarej-strefie/",
+        "teaser": null
+      },{
+        "title": "Ten o kalendarzu jednej osoby",
+        "excerpt":"Kto u Was decyduje, kiedy Ciebie nie ma? Najwolniejszy proces w firmie to często kalendarz jednej osoby. Każdy z nas chciałby, żeby zespół po prostu ogarniał sprawy sam i nie musiał co chwilę pytać. Tymczasem wszystko leci w górę „na wszelki wypadek”, bo nikt do końca nie wie, czy może...","categories": ["Zarządzanie produktem"],
+        "tags": ["decyzje","przepływ pracy","przywództwo"],
+        "url": "/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/",
         "teaser": null
       }]

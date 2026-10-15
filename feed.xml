@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-12T07:09:34+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o szarej strefie</title><link href="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/" rel="alternate" type="text/html" title="Ten o szarej strefie" /><published>2026-10-12T00:00:00+00:00</published><updated>2026-10-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-szarej-strefie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/"><![CDATA[<p>Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-14T13:05:12+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o kalendarzu jednej osoby</title><link href="https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/" rel="alternate" type="text/html" title="Ten o kalendarzu jednej osoby" /><published>2026-10-14T00:00:00+00:00</published><updated>2026-10-14T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-kalendarzu-jednej-osoby</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/"><![CDATA[<p><strong>Kto u Was decyduje, kiedy Ciebie nie ma?</strong></p>
+
+<p><img src="/assets/images/kalendarz-jednej-osoby.webp" alt="Kto u Was decyduje, kiedy Ciebie nie ma? Dziś wszystko czeka na jedną osobę, cel to zespół, który decyduje sam" /></p>
+
+<p>Najwolniejszy proces w firmie to często kalendarz jednej osoby.</p>
+
+<p>Każdy z nas chciałby, żeby zespół po prostu ogarniał sprawy sam i nie musiał co chwilę pytać. Tymczasem wszystko leci w górę „na wszelki wypadek”, bo nikt do końca nie wie, czy może o tym zdecydować. Zadanie wisi jako „w toku”, a od ośmiu dni leży w czyjejś skrzynce. Na tablicy tego nie widać.</p>
+
+<p>Najczęściej kończy się na tym, że jesteśmy cały czas pod telefonem. Odpisujemy na komunikatorze między spotkaniami i akceptujemy coś wieczorem z kanapy, żeby rano praca mogła ruszyć. Przez jakiś czas to nawet działa. Tyle że wszystko dalej przechodzi przez jedną osobę, która teraz pracuje także w weekendy. Na dłuższą metę tak się nie da: najpierw przychodzi zmęczenie, potem decyzje podejmowane na autopilocie, a w końcu wypalenie.</p>
+
+<p>Praca rusza, kiedy zespół może zdecydować bez nas. Ludzie wiedzą wtedy, o czym decydują sami, mają progi, do których nie muszą pytać, i dostają informacje, dzięki którym ich decyzje są dobre. Każda taka decyzja odciąża nas bardziej niż kolejna godzina pod telefonem.</p>
+
+<p>Ile dni czeka u Was typowa decyzja, zanim praca ruszy dalej?</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d27N_VUu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="decyzje" /><category term="przepływ pracy" /><category term="przywództwo" /><summary type="html"><![CDATA[Kto u Was decyduje, kiedy Ciebie nie ma?]]></summary></entry><entry><title type="html">Ten o szarej strefie</title><link href="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/" rel="alternate" type="text/html" title="Ten o szarej strefie" /><published>2026-10-12T00:00:00+00:00</published><updated>2026-10-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-szarej-strefie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/"><![CDATA[<p>Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.</p>
 
 <p><img src="/assets/images/shadow-it-szara-strefa.webp" alt="Twój zespół pracuje w narzędziach, których nie znasz: zatwierdzone narzędzia i szara strefa Shadow IT" /></p>
 
@@ -10,7 +26,27 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dHYCqkc2">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Shadow IT" /><category term="bezpieczeństwo" /><category term="efektywność" /><summary type="html"><![CDATA[Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.]]></summary></entry><entry><title type="html">Ten o ludziach, którzy po cichu łamią proces</title><link href="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/" rel="alternate" type="text/html" title="Ten o ludziach, którzy po cichu łamią proces" /><published>2026-10-07T00:00:00+00:00</published><updated>2026-10-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-ludziach-ktorzy-po</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/"><![CDATA[<p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dHYCqkc2">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Shadow IT" /><category term="bezpieczeństwo" /><category term="efektywność" /><summary type="html"><![CDATA[Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.]]></summary></entry><entry><title type="html">Ten o iteracji starszej niż jej nazwa</title><link href="https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/" rel="alternate" type="text/html" title="Ten o iteracji starszej niż jej nazwa" /><published>2026-10-09T00:00:00+00:00</published><updated>2026-10-09T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-iteracji-starszej-niz</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/"><![CDATA[<p>Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.</p>
+
+<p>Można to czytać jako zmęczenie tematem. Ja widzę w tym powrót iteracji do miejsca, w którym stała przez większość historii inżynierii: do rzeczy oczywistej, która nie potrzebuje etykiety. Zespół piszący oprogramowanie dla programu Mercury pracował w półdniowych iteracjach na początku lat 60., czterdzieści lat przed Manifestem Agile. Nikt nie nazywał tego wtedy zwinnością.</p>
+
+<p><img src="/assets/images/os-czasu-iteracja.webp" alt="Oś czasu: iteracja jest starsza niż jej nazwa. Shewhart w latach 30., Mercury w latach 60., Royce w 1970, Manifest Agile w 2001" /></p>
+
+<p>Chodziło zawsze o podejście. Winston Royce w 1970 roku narysował schemat, który uchodzi za akt założycielski wodospadu. Ten sam Royce pisał, że system trzeba zbudować dwa razy.</p>
+
+<hr />
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Royce, W. W. (1970). Managing the Development of Large Software Systems. Proceedings of IEEE WESCON.</li>
+  <li>Larman, C., Basili, V. R. (2003). Iterative and Incremental Development: A Brief History. IEEE Computer, 36(6), 47–56. <a href="https://doi.org/10.1109/MC.2003.1204375">DOI: 10.1109/MC.2003.1204375</a></li>
+  <li>Beck, K. i in. (2001). Manifesto for Agile Software Development. <a href="https://agilemanifesto.org">agilemanifesto.org</a></li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d9kCwKJq">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="iteracja" /><category term="Agile" /><category term="wodospad" /><category term="historia" /><summary type="html"><![CDATA[Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.]]></summary></entry><entry><title type="html">Ten o ludziach, którzy po cichu łamią proces</title><link href="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/" rel="alternate" type="text/html" title="Ten o ludziach, którzy po cichu łamią proces" /><published>2026-10-07T00:00:00+00:00</published><updated>2026-10-07T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-ludziach-ktorzy-po</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/"><![CDATA[<p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
 
 <p><img src="/assets/images/metis-techne.webp" alt="Mêtis vs techne: proces w instrukcji i proces w praktyce" /></p>
 
@@ -166,76 +202,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_zaj%C4%99to%C5%9B%C4%87-%C5%82atwo-wyprodukowa%C4%87-w-kosztach-firmy-share-7495528856813096960-sE0X">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="zajętość" /><category term="postęp" /><category term="efektywność" /><category term="cel" /><summary type="html"><![CDATA[Dziś koszt zajętości jest taki sam jak postępu, różnica jest w wynikach.]]></summary></entry><entry><title type="html">Ten o różnicy między grupą a zespołem</title><link href="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/" rel="alternate" type="text/html" title="Ten o różnicy między grupą a zespołem" /><published>2026-08-18T00:00:00+00:00</published><updated>2026-08-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/grupa-vs-zespol-wsp%C3%B3lny-cel</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Grupa dzieli zadania. Zespół dzieli cel.</blockquote></figure>
-
-<p>Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił kwartalny wskaźnik. Wszyscy są zajęci, wszyscy są kompetentni i wszyscy ciągną w trochę inną stronę. To nie jest awaria współpracy. To jej brak, przebrany za współpracę.</p>
-
-<p>Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie „czy maszyny pracują”, nie „czy ludzie są zajęci”, tylko po co. Dopiero odpowiedź na to pytanie pozwala odróżnić ruch od postępu. Bez niej każda aktywność wygląda na wartościową, bo każdą da się czymś uzasadnić. Zajętość zaczyna udawać produktywność. A zajętość jest tania — można jej wyprodukować dowolnie dużo i nadal stać w miejscu.</p>
-
-<p>Grupa i zespół różnią się jedną rzeczą, której nie widać na schemacie organizacyjnym. Grupa ma tyle celów, ile ma osób. Każdy przynosi swój — wynikający z roli, premii, ambicji, lęku przed oceną. Zespół ma jeden cel, do którego te osoby się zestrajają. Wspólny cel działa jak mechanizm, który dopiero zamienia zbiór ludzi w system zdolny do wspólnego działania. Bez niego zostaje sama współobecność w kalendarzu.</p>
-
-<p>Kiedy tego mechanizmu brakuje, włącza się coś przewidywalnego: każdy optymalizuje własną miarę. Programista maksymalizuje jakość swojego kodu. Tester maksymalizuje liczbę wykrytych błędów. Kierownik maksymalizuje wykorzystanie swojego zespołu. Osobno każdy z tych ruchów wygląda na słuszny. Razem potrafią się znosić, bo suma lokalnych maksimów prawie nigdy nie daje maksimum całości. Lokalna wygrana kupiona kosztem przepływu to wciąż strata — tyle że rozpisana na kilka arkuszy, więc trudniej ją zauważyć.</p>
-
-<p>Deming powtarzał, że system trzeba definiować przez jego cel; bez celu nie ma systemu, jest tylko zestaw części. I że o wyniku decyduje nie jakość poszczególnych elementów, ale sposób, w jaki na siebie oddziałują. Można złożyć drużynę z samych gwiazd i przegrać, jeśli każda gra swój mecz. Cel jest tym, co ustawia te oddziaływania w jedną stronę. Nie podnosi sprawności pojedynczych osób — porządkuje to, co z ich pracy faktycznie się składa.</p>
-
-<p>Najbardziej praktyczna funkcja wspólnego celu ujawnia się w sporze. Dwie sensowne opcje, dwoje mądrych ludzi, każde z dobrym argumentem. Bez celu taki spór rozstrzyga się hierarchią, głośnością albo zmęczeniem. Z celem rozstrzyga się pytaniem: która z tych opcji przybliża nas do niego bardziej. Cel, który nie potrafi rozstrzygnąć konkretnego kompromisu — czy dokończyć funkcję, czy spłacić dług; czy wydać dziś, czy dopieścić do jutra — zostaje deklaracją na ścianie, nie kryterium pracy. Prawdziwy cel poznaje się po tym, że czasem każe zrobić coś niewygodnego komuś, kto go akceptuje.</p>
-
-<p>Dlatego zanim zbierze się ludzi do wspólnej pracy, warto sprawdzić coś prostszego niż kompetencje i narzędzia. Czy potrafią dokończyć zdanie „robimy to, żeby…” tak samo. Jeśli każdy kończy je inaczej, nie macie jeszcze zespołu. Macie grupę, która na razie pracuje w tym samym pokoju.</p>
-
-<hr />
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li><strong>Eliyahu M. Goldratt, Jeff Cox</strong>, The Goal: A Process of Ongoing Improvement, North River Press, 1984 (wyd. pol. Cel I. Doskonałość w produkcji, Mint Books) — cel jako miara odróżniająca ruch od postępu, teoria ograniczeń, pułapka optymalizacji lokalnej.</li>
-  <li><strong>W. Edwards Deming</strong>, The New Economics for Industry, Government, Education, MIT Press, 1993 — system definiowany przez swój cel oraz prymat interakcji między częściami nad jakością pojedynczych elementów.</li>
-  <li><strong>Russell L. Ackoff</strong>, Creating the Corporate Future, Wiley, 1981 — myślenie systemowe: całość jako efekt oddziaływań, a nie sumy części.</li>
-</ul>
-
-<hr />]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="cel" /><category term="zespół" /><category term="wspólny cel" /><category term="optymalizacja" /><category term="system" /><summary type="html"><![CDATA[Różnica między grupą a zespołem to jeden wspólny cel, który orientuje działania w jedną stronę.]]></summary></entry><entry><title type="html">Ten o specjalistach i rozmytej odpowiedzialności</title><link href="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/" rel="alternate" type="text/html" title="Ten o specjalistach i rozmytej odpowiedzialności" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/specjalizacja-odpowiedzialnosc</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/"><![CDATA[<figure class="quote-block corner-marks">
-  <blockquote class="quote-block__quote">Wyobraź sobie zespół złożony z samych świetnych specjalistów.</blockquote></figure>
-
-<p>Wyobraź sobie zespół złożony z samych świetnych specjalistów. Każdy jest najlepszy w swojej wąskiej działce. Brzmi jak marzenie — a jednak im lepiej dobrana specjalizacja, tym łatwiej o sytuację, w której coś się sypie, a mimo to nikt nie jest winny. To nie pech ani zły dobór ludzi. To dwa mechanizmy, które specjalizacja uruchamia naraz, ciągnąc w przeciwne strony.</p>
-
-<h2 id="problem-wielu-rąk">Problem wielu rąk</h2>
-
-<p>Pierwszy dotyczy odpowiedzialności, która zaczyna się rozłazić. Filozof polityki Dennis Thompson nazwał to kiedyś problemem wielu rąk: gdy do jednego wyniku przykłada się wielu ludzi, samo umiejscowienie sprawstwa się zaciera. Najłatwiej zobaczyć to w szpitalu. Kardiolog patrzy na serce, pulmonolog na płuca, nefrolog na nerki. Każdy robi swoją część bez zarzutu. Tyle że ostatecznie okazuje się, że nikt nie patrzył na pacjenta jako całość, i właśnie tam, w przestrzeni „między narządami”, coś umyka.</p>
-
-<p>Im więcej rąk przy jednym wyniku, tym trudniej wskazać, kto za ten wynik odpowiada. Charakterystyczne zdanie tej sytuacji brzmi: „ja swoje zrobiłem”, wypowiedziane nad czymś, co i tak nie działa.</p>
-
-<p>Ciekawe, że specjalista tej dziury nie tworzy. On ją tylko odsłania. W zespole, gdzie każdy trochę zna się na wszystkim, brak gospodarza całości maskuje się sam. Dopiero ostra specjalizacja zdejmuje tę zasłonę i pokazuje, że właściciela wyniku po prostu nie było.</p>
-
-<h2 id="gęstnieje-ryzyko">Gęstnieje ryzyko</h2>
-
-<p>Drugi mechanizm dotyczy ryzyka i tu kierunek się odwraca. Ryzyko nie rozprasza się, tylko gęstnieje. Wiedza, która kiedyś żyła w kilku głowach, teraz mieści się w jednej. Programiści mają na to obrazowe pojęcie: <strong>bus factor</strong>, czyli najmniejsza liczba osób, które musiałyby nagle zniknąć z projektu, żeby ten stanął z braku kompetentnych ludzi.</p>
-
-<p>Przy dobrym specjaliście ten wskaźnik często spada do jedynki. „Tylko Kasia wie, jak działa rozliczanie” to nie komplement dla Kasi — to opis kruchości, którą wbudowaliśmy sobie w zespół, nie zauważając kiedy.</p>
-
-<p>I nie jest to przypadek: najprościej zostawić temat osobie, która już się na nim zna, a to mimowolnie utrwala specjalizację i drąży silosy wiedzy.</p>
-
-<h2 id="dwie-siły-na-krzyż">Dwie siły na krzyż</h2>
-
-<p>Te dwie siły działają dokładnie na krzyż. Odpowiedzialność rozlewa się na zewnątrz, coraz mniej osób czuje się autorem efektu. Ryzyko ściąga do środka, coraz więcej zależy od jednej osoby.</p>
-
-<p>A na dokładkę samo ryzyko ma dwie twarze. Część zbija się w gęsty węzeł, którym staje się specjalista. Reszta zostaje osierocona w tej samej szczelinie, w której gubi się odpowiedzialność: nikt nie pilnuje, czy fragmenty w ogóle zejdą się w działającą całość. Ten sam brak gospodarza, który rozprasza odpowiedzialność, zostawia ryzyko bez opieki dokładnie tam, gdzie najbardziej boli.</p>
-
-<h2 id="strażnik-całości">Strażnik całości</h2>
-
-<p>To nie jest argument przeciwko specjalistom. Thompson, szukając lekarstwa na problem wielu rąk, wskazywał gdzie indziej: <strong>trzeba kogoś wyznaczyć na strażnika całości</strong>, osobę, której zadaniem jest pilnować, że fragmenty schodzą się w działający wynik.</p>
-
-<p>Dlatego w momencie, w którym wprowadzasz specjalizację, ktoś musi świadomie wziąć na siebie całość. Inaczej rozdasz kompetencje, a odpowiedzialność i ryzyko rozejdą się każde w swoją stronę.</p>
-
-<hr />
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li>Thompson, D. F. (1980). Moral Responsibility of Public Officials: The Problem of Many Hands. „American Political Science Review”, 74(4), 905–916.</li>
-  <li>Thompson, D. F. (2017). Designing Responsibility: The Problem of Many Hands in Complex Organizations. W: J. van den Hoven, S. Miller, T. Pogge (red.), Designing in Ethics (s. 32–56). Cambridge University Press.</li>
-  <li>Williams, L., Kessler, R. (2003). Pair Programming Illuminated. Addison-Wesley — formalizacja pojęcia „bus factor” (za Jamesem Coplienem).</li>
-</ul>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wyobra%C5%BA-sobie-zesp%C3%B3%C5%82-z%C5%82o%C5%BCony-z-samych-%C5%9Bwietnych-share-7493217411362439168-mfML/">Komentuj i podziel się swoją opinią</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Kultura organizacyjna" /><category term="odpowiedzialność" /><category term="specjalizacja" /><category term="ryzyko" /><category term="zarządzanie" /><category term="systemy" /><summary type="html"><![CDATA[Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_zaj%C4%99to%C5%9B%C4%87-%C5%82atwo-wyprodukowa%C4%87-w-kosztach-firmy-share-7495528856813096960-sE0X">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="zajętość" /><category term="postęp" /><category term="efektywność" /><category term="cel" /><summary type="html"><![CDATA[Dziś koszt zajętości jest taki sam jak postępu, różnica jest w wynikach.]]></summary></entry></feed>
