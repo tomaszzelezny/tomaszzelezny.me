@@ -51,10 +51,20 @@ body {
   margin: 0;
   background: var(--bg); color: var(--ink);
   font: 400 17px/1.65 var(--body);
+}
+.wrap {
+  max-width: 1152px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.wrap { max-width: 1120px; margin: 0 auto; }
+
+/* Menu jak na reszcie strony (masthead z motywu) */
+.masthead { background: var(--block); }
+.masthead ul { list-style: none; margin: 0 auto; max-width: 1280px; padding: 18px 1em; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 28px; }
+.masthead a { position: relative; color: var(--block-text); text-decoration: none; font: 700 11px/1.6 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
+.masthead a:hover, .masthead a[aria-current="page"] { color: var(--accent); }
+.masthead a::before { content: ""; position: absolute; left: 0; bottom: -4px; height: 3px; width: 0; background: var(--accent); transition: width .2s; }
+.masthead a:hover::before, .masthead a[aria-current="page"]::before { width: 100%; }
 a { color: inherit; }
 a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
@@ -191,6 +201,14 @@ footer a { text-decoration: none; }
 
 </head>
 <body>
+<nav class="masthead" aria-label="Menu główne">
+  <ul>
+    <li><a href="/">Tomasz Żelezny</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/zajety-zespol/" aria-current="page">Współpraca</a></li>
+    <li><a href="/o-mnie/">O mnie</a></li>
+  </ul>
+</nav>
 <div class="wrap">
   <header class="hero framed">
     <div>
