@@ -1,214 +1,185 @@
 <!doctype html>
-<html lang="pl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dlaczego zespół jest zajęty, a klient dalej czeka? | Tomasz Żelezny</title>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Dlaczego zespół jest zajęty, a klient dalej czeka? - Tomasz Żelezny</title>
 <meta name="description" content="Zespół jest zajęty po łokcie, a efektów nie widać? Gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę. Tomasz Żelezny, Scrum Master i Agile Coach.">
-<link rel="canonical" href="https://tomaszzelezny.me/zajety-zespol/">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+
+
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
 <meta property="og:title" content="Dlaczego zespół jest zajęty, a klient dalej czeka?">
-<meta property="og:description" content="Zespół jest zajęty po łokcie, a efektów nie widać? Gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę. Tomasz Żelezny, Scrum Master i Agile Coach.">
 <meta property="og:url" content="https://tomaszzelezny.me/zajety-zespol/">
-<meta property="og:image" content="https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg">
-<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-<!-- Self-hosted fonts (no third-party requests) -->
-<link rel="stylesheet" href="/assets/css/fonts.css">
-<style>
-/* Styl: Slate & Ember (jak grafiki z LinkedIna): jasne tło, Space Mono w nagłówkach, granat #1f2a3a, rdzawy akcent #c2410c, rdzawe narożniki */
-:root {
-  --bg: #ffffff;
-  --surface: #f5f5f4;
-  --ink: #1c1917;
-  --muted: #57534e;
-  --line: #e7e5e4;
-  --block: #1f2a3a;
-  --block-text: #f0ede6;
-  --accent: #c2410c;
-  --accent-subtle: #fff7ed;
-  --on-accent: #ffffff;
-  --display: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-  --body: "Inter", "Helvetica Neue", Arial, sans-serif;
-  --mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #141a23; --surface: #1c2430; --ink: #f0ede6; --muted: #a8a29e; --line: #2c3643;
-    --block: #0d121a; --block-text: #f0ede6; --accent: #ea6a2f; --accent-subtle: #2a1d16; --on-accent: #1a0f08;
-    color-scheme: dark;
+
+
+  <meta property="og:description" content="Zespół jest zajęty po łokcie, a efektów nie widać? Gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę. Tomasz Żelezny, Scrum Master i Agile Coach.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/zajety-zespol/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://tomaszzelezny.me/"
+    
   }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Canonical URL for better indexing -->
+<link rel="canonical" href="https://tomaszzelezny.me/zajety-zespol/" />
+
+<!-- Person Schema (JSON-LD) for better SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
 }
-:root[data-theme="dark"] {
-  --bg: #141a23; --surface: #1c2430; --ink: #f0ede6; --muted: #a8a29e; --line: #2c3643;
-  --block: #0d121a; --block-text: #f0ede6; --accent: #ea6a2f; --accent-subtle: #2a1d16; --on-accent: #1a0f08;
-  color-scheme: dark;
-}
+</script>
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  background: var(--bg); color: var(--ink);
-  font: 400 17px/1.65 var(--body);
-}
-.wrap {
-  max-width: 1152px; margin: 0 auto;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-}
-
-/* Menu jak na reszcie strony (masthead z motywu) */
-.masthead { background: var(--block); }
-.masthead ul { list-style: none; margin: 0 auto; max-width: 1280px; padding: 18px 1em; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 28px; }
-.masthead a { position: relative; color: var(--block-text); text-decoration: none; font: 700 11px/1.6 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
-.masthead a:hover, .masthead a[aria-current="page"] { color: var(--accent); }
-.masthead a::before { content: ""; position: absolute; left: 0; bottom: -4px; height: 3px; width: 0; background: var(--accent); transition: width .2s; }
-.masthead a:hover::before, .masthead a[aria-current="page"]::before { width: 100%; }
-a { color: inherit; }
-a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
-h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
-h1 em, h2 em { font-style: normal; color: var(--accent); }
-
-/* Rdzawe narożniki */
-.framed { position: relative; }
-.framed::before {
-  content: ""; position: absolute; inset: -18px; pointer-events: none;
-  --c: var(--accent); --l: 34px; --w: 3px;
-  background:
-    linear-gradient(var(--c), var(--c)) top left / var(--l) var(--w),
-    linear-gradient(var(--c), var(--c)) top left / var(--w) var(--l),
-    linear-gradient(var(--c), var(--c)) top right / var(--l) var(--w),
-    linear-gradient(var(--c), var(--c)) top right / var(--w) var(--l),
-    linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--w),
-    linear-gradient(var(--c), var(--c)) bottom left / var(--w) var(--l),
-    linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--w),
-    linear-gradient(var(--c), var(--c)) bottom right / var(--w) var(--l);
-  background-repeat: no-repeat;
-}
-
-.eyebrow, .tag { display: inline-block; font: 700 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); background: var(--accent-subtle); padding: 8px 14px; }
-
-/* HERO */
-.hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; margin-block: 56px 64px; padding: 24px 8px; }
-.hero > * { min-width: 0; }
-.block { background: var(--block); color: var(--block-text); padding: clamp(24px, 4vw, 44px); margin-top: 24px; }
-.hero h1 { font-size: clamp(30px, 4.4vw, 52px); line-height: 1.2; }
-.lead { font-size: 18px; color: var(--muted); max-width: 34em; margin: 26px 0 28px; }
-.lead strong { color: var(--ink); font-weight: 600; }
-.ctas { display: flex; flex-wrap: wrap; gap: 12px; }
-.btn { display: inline-block; text-decoration: none; font: 700 15px/1 var(--mono); padding: 15px 22px; border: 1.5px solid var(--ink); }
-.btn-primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
-.btn-ghost { color: var(--ink); }
-.btn:hover { transform: translateY(-1px); }
-
-/* DZIEŃ */
-.day { background: var(--bg); border: 1.5px solid var(--ink); padding: 18px; }
-.day-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; font-family: var(--mono); }
-.day-head span { font: 400 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
-.cal { display: grid; grid-template-columns: 40px 1fr 1fr; grid-template-rows: repeat(16, 22px); column-gap: 6px; row-gap: 2px; position: relative; }
-.cal .t { grid-column: 1; font: 400 10.5px/22px var(--mono); color: var(--muted); }
-.ev { padding: 3px 7px; font: 400 11px/1.25 var(--mono); overflow: hidden; min-width: 0; background: var(--surface); color: var(--ink); border: 1px dashed var(--muted); }
-.ev.work { background: var(--accent); color: var(--on-accent); border: 1px solid var(--accent); font-weight: 700; }
-.ev.urgent { border: 1.5px solid var(--ink); font-weight: 700; }
-.ping { position: absolute; right: 0; display: inline-flex; align-items: center; gap: 4px; font: 700 10px/1 var(--mono); color: var(--block-text); background: var(--block); padding: 4px 7px; white-space: nowrap; }
-.day-foot { margin-top: 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; border-top: 1px solid var(--line); padding-top: 12px; }
-.day-foot div { font: 400 11px/1.3 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-.day-foot b { display: block; font: 700 28px/1.1 var(--display); color: var(--ink); }
-.day-foot .zero b { color: var(--accent); }
-
-/* SEKCJE */
-section { padding-block: 64px; border-top: 1px solid var(--line); }
-.sec-head { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; margin-bottom: 36px; }
-.sec-head > * { min-width: 0; }
-.sec-head h2 { font-size: clamp(26px, 3vw, 36px); line-height: 1.2; }
-.sec-head p { color: var(--muted); margin: 0; max-width: 36em; }
-
-.symptoms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.symptoms li { background: var(--bg); border: 1.5px dashed var(--muted); padding: 24px; min-width: 0; }
-.symptoms q { display: block; font: 700 18px/1.35 var(--display); quotes: "„" "”"; margin-bottom: 10px; }
-.symptoms span { color: var(--muted); font-size: 15px; }
-
-/* LICZBA */
-.flow { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; align-items: center; }
-.flow > * { min-width: 0; }
-.big { font: 700 clamp(56px, 8vw, 100px)/1 var(--display); letter-spacing: -0.06em; margin-top: 18px; white-space: nowrap; }
-.big small { font-size: 0.28em; letter-spacing: 0; font-weight: 400; letter-spacing: 0; color: var(--muted); }
-.bar { display: flex; height: 34px; overflow: hidden; margin: 22px 0 10px; border: 1.5px solid var(--ink); }
-.bar i { display: block; }
-.bar .work { width: 0.67%; min-width: 5px; background: var(--accent); }
-.bar .wait { flex: 1; background: repeating-linear-gradient(135deg, var(--line) 0 8px, var(--bg) 8px 16px); }
-.bar-legend { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font: 400 13px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
-.bar-legend span:first-child { color: var(--accent); font-weight: 700; }
-.flow blockquote { margin: 0; background: var(--block); color: var(--block-text); font: 700 20px/1.5 var(--display); padding: 28px 32px; border-left: 4px solid var(--accent); }
-.flow p { color: var(--muted); margin: 18px 0 0; }
-
-/* JAK POMAGAM */
-.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: s; }
-.steps li { background: var(--surface); border: 1.5px solid var(--ink); padding: 24px; min-width: 0; counter-increment: s; }
-.steps li::before { content: "0" counter(s); display: block; font: 700 14px var(--mono); color: var(--accent); letter-spacing: .1em; margin-bottom: 14px; }
-.steps h3 { font-size: 20px; margin-bottom: 8px; }
-.steps p { margin: 0; color: var(--muted); font-size: 15.5px; }
-
-/* WPISY */
-.posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.post { background: var(--bg); border: 1.5px solid var(--line); padding: 22px; text-decoration: none; display: flex; flex-direction: column; gap: 10px; min-width: 0; transition: border-color .15s; }
-.post:hover { border-color: var(--accent); }
-.post h3 { font-size: 17px; line-height: 1.35; }
-.post p { margin: 0; color: var(--muted); font-size: 15px; flex: 1; }
-.post .meta { align-self: flex-start; font: 700 11px var(--mono); color: var(--accent); background: var(--accent-subtle); padding: 5px 9px; text-transform: uppercase; letter-spacing: .1em; }
-
-/* AUTOR + CTA */
-.about { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: start; max-width: 760px; }
-.avatar { width: 120px; height: 120px; object-fit: cover; display: block; border: 3px solid var(--accent); }
-.about h2 { font-size: 26px; }
-.about .role { font: 400 13px var(--mono); color: var(--muted); margin: 6px 0 14px; text-transform: uppercase; letter-spacing: .09em; }
-.about p { margin: 0 0 12px; max-width: 36em; }
-
-.final { background: var(--block); color: var(--block-text); padding: 48px; margin-block: 24px 72px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; }
-.final > * { min-width: 0; }
-.final h2 { font-size: clamp(22px, 2.8vw, 32px); line-height: 1.3; }
-.final p { margin: 14px 0 0; opacity: .8; }
-.final .btn { background: var(--accent); color: var(--on-accent); border-color: var(--accent); justify-self: start; }
-
-.inline-cta { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; border: 1.5px solid var(--ink); background: var(--surface); }
-.inline-cta p { margin: 0; font: 700 18px/1.3 var(--display); min-width: 0; }
-
-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; border-top: 1px solid var(--line); padding-block: 20px 48px; font: 400 13px var(--mono); color: var(--muted); }
-footer b { color: var(--ink); }
-footer a { text-decoration: none; }
-
-@media (max-width: 880px) {
-  .hero, .sec-head, .flow, .final { grid-template-columns: 1fr; gap: 28px; }
-  .symptoms, .posts, .steps { grid-template-columns: 1fr; }
-  .hero { margin-block: 40px; }
-  .final { padding: 28px; }
-}
-@media (max-width: 480px) {
-  .about { grid-template-columns: 1fr; }
-  .framed::before { inset: -10px; --l: 24px; }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .ping { animation: pop 2.4s ease-in-out infinite; }
-  .ping:nth-of-type(2n) { animation-delay: .8s; }
-  .ping:nth-of-type(3n) { animation-delay: 1.6s; }
-  @keyframes pop { 0%, 80%, 100% { transform: scale(1); } 88% { transform: scale(1.12); } }
-}
-</style>
+<!-- Analytics -->
 
 <script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-</head>
-<body>
-<nav class="masthead" aria-label="Menu główne">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
   <ul>
-    <li><a href="/">Tomasz Żelezny</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="/zajety-zespol/" aria-current="page">Współpraca</a></li>
-    <li><a href="/o-mnie/">O mnie</a></li>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zajety-zespol/">Współpraca</a>
+            </li><li class="masthead__menu-item">
+              <a href="/o-mnie/">O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dlaczego zespół jest zajęty, a klient dalej czeka?">
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <div class="landing">
 <div class="wrap">
   <header class="hero framed">
     <div>
@@ -367,9 +338,48 @@ footer a { text-decoration: none; }
     </div>
     <a class="btn" href="https://www.linkedin.com/in/tomasz-zelezny/" target="_blank" rel="noopener">Napisz do mnie</a>
   </div>
-
-  <footer><a href="/"><b>tomaszzelezny.me</b></a><span>Scrum Master · Agile Coach · <a href="/blog/">Blog</a></span></footer>
+</div>
 </div>
 
-</body>
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>

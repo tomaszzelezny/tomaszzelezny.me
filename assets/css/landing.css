@@ -1,0 +1,129 @@
+/* ================================================
+   Komponenty podstron landingowych (.landing)
+   Styl Slate & Ember, te same kolory co tokens.css.
+   Wszystko jest zawężone do .landing, żeby nie ruszać
+   reszty bloga. Zasady i lista komponentów: CLAUDE.md.
+   ================================================ */
+
+.landing {
+  --bg: #ffffff;
+  --surface: #f5f5f4;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --line: #e7e5e4;
+  --block: #1e2a3a;
+  --block-text: #f0ede6;
+  --accent: #c2400c;
+  --accent-subtle: #fff7ed;
+  --on-accent: #ffffff;
+  --display: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+.landing *, .landing *::before, .landing *::after { box-sizing: border-box; }
+.landing { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 var(--body); }
+.landing .wrap { max-width: 1152px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.landing a { color: inherit; }
+.landing a:focus-visible, .landing .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.landing h1, .landing h2, .landing h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+.landing h1 em, .landing h2 em { font-style: normal; color: var(--accent); }
+.landing .framed { position: relative; }
+.landing .framed::before { content: ""; position: absolute; inset: -18px; pointer-events: none; --c: var(--accent); --l: 34px; --w: 3px; background: linear-gradient(var(--c), var(--c)) top left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) top right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top right / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom right / var(--w) var(--l); background-repeat: no-repeat; }
+.landing .eyebrow, .landing .tag { display: inline-block; font: 700 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); background: var(--accent-subtle); padding: 8px 14px; }
+.landing .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; margin-block: 56px 64px; padding: 24px 8px; }
+.landing .hero > * { min-width: 0; }
+.landing .block { background: var(--block); color: var(--block-text); padding: clamp(24px, 4vw, 44px); margin-top: 24px; }
+.landing .hero h1 { font-size: clamp(30px, 4.4vw, 52px); line-height: 1.2; }
+.landing .lead { font-size: 18px; color: var(--muted); max-width: 34em; margin: 26px 0 28px; }
+.landing .lead strong { color: var(--ink); font-weight: 600; }
+.landing .ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.landing .btn { display: inline-block; text-decoration: none; font: 700 15px/1 var(--mono); padding: 15px 22px; border: 1.5px solid var(--ink); }
+.landing .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.landing .btn-ghost { color: var(--ink); }
+.landing .btn:hover { transform: translateY(-1px); }
+.landing section { padding-block: 64px; border-top: 1px solid var(--line); }
+.landing .sec-head { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; margin-bottom: 36px; }
+.landing .sec-head > * { min-width: 0; }
+.landing .sec-head h2 { font-size: clamp(26px, 3vw, 36px); line-height: 1.2; }
+.landing .sec-head p { color: var(--muted); margin: 0; max-width: 36em; }
+.landing .symptoms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.landing .symptoms li { background: var(--bg); border: 1.5px dashed var(--muted); padding: 24px; min-width: 0; }
+.landing .symptoms q { display: block; font: 700 18px/1.35 var(--display); quotes: "„" "”"; margin-bottom: 10px; }
+.landing .symptoms span { color: var(--muted); font-size: 15px; }
+.landing .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: s; }
+.landing .steps li { background: var(--surface); border: 1.5px solid var(--ink); padding: 24px; min-width: 0; counter-increment: s; }
+.landing .steps li::before { content: "0" counter(s); display: block; font: 700 14px var(--mono); color: var(--accent); letter-spacing: .1em; margin-bottom: 14px; }
+.landing .steps h3 { font-size: 20px; margin-bottom: 8px; }
+.landing .steps p { margin: 0; color: var(--muted); font-size: 15.5px; }
+.landing .posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.landing .post { background: var(--bg); border: 1.5px solid var(--line); padding: 22px; text-decoration: none; display: flex; flex-direction: column; gap: 10px; min-width: 0; transition: border-color .15s; }
+.landing .post:hover { border-color: var(--accent); }
+.landing .post h3 { font-size: 17px; line-height: 1.35; }
+.landing .post p { margin: 0; color: var(--muted); font-size: 15px; flex: 1; }
+.landing .post .meta { align-self: flex-start; font: 700 11px var(--mono); color: var(--accent); background: var(--accent-subtle); padding: 5px 9px; text-transform: uppercase; letter-spacing: .1em; }
+.landing .about { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: start; max-width: 760px; }
+.landing .avatar { width: 120px; height: 120px; object-fit: cover; display: block; border: 3px solid var(--accent); }
+.landing .about h2 { font-size: 26px; }
+.landing .about .role { font: 400 13px var(--mono); color: var(--muted); margin: 6px 0 14px; text-transform: uppercase; letter-spacing: .09em; }
+.landing .about p { margin: 0 0 12px; max-width: 36em; }
+.landing .final { background: var(--block); color: var(--block-text); padding: 48px; margin-block: 24px 72px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; }
+.landing .final > * { min-width: 0; }
+.landing .final h2 { font-size: clamp(22px, 2.8vw, 32px); line-height: 1.3; }
+.landing .final p { margin: 14px 0 0; opacity: .8; }
+.landing .final .btn { background: var(--accent); color: var(--on-accent); border-color: var(--accent); justify-self: start; }
+.landing .inline-cta { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; border: 1.5px solid var(--ink); background: var(--surface); }
+.landing .inline-cta p { margin: 0; font: 700 18px/1.3 var(--display); min-width: 0; }
+@media (max-width: 880px) {
+  .landing .hero, .landing .sec-head, .landing .final { grid-template-columns: 1fr; gap: 28px; }
+  .landing .symptoms, .landing .posts, .landing .steps { grid-template-columns: 1fr; }
+  .landing .hero { margin-block: 40px; }
+  .landing .final { padding: 28px; }
+}
+@media (max-width: 480px) {
+  .landing .about { grid-template-columns: 1fr; }
+  .landing .framed::before { inset: -10px; --l: 24px; }
+}
+
+
+/* Wyłączenie domyślnych stylów treści z motywu (.page__content) */
+.landing h1, .landing h2, .landing h3 { border-bottom: 0; padding-bottom: 0; color: inherit; }
+.landing li { margin: 0; }
+.landing blockquote { font-style: normal; }
+.landing .btn { border-radius: 0; text-align: center; box-shadow: none; }
+.landing .btn:hover { opacity: 1; }
+
+/* Elementy tylko strony /zajety-zespol/ */
+.landing .day { background: var(--bg); border: 1.5px solid var(--ink); padding: 18px; }
+.landing .day-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; font-family: var(--mono); }
+.landing .day-head span { font: 400 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
+.landing .cal { display: grid; grid-template-columns: 40px 1fr 1fr; grid-template-rows: repeat(16, 22px); column-gap: 6px; row-gap: 2px; position: relative; }
+.landing .cal .t { grid-column: 1; font: 400 10.5px/22px var(--mono); color: var(--muted); }
+.landing .ev { padding: 3px 7px; font: 400 11px/1.25 var(--mono); overflow: hidden; min-width: 0; background: var(--surface); color: var(--ink); border: 1px dashed var(--muted); }
+.landing .ev.work { background: var(--accent); color: var(--on-accent); border: 1px solid var(--accent); font-weight: 700; }
+.landing .ev.urgent { border: 1.5px solid var(--ink); font-weight: 700; }
+.landing .ping { position: absolute; right: 0; display: inline-flex; align-items: center; gap: 4px; font: 700 10px/1 var(--mono); color: var(--block-text); background: var(--block); padding: 4px 7px; white-space: nowrap; }
+.landing .day-foot { margin-top: 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; border-top: 1px solid var(--line); padding-top: 12px; }
+.landing .day-foot div { font: 400 11px/1.3 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.landing .day-foot b { display: block; font: 700 28px/1.1 var(--display); color: var(--ink); }
+.landing .day-foot .zero b { color: var(--accent); }
+.landing .flow { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; align-items: center; }
+.landing .flow > * { min-width: 0; }
+.landing .big { font: 700 clamp(56px, 8vw, 100px)/1 var(--display); letter-spacing: -0.06em; margin-top: 18px; white-space: nowrap; }
+.landing .big small { font-size: 0.28em; letter-spacing: 0; font-weight: 400; letter-spacing: 0; color: var(--muted); }
+.landing .bar { display: flex; height: 34px; overflow: hidden; margin: 22px 0 10px; border: 1.5px solid var(--ink); }
+.landing .bar i { display: block; }
+.landing .bar .work { width: 0.67%; min-width: 5px; background: var(--accent); }
+.landing .bar .wait { flex: 1; background: repeating-linear-gradient(135deg, var(--line) 0 8px, var(--bg) 8px 16px); }
+.landing .bar-legend { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font: 400 13px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
+.landing .bar-legend span:first-child { color: var(--accent); font-weight: 700; }
+.landing .flow blockquote { margin: 0; background: var(--block); color: var(--block-text); font: 700 20px/1.5 var(--display); padding: 28px 32px; border-left: 4px solid var(--accent); }
+.landing .flow p { color: var(--muted); margin: 18px 0 0; }
+@media (max-width: 880px) {
+  .landing .flow { grid-template-columns: 1fr; gap: 28px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .landing .ping { animation: pop 2.4s ease-in-out infinite; }
+  .landing .ping:nth-of-type(2n) { animation-delay: .8s; }
+  .landing .ping:nth-of-type(3n) { animation-delay: 1.6s; }
+  @keyframes pop { 0%, 80%, 100% { transform: scale(1); } 88% { transform: scale(1.12); } }
+}
