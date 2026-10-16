@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dlaczego zespół jest zajęty, a nic nie wychodzi? | Tomasz Żelezny</title>
+<meta name="description" content="Zespół jest zajęty po łokcie, a efektów nie widać? Gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę. Tomasz Żelezny, Scrum Master i Agile Coach.">
+<link rel="canonical" href="https://tomaszzelezny.me/zajety-zespol/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="Dlaczego zespół jest zajęty, a nic nie wychodzi?">
+<meta property="og:description" content="Zespół jest zajęty po łokcie, a efektów nie widać? Gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę. Tomasz Żelezny, Scrum Master i Agile Coach.">
+<meta property="og:url" content="https://tomaszzelezny.me/zajety-zespol/">
+<meta property="og:image" content="https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg">
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<!-- Self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<style>
+/* Layout: hero = teza + zapchany dzień jednej osoby; dalej objawy, liczba, jak pomagam, wpisy, autor, kontakt */
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --ink: #17202b;
+  --muted: #586474;
+  --line: #d4dae2;
+  --focus: #f5d547;       /* jedyny kawałek prawdziwej pracy */
+  --focus-ink: #2b2405;
+  --alert: #c2410c;
+  --meet: #dfe4eb;
+  --meet-ink: #2e3a48;
+  --display: "Inter", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161d; --surface: #1a212b; --ink: #e8edf3; --muted: #9aa6b5; --line: #2c3643;
+    --focus: #e9c93a; --focus-ink: #231d03; --alert: #fb8a4c; --meet: #263040; --meet-ink: #cdd6e2;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161d; --surface: #1a212b; --ink: #e8edf3; --muted: #9aa6b5; --line: #2c3643;
+  --focus: #e9c93a; --focus-ink: #231d03; --alert: #fb8a4c; --meet: #263040; --meet-ink: #cdd6e2;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg); color: var(--ink);
+  font: 400 17px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1120px; margin: 0 auto; }
+a { color: inherit; }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: -0.02em; }
+.eyebrow { font: 500 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); }
+
+/* HERO */
+.hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; padding-block: 72px 64px; }
+.hero > * { min-width: 0; }
+.hero h1 { font-size: clamp(36px, 5.4vw, 64px); line-height: 1.02; font-weight: 700; margin-top: 14px; }
+.hero h1 mark { background: linear-gradient(transparent 58%, var(--focus) 58%); color: inherit; padding: 0 2px; }
+.lead { font-size: 19px; color: var(--muted); max-width: 34em; margin: 22px 0 30px; }
+.lead strong { color: var(--ink); font-weight: 600; }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-block; text-decoration: none; font-weight: 600; padding: 13px 22px; border-radius: 6px; border: 2px solid var(--ink); }
+.btn-primary { background: var(--ink); color: var(--bg); }
+.btn-ghost { color: var(--ink); }
+.btn:hover { transform: translateY(-1px); }
+
+/* DZIEŃ */
+.day { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; box-shadow: 0 18px 40px -24px rgba(10,20,40,.35); }
+.day-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.day-head span { font: 500 12px var(--mono); color: var(--muted); }
+.cal { display: grid; grid-template-columns: 40px 1fr 1fr; grid-template-rows: repeat(16, 22px); column-gap: 6px; row-gap: 2px; position: relative; }
+.cal .t { grid-column: 1; font: 400 10.5px/22px var(--mono); color: var(--muted); }
+.ev { border-radius: 4px; padding: 3px 7px; font-size: 11.5px; line-height: 1.25; overflow: hidden; min-width: 0; background: var(--meet); color: var(--meet-ink); border-left: 3px solid var(--muted); }
+.ev.work { background: var(--focus); color: var(--focus-ink); border-left-color: var(--focus-ink); font-weight: 600; }
+.ev.urgent { border-left-color: var(--alert); }
+.ping { position: absolute; right: 0; display: inline-flex; align-items: center; gap: 4px; font: 500 10px/1 var(--mono); color: var(--surface); background: var(--alert); padding: 3px 6px; border-radius: 10px; white-space: nowrap; }
+.day-foot { margin-top: 14px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; border-top: 1px solid var(--line); padding-top: 12px; }
+.day-foot div { font: 400 11px/1.3 var(--mono); color: var(--muted); }
+.day-foot b { display: block; font: 700 26px/1.1 var(--display); color: var(--ink); }
+.day-foot .zero b { color: var(--alert); }
+
+/* SEKCJE */
+section { padding-block: 64px; border-top: 1px solid var(--line); }
+.sec-head { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; margin-bottom: 36px; }
+.sec-head > * { min-width: 0; }
+.sec-head h2 { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; font-weight: 700; }
+.sec-head p { color: var(--muted); margin: 0; max-width: 36em; }
+
+.symptoms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.symptoms li { background: var(--surface); padding: 24px; min-width: 0; }
+.symptoms q { display: block; font: 700 21px/1.25 var(--display); quotes: "„" "”"; margin-bottom: 10px; }
+.symptoms span { color: var(--muted); font-size: 15px; }
+
+/* LICZBA */
+.flow { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; align-items: center; }
+.flow > * { min-width: 0; }
+.big { font: 700 clamp(64px, 11vw, 132px)/0.9 var(--display); letter-spacing: -0.03em; }
+.big small { font-size: 0.32em; font-weight: 500; letter-spacing: 0; color: var(--muted); }
+.bar { display: flex; height: 34px; border-radius: 4px; overflow: hidden; margin: 22px 0 10px; border: 1px solid var(--line); }
+.bar i { display: block; }
+.bar .work { width: 0.67%; min-width: 4px; background: var(--focus); }
+.bar .wait { flex: 1; background: repeating-linear-gradient(135deg, var(--meet) 0 8px, var(--surface) 8px 16px); }
+.bar-legend { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font: 400 13px var(--mono); color: var(--muted); }
+.flow blockquote { margin: 0; font-size: 20px; line-height: 1.5; }
+.flow p { color: var(--muted); margin: 16px 0 0; }
+
+/* JAK POMAGAM */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; counter-reset: s; }
+.steps li { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 24px; min-width: 0; counter-increment: s; }
+.steps li::before { content: counter(s); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--focus); color: var(--focus-ink); font: 700 15px var(--display); margin-bottom: 14px; }
+.steps h3 { font-size: 21px; margin-bottom: 8px; }
+.steps p { margin: 0; color: var(--muted); font-size: 15.5px; }
+
+/* WPISY */
+.posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.post { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 22px; text-decoration: none; display: flex; flex-direction: column; gap: 10px; min-width: 0; transition: border-color .15s; }
+.post:hover { border-color: var(--ink); }
+.post h3 { font-size: 20px; line-height: 1.2; font-weight: 700; }
+.post p { margin: 0; color: var(--muted); font-size: 15px; flex: 1; }
+.post .meta { font: 400 12px var(--mono); color: var(--muted); }
+
+/* AUTOR + CTA */
+.about { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: start; max-width: 760px; }
+.avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; display: block; border: 3px solid var(--focus); }
+.about h2 { font-size: 30px; }
+.about .role { font: 500 13px var(--mono); color: var(--muted); margin: 6px 0 14px; }
+.about p { margin: 0 0 12px; max-width: 36em; }
+
+.final { background: var(--ink); color: var(--bg); border-radius: 12px; padding: 48px; margin-block: 0 72px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; }
+.final > * { min-width: 0; }
+.final h2 { font-size: clamp(26px, 3.2vw, 38px); line-height: 1.1; }
+.final p { margin: 12px 0 0; opacity: .8; }
+.final .btn { background: var(--focus); color: var(--focus-ink); border-color: var(--focus); justify-self: start; }
+
+.inline-cta { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; border: 2px solid var(--ink); border-radius: 8px; background: var(--surface); }
+.inline-cta p { margin: 0; font: 700 20px/1.3 var(--display); min-width: 0; }
+
+footer { padding-block: 0 40px; font: 400 13px var(--mono); color: var(--muted); }
+
+@media (max-width: 880px) {
+  .hero, .sec-head, .flow, .final { grid-template-columns: 1fr; gap: 28px; }
+  .symptoms, .posts, .steps { grid-template-columns: 1fr; }
+  .hero { padding-block: 40px; }
+  .final { padding: 28px; }
+}
+@media (max-width: 480px) {
+  .about { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .ping { animation: pop 2.4s ease-in-out infinite; }
+  .ping:nth-of-type(2n) { animation-delay: .8s; }
+  .ping:nth-of-type(3n) { animation-delay: 1.6s; }
+  @keyframes pop { 0%, 80%, 100% { transform: scale(1); } 88% { transform: scale(1.12); } }
+}
+</style>
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <div class="eyebrow">Tomasz Żelezny · Scrum Master · Agile Coach</div>
+      <h1>Dlaczego zespół jest zajęty, a <mark>nic nie wychodzi</mark>?</h1>
+      <p class="lead">Ludzie są zajęci po łokcie. Kalendarze pękają, wszyscy gaszą pożary, nikt nie ma czasu złapać oddechu. A klient dalej czeka. <strong>Pomagam znaleźć, gdzie ucieka ten wysiłek, i zamienić zajętość w skończoną pracę.</strong></p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/tomasz-zelezny/" target="_blank" rel="noopener">Porozmawiajmy</a>
+        <a class="btn btn-ghost" href="#jak">Jak pomagam</a>
+      </div>
+    </div>
+
+    <div class="day" aria-label="Przykładowy dzień osoby z zespołu: sześć spotkań, jedenaście przerwań, nic nie dokończone">
+      <div class="day-head"><strong>Wtorek, jeden człowiek</strong><span>przykład</span></div>
+      <div class="cal">
+        <span class="t" style="grid-row:1">9:00</span>
+        <span class="t" style="grid-row:3">10:00</span>
+        <span class="t" style="grid-row:5">11:00</span>
+        <span class="t" style="grid-row:7">12:00</span>
+        <span class="t" style="grid-row:9">13:00</span>
+        <span class="t" style="grid-row:11">14:00</span>
+        <span class="t" style="grid-row:13">15:00</span>
+        <span class="t" style="grid-row:15">16:00</span>
+
+        <div class="ev" style="grid-column:2/4;grid-row:1">Daily</div>
+        <div class="ev urgent" style="grid-column:2;grid-row:2/4">Pilne: klient dzwoni</div>
+        <div class="ev" style="grid-column:3;grid-row:2/4">Status dla zarządu</div>
+        <div class="ev" style="grid-column:2/4;grid-row:4/6">Spotkanie: priorytety Q4</div>
+        <div class="ev work" style="grid-column:2/4;grid-row:6">Praca nad zadaniem · 30 min</div>
+        <div class="ev" style="grid-column:2;grid-row:7/9">Lunch przy biurku</div>
+        <div class="ev" style="grid-column:3;grid-row:7/9">„Szybka synchronizacja”</div>
+        <div class="ev urgent" style="grid-column:2/4;grid-row:9/11">Eskalacja z innego projektu</div>
+        <div class="ev" style="grid-column:2;grid-row:11/13">Przegląd wymagań</div>
+        <div class="ev" style="grid-column:3;grid-row:11/14">Rekrutacja</div>
+        <div class="ev" style="grid-column:2;grid-row:13/15">Odpisywanie na maile</div>
+        <div class="ev urgent" style="grid-column:2/4;grid-row:15/17">Raport na jutro rano</div>
+
+        <span class="ping" style="top:30px">Masz chwilę?</span>
+        <span class="ping" style="top:118px">3 nowe wiadomości</span>
+        <span class="ping" style="top:212px">Możesz zerknąć?</span>
+        <span class="ping" style="top:300px">Pilne!</span>
+      </div>
+      <div class="day-foot">
+        <div><b>6</b>spotkań</div>
+        <div><b>11</b>przerwań</div>
+        <div class="zero"><b>0</b>dokończonych</div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>Brzmi znajomo?</h2>
+      <p>Te zdania padają w wielu zespołach IT. Za każdym stoi przyczyna, której nie widać w raportach.</p>
+    </div>
+    <ul class="symptoms">
+      <li><q>Nie mam kiedy pracować, mam spotkania</q><span>Dzień rozbity na kawałki po 30 minut. Na myślenie nie zostaje ani jeden.</span></li>
+      <li><q>Wszystko jest prawie gotowe</q><span>Dużo zaczętego, mało skończonego. Zajętość wygląda jak postęp, ale nim nie jest.</span></li>
+      <li><q>Jedziemy na 120%</q><span>Wszyscy pracują ponad siły, a terminy i tak się przesuwają. Więcej wysiłku nie pomaga.</span></li>
+      <li><q>Czekamy na decyzję</q><span>Jedna osoba ma kalendarz, od którego zależą trzy zespoły. Gdy jej nie ma, nic nie rusza.</span></li>
+      <li><q>Proces działa, nie ruszajcie go</q><span>Działa, bo kilka osób po cichu go obchodzi, żeby cokolwiek dowieźć.</span></li>
+      <li><q>Zrobiłem to, ale nikt nie używa</q><span>Praca, o której zapomniano. Kosztowała tyle samo co ta, która dała efekt.</span></li>
+    </ul>
+    <div class="inline-cta">
+      <p>Rozpoznajesz swój zespół?</p>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/tomasz-zelezny/" target="_blank" rel="noopener">Porozmawiajmy</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="flow">
+      <div>
+        <div class="eyebrow">Typowe zadanie</div>
+        <div class="big">4 h <small>z 25 dni</small></div>
+        <div class="bar" role="img" aria-label="Około 4 godziny pracy na 25 dni czekania"><i class="work"></i><i class="wait"></i></div>
+        <div class="bar-legend"><span>praca</span><span>czekanie</span></div>
+      </div>
+      <div>
+        <blockquote>„Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała.”</blockquote>
+        <p>Ludzie byli przez ten czas zajęci. Tylko nie tym zadaniem. Problem nie leży w tym, że ktoś pracuje za mało.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="jak">
+    <div class="sec-head">
+      <h2>Jak mogę pomóc</h2>
+      <p>Nie przychodzę z gotowym frameworkiem do wdrożenia. Zaczynam od tego, jak u Was naprawdę płynie praca.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Rozmowa</h3><p>Opowiadasz, gdzie boli. Po godzinie wiemy, czy problemem jest nadmiar pracy, czekanie, decyzje czy coś zupełnie innego.</p></li>
+      <li><h3>Diagnoza</h3><p>Patrzę na to, jak zespół pracuje na co dzień: skąd przychodzą zadania, gdzie stoją i kto na co czeka.</p></li>
+      <li><h3>Zmiany z zespołem</h3><p>Wybieramy kilka zmian, które da się zrobić od razu, i sprawdzamy, czy działają. Bez rewolucji.</p></li>
+    </ol>
+    <div class="inline-cta">
+      <p>Pierwszy krok to rozmowa.</p>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/tomasz-zelezny/" target="_blank" rel="noopener">Napisz do mnie</a>
+    </div>
+  </section>
+
+  <section id="wpisy">
+    <div class="sec-head">
+      <h2>Jak o tym myślę</h2>
+      <p>Kilka moich tekstów o tym, gdzie znika wysiłek zespołów. Opisuję w nich wzorce, które powtarzają się w wielu firmach.</p>
+    </div>
+    <div class="posts">
+      <a class="post" href="https://www.linkedin.com/posts/tomasz-zelezny_zaj%C4%99to%C5%9B%C4%87-%C5%82atwo-wyprodukowa%C4%87-w-kosztach-firmy-share-7495528856813096960-sE0X" target="_blank" rel="noopener">
+        <h3>Ten o zajętości, która udaje postęp</h3>
+        <p>Dziś koszt zajętości jest taki sam jak postępu. Różnica jest w wynikach.</p>
+        <span class="meta">Zajętość</span>
+      </a>
+      <a class="post" href="https://lnkd.in/p/dBbTY4P6" target="_blank" rel="noopener">
+        <h3>Ten o pracy, która czeka</h3>
+        <p>Ile z tych 25 dni ktoś przy zadaniu faktycznie siedział?</p>
+        <span class="meta">Czekanie</span>
+      </a>
+      <a class="post" href="https://lnkd.in/p/d27N_VUu" target="_blank" rel="noopener">
+        <h3>Ten o kalendarzu jednej osoby</h3>
+        <p>Kto u Was decyduje, kiedy Ciebie nie ma?</p>
+        <span class="meta">Decyzje</span>
+      </a>
+      <a class="post" href="https://lnkd.in/p/eDK7aygk" target="_blank" rel="noopener">
+        <h3>Ten o ludziach, którzy po cichu łamią proces</h3>
+        <p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
+        <span class="meta">Proces</span>
+      </a>
+      <a class="post" href="https://lnkd.in/p/evvti4jK" target="_blank" rel="noopener">
+        <h3>Ten o zapomnianej pracy</h3>
+        <p>Zrobiłem coś, czego pewnie nikt nie użyje.</p>
+        <span class="meta">Wartość</span>
+      </a>
+      <a class="post" href="https://lnkd.in/p/dHYCqkc2" target="_blank" rel="noopener">
+        <h3>Ten o szarej strefie</h3>
+        <p>Shadow IT zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają firmowe narzędzia.</p>
+        <span class="meta">Organizacja</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="about">
+      <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="Tomasz Żelezny" width="120" height="120">
+      <div>
+        <h2>Tomasz Żelezny</h2>
+        <div class="role">Scrum Master · Agile Coach</div>
+        <p>Organizacje to systemy, a nie silosy. Łączę IT, biznes i produkty w spójną całość.</p>
+        <p>Pracuję z zespołami, które robią bardzo dużo, a mimo to nie widzą efektów swojej pracy. Pomagam im zobaczyć, gdzie ucieka czas, i odzyskać go na pracę, która coś zmienia.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="final">
+    <div>
+      <h2>Twój zespół też jest zajęty po łokcie, a efektów nie widać?</h2>
+      <p>Napisz na LinkedInie. Zacznijmy od rozmowy.</p>
+    </div>
+    <a class="btn" href="https://www.linkedin.com/in/tomasz-zelezny/" target="_blank" rel="noopener">Napisz do mnie</a>
+  </div>
+
+  <footer>© 2026 Tomasz Żelezny · <a href="/">tomaszzelezny.me</a> · <a href="/blog/">Blog</a></footer>
+</div>
+
+</body>
+</html>
