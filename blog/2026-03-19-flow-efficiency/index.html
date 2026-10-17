@@ -30,6 +30,8 @@
 
 
 
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg">
+
 
 
 
@@ -51,8 +53,9 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
-      "url": "https://tomaszzelezny.me/"
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
     
   }
 </script>
@@ -98,24 +101,42 @@
 <!-- Komponenty podstron landingowych (.landing) -->
 <link rel="stylesheet" href="/assets/css/landing.css">
 
-<!-- Canonical URL for better indexing -->
-<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/" />
-
-<!-- Person Schema (JSON-LD) for better SEO -->
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
   "name": "Tomasz Żelezny",
-  "url": "https://tomaszzelezny.me",
+  "url": "https://tomaszzelezny.me/",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "description": "Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?",
   "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
   "sameAs": [
     "https://www.linkedin.com/in/tomasz-zelezny/"
   ]
 }
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ten o pracy, która czeka",
+  "description": "Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała.",
+  "url": "https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/",
+  "datePublished": "2026-03-19T00:00:00+00:00",
+  "dateModified": "2026-03-19T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie projektami",
+  "keywords": "Lean, flow efficiency, value stream",
+  "wordCount": 363
+}
 </script>
+
 
 <!-- Analytics -->
 
