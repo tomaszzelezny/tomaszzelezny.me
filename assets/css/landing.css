@@ -15,6 +15,7 @@
   --block-text: #f0ede6;
   --accent: #c2400c;
   --accent-subtle: #fff7ed;
+  --accent-on-block: #f97316; /* akcent na granatowym bloku: #c2400c ma tu za słaby kontrast (2,8:1) */
   --on-accent: #ffffff;
   --display: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --body: "Inter", "Helvetica Neue", Arial, sans-serif;
@@ -27,6 +28,7 @@
 .landing a:focus-visible, .landing .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .landing h1, .landing h2, .landing h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
 .landing h1 em, .landing h2 em { font-style: normal; color: var(--accent); }
+.landing .block em, .landing .final em { color: var(--accent-on-block); }
 .landing .framed { position: relative; }
 .landing .framed::before { content: ""; position: absolute; inset: -18px; pointer-events: none; --c: var(--accent); --l: 34px; --w: 3px; background: linear-gradient(var(--c), var(--c)) top left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) top right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top right / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom right / var(--w) var(--l); background-repeat: no-repeat; }
 .landing .eyebrow, .landing .tag { display: inline-block; font: 700 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); background: var(--accent-subtle); padding: 8px 14px; }

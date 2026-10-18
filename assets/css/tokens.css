@@ -15,6 +15,7 @@
   --color-block-text:     #F0EDE6;  /* tekst na bloku --color-block       */
   --color-accent:         #C2400C;  /* narożniki, tagi, akcent w cytacie  */
   --color-accent-subtle:  #FFF7ED;  /* tło tagów, etykiet                 */
+  --color-accent-on-block: #F97316; /* akcent na --color-block (kontrast) */
 
   /* Typografia */
   --font-primary:         'Space Mono', monospace;
