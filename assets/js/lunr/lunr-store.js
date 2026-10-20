@@ -226,4 +226,10 @@ var store = [{
         "tags": ["decyzje","przepływ pracy","przywództwo"],
         "url": "/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/",
         "teaser": null
+      },{
+        "title": "Ten o miesiącu opóźnienia",
+        "excerpt":"Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia? Don Reinertsen pisze o koszcie opóźnienia od 1983 roku. W swojej książce zauważa, że kiedy pyta osoby rozwijające produkty, o ile spadnie zysk z produktu przez tydzień opóźnienia, zwykle nie znają odpowiedzi. Według jego obserwacji zna ją tylko 15% z nich....","categories": ["Zarządzanie produktem"],
+        "tags": ["koszt opóźnienia","przepływ pracy","priorytety"],
+        "url": "/blog/2026-10-20-ten-o-miesiacu-opoznienia/",
+        "teaser": null
       }]

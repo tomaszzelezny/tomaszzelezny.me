@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Ten o miesiącu opóźnienia](https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/): Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?
 - [Ten o kalendarzu jednej osoby](https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/): Kto u Was decyduje, kiedy Ciebie nie ma?
 - [Ten o szarej strefie](https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/): Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.
 - [Ten o iteracji starszej niż jej nazwa](https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/): Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.
