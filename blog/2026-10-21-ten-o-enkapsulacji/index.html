@@ -1,0 +1,296 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Ten o enkapsulacji - Tomasz Żelezny</title>
+<meta name="description" content="W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Ten o enkapsulacji">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/">
+
+
+  <meta property="og:description" content="W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/enkapsulacja-rozmowy.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-10-21T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Scrum Master · Agile Coach. Organizacje to systemy - nie silosy. Łączę IT, biznes i produkty w spójną całość. Jak mogę pomóc?",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ten o enkapsulacji",
+  "description": "W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.",
+  "url": "https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/",
+  "datePublished": "2026-10-21T00:00:00+00:00",
+  "dateModified": "2026-10-21T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/enkapsulacja-rozmowy.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie produktem",
+  "keywords": "enkapsulacja, organizacja, zależności między zespołami, skalowanie",
+  "wordCount": 341
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zajety-zespol/">Współpraca</a>
+            </li><li class="masthead__menu-item">
+              <a href="/o-mnie/">O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
+        <span><time class="dt-published" datetime="2026-10-21T00:00:00+00:00">21.10.2026</time> · 3 min czytania</span></p>
+      <h1 class="p-name">Ten o <em>enkapsulacji</em></h1><p class="lead p-summary">W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.</p>
+    </header>
+    <div class="prose e-content">
+      <p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie.</p>
+
+<p>Weźmy zespoły podzielone według domen biznesowych. Dopóki zmiana mieści się w jednej domenie, wszystko działa. Teraz zmiana przekrojowa: firmy mają kupować na fakturę z NIP. Każdy zespół musi coś dołożyć:</p>
+
+<ul>
+  <li><strong>Konto klienta:</strong> dane firmy przy profilu.</li>
+  <li><strong>Cennik:</strong> ceny netto obok brutto.</li>
+  <li><strong>Koszyk:</strong> pole NIP i jego walidacja.</li>
+  <li><strong>Zamówienia:</strong> nowy typ klienta, firma zamiast osoby.</li>
+  <li><strong>Faktury:</strong> faktura VAT na firmę zamiast paragonu.</li>
+</ul>
+
+<p>Żeby wprowadzić tę zmianę, muszę porozmawiać z każdym z tych zespołów osobno.</p>
+
+<p><img src="/assets/images/enkapsulacja-rozmowy.webp" alt="System chowa złożoność, organizacja ją wystawia: w organizacji zmiana przekrojowa wymaga osobnych rozmów z zespołami konta klienta, cennika, koszyka, zamówień i faktur. W systemie jeden interfejs, a moduły zostają w środku. Dlaczego w organizacji jest inaczej?" /></p>
+
+<p>I każda z tych rozmów jest trochę inna. Jeden zespół chce zgłoszenia w swoim backlogu, drugi zaprasza na refinement, trzeci pyta, dlaczego ma to być ważniejsze od jego celów na kwartał. Za każdym razem tłumaczę kontekst od początku, bo nikt poza mną nie widzi całej zmiany. Ustalenia z jednym zespołem zmieniają to, o co muszę poprosić kolejny, więc część rozmów odbywam dwa razy.</p>
+
+<p>Samo napisanie kodu to może kilka dni. Rozmowy, notatki, uzgadnianie wymagań i pilnowanie, żeby wszyscy mieli tę samą wersję, kosztują więcej niż kod. Ten wysiłek nie trafia na żadną tablicę i nikt go nie mierzy.</p>
+
+<p>W kodzie nazwalibyśmy to wyciekającą abstrakcją. Żeby coś zrobić, muszę znać wewnętrzną budowę organizacji: kto za co odpowiada, z kim i w jakiej formie rozmawiać, czyj priorytet jest ważniejszy. Ta wiedza nie ma nic wspólnego z problemem klienta.</p>
+
+<p>W środowisku skalowanym rozmów przybywa szybciej niż zespołów. Frameworki skalowania dokładają kolejne warstwy synchronizacji: wspólne planowanie, tablice zależności, spotkania koordynacyjne. Zależności lepiej widać, ale ktoś nadal musi je przegadać jedna po drugiej.</p>
+
+<p>W dobrze zaprojektowanym systemie złożoność zostaje w środku i nie wycieka do tego, kto z niego korzysta. Wywołuję jeden interfejs i nie muszę wiedzieć, ile modułów pracuje po drugiej stronie.</p>
+
+<p>Dlaczego więc w strukturze organizacji jest inaczej?</p>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/djeEttuP">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>enkapsulacja</li><li>organizacja</li><li>zależności między zespołami</li><li>skalowanie</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-10-20-ten-o-miesiacu-opoznienia/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o miesiącu opóźnienia</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Zespół jest zajęty, a klient dalej czeka?</p>
+    <a class="btn btn-primary" href="/zajety-zespol/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

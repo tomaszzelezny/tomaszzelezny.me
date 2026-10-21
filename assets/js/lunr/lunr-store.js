@@ -232,4 +232,10 @@ var store = [{
         "tags": ["koszt opóźnienia","przepływ pracy","priorytety"],
         "url": "/blog/2026-10-20-ten-o-miesiacu-opoznienia/",
         "teaser": null
+      },{
+        "title": "Ten o enkapsulacji",
+        "excerpt":"W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie....","categories": ["Zarządzanie produktem"],
+        "tags": ["enkapsulacja","organizacja","zależności między zespołami","skalowanie"],
+        "url": "/blog/2026-10-21-ten-o-enkapsulacji/",
+        "teaser": null
       }]
