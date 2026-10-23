@@ -78,6 +78,18 @@
 .landing .sec-head a, .landing .about a { color: var(--accent); font-weight: 600; }
 .landing .portrait { margin: 0; justify-self: center; max-width: 300px; width: 100%; }
 .landing .portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border: 1.5px solid var(--ink); }
+/* Na komputerze zdjęcie ma wysokość granatowego bloku: elementy lewej kolumny stają się wierszami siatki, blok i zdjęcie zajmują wiersz 2 (wiersz 1 to etykieta albo pusty wiersz) */
+@media (min-width: 881px) {
+  .landing .hero.framed:has(> .portrait) { row-gap: 0; align-items: start; }
+  .landing .hero.framed:has(> .portrait) > div:first-child { display: contents; }
+  .landing .hero.framed:has(> .portrait) > div:first-child > * { grid-column: 1; }
+  .landing .hero.framed:has(> .portrait) .tag { justify-self: start; margin-bottom: 24px; }
+  .landing .hero.framed:has(> .portrait) .block { grid-row: 2; margin-top: 0; }
+  .landing .hero.framed:has(> .portrait) .lead { grid-row: 3; }
+  .landing .hero.framed:has(> .portrait) .ctas { grid-row: 4; }
+  .landing .hero.framed .portrait { grid-column: 2; grid-row: 2; align-self: stretch; display: flex; justify-content: center; }
+  .landing .hero.framed .portrait img { height: 100%; aspect-ratio: auto; max-width: 300px; }
+}
 .landing .portrait figcaption { margin-top: 12px; font: 400 12px/1.4 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; text-align: center; }
 @media (max-width: 880px) {
   .landing .hero, .landing .sec-head, .landing .final { grid-template-columns: 1fr; gap: 28px; }
@@ -98,6 +110,13 @@
 .landing li { margin: 0; }
 .landing blockquote { font-style: normal; }
 .landing .btn { border-radius: 0; text-align: center; box-shadow: none; }
+/* custom.css zmienia każde h2 w .page__content w małą rdzawą etykietę (z !important) */
+.landing h2 { border-top: 0 !important; padding-top: 0; text-transform: none; }
+.landing .sec-head h2 { font-size: clamp(26px, 3vw, 36px) !important; }
+.landing .about h2 { font-size: 26px !important; }
+.landing .final h2 { font-size: clamp(22px, 2.8vw, 32px) !important; }
+.landing .prose h2 { font-size: clamp(22px, 2.6vw, 28px) !important; }
+.landing .index-year { font-size: 14px !important; }
 .landing .btn:hover { opacity: 1; }
 
 /* Elementy tylko strony /zajety-zespol/ */
