@@ -8,7 +8,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 - [Strona główna](https://tomaszzelezny.me/): kim jestem i jak mogę pomóc
 - [O mnie](https://tomaszzelezny.me/o-mnie/): doświadczenie i podejście do pracy
-- [Dlaczego zespół jest zajęty, a klient dalej czeka?](https://tomaszzelezny.me/zajety-zespol/): gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę
+- [Dlaczego zespół jest zajęty, a klient dalej czeka?](https://tomaszzelezny.me/twoj-zespol-moze-wiecej/): gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę
 - [Blog](https://tomaszzelezny.me/blog/): lista wszystkich wpisów
 
 ## Wpisy

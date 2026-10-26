@@ -165,23 +165,42 @@
 
     
 
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         
         <a class="site-title" href="/">
           Tomasz Żelezny
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/">Tomasz Żelezny</a>
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
             </li><li class="masthead__menu-item">
-              <a href="/blog/">Blog</a>
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/twoj-zespol-moze-wiecej/">Twój zespół może więcej</a></li>
+                  <li><a href="/inzynier-produktu/">Inżynier produktu</a></li>
+                </ul>
+              </details>
             </li><li class="masthead__menu-item">
-              <a href="/zajety-zespol/">Współpraca</a>
-            </li><li class="masthead__menu-item">
-              <a href="/o-mnie/">O mnie</a>
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -193,6 +212,22 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
 
 
     <div class="initial-content">
@@ -278,8 +313,8 @@
     </div>
   </div>
   <div class="inline-cta">
-    <p>Wasz zespół może więcej niż dowozi.</p>
-    <a class="btn btn-primary" href="/zajety-zespol/">Zobacz, jak pomagam</a>
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
   </div>
 </section>
 

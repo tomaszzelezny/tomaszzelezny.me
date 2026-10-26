@@ -83,6 +83,51 @@ a:hover {
   background-color: var(--color-block);
 }
 
+/* Menu rozwijane („Współpraca”): pozycja z children w _data/navigation.yml, _includes/masthead.html */
+.greedy-nav .visible-links { overflow: visible; }
+.masthead__sub { position: relative; }
+.masthead__sub summary {
+  list-style: none;
+  cursor: pointer;
+  margin: 0 1rem;
+  color: var(--color-block-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-meta);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tag);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.masthead__sub summary::-webkit-details-marker { display: none; }
+.masthead__sub summary::after { content: " ▾"; color: var(--color-accent-on-block); }
+.masthead__sub[open] summary::after { content: " ▴"; }
+.masthead__sub summary:hover { color: var(--color-accent-on-block); }
+.masthead__sub summary:focus-visible { outline: 2px solid var(--color-accent-on-block); outline-offset: 4px; }
+.masthead__sub ul {
+  position: absolute;
+  top: calc(100% + 18px);
+  right: 0;
+  z-index: 30;
+  min-width: 260px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: var(--color-block);
+  border-top: 3px solid var(--color-accent-on-block);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .25);
+}
+.masthead__sub ul li { margin: 0; }
+.greedy-nav .masthead__sub ul a { margin: 0; padding: 12px 20px; white-space: nowrap; }
+.greedy-nav .masthead__sub ul a::before { display: none; }
+/* W menu pod hamburgerem podstrony są listą z wcięciem */
+/* Menu pod hamburgerem ma jasne tło motywu, więc tekst jest ciemny (jasny tekst z paska był tu nieczytelny) */
+.greedy-nav .hidden-links a, .greedy-nav .hidden-links .masthead__sub summary { color: var(--color-text); }
+.greedy-nav .hidden-links a:hover, .greedy-nav .hidden-links .masthead__sub summary:hover { color: var(--color-accent); }
+.greedy-nav .hidden-links .masthead__sub summary::after { color: var(--color-accent); }
+.greedy-nav .hidden-links .masthead__sub summary { margin: 0; padding: 10px 20px; }
+.greedy-nav .hidden-links .masthead__sub ul { position: static; min-width: 0; padding: 0 0 6px; box-shadow: none; border-top: 0; background: transparent; }
+.greedy-nav .hidden-links .masthead__sub ul a { padding: 8px 20px 8px 36px; white-space: normal; }
+
 /* ------------------------------------------------
    Page titles & headings
    ------------------------------------------------ */
