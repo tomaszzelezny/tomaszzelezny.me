@@ -83,7 +83,8 @@ a:hover {
   background-color: var(--color-block);
 }
 
-/* Menu rozwijane („Współpraca”): pozycja z children w _data/navigation.yml, _includes/masthead.html */
+/* Menu rozwijane („Współpraca”): pozycja z children w _data/navigation.yml, _includes/masthead.html.
+   Granatowy panel jak pasek, z pomarańczową kreską; każda podstrona ma nazwę i opis (description). */
 .greedy-nav .visible-links { overflow: visible; }
 .masthead__sub { position: relative; }
 .masthead__sub summary {
@@ -99,34 +100,47 @@ a:hover {
   white-space: nowrap;
 }
 .masthead__sub summary::-webkit-details-marker { display: none; }
-.masthead__sub summary::after { content: " ▾"; color: var(--color-accent-on-block); }
-.masthead__sub[open] summary::after { content: " ▴"; }
-.masthead__sub summary:hover { color: var(--color-accent-on-block); }
+.masthead__sub summary::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 9px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-3px) rotate(45deg);
+  transition: transform .15s;
+}
+.masthead__sub[open] summary::after { transform: translateY(0) rotate(-135deg); }
+.masthead__sub summary:hover, .masthead__sub[open] summary { color: var(--color-accent-on-block); }
 .masthead__sub summary:focus-visible { outline: 2px solid var(--color-accent-on-block); outline-offset: 4px; }
-.masthead__sub ul {
+.masthead__sub ul { margin: 0; padding: 0; list-style: none; }
+.masthead__sub ul li { margin: 0; }
+.greedy-nav .masthead__sub ul a { margin: 0; text-transform: none; letter-spacing: 0; white-space: normal; }
+.greedy-nav .masthead__sub ul a::before { display: none; }
+.masthead__sub-title { display: block; }
+.masthead__sub-desc { display: block; margin-top: 4px; font: 400 13px/1.4 var(--font-body); color: inherit; opacity: .7; }
+.visible-links .masthead__sub ul {
   position: absolute;
-  top: calc(100% + 18px);
+  top: calc(100% + 20px);
   right: 0;
   z-index: 30;
-  min-width: 260px;
-  margin: 0;
-  padding: 6px 0;
-  list-style: none;
+  width: 340px;
+  padding: 8px;
   background: var(--color-block);
   border-top: 3px solid var(--color-accent-on-block);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, .25);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .3);
 }
-.masthead__sub ul li { margin: 0; }
-.greedy-nav .masthead__sub ul a { margin: 0; padding: 12px 20px; white-space: nowrap; }
-.greedy-nav .masthead__sub ul a::before { display: none; }
-/* W menu pod hamburgerem podstrony są listą z wcięciem */
-/* Menu pod hamburgerem ma jasne tło motywu, więc tekst jest ciemny (jasny tekst z paska był tu nieczytelny) */
+.greedy-nav .visible-links .masthead__sub ul a { padding: 12px 14px; color: var(--color-block-text); font-size: 15px; }
+.greedy-nav .visible-links .masthead__sub ul a:hover { background: rgba(255, 255, 255, .06); color: var(--color-accent-on-block); }
+.greedy-nav .visible-links .masthead__sub ul a:hover .masthead__sub-desc { color: var(--color-block-text); }
+/* Menu pod hamburgerem ma jasne tło motywu, więc tekst jest ciemny, a podstrony mają wcięcie */
 .greedy-nav .hidden-links a, .greedy-nav .hidden-links .masthead__sub summary { color: var(--color-text); }
 .greedy-nav .hidden-links a:hover, .greedy-nav .hidden-links .masthead__sub summary:hover { color: var(--color-accent); }
-.greedy-nav .hidden-links .masthead__sub summary::after { color: var(--color-accent); }
 .greedy-nav .hidden-links .masthead__sub summary { margin: 0; padding: 10px 20px; }
-.greedy-nav .hidden-links .masthead__sub ul { position: static; min-width: 0; padding: 0 0 6px; box-shadow: none; border-top: 0; background: transparent; }
-.greedy-nav .hidden-links .masthead__sub ul a { padding: 8px 20px 8px 36px; white-space: normal; }
+.greedy-nav .hidden-links .masthead__sub summary::after { color: var(--color-accent); }
+.greedy-nav .hidden-links .masthead__sub ul { padding-bottom: 6px; }
+.greedy-nav .hidden-links .masthead__sub ul a { padding: 8px 20px 8px 36px; font-size: 14px; }
 
 /* ------------------------------------------------
    Page titles & headings
