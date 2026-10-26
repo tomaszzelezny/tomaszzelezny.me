@@ -72,7 +72,7 @@
 .landing .final > * { min-width: 0; }
 .landing .final h2 { font-size: clamp(22px, 2.8vw, 32px); line-height: 1.3; }
 .landing .final p { margin: 14px 0 0; opacity: .8; }
-.landing .final .btn { background: var(--accent); color: var(--on-accent); border-color: var(--accent); justify-self: start; }
+.landing .final .btn { background: var(--accent); color: var(--on-accent); border-color: var(--accent); justify-self: end; align-self: center; }
 .landing .inline-cta { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; border: 1.5px solid var(--ink); background: var(--surface); }
 .landing .inline-cta p { margin: 0; font: 700 18px/1.3 var(--display); min-width: 0; }
 .landing .sec-head a, .landing .about a { color: var(--accent); font-weight: 600; }
@@ -96,6 +96,7 @@
   .landing .symptoms, .landing .posts, .landing .steps { grid-template-columns: 1fr; }
   .landing .hero { margin-block: 40px; }
   .landing .final { padding: 28px; }
+  .landing .final .btn { justify-self: start; }
   .landing .portrait { max-width: 160px; justify-self: start; }
   .landing .portrait img { aspect-ratio: 1 / 1; object-position: top; }
 }
