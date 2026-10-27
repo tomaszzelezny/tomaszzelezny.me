@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o stylu zarządzania - Tomasz Żelezny</title>
-<meta name="description" content="Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.">
+<!-- begin _includes/seo.html --><title>Taylor czy Deming: styl zarządzania - Tomasz Żelezny</title>
+<meta name="description" content="Taylor czy Deming? Styl zarządzania, który szuka winy w ludziach, kontra podejście, w którym 94% problemów pochodzi z systemu, a nie z pracowników.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o stylu zarządzania">
+<meta property="og:title" content="Taylor czy Deming: styl zarządzania">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/">
 
 
-  <meta property="og:description" content="Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.">
+  <meta property="og:description" content="Taylor czy Deming? Styl zarządzania, który szuka winy w ludziach, kontra podejście, w którym 94% problemów pochodzi z systemu, a nie z pracowników.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-05-12T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o stylu zarządzania",
-  "description": "Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.",
+  "headline": "Taylor czy Deming: styl zarządzania",
+  "description": "Taylor czy Deming? Styl zarządzania, który szuka winy w ludziach, kontra podejście, w którym 94% problemów pochodzi z systemu, a nie z pracowników.",
   "url": "https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/",
   "datePublished": "2026-05-12T00:00:00+00:00",
-  "dateModified": "2026-05-12T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-05-12T00:00:00+00:00">12.05.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o stylu <em>zarządzania</em></h1><p class="lead p-summary">Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.</p>
+      <h1 class="p-name">Ten o stylu <em>zarządzania</em></h1><p class="lead p-summary">Taylor czy Deming? Styl zarządzania, który szuka winy w ludziach, kontra podejście, w którym 94% problemów pochodzi z systemu, a nie z pracowników.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">

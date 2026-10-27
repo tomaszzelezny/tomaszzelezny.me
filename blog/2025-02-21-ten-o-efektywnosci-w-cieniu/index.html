@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o efektywności w cieniu - Tomasz Żelezny</title>
-<meta name="description" content="Efektywność naraża bezpieczeństwo? Zazwyczaj uważamy jednak, że to bezpieczeństwo ogranicza efektywność. Więc jak to jest?">
+<!-- begin _includes/seo.html --><title>Shadow IT: efektywność kontra bezpieczeństwo - Tomasz Żelezny</title>
+<meta name="description" content="Shadow IT a bezpieczeństwo: jak kolejne ograniczenia odbierają poczucie efektywności i pchają ludzi do niezatwierdzonych narzędzi, zwiększając ryzyko.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o efektywności w cieniu">
+<meta property="og:title" content="Shadow IT: efektywność kontra bezpieczeństwo">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/">
 
 
-  <meta property="og:description" content="Efektywność naraża bezpieczeństwo? Zazwyczaj uważamy jednak, że to bezpieczeństwo ogranicza efektywność. Więc jak to jest?">
+  <meta property="og:description" content="Shadow IT a bezpieczeństwo: jak kolejne ograniczenia odbierają poczucie efektywności i pchają ludzi do niezatwierdzonych narzędzi, zwiększając ryzyko.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-15T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o efektywności w cieniu",
-  "description": "Efektywność naraża bezpieczeństwo? Zazwyczaj uważamy jednak, że to bezpieczeństwo ogranicza efektywność. Więc jak to jest?",
+  "headline": "Shadow IT: efektywność kontra bezpieczeństwo",
+  "description": "Shadow IT a bezpieczeństwo: jak kolejne ograniczenia odbierają poczucie efektywności i pchają ludzi do niezatwierdzonych narzędzi, zwiększając ryzyko.",
   "url": "https://tomaszzelezny.me/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/",
   "datePublished": "2025-02-21T00:00:00+00:00",
-  "dateModified": "2026-10-15T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/shadow-it-petla.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2025-02-21T00:00:00+00:00">21.02.2025</time> · 1 min czytania</span></p>
-      <h1 class="p-name">Ten o efektywności w <em>cieniu</em></h1><p class="lead p-summary">Efektywność naraża bezpieczeństwo?</p>
+      <h1 class="p-name">Ten o efektywności w <em>cieniu</em></h1><p class="lead p-summary">Shadow IT a bezpieczeństwo: jak kolejne ograniczenia odbierają poczucie efektywności i pchają ludzi do niezatwierdzonych narzędzi, zwiększając ryzyko.</p>
     </header>
     <div class="prose e-content">
       <p>Efektywność naraża bezpieczeństwo? Zazwyczaj uważamy jednak, że to bezpieczeństwo ogranicza efektywność. Więc jak to jest?</p>

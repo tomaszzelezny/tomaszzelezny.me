@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o miesiącu opóźnienia - Tomasz Żelezny</title>
-<meta name="description" content="Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?">
+<!-- begin _includes/seo.html --><title>Koszt opóźnienia (cost of delay) - Tomasz Żelezny</title>
+<meta name="description" content="Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o miesiącu opóźnienia">
+<meta property="og:title" content="Koszt opóźnienia (cost of delay)">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/">
 
 
-  <meta property="og:description" content="Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?">
+  <meta property="og:description" content="Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-10-20T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o miesiącu opóźnienia",
-  "description": "Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?",
+  "headline": "Koszt opóźnienia (cost of delay)",
+  "description": "Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.",
   "url": "https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/",
   "datePublished": "2026-10-20T00:00:00+00:00",
-  "dateModified": "2026-10-20T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/koszt-opoznienia.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,10 +258,10 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-10-20T00:00:00+00:00">20.10.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o miesiącu <em>opóźnienia</em></h1><p class="lead p-summary">Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?</p>
+      <h1 class="p-name">Ten o miesiącu <em>opóźnienia</em></h1><p class="lead p-summary">Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.</p>
     </header>
     <div class="prose e-content">
-      
+      <p><strong>Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?</strong></p>
 
 <p><img src="/assets/images/koszt-opoznienia.webp" alt="Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia? Dane Reinertsena: 85% nie zna kosztu opóźnienia, odpowiedzi w zespole różnią się 50 razy, 2% mierzy kolejki" /></p>
 
@@ -246,9 +269,9 @@
 
 <p>Najczęściej nikt tego nigdy nie policzył. Bez choćby jednego wyliczenia nie ma z czego zbudować intuicji, dlatego odpowiedzi osób pracujących nad tym samym projektem potrafią różnić się nawet 50 razy.</p>
 
-<p>Czekającej pracy też nie widać. W fabryce zapas leży na hali i każdy się o niego potyka. U nas zapasem są pomysły w backlogu, specyfikacje i kod czekający na testy. Według Reinertsena kolejki mierzy tylko 2% osób, które rozwijają produkty.</p>
+<p><a href="/blog/2026-03-19-flow-efficiency/">Czekającej pracy też nie widać</a>. W fabryce zapas leży na hali i każdy się o niego potyka. U nas zapasem są pomysły w backlogu, specyfikacje i kod czekający na testy. Według Reinertsena kolejki mierzy tylko 2% osób, które rozwijają produkty.</p>
 
-<p>Mierzymy więc to, co łatwo zmierzyć, czyli obłożenie ludzi, realizację planu i liczbę zamkniętych zadań. Menedżerowie, którzy przychodzą na szkolenia Reinertsena, podają w ankietach obłożenie na poziomie 98,5%. Wszyscy są zajęci, a kolejki rosną po cichu. Kiedy trzeba wybrać, co robić najpierw, sięgamy po punktację w rodzaju RICE. Wygląda to jak liczby, ale „8 punktów wartości” nie da się porównać z tygodniem czekania ani przeliczyć na pieniądze.</p>
+<p>Mierzymy więc to, co łatwo zmierzyć, czyli obłożenie ludzi, realizację planu i liczbę zamkniętych zadań. Menedżerowie, którzy przychodzą na szkolenia Reinertsena, podają w ankietach obłożenie na poziomie 98,5%. <a href="/blog/2026-08-19-zajetosc-vs-postep/">Wszyscy są zajęci</a>, a kolejki rosną po cichu. Kiedy trzeba wybrać, co robić najpierw, sięgamy po punktację w rodzaju RICE. Wygląda to jak liczby, ale „8 punktów wartości” nie da się porównać z tygodniem czekania ani przeliczyć na pieniądze.</p>
 
 <p>Na początek wystarczy zgrubny szacunek. Ilu klientów możemy stracić przez miesiąc bez tej funkcji i ile od nich zarabiamy? Taka liczba będzie niedokładna, ale założenia leżą wtedy na stole i można się o nie spierać.</p>
 

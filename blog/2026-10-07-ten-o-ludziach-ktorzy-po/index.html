@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o ludziach, którzy po cichu łamią proces - Tomasz Żelezny</title>
-<meta name="description" content="Twój proces działa dzięki ludziom, którzy go po cichu łamią.">
+<!-- begin _includes/seo.html --><title>Mêtis i techne: proces w praktyce - Tomasz Żelezny</title>
+<meta name="description" content="Mêtis i techne według Jamesa C. Scotta: dlaczego proces działa dzięki ludziom, którzy po cichu go łamią, i czego manager nie widzi w instrukcji.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o ludziach, którzy po cichu łamią proces">
+<meta property="og:title" content="Mêtis i techne: proces w praktyce">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/">
 
 
-  <meta property="og:description" content="Twój proces działa dzięki ludziom, którzy go po cichu łamią.">
+  <meta property="og:description" content="Mêtis i techne według Jamesa C. Scotta: dlaczego proces działa dzięki ludziom, którzy po cichu go łamią, i czego manager nie widzi w instrukcji.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-10-07T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o ludziach, którzy po cichu łamią proces",
-  "description": "Twój proces działa dzięki ludziom, którzy go po cichu łamią.",
+  "headline": "Mêtis i techne: proces w praktyce",
+  "description": "Mêtis i techne według Jamesa C. Scotta: dlaczego proces działa dzięki ludziom, którzy po cichu go łamią, i czego manager nie widzi w instrukcji.",
   "url": "https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-07-ten-o-ludziach-ktorzy-po/",
   "datePublished": "2026-10-07T00:00:00+00:00",
-  "dateModified": "2026-10-07T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/metis-techne.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,10 +258,10 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-10-07T00:00:00+00:00">07.10.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o ludziach, którzy po cichu łamią <em>proces</em></h1><p class="lead p-summary">Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
+      <h1 class="p-name">Ten o ludziach, którzy po cichu łamią <em>proces</em></h1><p class="lead p-summary">Mêtis i techne według Jamesa C. Scotta: dlaczego proces działa dzięki ludziom, którzy po cichu go łamią, i czego manager nie widzi w instrukcji.</p>
     </header>
     <div class="prose e-content">
-      
+      <p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
 
 <p><img src="/assets/images/metis-techne.webp" alt="Mêtis vs techne: proces w instrukcji i proces w praktyce" /></p>
 

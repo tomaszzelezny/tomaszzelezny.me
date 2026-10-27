@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o iteracji starszej niż jej nazwa - Tomasz Żelezny</title>
-<meta name="description" content="Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.">
+<!-- begin _includes/seo.html --><title>Historia iteracji: starsza niż Agile - Tomasz Żelezny</title>
+<meta name="description" content="Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne wytwarzanie przed Manifestem.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o iteracji starszej niż jej nazwa">
+<meta property="og:title" content="Historia iteracji: starsza niż Agile">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/">
 
 
-  <meta property="og:description" content="Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.">
+  <meta property="og:description" content="Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne wytwarzanie przed Manifestem.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-13T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o iteracji starszej niż jej nazwa",
-  "description": "Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.",
+  "headline": "Historia iteracji: starsza niż Agile",
+  "description": "Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne wytwarzanie przed Manifestem.",
   "url": "https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-09-ten-o-iteracji-starszej-niz/",
   "datePublished": "2026-10-09T00:00:00+00:00",
-  "dateModified": "2026-10-13T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/os-czasu-iteracja.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,10 +258,10 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-10-09T00:00:00+00:00">09.10.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o iteracji starszej niż jej <em>nazwa</em></h1><p class="lead p-summary">Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.</p>
+      <h1 class="p-name">Ten o iteracji starszej niż jej <em>nazwa</em></h1><p class="lead p-summary">Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne wytwarzanie przed Manifestem.</p>
     </header>
     <div class="prose e-content">
-      
+      <p>Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.</p>
 
 <p>Można to czytać jako zmęczenie tematem. Ja widzę w tym powrót iteracji do miejsca, w którym stała przez większość historii inżynierii: do rzeczy oczywistej, która nie potrzebuje etykiety. Zespół piszący oprogramowanie dla programu Mercury pracował w półdniowych iteracjach na początku lat 60., czterdzieści lat przed Manifestem Agile. Nikt nie nazywał tego wtedy zwinnością.</p>
 

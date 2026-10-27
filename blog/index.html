@@ -200,6 +200,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -221,7 +242,7 @@
         <time datetime="2026-10-27T00:00:00+00:00">27.10</time>
         <a href="/blog/2026-10-27-ten-o-inzynierze-produktu/">
           <h3>Ten o inżynierze produktu</h3>
-          <p>Kod, feature i zamknięty ticket to wyniki. Rezultat pojawia się dopiero u użytkownika. Kiedy AI obniża koszt kodu, rola developera musi ewoluować.</p>
+          <p>Developer czy inżynier produktu? Kod i zamknięte tickety to wyniki, rezultat jest u użytkownika. Jak AI zmienia rolę developera. Zapowiedź serii.</p>
         </a>
         <span class="meta">inżynier produktu</span>
       </li>
@@ -229,7 +250,7 @@
         <time datetime="2026-10-21T00:00:00+00:00">21.10</time>
         <a href="/blog/2026-10-21-ten-o-enkapsulacji/">
           <h3>Ten o enkapsulacji</h3>
-          <p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.</p>
+          <p>Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wymaga rozmów z wieloma zespołami.</p>
         </a>
         <span class="meta">enkapsulacja</span>
       </li>
@@ -237,7 +258,7 @@
         <time datetime="2026-10-20T00:00:00+00:00">20.10</time>
         <a href="/blog/2026-10-20-ten-o-miesiacu-opoznienia/">
           <h3>Ten o miesiącu opóźnienia</h3>
-          <p>Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?</p>
+          <p>Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.</p>
         </a>
         <span class="meta">koszt opóźnienia</span>
       </li>
@@ -245,7 +266,7 @@
         <time datetime="2026-10-14T00:00:00+00:00">14.10</time>
         <a href="/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/">
           <h3>Ten o kalendarzu jednej osoby</h3>
-          <p>Kto u Was decyduje, kiedy Ciebie nie ma?</p>
+          <p>Gdy każda decyzja czeka na jedną osobę, kalendarz managera staje się wąskim gardłem. Jak oddać zespołowi decyzje: zakres, progi i informacje.</p>
         </a>
         <span class="meta">decyzje</span>
       </li>
@@ -253,7 +274,7 @@
         <time datetime="2026-10-12T00:00:00+00:00">12.10</time>
         <a href="/blog/2026-10-12-ten-o-szarej-strefie/">
           <h3>Ten o szarej strefie</h3>
-          <p>Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.</p>
+          <p>Shadow IT jako szara strefa: prywatne arkusze, niezatwierdzone aplikacje i automatyzacje tworzą ryzyko, o którym firma nie wie (unknown unknowns).</p>
         </a>
         <span class="meta">Shadow IT</span>
       </li>
@@ -261,7 +282,7 @@
         <time datetime="2026-10-09T00:00:00+00:00">09.10</time>
         <a href="/blog/2026-10-09-ten-o-iteracji-starszej-niz/">
           <h3>Ten o iteracji starszej niż jej nazwa</h3>
-          <p>Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.</p>
+          <p>Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne wytwarzanie przed Manifestem.</p>
         </a>
         <span class="meta">iteracja</span>
       </li>
@@ -269,7 +290,7 @@
         <time datetime="2026-10-07T00:00:00+00:00">07.10</time>
         <a href="/blog/2026-10-07-ten-o-zapomnianej-pracy/">
           <h3>Ten o zapomnianej pracy</h3>
-          <p>Zrobiłem coś, czego pewnie nikt nie użyje.</p>
+          <p>Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.</p>
         </a>
         <span class="meta">aging WIP</span>
       </li>
@@ -277,7 +298,7 @@
         <time datetime="2026-10-07T00:00:00+00:00">07.10</time>
         <a href="/blog/2026-10-07-ten-o-ludziach-ktorzy-po/">
           <h3>Ten o ludziach, którzy po cichu łamią proces</h3>
-          <p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
+          <p>Mêtis i techne według Jamesa C. Scotta: dlaczego proces działa dzięki ludziom, którzy po cichu go łamią, i czego manager nie widzi w instrukcji.</p>
         </a>
         <span class="meta">proces</span>
       </li>
@@ -285,7 +306,7 @@
         <time datetime="2026-10-05T00:00:00+00:00">05.10</time>
         <a href="/blog/2026-10-05-ten-o-trzech-pytaniach/">
           <h3>Ten o trzech pytaniach w jednym</h3>
-          <p>„Jak to jest duże?” „No, tak z 2 dni.”</p>
+          <p>„Jak to jest duże?” to trzy pytania w jednym: o wielkość, termin i koszt. Dlaczego estymacja w dniach je zlewa i jak rozmawiać o każdym osobno.</p>
         </a>
         <span class="meta">estymacje</span>
       </li>
@@ -293,7 +314,7 @@
         <time datetime="2026-09-30T00:00:00+00:00">30.09</time>
         <a href="/blog/2026-09-30-ten-o-tym-czy-kolumna/">
           <h3>Ten o tym czy kolumna Blocked rozwiązuje problem</h3>
-          <p>Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.</p>
+          <p>Czy kolumna Blocked na tablicy pomaga? Dane z historii zadań: ile wraca do pracy, ile do backlogu, ile jest usuwanych i jak to fałszuje cycle time.</p>
         </a>
         <span class="meta">blocked</span>
       </li>
@@ -301,15 +322,15 @@
         <time datetime="2026-09-25T00:00:00+00:00">25.09</time>
         <a href="/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/">
           <h3>Ten o przewidywalności, która buduje zaufanie</h3>
-          <p>Szybkość robi wrażenie. Przewidywalność buduje zaufanie.</p>
+          <p>Cycle time i przewidywalność: dlaczego spadek mediany nie wystarcza, gdy 85. percentyl rośnie, i jak długi ogon rozkładu wydłuża obietnice dla klienta.</p>
         </a>
         <span class="meta">przewidywalność</span>
       </li>
       <li>
         <time datetime="2026-08-19T00:00:00+00:00">19.08</time>
-        <a href="/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/">
+        <a href="/blog/2026-08-19-zajetosc-vs-postep/">
           <h3>Ten o zajętości, która udaje postęp</h3>
-          <p>Dziś koszt zajętości jest taki sam jak postępu, różnica jest w wynikach.</p>
+          <p>Zajętość a postęp: zajęci ludzie kosztują tyle samo co praca, która coś zmienia. Jak odróżnić ruch od postępu, zaczynając od pytania o cel.</p>
         </a>
         <span class="meta">zajętość</span>
       </li>
@@ -317,15 +338,15 @@
         <time datetime="2026-08-19T00:00:00+00:00">19.08</time>
         <a href="/blog/2026-08-19-cel-sprintu/">
           <h3>Ten o tym ile może kosztować brak jednego zdania</h3>
-          <p>Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić. Mieści się w jednym zdaniu — dlatego tak łatwo go pominąć.</p>
+          <p>Cel Sprintu w Scrumie: co się dzieje, gdy go brakuje, dlaczego zespół goni wtedy cały Sprint Backlog i jak jedno zdanie daje kierunek i swobodę.</p>
         </a>
         <span class="meta">Sprint Goal</span>
       </li>
       <li>
         <time datetime="2026-08-18T00:00:00+00:00">18.08</time>
-        <a href="/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/">
+        <a href="/blog/2026-08-18-grupa-vs-zespol-wspolny-cel/">
           <h3>Ten o różnicy między grupą a zespołem</h3>
-          <p>Różnica między grupą a zespołem to jeden wspólny cel, który orientuje działania w jedną stronę.</p>
+          <p>Czym różni się grupa od zespołu? Wspólnym celem. Dlaczego bez niego kompetentni i zajęci ludzie ciągną w różne strony, a zajętość udaje postęp.</p>
         </a>
         <span class="meta">cel</span>
       </li>
@@ -333,7 +354,7 @@
         <time datetime="2026-08-13T00:00:00+00:00">13.08</time>
         <a href="/blog/2026-08-13-specjalizacja-odpowiedzialnosc/">
           <h3>Ten o specjalistach i rozmytej odpowiedzialności</h3>
-          <p>Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?</p>
+          <p>Specjalizacja w zespole a rozmyta odpowiedzialność: problem wielu rąk, czyli dlaczego w zespole samych ekspertów coś się sypie, a nikt nie jest winny.</p>
         </a>
         <span class="meta">odpowiedzialność</span>
       </li>
@@ -341,7 +362,7 @@
         <time datetime="2026-08-11T00:00:00+00:00">11.08</time>
         <a href="/blog/2026-08-11-resolver-choice-vs-necessity/">
           <h3>Ten o resolverze z wyboru i z przymusu</h3>
-          <p>Na Kubie z niedoboru wyłoniło się pewne podejście - Resolver.</p>
+          <p>Resolver, kubańska postawa „ogarnę to sam”: kiedy to zdrowa inicjatywa, a kiedy sygnał, że system przecieka. Potrzeba, pilność, odpowiedzialność, autonomia.</p>
         </a>
         <span class="meta">autonomia</span>
       </li>
@@ -349,7 +370,7 @@
         <time datetime="2026-05-26T00:00:00+00:00">26.05</time>
         <a href="/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/">
           <h3>Ten o backendzie bez użytkownika</h3>
-          <p>Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.</p>
+          <p>Backend też ma użytkownika: czas ładowania, świeżość danych i stabilność to doświadczenie użytkownika, nawet gdy developer nie widzi interfejsu.</p>
         </a>
         <span class="meta">backend</span>
       </li>
@@ -357,7 +378,7 @@
         <time datetime="2026-05-12T00:00:00+00:00">12.05</time>
         <a href="/blog/2026-05-12-ten-o-stylu-zarzadzania/">
           <h3>Ten o stylu zarządzania</h3>
-          <p>Taylor zakładał, że pracownik jest problemem. Deming to założenie odwrócił.</p>
+          <p>Taylor czy Deming? Styl zarządzania, który szuka winy w ludziach, kontra podejście, w którym 94% problemów pochodzi z systemu, a nie z pracowników.</p>
         </a>
         <span class="meta">Deming</span>
       </li>
@@ -365,7 +386,7 @@
         <time datetime="2026-05-12T00:00:00+00:00">12.05</time>
         <a href="/blog/2026-05-12-ten-o-spotkaniu-ktore/">
           <h3>Ten o spotkaniu, które nie mogło być mailem</h3>
-          <p>To spotkanie nie mogło być mailem. Słyszysz to rzadko. Ale bywa, że to prawda.</p>
+          <p>Kiedy spotkanie nie może być mailem: decyzje wymagające wielu perspektyw (SEO, UX, IT, sprzedaż) lepiej zapadają przy wspólnym muralu niż na czacie.</p>
         </a>
         <span class="meta">komunikacja</span>
       </li>
@@ -373,7 +394,7 @@
         <time datetime="2026-05-05T00:00:00+00:00">05.05</time>
         <a href="/blog/2026-05-05-ten-o-zbyt-bezpiecznym/">
           <h3>Ten o zbyt bezpiecznym bezpieczeństwie</h3>
-          <p>Bezpieczeństwo psychologiczne to za mało</p>
+          <p>Bezpieczeństwo psychologiczne w zespole to za mało: bez wyzwań i napięcia zespół popada w stagnację i nie jest gotowy na prawdziwy problem.</p>
         </a>
         <span class="meta">psychologia</span>
       </li>
@@ -381,7 +402,7 @@
         <time datetime="2026-04-30T00:00:00+00:00">30.04</time>
         <a href="/blog/2026-04-30-ten-o-niewidocznej-transparencji/">
           <h3>Ten o niewidocznej transparencji</h3>
-          <p>Widoczność to tablica z taskami. Transparencja to wiedzieć, dlaczego ten task w ogóle istnieje.</p>
+          <p>Widoczność to nie transparencja: tablica z taskami i dashboard pokazują status, a transparencja to wiedza, dlaczego zapadły decyzje i co odrzucono.</p>
         </a>
         <span class="meta">Transparencja</span>
       </li>
@@ -389,7 +410,7 @@
         <time datetime="2026-04-28T00:00:00+00:00">28.04</time>
         <a href="/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/">
           <h3>Ten o matematycznej pułapce lokalnej optymalizacji</h3>
-          <p>W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero.</p>
+          <p>Lokalna optymalizacja jako maksimum lokalne: dlaczego działy poprawiają własne metryki kosztem całości i czemu wyjście z tej pułapki boli.</p>
         </a>
         <span class="meta">Optymalizacja</span>
       </li>
@@ -397,7 +418,7 @@
         <time datetime="2026-04-22T00:00:00+00:00">22.04</time>
         <a href="/blog/2026-04-22-ten-o-zamrozonych-srodkach/">
           <h3>Ten o zamrożonych środkach u brokera</h3>
-          <p>Wpłacasz, ale nic nie kupujesz.</p>
+          <p>Niewdrożony feature to zamrożony kapitał jak gotówka u brokera. Dlaczego wartość pojawia się dopiero po release i czemu otwarte pozycje to ryzyko.</p>
         </a>
         <span class="meta">Development</span>
       </li>
@@ -405,7 +426,7 @@
         <time datetime="2026-04-21T00:00:00+00:00">21.04</time>
         <a href="/blog/2026-04-21-zrozumienie-kontekstu/">
           <h3>Ten o zrozumieniu kontekstu</h3>
-          <p>Naśladowanie bez rozumienia kontekstu to heurystyka użyta ślepo.</p>
+          <p>Kopiowanie praktyk innych firm bez zrozumienia kontekstu: dlaczego model Spotify, OKR-y czy daily działają u nich, a u Ciebie już niekoniecznie.</p>
         </a>
         <span class="meta">Kontekst</span>
       </li>
@@ -413,7 +434,7 @@
         <time datetime="2026-04-16T00:00:00+00:00">16.04</time>
         <a href="/blog/2026-04-16-wlasciwy-problem/">
           <h3>Ten o potrzebie znalezienia właściwego problemu</h3>
-          <p>Nie znoszę tego pytania. Jest oklepane. Brzmi jak z podręcznika. I mimo to — wciąż robi robotę.</p>
+          <p>„Jaki problem próbujesz rozwiązać?” Dlaczego to oklepane pytanie wciąż działa i czemu najlepsze rozwiązanie złego problemu to zmarnowana praca.</p>
         </a>
         <span class="meta">Problem</span>
       </li>
@@ -421,7 +442,7 @@
         <time datetime="2026-04-14T00:00:00+00:00">14.04</time>
         <a href="/blog/2026-04-14-mozg-czy-serce/">
           <h3>Ten o tym, co jest ważniejsze</h3>
-          <p>Można by się zastanawiać, co jest ważniejsze — IT czy biznes. Ale to złe pytanie.</p>
+          <p>Co jest ważniejsze, IT czy biznes? To złe pytanie, jak mózg czy serce. Lepiej zapytać, co przeszkadza im działać razem i dowozić wspólne wyniki.</p>
         </a>
         <span class="meta">IT</span>
       </li>
@@ -429,7 +450,7 @@
         <time datetime="2026-04-09T00:00:00+00:00">09.04</time>
         <a href="/blog/2026-04-09-agile-opcjonalnosc/">
           <h3>Ten o agile i opcjonalności</h3>
-          <p>Agile nie jest zwinny. Jest opcjonalny. I to jest całkowicie inna rzecz.</p>
+          <p>Agile jako opcjonalność: jak krótkie iteracje kupują prawo do zmiany zdania i dlaczego w niepewnym otoczeniu to cenniejsze niż sama szybkość.</p>
         </a>
         <span class="meta">Agile</span>
       </li>
@@ -437,7 +458,7 @@
         <time datetime="2026-04-07T00:00:00+00:00">07.04</time>
         <a href="/blog/2026-04-07-przedwczesna-optymalizacja/">
           <h3>Ten o przedwczesnej optymalizacji</h3>
-          <p>Knuth napisał to w 1974 w kontekście tworzenia oprogramowania. Można też zastosować w innych kontekstach.</p>
+          <p>Przedwczesna optymalizacja według Knutha poza kodem: trzy pytania przed usprawnianiem produktu, procesu lub zespołu, zanim zoptymalizujesz nie to.</p>
         </a>
         <span class="meta">Optymalizacja</span>
       </li>
@@ -445,7 +466,7 @@
         <time datetime="2026-04-02T00:00:00+00:00">02.04</time>
         <a href="/blog/2026-04-02-retencja-wzrosla-to-dobrze/">
           <h3>Ten o zachowaniu użytkowników i metrykach biznesowych</h3>
-          <p>Jak rozpoznać dobrą metryke biznesową</p>
+          <p>Jak odróżnić dobrą metrykę biznesową od wskaźnika? Prosty test i trzy pytania o zachowanie użytkownika: co robi, dlaczego i co z tego wynika.</p>
         </a>
         <span class="meta">Zachowanie użytkownika</span>
       </li>
@@ -453,7 +474,7 @@
         <time datetime="2026-03-31T00:00:00+00:00">31.03</time>
         <a href="/blog/2026-03-31-nie-ma-duzych-okazji/">
           <h3>Ten o świętowaniu</h3>
-          <p>Nie ma dużych okazji do świętowania. I co z tym zrobić.</p>
+          <p>Świętowanie w zespole przy ciągłym dostarczaniu: gdy nie ma dużych release'ów ani mety, trzeba celowo tworzyć mniejsze powody do świętowania.</p>
         </a>
         <span class="meta">Continuous Delivery</span>
       </li>
@@ -461,7 +482,7 @@
         <time datetime="2026-03-26T00:00:00+00:00">26.03</time>
         <a href="/blog/2026-03-26-laczenie-perspektyw/">
           <h3>Ten o łączeniu perspektyw</h3>
-          <p>Output, Outcome, Impact, Dźwignia — cztery poziomy, jeden łańcuch przyczynowy. Twoja robota to je połączyć.</p>
+          <p>Output, outcome, impact i dźwignia: czym się różnią i jak połączyć to, co dostarczył zespół, ze zmianą u użytkowników i wynikiem biznesu.</p>
         </a>
         <span class="meta">Output</span>
       </li>
@@ -469,7 +490,7 @@
         <time datetime="2026-03-24T00:00:00+00:00">24.03</time>
         <a href="/blog/2026-03-24-na-kiedy-to-bedzie/">
           <h3>Ten o tym na kiedy to będzie</h3>
-          <p>Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.</p>
+          <p>Jak odpowiedzieć na pytanie „na kiedy to będzie?”: prognoza terminu symulacją Monte Carlo, 85. percentyl i rozmowa o dacie z organizacją.</p>
         </a>
         <span class="meta">Monte Carlo</span>
       </li>
@@ -477,7 +498,7 @@
         <time datetime="2026-03-19T00:00:00+00:00">19.03</time>
         <a href="/blog/2026-03-19-flow-efficiency/">
           <h3>Ten o pracy, która czeka</h3>
-          <p>Ile z tych 25 dni ktoś przy nim faktycznie siedział? Może cztery godziny. Reszta? Praca czekała.</p>
+          <p>Czym jest flow efficiency? Dlaczego ticket idzie 25 dni, choć praca nad nim trwa kilka godzin, i czemu organizacje mierzą zajętość zamiast przepływu.</p>
         </a>
         <span class="meta">Lean</span>
       </li>
@@ -485,7 +506,7 @@
         <time datetime="2026-03-16T00:00:00+00:00">16.03</time>
         <a href="/blog/2026-03-16-tolerancje-w-projekcie/">
           <h3>Ten o tolerancjach w projekcie</h3>
-          <p>Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.</p>
+          <p>Tolerancje w projekcie według PRINCE2: przedział budżetu, terminu i zakresu, w którym PM decyduje sam, zanim sprawa wróci do sponsora.</p>
         </a>
         <span class="meta">PRINCE2</span>
       </li>
@@ -493,7 +514,7 @@
         <time datetime="2026-03-12T00:00:00+00:00">12.03</time>
         <a href="/blog/2026-03-12-cele-vs-zadania/">
           <h3>Ten o celach, które giną w taskach</h3>
-          <p>To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.</p>
+          <p>Praca na celach czy na zadaniach? Jak velocity, story pointy i zamknięte taski wypierają cele zespołu i dlaczego ludzie robią to, co jest nagradzane.</p>
         </a>
         <span class="meta">OKR</span>
       </li>
@@ -506,7 +527,7 @@
         <time datetime="2025-04-01T00:00:00+00:00">01.04</time>
         <a href="/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/">
           <h3>Ten o oprogramowaniu, które nigdy nie jest skończone</h3>
-          <p>Współczesny biznes wymaga elastyczności i zdolności szybkiego dostosowania się do zmian.</p>
+          <p>Dlaczego oprogramowanie nigdy nie jest skończone: system IT jako zasób, który musi ewoluować razem z potrzebami użytkowników i strategią firmy.</p>
         </a>
         <span class="meta">oprogramowanie</span>
       </li>
@@ -514,7 +535,7 @@
         <time datetime="2025-03-19T00:00:00+00:00">19.03</time>
         <a href="/blog/2025-03-19-ten-o-niewykonanej-pracy/">
           <h3>Ten o niewykonanej pracy</h3>
-          <p>Dużo mówimy o Agile, aby tam dojść trzeba najpierw zrozumieć Lean.</p>
+          <p>Zasada prostoty z Manifestu Agile, czyli sztuka niewykonywania pracy. Jak Lean i eliminacja marnotrawstwa (muda) przyspieszają zwinne zespoły.</p>
         </a>
         <span class="meta">Lean</span>
       </li>
@@ -522,7 +543,7 @@
         <time datetime="2025-03-12T00:00:00+00:00">12.03</time>
         <a href="/blog/2025-03-12-ten-o-wartosci-jak-kot/">
           <h3>Ten o wartości jak kot Schrödingera</h3>
-          <p>"Wartość" (value) stała się Świętym Graalem w świecie IT, chociaż tak naprawdę bliżej jej do "Kota Schrödingera".</p>
+          <p>Czym jest wartość w IT? Dlaczego „value” bywa pustym hasłem i jak nazywać ją konkretnie: przychód, retencja, koszty, mniej błędów, lepsze doświadczenie.</p>
         </a>
         <span class="meta">wartość</span>
       </li>
@@ -530,7 +551,7 @@
         <time datetime="2025-03-03T00:00:00+00:00">03.03</time>
         <a href="/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/">
           <h3>Ten o zerojedynkowym myśleniu</h3>
-          <p>Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.</p>
+          <p>Myślenie zerojedynkowe w decyzjach technologicznych: dlaczego wybór między dwiema skrajnościami pomija rozwiązania pośrednie i wydłuża decyzje.</p>
         </a>
         <span class="meta">dychotomia myślenia</span>
       </li>
@@ -538,7 +559,7 @@
         <time datetime="2025-02-21T00:00:00+00:00">21.02</time>
         <a href="/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/">
           <h3>Ten o efektywności w cieniu</h3>
-          <p>Efektywność naraża bezpieczeństwo?</p>
+          <p>Shadow IT a bezpieczeństwo: jak kolejne ograniczenia odbierają poczucie efektywności i pchają ludzi do niezatwierdzonych narzędzi, zwiększając ryzyko.</p>
         </a>
         <span class="meta">Shadow IT</span>
       </li>
@@ -546,7 +567,7 @@
         <time datetime="2025-02-13T00:00:00+00:00">13.02</time>
         <a href="/blog/2025-02-13-ten-o-effortcie-i-timelinie/">
           <h3>Ten o effortcie i timelinie</h3>
-          <p>Jedną z rzeczy, na które zwracam uwagę podczas różnych rozmów, jest rozróżnianie "effortu" od "timeline'u".</p>
+          <p>Effort to nie timeline: dlaczego estymacja w godzinach myli pracochłonność z terminem i co naprawdę kryje się za pytaniem „jak to jest duże?”.</p>
         </a>
         <span class="meta">estymacje</span>
       </li>

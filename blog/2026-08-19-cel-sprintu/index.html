@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o tym ile może kosztować brak jednego zdania - Tomasz Żelezny</title>
-<meta name="description" content="Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić.">
+<!-- begin _includes/seo.html --><title>Cel Sprintu: ile kosztuje jego brak - Tomasz Żelezny</title>
+<meta name="description" content="Cel Sprintu w Scrumie: co się dzieje, gdy go brakuje, dlaczego zespół goni wtedy cały Sprint Backlog i jak jedno zdanie daje kierunek i swobodę.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o tym ile może kosztować brak jednego zdania">
+<meta property="og:title" content="Cel Sprintu: ile kosztuje jego brak">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-08-19-cel-sprintu/">
 
 
-  <meta property="og:description" content="Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić.">
+  <meta property="og:description" content="Cel Sprintu w Scrumie: co się dzieje, gdy go brakuje, dlaczego zespół goni wtedy cały Sprint Backlog i jak jedno zdanie daje kierunek i swobodę.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-15T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o tym ile może kosztować brak jednego zdania",
-  "description": "Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić.",
+  "headline": "Cel Sprintu: ile kosztuje jego brak",
+  "description": "Cel Sprintu w Scrumie: co się dzieje, gdy go brakuje, dlaczego zespół goni wtedy cały Sprint Backlog i jak jedno zdanie daje kierunek i swobodę.",
   "url": "https://tomaszzelezny.me/blog/2026-08-19-cel-sprintu/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-08-19-cel-sprintu/",
   "datePublished": "2026-08-19T00:00:00+00:00",
-  "dateModified": "2026-10-15T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-08-19T00:00:00+00:00">19.08.2026</time> · 6 min czytania</span></p>
-      <h1 class="p-name">Ten o tym ile może kosztować brak jednego <em>zdania</em></h1><p class="lead p-summary">Cel Sprintu należy do elementów Scruma, które najłatwiej pominąć i najdrożej stracić. Mieści się w jednym zdaniu — dlatego tak łatwo go pominąć.</p>
+      <h1 class="p-name">Ten o tym ile może kosztować brak jednego <em>zdania</em></h1><p class="lead p-summary">Cel Sprintu w Scrumie: co się dzieje, gdy go brakuje, dlaczego zespół goni wtedy cały Sprint Backlog i jak jedno zdanie daje kierunek i swobodę.</p>
     </header>
     <div class="prose e-content">
       <blockquote>
@@ -254,7 +275,7 @@
 
 <p>Kiedy Sprint nie ma celu, cel pojawia się sam. Brzmi: „skończyć wszystko ze Sprint Backlogu”.</p>
 
-<p>I tu zaczyna się problem. Praca produktowa jest nieprzewidywalna. W połowie Sprintu okazuje się, że jedno zadanie było banalne, drugie kryło pod sobą trzy kolejne, a klient w międzyczasie zmienił zdanie. Zespół, którego jedynym celem jest domknięcie listy, nie ma jak na to zareagować. Lista staje się święta. Każda zmiana zakresu wygląda jak porażka względem planu.</p>
+<p>I tu zaczyna się problem. Praca produktowa jest nieprzewidywalna. W połowie Sprintu okazuje się, że jedno zadanie było banalne, drugie kryło pod sobą trzy kolejne, a klient w międzyczasie zmienił zdanie. Zespół, którego <a href="/blog/2026-03-12-cele-vs-zadania/">jedynym celem jest domknięcie listy</a>, nie ma jak na to zareagować. Lista staje się święta. Każda zmiana zakresu wygląda jak porażka względem planu.</p>
 
 <p>Tak wygląda jeden z objawów Zombie Scruma. Wszystkie wydarzenia się odbywają — planowanie, daily, review, retrospektywa — a pod spodem nic nie pulsuje. Zespół przerabia backlog zamiast rozwiązywać problem.</p>
 
@@ -320,11 +341,11 @@
 <ul class="post-tags" aria-label="Tagi"><li>Sprint Goal</li><li>cel sprintu</li><li>scrum</li><li>zarządzanie produktem</li><li>zespół</li>
 </ul>
 <nav class="post-nav" aria-label="Sąsiednie wpisy">
-  <a class="post" href="/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/">
+  <a class="post" href="/blog/2026-08-18-grupa-vs-zespol-wspolny-cel/">
     <span class="meta">← Starszy wpis</span>
     <h3>Ten o różnicy między grupą a zespołem</h3>
   </a>
-  <a class="post next" href="/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/">
+  <a class="post next" href="/blog/2026-08-19-zajetosc-vs-postep/">
     <span class="meta">Nowszy wpis →</span>
     <h3>Ten o zajętości, która udaje postęp</h3>
   </a>

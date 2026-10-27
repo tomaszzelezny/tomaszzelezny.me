@@ -200,6 +200,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -261,32 +282,32 @@
     <div class="posts">
       <a class="post" href="/blog/2026-10-27-ten-o-inzynierze-produktu/">
         <h3>Ten o inżynierze produktu</h3>
-        <p>Kod, feature i zamknięty ticket to wyniki. Rezultat pojawia się dopiero u użytkownika. Kiedy AI obniża koszt kodu, ro...</p>
+        <p>Developer czy inżynier produktu? Kod i zamknięte tickety to wyniki, rezultat jest u użytkownika. Jak AI zmienia rolę ...</p>
         <span class="meta">inżynier produktu</span>
       </a>
       <a class="post" href="/blog/2026-10-21-ten-o-enkapsulacji/">
         <h3>Ten o enkapsulacji</h3>
-        <p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budu...</p>
+        <p>Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wyma...</p>
         <span class="meta">enkapsulacja</span>
       </a>
       <a class="post" href="/blog/2026-10-20-ten-o-miesiacu-opoznienia/">
         <h3>Ten o miesiącu opóźnienia</h3>
-        <p>Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?</p>
+        <p>Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i cz...</p>
         <span class="meta">koszt opóźnienia</span>
       </a>
       <a class="post" href="/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/">
         <h3>Ten o kalendarzu jednej osoby</h3>
-        <p>Kto u Was decyduje, kiedy Ciebie nie ma?</p>
+        <p>Gdy każda decyzja czeka na jedną osobę, kalendarz managera staje się wąskim gardłem. Jak oddać zespołowi decyzje: zak...</p>
         <span class="meta">decyzje</span>
       </a>
       <a class="post" href="/blog/2026-10-12-ten-o-szarej-strefie/">
         <h3>Ten o szarej strefie</h3>
-        <p>Shadow IT zwykle zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają mu firmowe narzędzia.</p>
+        <p>Shadow IT jako szara strefa: prywatne arkusze, niezatwierdzone aplikacje i automatyzacje tworzą ryzyko, o którym firm...</p>
         <span class="meta">Shadow IT</span>
       </a>
       <a class="post" href="/blog/2026-10-09-ten-o-iteracji-starszej-niz/">
         <h3>Ten o iteracji starszej niż jej nazwa</h3>
-        <p>Planujemy przyrosty, mamy działający produkt. Zwinnością już jednak tego nie nazywamy.</p>
+        <p>Historia iteracji starsza niż Agile: Shewhart, program Mercury i Royce, który wcale nie zalecał wodospadu. Iteracyjne...</p>
         <span class="meta">iteracja</span>
       </a>
     </div>

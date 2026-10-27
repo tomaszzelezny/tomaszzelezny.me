@@ -164,7 +164,7 @@ var store = [{
         "title": "Ten o różnicy między grupą a zespołem",
         "excerpt":"Grupa dzieli zadania. Zespół dzieli cel. Można postawić dziesięć osób przy jednej tablicy i wciąż nie mieć zespołu. Wystarczy, że każda z nich pracuje w imię czegoś innego. Jedna chce zamknąć swój ticket. Druga pilnuje, żeby jej moduł był najczystszy w repozytorium. Trzecia dba o to, żeby jej dział wyrobił...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["cel","zespół","wspólny cel","optymalizacja","system"],
-        "url": "/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/",
+        "url": "/blog/2026-08-18-grupa-vs-zespol-wspolny-cel/",
         "teaser": null
       },{
         "title": "Ten o tym ile może kosztować brak jednego zdania",
@@ -176,7 +176,7 @@ var store = [{
         "title": "Ten o zajętości, która udaje postęp",
         "excerpt":"Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach. Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co....","categories": ["Zarządzanie"],
         "tags": ["zajętość","postęp","efektywność","cel"],
-        "url": "/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/",
+        "url": "/blog/2026-08-19-zajetosc-vs-postep/",
         "teaser": null
       },{
         "title": "Ten o przewidywalności, która buduje zaufanie",

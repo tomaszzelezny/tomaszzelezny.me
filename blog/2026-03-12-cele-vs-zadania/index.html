@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o celach, które giną w taskach - Tomasz Żelezny</title>
-<meta name="description" content="To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.">
+<!-- begin _includes/seo.html --><title>Praca na celach czy na zadaniach? - Tomasz Żelezny</title>
+<meta name="description" content="Praca na celach czy na zadaniach? Jak velocity, story pointy i zamknięte taski wypierają cele zespołu i dlaczego ludzie robią to, co jest nagradzane.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o celach, które giną w taskach">
+<meta property="og:title" content="Praca na celach czy na zadaniach?">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-03-12-cele-vs-zadania/">
 
 
-  <meta property="og:description" content="To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.">
+  <meta property="og:description" content="Praca na celach czy na zadaniach? Jak velocity, story pointy i zamknięte taski wypierają cele zespołu i dlaczego ludzie robią to, co jest nagradzane.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-15T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o celach, które giną w taskach",
-  "description": "To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.",
+  "headline": "Praca na celach czy na zadaniach?",
+  "description": "Praca na celach czy na zadaniach? Jak velocity, story pointy i zamknięte taski wypierają cele zespołu i dlaczego ludzie robią to, co jest nagradzane.",
   "url": "https://tomaszzelezny.me/blog/2026-03-12-cele-vs-zadania/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-03-12-cele-vs-zadania/",
   "datePublished": "2026-03-12T00:00:00+00:00",
-  "dateModified": "2026-10-15T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie</span>
         <span><time class="dt-published" datetime="2026-03-12T00:00:00+00:00">12.03.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o celach, które giną w <em>taskach</em></h1><p class="lead p-summary">To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że prowadzą w dwie różne strony.</p>
+      <h1 class="p-name">Ten o celach, które giną w <em>taskach</em></h1><p class="lead p-summary">Praca na celach czy na zadaniach? Jak velocity, story pointy i zamknięte taski wypierają cele zespołu i dlaczego ludzie robią to, co jest nagradzane.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">
@@ -247,7 +268,7 @@
 
 <p>Praca na celach mówi: “chcemy zwiększyć retencję o 15% w Q3.” Praca na zadaniach mówi: “zrób ticket, oszacuj, zamknij, zaraportuj.” Obie mają sens. Jedno i drugie istnieje w tej samej firmie. Ale tylko jedno ma kolumnę w raporcie.</p>
 
-<p>Wtedy dzieje się coś podstępnego. Cel ucieka. Prawdziwa gra toczy się gdzie indziej — na velocity, na burndownach, na liczbie story pointów zamkniętych w sprincie. Bezpieczniej jest dowieźć zadania niż ryzykować w imię celu.</p>
+<p>Wtedy dzieje się coś podstępnego. Cel ucieka. Prawdziwa gra toczy się gdzie indziej — na velocity, na burndownach, na liczbie story pointów zamkniętych w sprincie. <a href="/blog/2026-08-19-cel-sprintu/">Bezpieczniej jest dowieźć zadania niż ryzykować w imię celu</a>.</p>
 
 <p>I nikt tego głośno nie mówi. To dostosowanie się do zasad gry, które organizacja sama ustanowiła.</p>
 

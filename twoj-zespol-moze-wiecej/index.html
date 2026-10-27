@@ -200,6 +200,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -324,32 +345,32 @@
       <p>Kilka moich tekstów o tym, gdzie znika wysiłek zespołów. Opisuję w nich wzorce, które powtarzają się w wielu firmach.</p>
     </div>
     <div class="posts">
-      <a class="post" href="https://www.linkedin.com/posts/tomasz-zelezny_zaj%C4%99to%C5%9B%C4%87-%C5%82atwo-wyprodukowa%C4%87-w-kosztach-firmy-share-7495528856813096960-sE0X" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-08-19-zajetosc-vs-postep/">
         <h3>Ten o zajętości, która udaje postęp</h3>
         <p>Dziś koszt zajętości jest taki sam jak postępu. Różnica jest w wynikach.</p>
         <span class="meta">Zajętość</span>
       </a>
-      <a class="post" href="https://lnkd.in/p/dBbTY4P6" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-03-19-flow-efficiency/">
         <h3>Ten o pracy, która czeka</h3>
         <p>Ile z tych 25 dni ktoś przy zadaniu faktycznie siedział?</p>
         <span class="meta">Czekanie</span>
       </a>
-      <a class="post" href="https://lnkd.in/p/d27N_VUu" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/">
         <h3>Ten o kalendarzu jednej osoby</h3>
         <p>Kto u Was decyduje, kiedy Ciebie nie ma?</p>
         <span class="meta">Decyzje</span>
       </a>
-      <a class="post" href="https://lnkd.in/p/eDK7aygk" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-10-07-ten-o-ludziach-ktorzy-po/">
         <h3>Ten o ludziach, którzy po cichu łamią proces</h3>
         <p>Twój proces działa dzięki ludziom, którzy go po cichu łamią.</p>
         <span class="meta">Proces</span>
       </a>
-      <a class="post" href="https://lnkd.in/p/evvti4jK" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-10-07-ten-o-zapomnianej-pracy/">
         <h3>Ten o zapomnianej pracy</h3>
         <p>Zrobiłem coś, czego pewnie nikt nie użyje.</p>
         <span class="meta">Wartość</span>
       </a>
-      <a class="post" href="https://lnkd.in/p/dHYCqkc2" target="_blank" rel="noopener">
+      <a class="post" href="/blog/2026-10-12-ten-o-szarej-strefie/">
         <h3>Ten o szarej strefie</h3>
         <p>Shadow IT zaczyna się od kogoś, kto chce zrobić swoją robotę szybciej, niż pozwalają firmowe narzędzia.</p>
         <span class="meta">Organizacja</span>

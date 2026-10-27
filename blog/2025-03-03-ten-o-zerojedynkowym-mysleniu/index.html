@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o zerojedynkowym myśleniu - Tomasz Żelezny</title>
-<meta name="description" content="Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.">
+<!-- begin _includes/seo.html --><title>Myślenie zerojedynkowe w decyzjach w IT - Tomasz Żelezny</title>
+<meta name="description" content="Myślenie zerojedynkowe w decyzjach technologicznych: dlaczego wybór między dwiema skrajnościami pomija rozwiązania pośrednie i wydłuża decyzje.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o zerojedynkowym myśleniu">
+<meta property="og:title" content="Myślenie zerojedynkowe w decyzjach w IT">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/">
 
 
-  <meta property="og:description" content="Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.">
+  <meta property="og:description" content="Myślenie zerojedynkowe w decyzjach technologicznych: dlaczego wybór między dwiema skrajnościami pomija rozwiązania pośrednie i wydłuża decyzje.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2025-03-03T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o zerojedynkowym myśleniu",
-  "description": "Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.",
+  "headline": "Myślenie zerojedynkowe w decyzjach w IT",
+  "description": "Myślenie zerojedynkowe w decyzjach technologicznych: dlaczego wybór między dwiema skrajnościami pomija rozwiązania pośrednie i wydłuża decyzje.",
   "url": "https://tomaszzelezny.me/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/",
   "datePublished": "2025-03-03T00:00:00+00:00",
-  "dateModified": "2025-03-03T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,10 +258,10 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2025-03-03T00:00:00+00:00">03.03.2025</time> · 1 min czytania</span></p>
-      <h1 class="p-name">Ten o zerojedynkowym <em>myśleniu</em></h1><p class="lead p-summary">Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.</p>
+      <h1 class="p-name">Ten o zerojedynkowym <em>myśleniu</em></h1><p class="lead p-summary">Myślenie zerojedynkowe w decyzjach technologicznych: dlaczego wybór między dwiema skrajnościami pomija rozwiązania pośrednie i wydłuża decyzje.</p>
     </header>
     <div class="prose e-content">
-      
+      <p>Moim zdaniem, interesujące jest to, jak często w rozmowach o rozwiązaniach technologicznych widzimy podejścia oparte na dwóch skrajnych opcjach.</p>
 
 <p>Skupianie się wyłącznie na tych przeciwstawnych biegunach pomija całe spektrum możliwości, które istnieją pomiędzy nimi.</p>
 

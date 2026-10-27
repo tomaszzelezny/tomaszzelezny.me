@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o tolerancjach w projekcie - Tomasz Żelezny</title>
-<meta name="description" content="Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.">
+<!-- begin _includes/seo.html --><title>Tolerancje w projekcie (PRINCE2) - Tomasz Żelezny</title>
+<meta name="description" content="Tolerancje w projekcie według PRINCE2: przedział budżetu, terminu i zakresu, w którym PM decyduje sam, zanim sprawa wróci do sponsora.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o tolerancjach w projekcie">
+<meta property="og:title" content="Tolerancje w projekcie (PRINCE2)">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-03-16-tolerancje-w-projekcie/">
 
 
-  <meta property="og:description" content="Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.">
+  <meta property="og:description" content="Tolerancje w projekcie według PRINCE2: przedział budżetu, terminu i zakresu, w którym PM decyduje sam, zanim sprawa wróci do sponsora.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-15T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o tolerancjach w projekcie",
-  "description": "Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.",
+  "headline": "Tolerancje w projekcie (PRINCE2)",
+  "description": "Tolerancje w projekcie według PRINCE2: przedział budżetu, terminu i zakresu, w którym PM decyduje sam, zanim sprawa wróci do sponsora.",
   "url": "https://tomaszzelezny.me/blog/2026-03-16-tolerancje-w-projekcie/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-03-16-tolerancje-w-projekcie/",
   "datePublished": "2026-03-16T00:00:00+00:00",
-  "dateModified": "2026-10-15T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie projektami</span>
         <span><time class="dt-published" datetime="2026-03-16T00:00:00+00:00">16.03.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o tolerancjach w <em>projekcie</em></h1><p class="lead p-summary">Nikt nie powiedział PM-owi, o ile może się pomylić — zanim sprawa trafi wyżej. A projekt i tak jedzie.</p>
+      <h1 class="p-name">Ten o tolerancjach w <em>projekcie</em></h1><p class="lead p-summary">Tolerancje w projekcie według PRINCE2: przedział budżetu, terminu i zakresu, w którym PM decyduje sam, zanim sprawa wróci do sponsora.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">

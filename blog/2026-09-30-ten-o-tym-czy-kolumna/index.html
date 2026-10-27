@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o tym czy kolumna Blocked rozwiązuje problem - Tomasz Żelezny</title>
-<meta name="description" content="Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.">
+<!-- begin _includes/seo.html --><title>Czy kolumna Blocked rozwiązuje problem? - Tomasz Żelezny</title>
+<meta name="description" content="Czy kolumna Blocked na tablicy pomaga? Dane z historii zadań: ile wraca do pracy, ile do backlogu, ile jest usuwanych i jak to fałszuje cycle time.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o tym czy kolumna Blocked rozwiązuje problem">
+<meta property="og:title" content="Czy kolumna Blocked rozwiązuje problem?">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/">
 
 
-  <meta property="og:description" content="Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.">
+  <meta property="og:description" content="Czy kolumna Blocked na tablicy pomaga? Dane z historii zadań: ile wraca do pracy, ile do backlogu, ile jest usuwanych i jak to fałszuje cycle time.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-09-30T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o tym czy kolumna Blocked rozwiązuje problem",
-  "description": "Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.",
+  "headline": "Czy kolumna Blocked rozwiązuje problem?",
+  "description": "Czy kolumna Blocked na tablicy pomaga? Dane z historii zadań: ile wraca do pracy, ile do backlogu, ile jest usuwanych i jak to fałszuje cycle time.",
   "url": "https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-09-30-ten-o-tym-czy-kolumna/",
   "datePublished": "2026-09-30T00:00:00+00:00",
-  "dateModified": "2026-09-30T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/kolumna-blocked.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,20 +258,20 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-09-30T00:00:00+00:00">30.09.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o tym czy kolumna Blocked rozwiązuje <em>problem</em></h1><p class="lead p-summary">Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.</p>
+      <h1 class="p-name">Ten o tym czy kolumna Blocked rozwiązuje <em>problem</em></h1><p class="lead p-summary">Czy kolumna Blocked na tablicy pomaga? Dane z historii zadań: ile wraca do pracy, ile do backlogu, ile jest usuwanych i jak to fałszuje cycle time.</p>
     </header>
     <div class="prose e-content">
-      
+      <p>Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.</p>
 
 <p><img src="/assets/images/kolumna-blocked.webp" alt="Kolumna Blocked — jak kończą się pobyty zadań w statusie Blocked" /></p>
 
-<p>Część pracy wykonana, budżet poszedł, a potem pojawiło się czekanie. Jeśli coś czekało na zewnętrzną firmę albo na inny zespół, trafiało na bok, żeby nie zawyżało pracy w toku i nie straszyło wiekiem na tablicy.</p>
+<p>Część pracy wykonana, budżet poszedł, a potem <a href="/blog/2026-03-19-flow-efficiency/">pojawiło się czekanie</a>. Jeśli coś czekało na zewnętrzną firmę albo na inny zespół, trafiało na bok, żeby nie zawyżało pracy w toku i nie straszyło wiekiem na tablicy.</p>
 
 <p>Sprawdziłem w historii zmian, jak kończą się takie pobyty. Mniej więcej co trzecie zadanie wraca do pracy, zwykle w ciągu dwóch, trzech tygodni. Co czwarte wraca do backlogu. Najczęstsze wyjście to zamknięcie albo usunięcie: cztery przypadki na dziesięć, typowo po trzech miesiącach.</p>
 
 <p>Czas gra tu przeciwko zespołowi. W pierwszym miesiącu prawie połowa zadań wraca do pracy, im dalej tym zdarza się to rzadziej.</p>
 
-<p>Metryki przy tym wyglądają lepiej. Zadania, które po miesiącach zostają usunięte, w ogóle nie trafiają do statystyk cycle time. Samo czekanie zostaje jednak w systemie, tylko dostaje własną kolumnę, na którą mało kto patrzy.</p>
+<p>Metryki przy tym wyglądają lepiej. Zadania, które po miesiącach zostają usunięte, <a href="/blog/2026-10-07-ten-o-zapomnianej-pracy/">w ogóle nie trafiają do statystyk cycle time</a>. Samo czekanie zostaje jednak w systemie, tylko dostaje własną kolumnę, na którą mało kto patrzy.</p>
 
 <p>Macie u siebie taki stan? Jak długo praca w nim wisi, zanim ktoś się nią zajmie?</p>
 

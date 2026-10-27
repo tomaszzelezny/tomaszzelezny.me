@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o przewidywalności, która buduje zaufanie - Tomasz Żelezny</title>
-<meta name="description" content="Szybkość robi wrażenie. Przewidywalność buduje zaufanie.">
+<!-- begin _includes/seo.html --><title>Cycle time: szybkość a przewidywalność - Tomasz Żelezny</title>
+<meta name="description" content="Cycle time i przewidywalność: dlaczego spadek mediany nie wystarcza, gdy 85. percentyl rośnie, i jak długi ogon rozkładu wydłuża obietnice dla klienta.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o przewidywalności, która buduje zaufanie">
+<meta property="og:title" content="Cycle time: szybkość a przewidywalność">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/">
 
 
-  <meta property="og:description" content="Szybkość robi wrażenie. Przewidywalność buduje zaufanie.">
+  <meta property="og:description" content="Cycle time i przewidywalność: dlaczego spadek mediany nie wystarcza, gdy 85. percentyl rośnie, i jak długi ogon rozkładu wydłuża obietnice dla klienta.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-01T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o przewidywalności, która buduje zaufanie",
-  "description": "Szybkość robi wrażenie. Przewidywalność buduje zaufanie.",
+  "headline": "Cycle time: szybkość a przewidywalność",
+  "description": "Cycle time i przewidywalność: dlaczego spadek mediany nie wystarcza, gdy 85. percentyl rośnie, i jak długi ogon rozkładu wydłuża obietnice dla klienta.",
   "url": "https://tomaszzelezny.me/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/",
   "datePublished": "2026-09-25T00:00:00+00:00",
-  "dateModified": "2026-10-01T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/cycle-time-rozklad.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,10 +258,10 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-09-25T00:00:00+00:00">25.09.2026</time> · 2 min czytania</span></p>
-      <h1 class="p-name">Ten o przewidywalności, która buduje <em>zaufanie</em></h1><p class="lead p-summary">Szybkość robi wrażenie. Przewidywalność buduje zaufanie.</p>
+      <h1 class="p-name">Ten o przewidywalności, która buduje <em>zaufanie</em></h1><p class="lead p-summary">Cycle time i przewidywalność: dlaczego spadek mediany nie wystarcza, gdy 85. percentyl rośnie, i jak długi ogon rozkładu wydłuża obietnice dla klienta.</p>
     </header>
     <div class="prose e-content">
-      
+      <p>Szybkość robi wrażenie. Przewidywalność buduje zaufanie.</p>
 
 <p><img src="/assets/images/cycle-time-rozklad.webp" alt="Cycle time — rozkład: szybciej to nie to samo co przewidywalniej" /></p>
 
@@ -252,7 +273,7 @@
 
 <p>Zespół przyspieszył, a jego obietnice się wydłużyły.</p>
 
-<p>To właśnie robi długi ogon rozkładu. Tworzą go zadania zablokowane na zależnościach, czekające na decyzję, wracające z testów albo odłożone „na chwilę”, bo przyszło coś pilniejszego. Średnia i mediana go ukrywają, bo kilka skrajnych wartości ginie w masie szybkich zadań. Prognoza oparta na percentylach wystawia go na widok.</p>
+<p>To właśnie robi długi ogon rozkładu. Tworzą go <a href="/blog/2026-09-30-ten-o-tym-czy-kolumna/">zadania zablokowane na zależnościach</a>, <a href="/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/">czekające na decyzję</a>, wracające z testów albo odłożone „na chwilę”, bo przyszło coś pilniejszego. Średnia i mediana go ukrywają, bo kilka skrajnych wartości ginie w masie szybkich zadań. <a href="/blog/2026-03-24-na-kiedy-to-bedzie/">Prognoza oparta na percentylach</a> wystawia go na widok.</p>
 
 <p>Często ogon rośnie właśnie przez pogoń za szybkością. Zespół bierze najpierw to, co łatwe, więc mediana spada. Trudne rzeczy starzeją się w kolejce. Metryka się poprawia, system się pogarsza.</p>
 
@@ -267,7 +288,7 @@
 <ul class="post-tags" aria-label="Tagi"><li>przewidywalność</li><li>cycle time</li><li>percentyle</li><li>prognozowanie</li>
 </ul>
 <nav class="post-nav" aria-label="Sąsiednie wpisy">
-  <a class="post" href="/blog/2026-08-19-zajeto%C5%9B%C4%87-vs-post%C4%99p/">
+  <a class="post" href="/blog/2026-08-19-zajetosc-vs-postep/">
     <span class="meta">← Starszy wpis</span>
     <h3>Ten o zajętości, która udaje postęp</h3>
   </a>

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o specjalistach i rozmytej odpowiedzialności - Tomasz Żelezny</title>
-<meta name="description" content="Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?">
+<!-- begin _includes/seo.html --><title>Specjalizacja i rozmyta odpowiedzialność - Tomasz Żelezny</title>
+<meta name="description" content="Specjalizacja w zespole a rozmyta odpowiedzialność: problem wielu rąk, czyli dlaczego w zespole samych ekspertów coś się sypie, a nikt nie jest winny.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o specjalistach i rozmytej odpowiedzialności">
+<meta property="og:title" content="Specjalizacja i rozmyta odpowiedzialność">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/">
 
 
-  <meta property="og:description" content="Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?">
+  <meta property="og:description" content="Specjalizacja w zespole a rozmyta odpowiedzialność: problem wielu rąk, czyli dlaczego w zespole samych ekspertów coś się sypie, a nikt nie jest winny.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-01T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o specjalistach i rozmytej odpowiedzialności",
-  "description": "Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?",
+  "headline": "Specjalizacja i rozmyta odpowiedzialność",
+  "description": "Specjalizacja w zespole a rozmyta odpowiedzialność: problem wielu rąk, czyli dlaczego w zespole samych ekspertów coś się sypie, a nikt nie jest winny.",
   "url": "https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-08-13-specjalizacja-odpowiedzialnosc/",
   "datePublished": "2026-08-13T00:00:00+00:00",
-  "dateModified": "2026-10-01T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-08-13T00:00:00+00:00">13.08.2026</time> · 4 min czytania</span></p>
-      <h1 class="p-name">Ten o specjalistach i rozmytej <em>odpowiedzialności</em></h1><p class="lead p-summary">Wyobraź sobie zespół złożony z samych świetnych specjalistów, każdy w swojej specjalizacji. Brzmi jak marzenie, a gdzie ryzyka?</p>
+      <h1 class="p-name">Ten o specjalistach i rozmytej <em>odpowiedzialności</em></h1><p class="lead p-summary">Specjalizacja w zespole a rozmyta odpowiedzialność: problem wielu rąk, czyli dlaczego w zespole samych ekspertów coś się sypie, a nikt nie jest winny.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">
@@ -249,7 +270,7 @@
 
 <p>Pierwszy dotyczy odpowiedzialności, która zaczyna się rozłazić. Filozof polityki Dennis Thompson nazwał to kiedyś problemem wielu rąk: gdy do jednego wyniku przykłada się wielu ludzi, samo umiejscowienie sprawstwa się zaciera. Najłatwiej zobaczyć to w szpitalu. Kardiolog patrzy na serce, pulmonolog na płuca, nefrolog na nerki. Każdy robi swoją część bez zarzutu. Tyle że ostatecznie okazuje się, że nikt nie patrzył na pacjenta jako całość, i właśnie tam, w przestrzeni „między narządami”, coś umyka.</p>
 
-<p>Im więcej rąk przy jednym wyniku, tym trudniej wskazać, kto za ten wynik odpowiada. Charakterystyczne zdanie tej sytuacji brzmi: „ja swoje zrobiłem”, wypowiedziane nad czymś, co i tak nie działa.</p>
+<p>Im więcej rąk przy jednym wyniku, tym trudniej wskazać, kto za ten wynik odpowiada. Charakterystyczne zdanie tej sytuacji brzmi: <a href="/blog/2026-08-18-grupa-vs-zespol-wspolny-cel/">„ja swoje zrobiłem”</a>, wypowiedziane nad czymś, co i tak nie działa.</p>
 
 <p>Ciekawe, że specjalista tej dziury nie tworzy. On ją tylko odsłania. W zespole, gdzie każdy trochę zna się na wszystkim, brak gospodarza całości maskuje się sam. Dopiero ostra specjalizacja zdejmuje tę zasłonę i pokazuje, że właściciela wyniku po prostu nie było.</p>
 
@@ -296,7 +317,7 @@
     <span class="meta">← Starszy wpis</span>
     <h3>Ten o resolverze z wyboru i z przymusu</h3>
   </a>
-  <a class="post next" href="/blog/2026-08-18-grupa-vs-zespol-wsp%C3%B3lny-cel/">
+  <a class="post next" href="/blog/2026-08-18-grupa-vs-zespol-wspolny-cel/">
     <span class="meta">Nowszy wpis →</span>
     <h3>Ten o różnicy między grupą a zespołem</h3>
   </a>

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o backendzie bez użytkownika - Tomasz Żelezny</title>
-<meta name="description" content="Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.">
+<!-- begin _includes/seo.html --><title>Backend też ma użytkownika - Tomasz Żelezny</title>
+<meta name="description" content="Backend też ma użytkownika: czas ładowania, świeżość danych i stabilność to doświadczenie użytkownika, nawet gdy developer nie widzi interfejsu.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o backendzie bez użytkownika">
+<meta property="og:title" content="Backend też ma użytkownika">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/">
 
 
-  <meta property="og:description" content="Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.">
+  <meta property="og:description" content="Backend też ma użytkownika: czas ładowania, świeżość danych i stabilność to doświadczenie użytkownika, nawet gdy developer nie widzi interfejsu.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-05-26T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o backendzie bez użytkownika",
-  "description": "Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.",
+  "headline": "Backend też ma użytkownika",
+  "description": "Backend też ma użytkownika: czas ładowania, świeżość danych i stabilność to doświadczenie użytkownika, nawet gdy developer nie widzi interfejsu.",
   "url": "https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
   "datePublished": "2026-05-26T00:00:00+00:00",
-  "dateModified": "2026-05-26T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-05-26T00:00:00+00:00">26.05.2026</time> · 1 min czytania</span></p>
-      <h1 class="p-name">Ten o backendzie bez <em>użytkownika</em></h1><p class="lead p-summary">Robię backend, nie mam użytkownika, a użytkownik doświadcza całości.</p>
+      <h1 class="p-name">Ten o backendzie bez <em>użytkownika</em></h1><p class="lead p-summary">Backend też ma użytkownika: czas ładowania, świeżość danych i stabilność to doświadczenie użytkownika, nawet gdy developer nie widzi interfejsu.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">

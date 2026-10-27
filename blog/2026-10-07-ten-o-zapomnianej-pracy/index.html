@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o zapomnianej pracy - Tomasz Żelezny</title>
-<meta name="description" content="Zrobiłem coś, czego pewnie nikt nie użyje.">
+<!-- begin _includes/seo.html --><title>Aging WIP: plugin do Azure DevOps - Tomasz Żelezny</title>
+<meta name="description" content="Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o zapomnianej pracy">
+<meta property="og:title" content="Aging WIP: plugin do Azure DevOps">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-10-07-ten-o-zapomnianej-pracy/">
 
 
-  <meta property="og:description" content="Zrobiłem coś, czego pewnie nikt nie użyje.">
+  <meta property="og:description" content="Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.">
 
 
 
@@ -39,6 +39,8 @@
   <meta property="article:published_time" content="2026-10-07T00:00:00+00:00">
 
 
+
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -123,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o zapomnianej pracy",
-  "description": "Zrobiłem coś, czego pewnie nikt nie użyje.",
+  "headline": "Aging WIP: plugin do Azure DevOps",
+  "description": "Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.",
   "url": "https://tomaszzelezny.me/blog/2026-10-07-ten-o-zapomnianej-pracy/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-07-ten-o-zapomnianej-pracy/",
   "datePublished": "2026-10-07T00:00:00+00:00",
-  "dateModified": "2026-10-07T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/aging-wip.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -222,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -235,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
         <span><time class="dt-published" datetime="2026-10-07T00:00:00+00:00">07.10.2026</time> · 1 min czytania</span></p>
-      <h1 class="p-name">Ten o zapomnianej <em>pracy</em></h1><p class="lead p-summary">Zrobiłem coś, czego pewnie nikt nie użyje.</p>
+      <h1 class="p-name">Ten o zapomnianej <em>pracy</em></h1><p class="lead p-summary">Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.</p>
     </header>
     <div class="prose e-content">
       <p>Zrobiłem coś, czego pewnie nikt nie użyje. <a href="https://marketplace.visualstudio.com/items?itemName=TomaszZelezny.aging-wip">Plugin do Azure DevOpsa</a> pokazujący zapomnianą pracę. Wiek otwartych work itemów i to, jak długo wiszą w obecnym stanie.</p>
@@ -246,7 +269,7 @@
 
 <p>Jeśli chcecie zobaczyć, co porzuciliście na pewnym etapie, czy to z powodu zapomnienia, zmiany priorytetów, czy innej zawieruchy, teraz widać to jak na dłoni.</p>
 
-<p>Tylko uwaga: zamykanie tych zadań wpłynie na statystyki cycle time, więc może lepiej je usunąć i udawać, że nigdy ich nie było.</p>
+<p>Tylko uwaga: <a href="/blog/2026-09-30-ten-o-tym-czy-kolumna/">zamykanie tych zadań wpłynie na statystyki cycle time</a>, więc może lepiej je usunąć i udawać, że nigdy ich nie było.</p>
 
 <hr />
 

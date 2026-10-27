@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ten o tym na kiedy to będzie - Tomasz Żelezny</title>
-<meta name="description" content="Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.">
+<!-- begin _includes/seo.html --><title>Na kiedy to będzie? Prognoza Monte Carlo - Tomasz Żelezny</title>
+<meta name="description" content="Jak odpowiedzieć na pytanie „na kiedy to będzie?”: prognoza terminu symulacją Monte Carlo, 85. percentyl i rozmowa o dacie z organizacją.">
 
 
   <meta name="author" content="Tomasz Żelezny">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Tomasz Żelezny">
-<meta property="og:title" content="Ten o tym na kiedy to będzie">
+<meta property="og:title" content="Na kiedy to będzie? Prognoza Monte Carlo">
 <meta property="og:url" content="https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/">
 
 
-  <meta property="og:description" content="Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.">
+  <meta property="og:description" content="Jak odpowiedzieć na pytanie „na kiedy to będzie?”: prognoza terminu symulacją Monte Carlo, 85. percentyl i rozmowa o dacie z organizacją.">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-01T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
 
 
 
@@ -125,12 +125,12 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ten o tym na kiedy to będzie",
-  "description": "Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.",
+  "headline": "Na kiedy to będzie? Prognoza Monte Carlo",
+  "description": "Jak odpowiedzieć na pytanie „na kiedy to będzie?”: prognoza terminu symulacją Monte Carlo, 85. percentyl i rozmowa o dacie z organizacją.",
   "url": "https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-03-24-na-kiedy-to-bedzie/",
   "datePublished": "2026-03-24T00:00:00+00:00",
-  "dateModified": "2026-10-01T00:00:00+00:00",
+  "dateModified": "2026-10-27T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/Montecarlo.png",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -224,6 +224,27 @@
       if (!d.contains(e.target)) d.removeAttribute('open');
     });
   });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
   });
@@ -237,7 +258,7 @@
     <header class="post-head">
       <p class="post-kicker"><span class="tag">Zarządzanie projektami</span>
         <span><time class="dt-published" datetime="2026-03-24T00:00:00+00:00">24.03.2026</time> · 1 min czytania</span></p>
-      <h1 class="p-name">Ten o tym na kiedy to <em>będzie</em></h1><p class="lead p-summary">Kiedyś to pytanie kosztowało mnie pół dnia. Teraz wklejam dane do Clauda i mam wynik szybciej niż znalazłem kiedyś sensowny opis o co w ogóle chodzi.</p>
+      <h1 class="p-name">Ten o tym na kiedy to <em>będzie</em></h1><p class="lead p-summary">Jak odpowiedzieć na pytanie „na kiedy to będzie?”: prognoza terminu symulacją Monte Carlo, 85. percentyl i rozmowa o dacie z organizacją.</p>
     </header>
     <div class="prose e-content">
       <figure class="quote-block corner-marks">
@@ -253,7 +274,7 @@
 
 <p>A podobno „przewidywanie jest trudne, zwłaszcza jeśli chodzi o przyszłość.” Jak mawiał Yogi Berra.</p>
 
-<p>Wiem już, że na 85. percentylu wychodzi 13 tygodni. Wiem, że jak chcę grać bezpiecznie — mówię 14.</p>
+<p>Wiem już, że <a href="/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/">na 85. percentylu</a> wychodzi 13 tygodni. Wiem, że jak chcę grać bezpiecznie — mówię 14.</p>
 
 <p>I tu zaczyna się prawdziwy świat.</p>
 
