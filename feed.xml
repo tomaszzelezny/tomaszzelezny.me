@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-26T21:33:20+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma działów, tylko efekt tego, jak ze sobą współpracują. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o enkapsulacji</title><link href="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/" rel="alternate" type="text/html" title="Ten o enkapsulacji" /><published>2026-10-21T00:00:00+00:00</published><updated>2026-10-21T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-enkapsulacji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/"><![CDATA[<p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-27T10:07:48+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma działów, tylko efekt tego, jak ze sobą współpracują. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o inżynierze produktu</title><link href="https://tomaszzelezny.me/blog/2026-10-27-ten-o-inzynierze-produktu/" rel="alternate" type="text/html" title="Ten o inżynierze produktu" /><published>2026-10-27T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-inzynierze-produktu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-27-ten-o-inzynierze-produktu/"><![CDATA[<p>Co jest rezultatem pracy developera?</p>
+
+<p>Od tego pytania zacząłem w maju prezentację „Developer to dobry start. Inżynier produktu to kierunek”. Na tak zadane pytanie zwykle padają odpowiedzi: kod, nowa funkcjonalność, zamknięte tickety albo poprawione błędy.</p>
+
+<p>To wszystko są wyniki. Rezultat pojawia się dopiero u użytkownika, gdy zmienia się to, co robi.</p>
+
+<p>Każdy, kto dłużej pracuje w branży, pamięta pogoń za funkcją, która potem nie trafiła na produkcję albo nikt jej nie używał. Wynik był, a rezultatu zabrakło.</p>
+
+<p><img src="/assets/images/inzynier-produktu-zajawka.webp" alt="Developer to dobry start. Inżynier produktu to kierunek. Co jest rezultatem pracy developera?" /></p>
+
+<p>Przez lata praca developera w trybie „ticket, kod, PR, następny” jakoś się broniła, bo napisanie kodu było drogie i wymagało specjalistów. Teraz dużą część kodu potrafi wygenerować AI. Kiedy wynik tanieje, coraz więcej zależy od tego, czy developer wie, po co go dostarcza, i czy jest w stanie powiedzieć, co się z tym kodem dzieje później.</p>
+
+<p>Ta sama technologia pozwala developerom wyjść poza własny stack. Z pomocą AI można zrozumieć, jak działa inny dział firmy, przejrzeć kilkaset zgłoszeń z supportu w poszukiwaniu powtarzających się problemów albo złożyć dashboard z danymi biznesowymi, nawet bez doświadczenia w pracy analityka. Próg wejścia w niektóre tematy znacząco się obniżył.</p>
+
+<p>Rola developera musi ewoluować, choć może raczej trzeba wrócić do korzeni.</p>
+
+<p>Jedną z możliwości jest <a href="/inzynier-produktu/">inżynier produktu</a>, czyli ktoś, kto zna technologię, rozumie klienta i model biznesowy, a przez to jest w stanie współtworzyć kierunek rozwoju firmy, zanim powstanie ticket.</p>
+
+<p>Samo słowo „inżynier” ma swoją etymologię, która przez lata gdzieś się zagubiła.</p>
+
+<p>A u Was co jest rezultatem pracy developera?</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><summary type="html"><![CDATA[Kod, feature i zamknięty ticket to wyniki. Rezultat pojawia się dopiero u użytkownika. Kiedy AI obniża koszt kodu, rola developera musi ewoluować.]]></summary></entry><entry><title type="html">Ten o enkapsulacji</title><link href="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/" rel="alternate" type="text/html" title="Ten o enkapsulacji" /><published>2026-10-21T00:00:00+00:00</published><updated>2026-10-21T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-enkapsulacji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/"><![CDATA[<p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie.</p>
 
 <p>Weźmy zespoły podzielone według domen biznesowych. Dopóki zmiana mieści się w jednej domenie, wszystko działa. Teraz zmiana przekrojowa: firmy mają kupować na fakturę z NIP. Każdy zespół musi coś dołożyć:</p>
 
@@ -161,24 +181,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dMUU7Zhm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="blocked" /><category term="przepływ pracy" /><category term="cycle time" /><category term="tablica" /><summary type="html"><![CDATA[Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.]]></summary></entry><entry><title type="html">Ten o przewidywalności, która buduje zaufanie</title><link href="https://tomaszzelezny.me/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/" rel="alternate" type="text/html" title="Ten o przewidywalności, która buduje zaufanie" /><published>2026-09-25T00:00:00+00:00</published><updated>2026-10-01T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/szybkosc-robi-wrazenie-przewidywalnosc-buduje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-09-25-szybkosc-robi-wrazenie-przewidywalnosc-buduje/"><![CDATA[<p>Szybkość robi wrażenie. Przewidywalność buduje zaufanie.</p>
-
-<p><img src="/assets/images/cycle-time-rozklad.webp" alt="Cycle time — rozkład: szybciej to nie to samo co przewidywalniej" /></p>
-
-<p>Weźmy zespół, któremu w ciągu dwóch lat mediana cycle time spadła z 21 do 14 dni. Wygląda to na sukces i dobrze jest nim się cieszyć.</p>
-
-<p>W tym samym czasie 85. percentyl urósł z 61 do 83 dni. Połowa elementów kończy się w dwa tygodnie, a co piąty trwa dłużej niż dwa miesiące.</p>
-
-<p>Klienta mediana nie interesuje. Chce wiedzieć, kiedy dostanie swoją rzecz. Uczciwa odpowiedź brzmi dziś „w 85% przypadków w ciągu 83 dni”, a dwa lata temu brzmiała „w ciągu 61”.</p>
-
-<p>Zespół przyspieszył, a jego obietnice się wydłużyły.</p>
-
-<p>To właśnie robi długi ogon rozkładu. Tworzą go zadania zablokowane na zależnościach, czekające na decyzję, wracające z testów albo odłożone „na chwilę”, bo przyszło coś pilniejszego. Średnia i mediana go ukrywają, bo kilka skrajnych wartości ginie w masie szybkich zadań. Prognoza oparta na percentylach wystawia go na widok.</p>
-
-<p>Często ogon rośnie właśnie przez pogoń za szybkością. Zespół bierze najpierw to, co łatwe, więc mediana spada. Trudne rzeczy starzeją się w kolejce. Metryka się poprawia, system się pogarsza.</p>
-
-<p>W tym zespole wartość 85. percentyla urosła w dwa lata z 61 do 83 dni. Kiedy rośnie, to znaczy, że coś w procesie zaczyna trzymać pracę dłużej, niż powinno.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dfeiqcC9">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="przewidywalność" /><category term="cycle time" /><category term="percentyle" /><category term="prognozowanie" /><summary type="html"><![CDATA[Szybkość robi wrażenie. Przewidywalność buduje zaufanie.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dMUU7Zhm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="blocked" /><category term="przepływ pracy" /><category term="cycle time" /><category term="tablica" /><summary type="html"><![CDATA[Zespół wprowadził tam kolumnę Blocked, bo zadania za długo wisiały w realizacji.]]></summary></entry></feed>

@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Ten o inżynierze produktu](https://tomaszzelezny.me/blog/2026-10-27-ten-o-inzynierze-produktu/): Kod, feature i zamknięty ticket to wyniki. Rezultat pojawia się dopiero u użytkownika. Kiedy AI obniża koszt kodu, rola developera musi ewoluować.
 - [Ten o enkapsulacji](https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/): W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Organizacje, które te systemy budują, tej zasady nie stosują.
 - [Ten o miesiącu opóźnienia](https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/): Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?
 - [Ten o kalendarzu jednej osoby](https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/): Kto u Was decyduje, kiedy Ciebie nie ma?

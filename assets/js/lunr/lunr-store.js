@@ -238,4 +238,10 @@ var store = [{
         "tags": ["enkapsulacja","organizacja","zależności między zespołami","skalowanie"],
         "url": "/blog/2026-10-21-ten-o-enkapsulacji/",
         "teaser": null
+      },{
+        "title": "Ten o inżynierze produktu",
+        "excerpt":"Co jest rezultatem pracy developera? Od tego pytania zacząłem w maju prezentację „Developer to dobry start. Inżynier produktu to kierunek”. Na tak zadane pytanie zwykle padają odpowiedzi: kod, nowa funkcjonalność, zamknięte tickety albo poprawione błędy. To wszystko są wyniki. Rezultat pojawia się dopiero u użytkownika, gdy zmienia się to, co...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","AI","output i outcome"],
+        "url": "/blog/2026-10-27-ten-o-inzynierze-produktu/",
+        "teaser": null
       }]
