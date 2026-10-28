@@ -35,10 +35,82 @@ var store = [{
         "url": "/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/",
         "teaser": null
       },{
+        "title": "Ten o strategii i wykonaniu",
+        "excerpt":"Dobra strategia musi iść w parze z możliwościami jej wykonania. Wizja bez zdolności jej realizacji pozostaje jedynie opowieścią o tym, co mogłoby się wydarzyć. Z kolei perfekcyjna egzekucja bez jasnego kierunku przypomina bieg na oślep: możemy wkładać ogrom wysiłku, ale trudno powiedzieć, czy przybliża nas on do czegokolwiek wartościowego. Organizacje...","categories": ["Zarządzanie"],
+        "tags": ["strategia","organizacja","cele"],
+        "url": "/blog/2025-10-30-ten-o-strategii-i-wykonaniu/",
+        "teaser": null
+      },{
+        "title": "Ten o czekaniu między zespołami",
+        "excerpt":"Ostatnio siedzę z managerem przy kawie, a on tak do mnie: „Każdy zespół robi swoje, szybko, efektywnie, ale jakoś tematy się ciągną”. Spojrzałem mu w oczy i powiedziałem: DELAY. Ten niewidzialny zabójca każdego Value Streamu. Składnik, którego nikt nie planuje, ale który jest wszędzie. Pamiętam projekt sprzed roku. Zespół A...","categories": ["Zarządzanie produktem"],
+        "tags": ["value stream","przepływ pracy","opóźnienia","zespoły"],
+        "url": "/blog/2025-11-04-ten-o-czekaniu-miedzy-zespolami/",
+        "teaser": null
+      },{
+        "title": "Ten o ceremoniach i wartości",
+        "excerpt":"Zaczyna się od ceremonii. Daily o 9:00, retro w piątki, planowanie co dwa tygodnie. Zespoły uczą się Scruma i Kanbana, pojawiają się metryki: burn-down, velocity. Układamy backlogi, usprawniamy stand-upy, porządkujemy procesy. Pracujemy nad zwiększeniem skuteczności zespołów i często mamy poczucie, że „praca jest zrobiona”. Tylko że to nadal są jedynie...","categories": ["Zarządzanie"],
+        "tags": ["transformacja","Agile","wartość","time-to-market","marnotrawstwo"],
+        "url": "/blog/2025-11-06-ten-o-ceremoniach-i-wartosci/",
+        "teaser": null
+      },{
+        "title": "Ten o eksperymencie",
+        "excerpt":"Dla wielu menedżerów w tradycyjnym modelu zarządzania słowo „eksperyment” budzi natychmiastowy opór. Jak to? Mamy przecież wypracowany plan, zatwierdzony budżet i wiążący harmonogram! Eksperyment brzmi jak chaos. Ale nie chodzi o to, by zrezygnować z planowania, tylko o dopasowanie podejścia do kontekstu. W stabilnym środowisku, gdy warunki są znane, planuj....","categories": ["Zarządzanie"],
+        "tags": ["eksperyment","niepewność","Agile","PDCA","Lean Startup"],
+        "url": "/blog/2025-11-13-ten-o-eksperymencie/",
+        "teaser": null
+      },{
+        "title": "Ten o wykonawcy i partnerze",
+        "excerpt":"Przez lata wielu z nas w IT i usługach żyło w wygodnej iluzji: „Dostarczamy to, o co klienci proszą”. To podejście, choć na pozór bezpieczne, w rzeczywistości koncentruje się na życzeniach, a nie na wartości. Gdzie leży prawdziwy sukces? Prawdziwa transformacja, będąca sercem filozofii Agile, polega na zmianie paradygmatu na:...","categories": ["Zarządzanie produktem"],
+        "tags": ["Agile","wartość","refinement","współpraca z klientem"],
+        "url": "/blog/2025-12-16-ten-o-wykonawcy-i-partnerze/",
+        "teaser": null
+      },{
+        "title": "Ten o pobieżnym kopiowaniu",
+        "excerpt":"Dlaczego kopiujesz rozwiązania, które nie zadziałają w Twojej firmie? Kopiowanie cudzych rozwiązań to dobra heurystyka. Ktoś już zmierzył się z podobnym problemem, więc korzystamy z jego doświadczenia, zamiast zaczynać od zera. Kłopot w tym, że często kopiujemy pobieżnie. Widzimy sukces Spotify czy Google, więc kopiujemy ich struktury (Squady/Tribes) lub rytuały...","categories": ["Zarządzanie"],
+        "tags": ["heurystyka","kopiowanie praktyk","model Spotify","OKR","first principles","pre-mortem"],
+        "url": "/blog/2026-01-07-ten-o-pobieznym-kopiowaniu/",
+        "teaser": null
+      },{
+        "title": "Ten o samoregulacji zespołu",
+        "excerpt":"Lektura „Nexusa” Harariego skłoniła mnie do refleksji nad tym, gdzie kończy się autentyczna zwinność, a zaczyna jedynie sprawnie działająca izolacja od rzeczywistości. Często skupiamy się na samoorganizacji, zapominając, że systemy pozbawione kontaktu z zewnętrzną prawdą, klientem i rynkiem, z czasem tracą zdolność adaptacji. Co Harari mówi o informacji w organizacji?...","categories": ["Zarządzanie"],
+        "tags": ["samoregulacja","autonomia","zespół","rynek","książki"],
+        "url": "/blog/2026-01-13-ten-o-samoregulacji-zespolu/",
+        "teaser": null
+      },{
+        "title": "Ten o prawie Brandoliniego",
+        "excerpt":"Słyszeliście o prawie Brandoliniego? 💡 Odkryłem je niedawno i idealnie opisuje ono codzienność w wielu biurach. To tzw. zasada asymetrii bzdury. Brzmi dosadnie, ale sprowadza się do prostej obserwacji: Wyprodukowanie bzdury (lub niesprawdzonej informacji) zajmuje chwilę. Jej rzetelne sprostowanie wymaga dziesięć razy więcej czasu i energii. W organizacjach widać to...","categories": ["Zarządzanie"],
+        "tags": ["komunikacja","plotki","organizacja"],
+        "url": "/blog/2026-01-15-ten-o-prawie-brandoliniego/",
+        "teaser": null
+      },{
+        "title": "Ten o małych poprawkach",
+        "excerpt":"Małych poprawek się nie świętuje, a to one dają przewagę. Wczoraj ktoś w teamie skrócił proces onboardingu o 10 minut. Inny uprościł formularz o jedno pole. Kolejny zaktualizował przestarzałą dokumentację. Nikt tego nie zauważył. Nikt nie gratulował. Za 6 miesięcy, kiedy suma takich „niewidocznych” zmian sprawi, że klienci przestaną uciekać...","categories": ["Zarządzanie produktem"],
+        "tags": ["ciągłe doskonalenie","świętowanie","zespół"],
+        "url": "/blog/2026-01-20-ten-o-malych-poprawkach/",
+        "teaser": null
+      },{
         "title": "Ten o roku pisania na LinkedIn",
         "excerpt":"Mija około rok, odkąd postanowiłem sprawdzać swoje siły w publikowaniu na LinkedIn. Wyciągam wnioski, patrzę na liczby. Wzrost wyświetleń publikacji o 3357%. To efekt przejścia z trybu „tylko czytam” do „zaczynam pisać”. Czy to tempo jest do utrzymania? Raczej nie, dziś już jest tylko 2514,5%. 9 391 osób, czyli realny...","categories": ["Marka osobista"],
         "tags": ["LinkedIn","publikowanie","syndrom oszusta"],
         "url": "/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/",
+        "teaser": null
+      },{
+        "title": "Ten o 10% na refinement",
+        "excerpt":"Czy pamiętasz jeszcze te 10% na refinement? W starszych wersjach Scrum Guide’a widniał zapis: „Refinement zazwyczaj nie zajmuje więcej niż 10% pojemności zespołu deweloperskiego”. Liczba ta u różnych osób, z różną dbałością o literę prawa, była pilnowana niemal religijnie. Skąd się wzięło 10%? Dziś warto zadać sobie pytanie: czym właściwie...","categories": ["Zarządzanie produktem"],
+        "tags": ["Scrum","refinement","backlog","Takeuchi i Nonaka"],
+        "url": "/blog/2026-02-12-ten-o-10-procentach-na-refinement/",
+        "teaser": null
+      },{
+        "title": "Ten o książce 10X Org",
+        "excerpt":"Alexey Krivitsky i Roland Flemm: jedna kopia już w moich rękach. Dwa dni temu miała miejsce premiera książki „10X Org”, która jest kolejnym etapem rozwoju Org Topologies. Śledzę ten rozwój od kilku lat. Czego nauczyło mnie Org Topologies? Że struktura organizacji wpływa na jej efektywność głębiej, niż się wydaje. Dzięki...","categories": ["Zarządzanie"],
+        "tags": ["Org Topologies","design organizacji","struktura organizacji","strategia","AI","książki"],
+        "url": "/blog/2026-02-26-ten-o-ksiazce-10x-org/",
+        "teaser": null
+      },{
+        "title": "Ten o lejku niepewności w erze AI",
+        "excerpt":"Lejek niepewności uczył nas pokory. Na początku projektu jest najszerszy. Im więcej iteracji, rozmów z użytkownikami i dostarczonych przyrostów, tym bardziej się zwęża. Nie dlatego, że stajemy się mądrzejsi z definicji, ale dlatego, że rzeczywistość stopniowo weryfikuje nasze założenia. Barry Boehm opisał to już w latach 80. i przez dekady...","categories": ["Zarządzanie projektami"],
+        "tags": ["estymacje","niepewność","AI","planowanie"],
+        "url": "/blog/2026-03-05-ten-o-lejku-niepewnosci/",
         "teaser": null
       },{
         "title": "Ten o celach, które giną w taskach",
@@ -149,10 +221,22 @@ var store = [{
         "url": "/blog/2026-05-12-ten-o-stylu-zarzadzania/",
         "teaser": null
       },{
+        "title": "Ten o weryfikacji i walidacji",
+        "excerpt":"Użytkownik nie czyta twoich testów. Nie wie, że masz 94% pokrycia kodu, że pipeline świeci na zielono, że sprint review przeszło bez uwag. Wie jedno: czy to, co mu dałeś, rozwiązuje jego problem. Weryfikacja to pytanie wewnętrzne. Zadaje je zespół sobie samemu: czy zbudowaliśmy to, co zamierzaliśmy? Walidacja przychodzi z...","categories": ["Zarządzanie produktem"],
+        "tags": ["weryfikacja","walidacja","testy","użytkownik","inżynier produktu"],
+        "url": "/blog/2026-05-19-ten-o-weryfikacji-i-walidacji/",
+        "teaser": null
+      },{
         "title": "Ten o backendzie bez użytkownika",
         "excerpt":"Użytkownik nie doświadcza warstw. On doświadcza całości. „Robię backend, nie mam użytkownika.” Słyszę to regularnie. I rozumiem, skąd się to bierze — nie siedzisz przy interfejsie, nie klikasz przycisków, nie wypełniasz formularzy. Twoja praca jest po drugiej stronie warstwy abstrakcji. Ale użytkownik nie doświadcza warstw. On doświadcza całości. Dane, które...","categories": ["Zarządzanie produktem"],
         "tags": ["backend","użytkownik","doświadczenie","perspektywa"],
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
+        "teaser": null
+      },{
+        "title": "Ten o paczce w ogonie rozkładu",
+        "excerpt":"Wysyłam paczkę przez InPost. 98% trafia do rąk następnego dnia. Prawdopodobieństwo graniczące z pewnością. Moja następnego dnia siedzi w tym samym paczkomacie, z którego ją nadałem. Trafiłem w te 2%. Przyczyna błaha: zepsuty paczkomat, serwis zamówiony, termin nieznany. InPost deklaruje dwa dni robocze na dostawę. Formalnie wszystko gra, kontrakt dotrzymany....","categories": ["Zarządzanie projektami"],
+        "tags": ["prognozowanie","koszt opóźnienia","Monte Carlo","ryzyko"],
+        "url": "/blog/2026-06-18-ten-o-paczce-w-ogonie-rozkladu/",
         "teaser": null
       },{
         "title": "Ten o Scrumie i ryzyku",
