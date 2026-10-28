@@ -35,6 +35,12 @@ var store = [{
         "url": "/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/",
         "teaser": null
       },{
+        "title": "Ten o roku pisania na LinkedIn",
+        "excerpt":"Mija około rok, odkąd postanowiłem sprawdzać swoje siły w publikowaniu na LinkedIn. Wyciągam wnioski, patrzę na liczby. Wzrost wyświetleń publikacji o 3357%. To efekt przejścia z trybu „tylko czytam” do „zaczynam pisać”. Czy to tempo jest do utrzymania? Raczej nie, dziś już jest tylko 2514,5%. 9 391 osób, czyli realny...","categories": ["Marka osobista"],
+        "tags": ["LinkedIn","publikowanie","syndrom oszusta"],
+        "url": "/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/",
+        "teaser": null
+      },{
         "title": "Ten o celach, które giną w taskach",
         "excerpt":"Spójrz na to, o czym rozmawiacie. Tam jest prawda o tym, czym naprawdę żyje Twoja organizacja. Zespół dostaje cel. Manager dostaje spokój ducha. A na następnym daily wszyscy o taskach. To historia o tym, jak dwa różne języki zarządzania istnieją w tej samej organizacji — i nikt nie zauważył, że...","categories": ["Zarządzanie"],
         "tags": ["OKR","agile","organizacja"],
@@ -149,6 +155,12 @@ var store = [{
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
         "teaser": null
       },{
+        "title": "Ten o Scrumie i ryzyku",
+        "excerpt":"Scrum nie jest metodyką zarządzania. Jest sposobem na pozyskiwanie informacji zwrotnej i korektę. Sprint ma określoną długość, żeby zobaczyć, czy idziesz w dobrym kierunku, zanim zajdziesz za daleko. Iteracyjno-inkrementalne podejście to sposób na mitygację ryzyka. Skupiasz się na tym, co najważniejsze, zanim zajmiesz się resztą tematów. Budujesz kawałek, sprawdzasz, czy...","categories": ["Zarządzanie produktem"],
+        "tags": ["Scrum","Agile","ryzyko","iteracja"],
+        "url": "/blog/2026-06-23-ten-o-scrumie-i-ryzyku/",
+        "teaser": null
+      },{
         "title": "Ten o resolverze z wyboru i z przymusu",
         "excerpt":"Resolver z wyboru? Na Kubie z niedoboru wyłoniło się pewne podejście: resolver. Dosłownie znaczy „rozwiązać”. W praktyce znaczy coś więcej — załatwić, ogarnąć, dorwać, sklecić z tego, co akurat jest pod ręką. Zepsuł się alternator w Ładzie z 1983 roku? Ktoś w dzielnicy ma kuzyna, który wie, gdzie leży część...","categories": ["Zarządzanie produktem","Kultura organizacyjna"],
         "tags": ["autonomia","odpowiedzialność","systemy","decyzje"],
@@ -243,5 +255,11 @@ var store = [{
         "excerpt":"Co jest rezultatem pracy developera? Od tego pytania zacząłem w maju prezentację „Developer to dobry start. Inżynier produktu to kierunek”. Na tak zadane pytanie zwykle padają odpowiedzi: kod, nowa funkcjonalność, zamknięte tickety albo poprawione błędy. To wszystko są wyniki. Rezultat pojawia się dopiero u użytkownika, gdy zmienia się to, co...","categories": ["Zarządzanie produktem"],
         "tags": ["inżynier produktu","developer","AI","output i outcome"],
         "url": "/blog/2026-10-27-ten-o-inzynierze-produktu/",
+        "teaser": null
+      },{
+        "title": "Ten o stałej cenie i sprintach",
+        "excerpt":"Często słyszę, że fixed price i zwinność się wykluczają. Rozumiem, skąd to przekonanie. Stała cena kojarzy się ze sztywnym zakresem, a sztywny zakres z wodospadem, w którym każda zmiana oznacza aneks i spór o to, co właściwie było w specyfikacji. Tyle że praca w sprintach daje do ręki dokładnie to,...","categories": ["Zarządzanie projektami"],
+        "tags": ["fixed price","Scrum","Agile","prognozowanie","zakres"],
+        "url": "/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/",
         "teaser": null
       }]

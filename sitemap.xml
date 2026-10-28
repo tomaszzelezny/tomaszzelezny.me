@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-10-27-ten-o-inzynierze-produktu/</loc>
     <lastmod>2026-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -79,6 +84,11 @@
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-08-11-resolver-choice-vs-necessity/</loc>
     <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-06-23-ten-o-scrumie-i-ryzyku/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -177,6 +187,11 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/</loc>
     <lastmod>2026-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -219,7 +234,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/blog/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
   </url>
     
   
@@ -228,7 +243,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
   </url>
     
   
