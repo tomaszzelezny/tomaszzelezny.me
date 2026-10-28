@@ -89,10 +89,28 @@ var store = [{
         "url": "/blog/2026-01-20-ten-o-malych-poprawkach/",
         "teaser": null
       },{
+        "title": "Ten o zwinności i portfelu",
+        "excerpt":"Zwinność często jest opisywana jako sposób pracy zespołów. Problem w tym, że jej realna wartość ujawnia się dopiero na poziomie portfela inwestycyjnego i decyzji o alokacji kapitału. Czym jest sprint, jeśli nie jednostką produktywności? Sprint jest horyzontem inwestycyjnym. To okres, w którym organizacja świadomie ogranicza ekspozycję na ryzyko i sprawdza,...","categories": ["Zarządzanie"],
+        "tags": ["Agile","portfel","sprint","decyzje","finansowanie"],
+        "url": "/blog/2026-01-22-ten-o-zwinnosci-i-portfelu/",
+        "teaser": null
+      },{
         "title": "Ten o roku pisania na LinkedIn",
         "excerpt":"Mija około rok, odkąd postanowiłem sprawdzać swoje siły w publikowaniu na LinkedIn. Wyciągam wnioski, patrzę na liczby. Wzrost wyświetleń publikacji o 3357%. To efekt przejścia z trybu „tylko czytam” do „zaczynam pisać”. Czy to tempo jest do utrzymania? Raczej nie, dziś już jest tylko 2514,5%. 9 391 osób, czyli realny...","categories": ["Marka osobista"],
         "tags": ["LinkedIn","publikowanie","syndrom oszusta"],
         "url": "/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/",
+        "teaser": null
+      },{
+        "title": "Ten o partnerze w ryzyku",
+        "excerpt":"Interesariusz to nie „klient wewnętrzny”. To Twój partner w ryzyku. Co jest złego w modelu „klienta wewnętrznego”? Tworzy barierę, która zabija innowacyjność. W wielu korporacjach utrwalił się szkodliwy podział: zespół „dostarcza”, a interesariusz „wymaga i ocenia”. W tym modelu ryzyko leży tylko po jednej stronie płotu. Interesariusz zamawia, zespół wykonuje,...","categories": ["Zarządzanie produktem"],
+        "tags": ["interesariusze","Lean Enterprise","współpraca","priorytetyzacja","odpowiedzialność"],
+        "url": "/blog/2026-02-05-ten-o-partnerze-w-ryzyku/",
+        "teaser": null
+      },{
+        "title": "Ten o entropii oprogramowania",
+        "excerpt":"Czasy, kiedy można było wdrożyć system i spokojnie zostawić go na kilka lat, już minęły. Dlaczego system, którego nie zmieniamy, przestaje działać? Bo zmienia się wszystko wokół niego. Dziś Wasza aplikacja mobilna może działać bez zarzutu, platforma e-commerce generować stabilne przychody, a system wewnętrzny obsługiwać procesy. I nagle, rok później:...","categories": ["Zarządzanie"],
+        "tags": ["entropia oprogramowania","utrzymanie","dług techniczny","bezpieczeństwo","budżet IT"],
+        "url": "/blog/2026-02-10-ten-o-entropii-oprogramowania/",
         "teaser": null
       },{
         "title": "Ten o 10% na refinement",
@@ -233,6 +251,18 @@ var store = [{
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
         "teaser": null
       },{
+        "title": "Ten o wiedzy, za którą nikt nie płaci",
+        "excerpt":"W 1962 roku Kenneth Arrow opisał, dlaczego rynek systematycznie za mało inwestuje w postęp. Co odkrył Kenneth Arrow? Że wiedza powstaje przy okazji pracy, a rynek za nią nie płaci. Jego argument dotyczył produkcji samolotów. Mówił mniej więcej tak: kiedy firma buduje maszynę, uczy się przy tym czegoś, co obniży...","categories": ["Zarządzanie"],
+        "tags": ["Kenneth Arrow","optymalizacja lokalna","dług techniczny","motywacja","myślenie systemowe"],
+        "url": "/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/",
+        "teaser": null
+      },{
+        "title": "Ten o trójkącie projektu w erze AI",
+        "excerpt":"W erze AI niektóre rzeczy pozostają niezmienione. Ale czy na pewno? Na czym polega model czterech czynników? Zakres, czas, jakość i koszt są ze sobą powiązane: zmień jeden, a pozostałe odpowiedzą. Ten model ma już kilka dekad. Tak działały projekty w 1990 roku i tak powinny działać dziś. Chcesz więcej...","categories": ["Zarządzanie"],
+        "tags": ["AI","zarządzanie projektem","jakość","zakres"],
+        "url": "/blog/2026-06-12-ten-o-trojkacie-projektu-i-ai/",
+        "teaser": null
+      },{
         "title": "Ten o paczce w ogonie rozkładu",
         "excerpt":"Wysyłam paczkę przez InPost. 98% trafia do rąk następnego dnia. Prawdopodobieństwo graniczące z pewnością. Moja następnego dnia siedzi w tym samym paczkomacie, z którego ją nadałem. Trafiłem w te 2%. Przyczyna błaha: zepsuty paczkomat, serwis zamówiony, termin nieznany. InPost deklaruje dwa dni robocze na dostawę. Formalnie wszystko gra, kontrakt dotrzymany....","categories": ["Zarządzanie projektami"],
         "tags": ["prognozowanie","koszt opóźnienia","Monte Carlo","ryzyko"],
@@ -243,6 +273,12 @@ var store = [{
         "excerpt":"Scrum nie jest metodyką zarządzania. Jest sposobem na pozyskiwanie informacji zwrotnej i korektę. Sprint ma określoną długość, żeby zobaczyć, czy idziesz w dobrym kierunku, zanim zajdziesz za daleko. Iteracyjno-inkrementalne podejście to sposób na mitygację ryzyka. Skupiasz się na tym, co najważniejsze, zanim zajmiesz się resztą tematów. Budujesz kawałek, sprawdzasz, czy...","categories": ["Zarządzanie produktem"],
         "tags": ["Scrum","Agile","ryzyko","iteracja"],
         "url": "/blog/2026-06-23-ten-o-scrumie-i-ryzyku/",
+        "teaser": null
+      },{
+        "title": "Ten o LeSS i upraszczaniu",
+        "excerpt":"Im więcej zespołów, tym więcej koordynacji. Im więcej koordynacji, tym więcej spotkań. Im więcej spotkań, tym mniej pracy. Większość frameworków skalowania rozwiązuje ten problem dodając warstwy. Nowe role, nowe ceremonie, nowe artefakty. Koordynacja staje się osobnym zawodem. Czym LeSS różni się od innych frameworków skalowania? LeSS (Large-Scale Scrum) idzie w...","categories": ["Zarządzanie"],
+        "tags": ["LeSS","skalowanie","koordynacja","Product Backlog","Product Owner"],
+        "url": "/blog/2026-07-14-ten-o-less-i-upraszczaniu/",
         "teaser": null
       },{
         "title": "Ten o resolverze z wyboru i z przymusu",

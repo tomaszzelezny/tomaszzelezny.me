@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:modified_time" content="2026-10-27T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-28T00:00:00+00:00">
 
 
 
@@ -130,7 +130,7 @@
   "url": "https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/",
   "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/",
   "datePublished": "2026-10-21T00:00:00+00:00",
-  "dateModified": "2026-10-27T00:00:00+00:00",
+  "dateModified": "2026-10-28T00:00:00+00:00",
   "inLanguage": "pl-PL",
   "image": "https://tomaszzelezny.me/assets/images/og/enkapsulacja-rozmowy.jpg",
   "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
@@ -147,6 +147,9 @@
 <script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
         async src="https://gc.zgo.at/count.js"></script>
 
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
 
   </head>
 
@@ -283,7 +286,7 @@
 
 <p>W kodzie nazwalibyśmy to wyciekającą abstrakcją. Żeby coś zrobić, muszę znać wewnętrzną budowę organizacji: kto za co odpowiada, z kim i w jakiej formie rozmawiać, czyj priorytet jest ważniejszy. Ta wiedza nie ma nic wspólnego z problemem klienta.</p>
 
-<p>W środowisku skalowanym rozmów przybywa szybciej niż zespołów. Frameworki skalowania dokładają kolejne warstwy synchronizacji: wspólne planowanie, tablice zależności, spotkania koordynacyjne. Zależności lepiej widać, ale ktoś nadal musi je przegadać jedna po drugiej.</p>
+<p>W środowisku skalowanym rozmów przybywa szybciej niż zespołów. <a href="/blog/2026-07-14-ten-o-less-i-upraszczaniu/">Frameworki skalowania dokładają kolejne warstwy synchronizacji</a>: wspólne planowanie, tablice zależności, spotkania koordynacyjne. Zależności lepiej widać, ale ktoś nadal musi je przegadać jedna po drugiej.</p>
 
 <p>W dobrze zaprojektowanym systemie złożoność zostaje w środku i nie wycieka do tego, kto z niego korzysta. Wywołuję jeden interfejs i nie muszę wiedzieć, ile modułów pracuje po drugiej stronie.</p>
 

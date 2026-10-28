@@ -1,0 +1,384 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Arrow i niedoinwestowana wiedza zespołu - Tomasz Żelezny</title>
+<meta name="description" content="Kenneth Arrow pokazał, czemu rynek za mało inwestuje w wiedzę. Ten sam mechanizm sprawia, że zespoły odkładają refaktoryzację, testy i dokumentację.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Arrow i niedoinwestowana wiedza zespołu">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/">
+
+
+  <meta property="og:description" content="Kenneth Arrow pokazał, czemu rynek za mało inwestuje w wiedzę. Ten sam mechanizm sprawia, że zespoły odkładają refaktoryzację, testy i dokumentację.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/wiedza-nikt-nie-placi.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-06-05T00:00:00+00:00">
+
+
+
+  <meta property="article:modified_time" content="2026-10-28T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma działów, tylko efekt tego, jak ze sobą współpracują. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Arrow i niedoinwestowana wiedza zespołu",
+  "description": "Kenneth Arrow pokazał, czemu rynek za mało inwestuje w wiedzę. Ten sam mechanizm sprawia, że zespoły odkładają refaktoryzację, testy i dokumentację.",
+  "url": "https://tomaszzelezny.me/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/",
+  "datePublished": "2026-06-05T00:00:00+00:00",
+  "dateModified": "2026-10-28T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/wiedza-nikt-nie-placi.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie",
+  "keywords": "Kenneth Arrow, optymalizacja lokalna, dług techniczny, motywacja, myślenie systemowe",
+  "wordCount": 484
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie</span>
+        <span><time class="dt-published" datetime="2026-06-05T00:00:00+00:00">05.06.2026</time> · 4 min czytania</span></p>
+      <h1 class="p-name">Ten o wiedzy, za którą nikt nie <em>płaci</em></h1><p class="lead p-summary">Kenneth Arrow pokazał, czemu rynek za mało inwestuje w wiedzę. Ten sam mechanizm sprawia, że zespoły odkładają refaktoryzację, testy i dokumentację.</p>
+    </header>
+    <div class="prose e-content">
+      <p>W 1962 roku Kenneth Arrow opisał, dlaczego rynek systematycznie za mało inwestuje w postęp.</p>
+
+<p><img src="/assets/images/wiedza-nikt-nie-placi.webp" alt="Wiedza zespołu jest wartością, tylko nikt za nią nie płaci. System widzi velocity, zamknięte tickety i deadline, a nie widzi refaktoryzacji, testów, dokumentacji, narzędzi i nauki na review. Zwrot z inwestycji w wiedzę jest dla zespołu niższy niż dla organizacji, więc zespół inwestuje tyle, ile opłaca się jemu, a nie całości" /></p>
+
+<h2 id="co-odkrył-kenneth-arrow">Co odkrył Kenneth Arrow?</h2>
+
+<p>Że wiedza powstaje przy okazji pracy, a rynek za nią nie płaci. Jego argument dotyczył produkcji samolotów. Mówił mniej więcej tak: kiedy firma buduje maszynę, uczy się przy tym czegoś, co obniży koszt produkcji następnych maszyn. Także tych budowanych przez kogoś innego.</p>
+
+<p>Ta korzyść istnieje naprawdę. Tylko nikt za nią nie płaci. Rynek widzi cenę maszyny, nie widzi wiedzy, która została po drodze wytworzona.</p>
+
+<h2 id="dlaczego-racjonalne-decyzje-dają-gorszy-wynik">Dlaczego racjonalne decyzje dają gorszy wynik?</h2>
+
+<p>Bo prywatny zwrot z inwestycji w wiedzę jest niższy od społecznego. Skoro nikt nie płaci za tę wiedzę, każdy producent inwestuje w nią mniej, niż byłoby to opłacalne dla całego systemu.</p>
+
+<p>Efekt jest strukturalny: racjonalni ludzie podejmują racjonalne decyzje i wspólnie produkują wynik gorszy od możliwego. Nikt tu nie popełnia błędu. Błąd leży w tym, co system nagradza.</p>
+
+<h2 id="jak-to-wygląda-w-zespole">Jak to wygląda w zespole?</h2>
+
+<p>Teraz spójrz na zespół, w którym pracujesz.</p>
+
+<p>Refaktoryzacja. Dokumentacja. Testy. Wewnętrzne narzędzie, które oszczędzi dwie godziny tygodniowo komuś z sąsiedniego zespołu. Komentarz na review, który nauczy juniora czegoś, czego nie musiał potem odkrywać sam. To wszystko obniża <a href="/blog/2026-02-10-ten-o-entropii-oprogramowania/">koszt przyszłej pracy</a>. Często cudzej pracy, w innym sprincie, w innym zespole.</p>
+
+<p>I dokładnie tak jak u Arrowa, nikt za to nie płaci.</p>
+
+<p>Mechanizm, który mierzy efekt, widzi <a href="/blog/2026-08-19-zajetosc-vs-postep/">velocity, zamknięte tickety i deadline</a>. Nie widzi wiedzy, która została po drodze wytworzona. Więc zespół inwestuje w nią mniej, niż byłoby to opłacalne dla całej organizacji.</p>
+
+<p>Nie dlatego, że ludziom się nie chce. Dlatego, że zwrot prywatny jest niższy od społecznego, a system premiuje to, co prywatne.</p>
+
+<h2 id="czy-to-nie-jest-po-prostu-optymalizacja-lokalna">Czy to nie jest po prostu optymalizacja lokalna?</h2>
+
+<p>Tak, to ta sama logika co <a href="/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/">optymalizacja lokalna</a>. Każdy maksymalizuje swój widoczny wynik, a suma tych decyzji jest gorsza od tego, co system mógłby osiągnąć.</p>
+
+<p>Arrow nie pisał o software. Ale zostawił nam rachunek, który działa wszędzie tam, gdzie wiedza powstaje jako produkt uboczny pracy, a premiuje się tylko sam produkt.</p>
+
+<h2 id="co-z-tym-zrobić">Co z tym zrobić?</h2>
+
+<p>Jeśli chcesz, żeby zespół inwestował w to, co buduje całość, musisz zacząć to kompensować. Inaczej rynek wewnętrzny zrobi dokładnie to, co przewidział noblista sześćdziesiąt lat temu.</p>
+
+<p>Kompensować nie musi znaczyć płacić premią. Wystarczy, że ta praca stanie się widoczna i będzie się liczyć: ma swoje miejsce w planie, pojawia się na przeglądzie, a ludzie, którzy ją wykonują, są za nią doceniani tak samo jak za nową funkcję. Dopóki liczy się tylko to, co trafiło do klienta w tym sprincie, wiedzy będzie powstawać za mało.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Arrow, K. J. (1962). „Economic Welfare and the Allocation of Resources for Invention”. W: <em>The Rate and Direction of Inventive Activity</em>. Princeton University Press.</li>
+  <li>Arrow, K. J. (1962). „The Economic Implications of Learning by Doing”. <em>The Review of Economic Studies</em>, 29(3).</li>
+  <li>Goldratt, E. M. (1984). <em>The Goal</em>. North River Press.</li>
+  <li>Meadows, D. H. (2008). <em>Thinking in Systems</em>. Chelsea Green Publishing.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_w-1962-roku-kenneth-arrow-opisa%C5%82-dlaczego-share-7468536577242161152-_VNu">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>Kenneth Arrow</li><li>optymalizacja lokalna</li><li>dług techniczny</li><li>motywacja</li><li>myślenie systemowe</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o backendzie bez użytkownika</h3>
+  </a>
+  <a class="post next" href="/blog/2026-06-12-ten-o-trojkacie-projektu-i-ai/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o trójkącie projektu w erze AI</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
