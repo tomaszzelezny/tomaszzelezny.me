@@ -1,6 +1,6 @@
 # Tomasz Żelezny
 
-> Blog i strona Tomasza Żeleznego, Scrum Mastera i Agile Coacha. Organizacja to nie suma działów, tylko efekt tego, jak ze sobą współpracują. Pomagam IT, biznesowi i produktowi pracować razem. Piszę po polsku o tym, jak to robić w zespołach IT i organizacjach: przepływ pracy, cele, prognozowanie, zarządzanie produktem i współpraca IT z biznesem.
+> Blog i strona Tomasza Żeleznego, Scrum Mastera i Agile Coacha. Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Piszę po polsku o tym, jak to robić w zespołach IT i organizacjach: przepływ pracy, cele, prognozowanie, zarządzanie produktem i współpraca IT z biznesem.
 
 Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi zespołami produktowymi i dużymi firmami w trakcie transformacji. Kontakt: https://www.linkedin.com/in/tomasz-zelezny/
 
