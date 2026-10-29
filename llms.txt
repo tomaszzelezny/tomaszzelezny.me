@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Co czeka w Twoim zespole i na co?](https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/): Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.
 - [Fixed price i Scrum: stała cena w sprintach](https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/): Sprinty dają stałej cenie to, czego potrzebuje: stały koszt i termin. Ruchomy zostaje zakres, a zarządzanie nim to osobna umiejętność.
 - [Developer czy inżynier produktu?](https://tomaszzelezny.me/blog/2026-10-27-ten-o-inzynierze-produktu/): Developer czy inżynier produktu? Kod i zamknięte tickety to wyniki, rezultat jest u użytkownika. Jak AI zmienia rolę developera. Zapowiedź serii.
 - [Enkapsulacja w organizacji](https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/): Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wymaga rozmów z wieloma zespołami.

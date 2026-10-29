@@ -158,21 +158,6 @@
 .landing .day-foot div { font: 400 11px/1.3 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 .landing .day-foot b { display: block; font: 700 28px/1.1 var(--display); color: var(--ink); }
 .landing .day-foot .zero b { color: var(--accent); }
-.landing .flow { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; align-items: center; }
-.landing .flow > * { min-width: 0; }
-.landing .big { font: 700 clamp(56px, 8vw, 100px)/1 var(--display); letter-spacing: -0.06em; margin-top: 18px; white-space: nowrap; }
-.landing .big small { font-size: 0.28em; letter-spacing: 0; font-weight: 400; letter-spacing: 0; color: var(--muted); }
-.landing .bar { display: flex; height: 34px; overflow: hidden; margin: 22px 0 10px; border: 1.5px solid var(--ink); }
-.landing .bar i { display: block; }
-.landing .bar .work { width: 0.67%; min-width: 5px; background: var(--accent); }
-.landing .bar .wait { flex: 1; background: repeating-linear-gradient(135deg, var(--line) 0 8px, var(--bg) 8px 16px); }
-.landing .bar-legend { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font: 400 13px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
-.landing .bar-legend span:first-child { color: var(--accent); font-weight: 700; }
-.landing .flow blockquote { margin: 0; background: var(--block); color: var(--block-text); font: 700 20px/1.5 var(--display); padding: 28px 32px; border-left: 4px solid var(--accent); }
-.landing .flow p { color: var(--muted); margin: 18px 0 0; }
-@media (max-width: 880px) {
-  .landing .flow { grid-template-columns: 1fr; gap: 28px; }
-}
 @media (prefers-reduced-motion: no-preference) {
   .landing .ping { animation: pop 2.4s ease-in-out infinite; }
   .landing .ping:nth-of-type(2n) { animation-delay: .8s; }

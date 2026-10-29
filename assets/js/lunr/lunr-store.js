@@ -382,4 +382,10 @@ var store = [{
         "tags": ["fixed price","Scrum","Agile","prognozowanie","zakres"],
         "url": "/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/",
         "teaser": null
+      },{
+        "title": "Ten o tym, co czeka",
+        "excerpt":"Jest jedno pytanie, od którego warto zacząć każdą rozmowę o terminach: co w tej chwili czeka w Twoim zespole i na co? Praca, która stoi, wydłuża każdą prognozę. W raportach prawie jej nie widać, bo raporty liczą to, co skończone. Dlaczego czekającej pracy nie widać? Bo mierzymy ludzi. Obłożenie, velocity...","categories": ["Zarządzanie produktem"],
+        "tags": ["przepływ pracy","czekanie","aging WIP","koszt opóźnienia"],
+        "url": "/blog/2026-10-29-ten-o-tym-co-czeka/",
+        "teaser": null
       }]

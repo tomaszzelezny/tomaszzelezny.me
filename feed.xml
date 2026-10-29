@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-28T21:19:17+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o stałej cenie i sprintach</title><link href="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/" rel="alternate" type="text/html" title="Ten o stałej cenie i sprintach" /><published>2026-10-28T00:00:00+00:00</published><updated>2026-10-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stalej-cenie-i-sprintach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/"><![CDATA[<p>Często słyszę, że fixed price i zwinność się wykluczają. Rozumiem, skąd to przekonanie. Stała cena kojarzy się ze sztywnym zakresem, a sztywny zakres z wodospadem, w którym każda zmiana oznacza aneks i spór o to, co właściwie było w specyfikacji.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-10-29T10:43:11+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o tym, co czeka</title><link href="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/" rel="alternate" type="text/html" title="Ten o tym, co czeka" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-10-29T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-co-czeka</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/"><![CDATA[<p>Jest jedno pytanie, od którego warto zacząć każdą rozmowę o terminach: co w tej chwili czeka w Twoim zespole i na co?</p>
+
+<p>Praca, która stoi, wydłuża każdą prognozę. W raportach prawie jej nie widać, bo raporty liczą to, co skończone.</p>
+
+<p><img src="/assets/images/co-czeka-i-na-co.webp" alt="Co czeka i na co? Przykładowa tablica: przy każdym zaczętym zadaniu zapisane, na co czeka i od ilu dni. Czekanie na decyzję, na inny zespół, na środowisko testowe i na odpowiedź klienta. Ćwiczenie w trzech krokach: wypisz, co jest zaczęte, zapisz, na co czeka, i od kiedy." /></p>
+
+<h2 id="dlaczego-czekającej-pracy-nie-widać">Dlaczego czekającej pracy nie widać?</h2>
+
+<p>Bo mierzymy ludzi. Obłożenie, velocity i liczba zamkniętych zadań mówią, czy zespół jest zajęty. Nie mówią, czy konkretne zadanie posuwa się do przodu. <a href="/blog/2026-03-19-flow-efficiency/">Wszyscy mogą być zajęci, a praca i tak leży</a>.</p>
+
+<p>Don Reinertsen zwraca uwagę, że kolejki mierzy tylko 2% osób rozwijających produkty. W fabryce zapas leży na hali i każdy się o niego potyka. U nas zapasem są zadania w toku, specyfikacje i kod czekający na testy. Nie zajmują miejsca, więc nikt się o nie nie potyka.</p>
+
+<h2 id="na-co-najczęściej-czeka-praca">Na co najczęściej czeka praca?</h2>
+
+<p>Najczęściej na kogoś spoza zespołu: na decyzję osoby z pełnym kalendarzem, na odpowiedź innego zespołu, na środowisko testowe, na dostęp albo na klienta, który miał wrócić z uwagami.</p>
+
+<p>Rzadziej na samą pracę. Kiedy zadanie ma już wszystko, czego potrzebuje, zwykle kończy się szybko. Dłużej trwa to, co dzieje się pomiędzy: przekazanie, odpowiedź, zgoda.</p>
+
+<p>Każde z tych czekań ma inną przyczynę i innego właściciela. Dlatego samo „czeka” niewiele mówi. Dopiero „czeka na” daje coś, z czym można pójść do konkretnej osoby.</p>
+
+<h2 id="jak-to-sprawdzić-w-swoim-zespole">Jak to sprawdzić w swoim zespole?</h2>
+
+<p>Wystarczy kwadrans przy tablicy. Weź wszystko, co jest zaczęte, i przy każdym zadaniu zapisz dwie rzeczy: na co czeka i od kiedy.</p>
+
+<p>Nie potrzeba do tego narzędzia ani raportu. Wystarczy lista na kartce, byle powód czekania był konkretny, na przykład „czeka na odpowiedź zespołu płatności” zamiast ogólnej „blokady”.</p>
+
+<p>Od razu wyjdą zadania, przy których nikt nie umie powiedzieć, na co czekają. Zobaczysz też, że kilka z nich czeka na tę samą osobę albo ten sam zespół, a niektóre wiszą tak długo, że wszyscy o nich zapomnieli.</p>
+
+<p>Z tymi ostatnimi jest najtrudniej. Status „w toku” albo <a href="/blog/2026-09-30-ten-o-tym-czy-kolumna/">kolumna Blocked</a> potrafią je przechować miesiącami. Kiedy ktoś je w końcu usunie, nie trafią nawet do statystyk cycle time, więc metryki wyglądają lepiej, niż było naprawdę. Dlatego oprócz czasu ukończonych zadań warto patrzeć na wiek tych, które są wciąż otwarte.</p>
+
+<h2 id="co-zrobić-z-tym-co-czeka">Co zrobić z tym, co czeka?</h2>
+
+<p>Najpierw zdecydować, czy to w ogóle ma się dalej toczyć. Część zadań czeka, bo przestała być ważna, tylko nikt tego nie powiedział na głos. Zamknięcie ich też jest postępem: mniej rzeczy w toku to krótsza kolejka dla reszty.</p>
+
+<p>Przy pozostałych pytanie brzmi: ile kosztuje każdy kolejny tydzień czekania? Nawet <a href="/blog/2026-10-20-ten-o-miesiacu-opoznienia/">zgrubny szacunek kosztu opóźnienia</a> pomaga wybrać, które czekanie rozwiązać najpierw. Bez niego wygrywa to, o co ktoś najgłośniej pyta.</p>
+
+<p>Na koniec warto spojrzeć na wzorzec. Jeśli połowa zadań czeka na tę samą osobę albo ten sam zespół, problem leży w tym, jak zespoły ze sobą współpracują. Szybsza praca nad pojedynczym zadaniem tego nie naprawi.</p>
+
+<h2 id="dlaczego-zacząć-od-pytania">Dlaczego zacząć od pytania?</h2>
+
+<p>Pytanie zadane na głos zmienia rozmowę. Na stand-upie zwykle słychać, kto co robił wczoraj. Pytanie o to, co czeka, przesuwa uwagę z ludzi na pracę. Zespół zaczyna szukać tego, co stoi.</p>
+
+<p>Metrykę można dodać później, kiedy wiadomo już, czego szukać. Na początek wystarczy jedno pytanie.</p>
+
+<p>Co w tej chwili czeka w Twoim zespole i na co?</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Reinertsen, D. G. (2009). <em>The Principles of Product Development Flow: Second Generation Lean Product Development</em>. Celeritas Publishing.</li>
+  <li>Vacanti, D. S. (2015). <em>Actionable Agile Metrics for Predictability: An Introduction</em>. ActionableAgile Press.</li>
+  <li>Modig, N., Åhlström, P. (2012). <em>This is Lean: Resolving the Efficiency Paradox</em>. Rheologica Publishing.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dxVEwr_u">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="przepływ pracy" /><category term="czekanie" /><category term="aging WIP" /><category term="koszt opóźnienia" /><summary type="html"><![CDATA[Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.]]></summary></entry><entry><title type="html">Ten o stałej cenie i sprintach</title><link href="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/" rel="alternate" type="text/html" title="Ten o stałej cenie i sprintach" /><published>2026-10-28T00:00:00+00:00</published><updated>2026-10-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stalej-cenie-i-sprintach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/"><![CDATA[<p>Często słyszę, że fixed price i zwinność się wykluczają. Rozumiem, skąd to przekonanie. Stała cena kojarzy się ze sztywnym zakresem, a sztywny zakres z wodospadem, w którym każda zmiana oznacza aneks i spór o to, co właściwie było w specyfikacji.</p>
 
 <p>Tyle że praca w sprintach daje do ręki dokładnie to, czego potrzebuje stała cena. Budżet zamieniam na liczbę sprintów. Skład zespołu się nie zmienia, więc koszt sprintu też jest stały. Pieniądze i termin mam zamknięte pierwszego dnia. Jakość też jest stała, bo każdy sprint kończy się według tej samej Definition of Done. Ruchomy zostaje tylko zakres.</p>
 
@@ -168,23 +224,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/evvti4jK">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="aging WIP" /><category term="Azure DevOps" /><category term="cycle time" /><category term="work item" /><summary type="html"><![CDATA[Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.]]></summary></entry><entry><title type="html">Ten o trzech pytaniach w jednym</title><link href="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/" rel="alternate" type="text/html" title="Ten o trzech pytaniach w jednym" /><published>2026-10-05T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-pytaniach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-05-ten-o-trzech-pytaniach/"><![CDATA[<p>„Jak to jest duże?”
-„No, tak z 2 dni.”</p>
-
-<p>Tydzień później ktoś pyta, czemu jeszcze nie ma. I obie strony mają trochę racji.</p>
-
-<p><img src="/assets/images/effort-trzy-pytania.webp" alt="„2 dni”, ale co to znaczy? Wielkość, termin i koszt to trzy różne pytania" /></p>
-
-<p>Odpowiedź w dniach sprawiła, że pytający usłyszał „Kiedy to dostanę?”. A możliwe, że chciał wiedzieć jeszcze coś innego: „Ile to będzie kosztować?”.</p>
-
-<p>Tyle że „2 dni” <a href="/blog/2026-03-24-na-kiedy-to-bedzie/">nie odpowiada na pytanie „kiedy”</a>. Dwa dni pracy nie oznaczają wyniku za dwa dni. Jeśli zaczniemy za tydzień albo będziemy siadać do tematu na godzinę raz w miesiącu, wynik będzie za kilka miesięcy.</p>
-
-<p>Z kosztem jest podobnie: żeby go policzyć, trzeba wiedzieć, kto i jak długo będzie nad tym siedział. I znowu wracamy do czasu.</p>
-
-<p><a href="/blog/2025-02-13-ten-o-effortcie-i-timelinie/">Estymacje relatywne</a> miały pozwolić odpowiedzieć na „Jak to jest duże?” bez mówienia o czasie. W praktyce punkty i tak często przelicza się w głowie na godziny, więc pytania dalej się zlewają.</p>
-
-<p>Co można zrobić, żeby te trzy pytania łatwo było od siebie odróżnić?</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dQUx8nu9">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="estymacje" /><category term="effort" /><category term="termin" /><category term="koszty" /><summary type="html"><![CDATA[„Jak to jest duże?” to trzy pytania w jednym: o wielkość, termin i koszt. Dlaczego estymacja w dniach je zlewa i jak rozmawiać o każdym osobno.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/evvti4jK">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="aging WIP" /><category term="Azure DevOps" /><category term="cycle time" /><category term="work item" /><summary type="html"><![CDATA[Aging WIP w Azure DevOps: darmowy plugin pokazujący wiek otwartych work itemów i czas w obecnym stanie, czyli zapomnianą pracę. Zrobiony z Claude.]]></summary></entry></feed>
