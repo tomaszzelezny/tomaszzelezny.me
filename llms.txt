@@ -8,18 +8,8 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 - [Strona główna](https://tomaszzelezny.me/): kim jestem i jak mogę pomóc
 - [O mnie](https://tomaszzelezny.me/o-mnie/): doświadczenie i podejście do pracy
+- [Dlaczego zespół jest zajęty, a klient dalej czeka?](https://tomaszzelezny.me/twoj-zespol-moze-wiecej/): gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę
 - [Blog](https://tomaszzelezny.me/blog/): lista wszystkich wpisów
-
-## Dla managerów
-
-- [Współpraca dla managerów IT](https://tomaszzelezny.me/dla-managerow/): oferta i wpisy dla managerów zespołów IT
-- [Dlaczego zespół jest zajęty, a klient dalej czeka?](https://tomaszzelezny.me/dla-managerow/twoj-zespol-moze-wiecej/): gdzie ucieka wysiłek zespołów IT i jak zamienić zajętość w skończoną pracę
-- [Zmiana już się dzieje. Jak zadbać o zespół IT](https://tomaszzelezny.me/dla-managerow/inzynier-produktu/): jak przeprowadzić zespół przez zmianę z AI i dać mu kontekst i zaufanie, żeby decydował o rezultacie u klienta
-
-## Dla developerów
-
-- [Dla developerów: inżynier produktu](https://tomaszzelezny.me/dla-developerow/): ścieżki rozwoju i wpisy z serii Inżynier produktu
-- [Developer to dobry start. Inżynier produktu to kierunek](https://tomaszzelezny.me/dla-developerow/inzynier-produktu/): od kodu, przez korzyści, do wpływu na klienta i biznes: trzy ścieżki rozwoju i pierwsze kroki do inżyniera produktu
 
 ## Wpisy
 
