@@ -2,7 +2,7 @@
    Style: sekcja „Animacje” w assets/css/landing.css. Karty w jednym rzędzie (komputer) wchodzą po kolei. */
 (function () {
   if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var sel = '.landing :is(.sec-head, .inline-cta, .about, .final, .steps > li, .posts > .post, .symptoms > li, .index-list > li)';
+  var sel = '.landing :is(.sec-head, .inline-cta, .about, .final, .steps > li, .posts > .post, .symptoms > li, .index-list > li, .facts > li)';
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (!e.isIntersecting) return;

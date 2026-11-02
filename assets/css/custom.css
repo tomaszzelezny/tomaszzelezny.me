@@ -40,9 +40,20 @@ a:hover {
 /* ------------------------------------------------
    Masthead / Navigation
    ------------------------------------------------ */
+/* Nagłówek przypięty u góry ekranu przy przewijaniu (na każdej stronie).
+   scroll-padding-top: link do kotwicy (np. #jak) nie chowa tytułu sekcji pod nagłówkiem. */
+html { scroll-padding-top: 5rem; }
 .masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background-color: var(--color-block);
   border-bottom: none;
+}
+/* Długie menu pod hamburgerem przewija się w sobie, bo nagłówek nie odjeżdża razem ze stroną */
+.greedy-nav .hidden-links {
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
 }
 .masthead__inner-wrap {
   background-color: var(--color-block);
