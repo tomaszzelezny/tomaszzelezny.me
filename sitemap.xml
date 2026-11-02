@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/</loc>
-    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -67,6 +67,11 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-08-24-ten-o-jednozdaniowcach/</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-08-19-zajetosc-vs-postep/</loc>
     <lastmod>2026-10-28T00:00:00+00:00</lastmod>
   </url>
@@ -92,8 +97,53 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-08-07-ten-o-sudoku/</loc>
+    <lastmod>2026-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-21-ten-o-prostych-liniach/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-16-ten-o-jednym-waskim-gardle/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-07-14-ten-o-less-i-upraszczaniu/</loc>
     <lastmod>2026-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-09-ten-o-extreme-programming/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-08-ten-o-bledzie-ktory-wraca/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-07-ten-o-produkcie-ktorego-nikt-nie-potrzebowal/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/</loc>
+    <lastmod>2026-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-06-30-ten-o-kosztach-ktore-nie-sa-praca/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-06-25-ten-o-limitach-wip/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -112,8 +162,23 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-06-09-ten-o-trzech-scenariuszach/</loc>
+    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/</loc>
     <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-06-02-ten-o-domykaniu-i-opcjach/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-05-28-ten-o-koszcie-epistemicznym/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -128,7 +193,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-05-12-ten-o-stylu-zarzadzania/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -158,12 +223,12 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-04-21-zrozumienie-kontekstu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-04-16-wlasciwy-problem/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -173,7 +238,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-04-09-agile-opcjonalnosc/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -203,7 +268,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-03-19-flow-efficiency/</loc>
-    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -217,8 +282,18 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-10-ten-o-planie-i-planowaniu/</loc>
+    <lastmod>2026-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-03-05-ten-o-lejku-niepewnosci/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-03-03-ten-o-garncarzu/</loc>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -227,13 +302,28 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-02-24-ten-o-narzedziach-z-epoki-fabryk/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-02-19-ten-o-czterech-kulturach/</loc>
+    <lastmod>2026-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2026-02-17-ten-o-bramkach-kontrolnych/</loc>
+    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-02-12-ten-o-10-procentach-na-refinement/</loc>
-    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-02-10-ten-o-entropii-oprogramowania/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -242,13 +332,23 @@
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-02-03-ten-o-wspolnym-pastwisku/</loc>
+    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-01-27-ten-o-tygodniu-cienia/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-01-22-ten-o-zwinnosci-i-portfelu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -263,22 +363,27 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-01-13-ten-o-samoregulacji-zespolu/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-01-07-ten-o-pobieznym-kopiowaniu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-12-16-ten-o-wykonawcy-i-partnerze/</loc>
-    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaszzelezny.me/blog/2025-11-20-ten-o-pytaniu-po-co/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-11-13-ten-o-eksperymencie/</loc>
-    <lastmod>2025-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -288,12 +393,12 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-11-04-ten-o-czekaniu-miedzy-zespolami/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-10-30-ten-o-strategii-i-wykonaniu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -303,7 +408,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-03-19-ten-o-niewykonanej-pracy/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -313,17 +418,17 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-03-03-ten-o-zerojedynkowym-mysleniu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-02-13-ten-o-effortcie-i-timelinie/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url>
   
   
@@ -332,7 +437,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/blog/</loc>
-    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-04T00:00:00+00:00</lastmod>
   </url>
     
   
@@ -341,7 +446,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/</loc>
-    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-04T00:00:00+00:00</lastmod>
   </url>
     
   

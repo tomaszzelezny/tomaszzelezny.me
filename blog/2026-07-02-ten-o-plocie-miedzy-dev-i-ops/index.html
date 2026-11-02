@@ -1,0 +1,385 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DevOps: współodpowiedzialność za kod - Tomasz Żelezny</title>
+<meta name="description" content="DevOps jako współodpowiedzialność Dev i Ops za kod od napisania do produkcji. Jak automatyczne pipeline’y i infrastruktura jako kod skracają drogę do klienta.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="DevOps: współodpowiedzialność za kod">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/">
+
+
+  <meta property="og:description" content="DevOps jako współodpowiedzialność Dev i Ops za kod od napisania do produkcji. Jak automatyczne pipeline’y i infrastruktura jako kod skracają drogę do klienta.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/devops-plot.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-07-02T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "DevOps: współodpowiedzialność za kod",
+  "description": "DevOps jako współodpowiedzialność Dev i Ops za kod od napisania do produkcji. Jak automatyczne pipeline'y i infrastruktura jako kod skracają drogę do klienta.",
+  "url": "https://tomaszzelezny.me/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/",
+  "datePublished": "2026-07-02T00:00:00+00:00",
+  "dateModified": "2026-07-02T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/devops-plot.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie",
+  "keywords": "DevOps, CI/CD, Infrastructure as Code, kultura bez szukania winnych, niezawodność",
+  "wordCount": 517
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie</span>
+        <span><time class="dt-published" datetime="2026-07-02T00:00:00+00:00">02.07.2026</time> · 4 min czytania</span></p>
+      <h1 class="p-name">Ten o płocie między Dev i <em>Ops</em></h1><p class="lead p-summary">DevOps jako współodpowiedzialność Dev i Ops za kod od napisania do produkcji. Jak automatyczne pipeline'y i infrastruktura jako kod skracają drogę do klienta.</p>
+    </header>
+    <div class="prose e-content">
+      <p>Przez lata development i operations działały osobno. Dev pisał kod i „przerzucał przez płot” do Ops.</p>
+
+<p>Ops wdrażał, gasił pożary i obwiniał Dev za błędy. Dev obwiniał Ops za wolne wdrożenia.</p>
+
+<h2 id="skąd-się-wziął-płot-między-dev-i-ops">Skąd się wziął płot między Dev i Ops?</h2>
+
+<p>Z różnych celów. Development był rozliczany ze zmian: nowych funkcji, terminów, zamkniętych zadań. Operations był rozliczany ze stabilności: dostępności systemu i braku awarii. Każda zmiana to ryzyko dla stabilności, więc Ops miał powód, żeby zmiany spowalniać. Dev miał powód, żeby je przepychać.</p>
+
+<p>Obie strony robiły to, za co je rozliczano. Konflikt był wbudowany w strukturę. O tym, ile kosztuje <a href="/blog/2025-11-04-ten-o-czekaniu-miedzy-zespolami/">czekanie między zespołami</a>, pisałem przy okazji opóźnień w strumieniu wartości.</p>
+
+<h2 id="czym-jest-devops">Czym jest DevOps?</h2>
+
+<p>Modelem współodpowiedzialności za to, co dzieje się z kodem od momentu napisania do momentu działania na produkcji. DevOps nie opisuje stanowiska ani zespołu. Opisuje sposób pracy, w którym ci sami ludzie odpowiadają za zmianę i za jej skutki.</p>
+
+<p>Gene Kim, Jez Humble, Patrick Debois i John Willis opisują w „The DevOps Handbook” trzy zasady: przepływ (praca płynie szybko od developera do klienta), informacja zwrotna (problemy wracają szybko do tych, którzy mogą je naprawić) i ciągłe uczenie się.</p>
+
+<p><img src="/assets/images/devops-plot.webp" alt="Płot między Dev i Ops. Dawniej: Dev pisze kod i przerzuca go przez płot, Ops wdraża i gasi pożary, każda strona obwinia drugą. Dev rozliczany ze zmian, Ops ze stabilności. DevOps: jedna odpowiedzialność od napisania kodu do działania na produkcji. Automatyczny pipeline: commit, testy, budowanie, wdrożenie, bez ręcznych kroków. Infrastruktura jako kod: środowisko wersjonowane, które można odtworzyć, porównać i cofnąć. Efekt: szybsze poprawki, stabilne wdrożenia i zespół, który szuka rozwiązania zamiast winnego." /></p>
+
+<h2 id="jakie-praktyki-za-tym-stoją">Jakie praktyki za tym stoją?</h2>
+
+<p>Dwie są szczególnie ważne.</p>
+
+<p><strong>Automatyczne pipeline’y.</strong> Kod przechodzi przez testy, budowanie i wdrożenie bez ręcznych kroków. Mniej błędów ludzkich i krótszy czas od pomysłu do działającej funkcji. Jez Humble i David Farley nazwali to ciągłym dostarczaniem (<em>continuous delivery</em>): każda zmiana, która przejdzie przez pipeline, jest gotowa do wdrożenia.</p>
+
+<p><strong>Infrastruktura jako kod.</strong> Środowisko jest wersjonowane jak kod. Możesz je odtworzyć, porównać, cofnąć. Koniec z „u mnie działa”, bo środowisko developera i produkcja powstają z tego samego opisu.</p>
+
+<p>Automatyzacja zmienia też rachunek ryzyka. Kiedy wdrożenie jest małe i powtarzalne, a cofnięcie zajmuje minuty, częste zmiany przestają zagrażać stabilności. Badania DORA opisane w „Accelerate” pokazują, że zespoły, które wdrażają często, mają też krótszy czas przywracania usługi po awarii.</p>
+
+<h2 id="co-zmienia-się-w-kulturze">Co zmienia się w kulturze?</h2>
+
+<p>Zespół przestaje szukać winnego i zaczyna szukać rozwiązania. John Allspaw z Etsy opisał praktykę analizy awarii bez szukania winnych (<em>blameless postmortem</em>): po incydencie pytamy, jak system pozwolił na błąd. Ludzie, którzy nie boją się kary, mówią więcej o tym, co się stało, więc organizacja uczy się szybciej.</p>
+
+<p>Pisałem już o tym, że system, którego nikt nie pielęgnuje, <a href="/blog/2026-02-10-ten-o-entropii-oprogramowania/">psuje się sam</a>. DevOps daje zespołowi narzędzia, żeby tę pielęgnację robić codziennie i bezpiecznie.</p>
+
+<h2 id="co-z-tego-dostajesz">Co z tego dostajesz?</h2>
+
+<p>Szybsze dostarczanie poprawek i system, który się nie sypie po każdym wdrożeniu. I zespół, który zamiast winnego szuka rozwiązania.</p>
+
+<p>DevOps pokazuje, że niezawodność jest wynikiem procesu. Przypadek ma w niej niewielki udział.</p>
+
+<p>Narzędzie jest narzędziem. Pytanie, co z niego wyciągniesz.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Kim, G., Humble, J., Debois, P., Willis, J. (2016). <em>The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</em>. IT Revolution Press.</li>
+  <li>Humble, J., Farley, D. (2010). <em>Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation</em>. Addison-Wesley.</li>
+  <li>Forsgren, N., Humble, J., Kim, G. (2018). <em>Accelerate: The Science of Lean Software and DevOps</em>. IT Revolution Press.</li>
+  <li>Allspaw, J. (2012). Blameless PostMortems and a Just Culture. <em>Code as Craft</em> (blog Etsy).</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_przez-lata-development-i-operations-dzia%C5%82a%C5%82y-share-7473649951609389057-Pn8A">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>DevOps</li><li>CI/CD</li><li>Infrastructure as Code</li><li>kultura bez szukania winnych</li><li>niezawodność</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-06-30-ten-o-kosztach-ktore-nie-sa-praca/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o kosztach, które nie są pracą</h3>
+  </a>
+  <a class="post next" href="/blog/2026-07-07-ten-o-produkcie-ktorego-nikt-nie-potrzebowal/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o produkcie, którego nikt nie potrzebował</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

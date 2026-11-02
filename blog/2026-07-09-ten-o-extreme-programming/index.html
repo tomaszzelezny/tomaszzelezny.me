@@ -1,0 +1,384 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>XP: pair programming, TDD i CI w praktyce - Tomasz Żelezny</title>
+<meta name="description" content="Extreme Programming (XP) w praktyce: jak pair programming, TDD i continuous integration zmniejszają liczbę błędów i rozpraszają wiedzę po całym zespole.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="XP: pair programming, TDD i CI w praktyce">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-07-09-ten-o-extreme-programming/">
+
+
+  <meta property="og:description" content="Extreme Programming (XP) w praktyce: jak pair programming, TDD i continuous integration zmniejszają liczbę błędów i rozpraszają wiedzę po całym zespole.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/extreme-programming.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-07-09T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-07-09-ten-o-extreme-programming/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "XP: pair programming, TDD i CI w praktyce",
+  "description": "Extreme Programming (XP) w praktyce: jak pair programming, TDD i continuous integration zmniejszają liczbę błędów i rozpraszają wiedzę po całym zespole.",
+  "url": "https://tomaszzelezny.me/blog/2026-07-09-ten-o-extreme-programming/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-07-09-ten-o-extreme-programming/",
+  "datePublished": "2026-07-09T00:00:00+00:00",
+  "dateModified": "2026-07-09T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/extreme-programming.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie projektami",
+  "keywords": "Extreme Programming, TDD, pair programming, continuous integration, jakość",
+  "wordCount": 532
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie projektami</span>
+        <span><time class="dt-published" datetime="2026-07-09T00:00:00+00:00">09.07.2026</time> · 4 min czytania</span></p>
+      <h1 class="p-name">Ten o Extreme <em>Programming</em></h1><p class="lead p-summary">Extreme Programming (XP) w praktyce: jak pair programming, TDD i continuous integration zmniejszają liczbę błędów i rozpraszają wiedzę po całym zespole.</p>
+    </header>
+    <div class="prose e-content">
+      <p>XP, czyli Extreme Programming, brzmi ekstremalnie i właśnie takie jest.</p>
+
+<p>XP to zestaw nawyków, które sprawiają, że praca zespołu technicznego staje się przewidywalna i bezpieczna.</p>
+
+<h2 id="skąd-się-wzięło-extreme-programming">Skąd się wzięło Extreme Programming?</h2>
+
+<p>Z projektu, który miał kłopoty. Kent Beck rozwijał XP pod koniec lat 90., między innymi w projekcie systemu płacowego C3 w Chryslerze, i opisał je w książce „Extreme Programming Explained” z 1999 roku. Nazwa oddaje pomysł: weź praktyki, o których wiadomo, że działają, i rób je w skrajnej wersji. Skoro przegląd kodu pomaga, rób go cały czas. Skoro testy pomagają, pisz je przed kodem. Skoro integracja pomaga, integruj kilka razy dziennie.</p>
+
+<p>Beck był potem jednym z sygnatariuszy Manifestu Agile, a wiele praktyk XP stało się standardem w zespołach, które nigdy nie mówiły o sobie „robimy XP”.</p>
+
+<h2 id="czy-pair-programming-to-strata-czasu">Czy pair programming to strata czasu?</h2>
+
+<p>Rzadziej, niż się wydaje. Dwie osoby przy jednym ekranie to mniej błędów, szybsze przekazywanie wiedzy i kod, który rozumie ktoś poza autorem.</p>
+
+<p>Alistair Cockburn i Laurie Williams opisali w 2000 roku eksperyment, w którym studenci informatyki pisali programy w parach albo samodzielnie. Pary potrzebowały łącznie około 15% więcej czasu pracy, a ich kod miał około 15% mniej defektów. Biorąc pod uwagę, ile kosztuje błąd wykryty na produkcji, ten rachunek często wychodzi na plus.</p>
+
+<p>Jest też korzyść, której nie widać w liczbie błędów. Wiedza o systemie przestaje być zamknięta w głowie jednej osoby. Pisałem o tym, co się dzieje, gdy <a href="/blog/2026-08-13-specjalizacja-odpowiedzialnosc/">specjalizacja rozmywa odpowiedzialność</a>.</p>
+
+<p><img src="/assets/images/extreme-programming.webp" alt="Extreme Programming w trzech praktykach. Pair programming: dwie osoby przy jednym ekranie, w eksperymencie Cockburna i Williams z 2000 roku około 15% więcej czasu i około 15% mniej defektów, wiedza rozproszona po zespole. Test-driven development: najpierw test, który definiuje, co ma działać, potem kod, który go spełnia, potem refaktoryzacja; błędy łapane przed klientem. Continuous integration: zmiany wchodzą do wspólnej gałęzi małymi porcjami wiele razy dziennie, bez tygodniowego merge hell. Efekt: mniej błędów na produkcji i spokojniejsze dostarczanie." /></p>
+
+<h2 id="jak-działa-test-driven-development">Jak działa test-driven development?</h2>
+
+<p>Odwraca kolejność. Najpierw piszesz test, czyli definiujesz, co ma działać. Potem piszesz kod, który ten test spełnia. Na końcu poprawiasz strukturę kodu, wiedząc, że test pilnuje działania. Beck nazywa ten cykl: czerwony, zielony, refaktoryzacja.</p>
+
+<p>Błędy łapiesz, zanim trafią do klienta. Test napisany przed kodem wymusza też jasność: trudno napisać test do czegoś, czego się nie rozumie. Jeśli test jest trudny do napisania, często to sygnał, że wymaganie jest niejasne.</p>
+
+<h2 id="co-daje-continuous-integration">Co daje continuous integration?</h2>
+
+<p>Zmiany wchodzą do systemu małymi porcjami, wiele razy dziennie. Znika tygodniowe „merge hell”, kiedy kilka osób próbuje naraz połączyć tygodnie pracy. Martin Fowler opisuje zasadę: każdy integruje swoją pracę z główną gałęzią przynajmniej raz dziennie, a każda integracja przechodzi automatyczne budowanie i testy.</p>
+
+<p>Małe zmiany łatwo sprawdzić i łatwo cofnąć. Jeśli coś się psuje, wiadomo, która z ostatnich zmian to zrobiła. To ten sam mechanizm, który daje <a href="/blog/2026-01-20-ten-o-malych-poprawkach/">małe poprawki</a>: drobne kroki składają się na dużą zmianę bez dużego ryzyka.</p>
+
+<h2 id="co-z-tego-dostajesz">Co z tego dostajesz?</h2>
+
+<p>Mniej błędów na produkcji i wiedzę rozproszoną po całym zespole. Zespół mniej zależy od jednej osoby, która „wie, jak to działa”.</p>
+
+<p>XP pokazuje, że dyscyplina techniczna jest sposobem na spokojniejsze dostarczanie. Bez niej kod z czasem <a href="/blog/2026-02-10-ten-o-entropii-oprogramowania/">psuje się sam</a>, a każda zmiana jest coraz droższa.</p>
+
+<p>Narzędzie jest narzędziem. Pytanie, co z niego wyciągniesz.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Beck, K. (1999). <em>Extreme Programming Explained: Embrace Change</em>. Addison-Wesley.</li>
+  <li>Beck, K. (2002). <em>Test-Driven Development: By Example</em>. Addison-Wesley.</li>
+  <li>Cockburn, A., Williams, L. (2000). The Costs and Benefits of Pair Programming. <em>Proceedings of the First International Conference on Extreme Programming and Flexible Processes in Software Engineering (XP2000)</em>.</li>
+  <li>Williams, L., Kessler, R. R., Cunningham, W., Jeffries, R. (2000). Strengthening the Case for Pair Programming. <em>IEEE Software</em>, 17(4), 19–25.</li>
+  <li>Fowler, M. (2006). <em>Continuous Integration</em>. martinfowler.com/articles/continuousIntegration.html.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_xp-extreme-programming-brzmi-ekstremalnie-share-7473649573073379328-NExT">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>Extreme Programming</li><li>TDD</li><li>pair programming</li><li>continuous integration</li><li>jakość</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-07-08-ten-o-bledzie-ktory-wraca/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o błędzie, który wraca</h3>
+  </a>
+  <a class="post next" href="/blog/2026-07-14-ten-o-less-i-upraszczaniu/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o LeSS i upraszczaniu</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

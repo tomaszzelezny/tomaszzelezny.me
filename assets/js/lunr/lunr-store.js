@@ -54,9 +54,15 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o eksperymencie",
-        "excerpt":"Dla wielu menedżerów w tradycyjnym modelu zarządzania słowo „eksperyment” budzi natychmiastowy opór. Jak to? Mamy przecież wypracowany plan, zatwierdzony budżet i wiążący harmonogram! Eksperyment brzmi jak chaos. Ale nie chodzi o to, by zrezygnować z planowania, tylko o dopasowanie podejścia do kontekstu. W stabilnym środowisku, gdy warunki są znane, planuj....","categories": ["Zarządzanie"],
+        "excerpt":"Dla wielu menedżerów w tradycyjnym modelu zarządzania słowo „eksperyment” budzi natychmiastowy opór. Jak to? Mamy przecież wypracowany plan, zatwierdzony budżet i wiążący harmonogram! Eksperyment brzmi jak chaos. Ale nie chodzi o to, by zrezygnować z planowania, tylko o dopasowanie podejścia do kontekstu. Różnicę między planem a planowaniem opisałem we wpisie...","categories": ["Zarządzanie"],
         "tags": ["eksperyment","niepewność","Agile","PDCA","Lean Startup"],
         "url": "/blog/2025-11-13-ten-o-eksperymencie/",
+        "teaser": null
+      },{
+        "title": "Ten o pytaniu „po co”",
+        "excerpt":"Efektywność w zarządzaniu to stosunek efektów do nakładów. Osiąganie celów przy optymalnym wykorzystaniu zasobów. To działa, szczególnie gdy potrzebujesz porównywalności między projektami czy przewidywalności budżetu. Ta definicja zakłada jednak, że cele są właściwe. Że procesy mają sens. Że to, co optymalizujesz, w ogóle powinno być robione. Czego nie widać w...","categories": ["Zarządzanie"],
+        "tags": ["efektywność","Lean","marnotrawstwo","Value Stream Mapping","5 Why"],
+        "url": "/blog/2025-11-20-ten-o-pytaniu-po-co/",
         "teaser": null
       },{
         "title": "Ten o wykonawcy i partnerze",
@@ -95,10 +101,22 @@ var store = [{
         "url": "/blog/2026-01-22-ten-o-zwinnosci-i-portfelu/",
         "teaser": null
       },{
+        "title": "Ten o tygodniu cienia",
+        "excerpt":"Nawet najlepsi specjaliści i najnowsze technologie nie zdadzą się na wiele, jeśli polityki firmowe działają jak hamulec ręczny. Efekt? Eksperci tracą energię na walkę z systemem zamiast na tworzenie wartości. Skąd wiadomo, że polityki hamują pracę? Najprościej to sprawdzić, patrząc na to, jak praca wygląda naprawdę. Procedura opisuje, jak praca...","categories": ["Zarządzanie"],
+        "tags": ["polityki firmowe","procesy","eksperyment","wąskie gardła","Shadow IT"],
+        "url": "/blog/2026-01-27-ten-o-tygodniu-cienia/",
+        "teaser": null
+      },{
         "title": "Ten o roku pisania na LinkedIn",
         "excerpt":"Mija około rok, odkąd postanowiłem sprawdzać swoje siły w publikowaniu na LinkedIn. Wyciągam wnioski, patrzę na liczby. Wzrost wyświetleń publikacji o 3357%. To efekt przejścia z trybu „tylko czytam” do „zaczynam pisać”. Czy to tempo jest do utrzymania? Raczej nie, dziś już jest tylko 2514,5%. 9 391 osób, czyli realny...","categories": ["Marka osobista"],
         "tags": ["LinkedIn","publikowanie","syndrom oszusta"],
         "url": "/blog/2026-01-29-ten-o-roku-pisania-na-linkedin/",
+        "teaser": null
+      },{
+        "title": "Ten o wspólnym pastwisku",
+        "excerpt":"Wyobraźcie sobie jedno pole, kilka grup pasterzy i ich stada. Pole jest wspólne, więc każdy pasterz chce, żeby jego owce najadły się jak najwięcej. Nikt nie odpowiada za trawę. Po kilku sezonach pole zamienia się w klepisko. Czym jest tragedia wspólnego pastwiska? To sytuacja, w której wspólny zasób niszczeje, bo...","categories": ["Zarządzanie"],
+        "tags": ["tragedia wspólnego pastwiska","dług techniczny","interesariusze","priorytetyzacja","wypalenie"],
+        "url": "/blog/2026-02-03-ten-o-wspolnym-pastwisku/",
         "teaser": null
       },{
         "title": "Ten o partnerze w ryzyku",
@@ -119,16 +137,46 @@ var store = [{
         "url": "/blog/2026-02-12-ten-o-10-procentach-na-refinement/",
         "teaser": null
       },{
+        "title": "Ten o bramkach kontrolnych",
+        "excerpt":"Nikt nie planuje blokowania innowacji. Dlaczego więc idą nam one tak słabo? W wielu firmach odpowiedź leży w modelu „stacji kontrolnej”. Zespół pracuje, a na końcu procesu stoją bramki: bezpieczeństwo, zgodność z regulacjami, architektura, ryzyko. Każda bramka ma dobre intencje i każda chroni firmę przed czymś realnym. Razem potrafią zatrzymać...","categories": ["Zarządzanie"],
+        "tags": ["innowacje","compliance","bezpieczeństwo","koszt opóźnienia","DevSecOps"],
+        "url": "/blog/2026-02-17-ten-o-bramkach-kontrolnych/",
+        "teaser": null
+      },{
+        "title": "Ten o czterech kulturach",
+        "excerpt":"Organizacje balansują między kilkoma napięciami. Dwa ważne z nich to: gdzie kierują swoją energię i jak traktują ludzi. Te dwie osie tworzą macierz czterech wyraźnych scenariuszy. Jakie dwie osie opisują kulturę organizacji? Pierwsza to fokus strategiczny. Na jednym końcu są sprawy wewnętrzne: procesy, efektywność, optymalizacja. Na drugim rynek: klient, konkurencja,...","categories": ["Przywództwo"],
+        "tags": ["kultura organizacyjna","merytokracja","strategia","Competing Values Framework"],
+        "url": "/blog/2026-02-19-ten-o-czterech-kulturach/",
+        "teaser": null
+      },{
+        "title": "Ten o narzędziach z epoki fabryk",
+        "excerpt":"Czy narzędzia, które znamy, nadążają za czasami, w których żyjemy? Większość firm działa jak maszyny zaprojektowane w XIX wieku. Hierarchia, roczny budżet, kontrola wykonania planu. To narzędzia z epoki fabryk, skuteczne, gdy zadania są powtarzalne, a świat stoi w miejscu. Tyle że świat nie stoi w miejscu. Skąd się wzięły...","categories": ["Zarządzanie"],
+        "tags": ["hierarchia","autonomia","misja","struktura organizacyjna","uczenie się"],
+        "url": "/blog/2026-02-24-ten-o-narzedziach-z-epoki-fabryk/",
+        "teaser": null
+      },{
         "title": "Ten o książce 10X Org",
         "excerpt":"Alexey Krivitsky i Roland Flemm: jedna kopia już w moich rękach. Dwa dni temu miała miejsce premiera książki „10X Org”, która jest kolejnym etapem rozwoju Org Topologies. Śledzę ten rozwój od kilku lat. Czego nauczyło mnie Org Topologies? Że struktura organizacji wpływa na jej efektywność głębiej, niż się wydaje. Dzięki...","categories": ["Zarządzanie"],
         "tags": ["Org Topologies","design organizacji","struktura organizacji","strategia","AI","książki"],
         "url": "/blog/2026-02-26-ten-o-ksiazce-10x-org/",
         "teaser": null
       },{
+        "title": "Ten o garncarzu",
+        "excerpt":"Zmiana jest rzemiosłem. Projekt w Excelu rzadko ją opisuje. Większość teorii zarządzania zakłada, że najpierw się myśli (na górze), a potem robi (na dole). Henry Mintzberg twierdzi, że to bzdura. Strategia, która działa, „wyłania się” z codziennego zamieszania, prób i błędów. Skąd się bierze strategia, która działa? Z połączenia planu...","categories": ["Zarządzanie"],
+        "tags": ["strategia","Mintzberg","zmiana","strategia wyłaniająca się","doświadczenie"],
+        "url": "/blog/2026-03-03-ten-o-garncarzu/",
+        "teaser": null
+      },{
         "title": "Ten o lejku niepewności w erze AI",
         "excerpt":"Lejek niepewności uczył nas pokory. Na początku projektu jest najszerszy. Im więcej iteracji, rozmów z użytkownikami i dostarczonych przyrostów, tym bardziej się zwęża. Nie dlatego, że stajemy się mądrzejsi z definicji, ale dlatego, że rzeczywistość stopniowo weryfikuje nasze założenia. Barry Boehm opisał to już w latach 80. i przez dekady...","categories": ["Zarządzanie projektami"],
         "tags": ["estymacje","niepewność","AI","planowanie"],
         "url": "/blog/2026-03-05-ten-o-lejku-niepewnosci/",
+        "teaser": null
+      },{
+        "title": "Ten o planie i planowaniu",
+        "excerpt":"„Plans are worthless, but planning is everything”. Dwight Eisenhower powiedział to w 1957 roku, przypominając sobie lata dowodzenia wojskiem. To jedna z lepszych instrukcji zarządzania, jakie znam. Czym plan różni się od planowania? Plan to rzeczownik, a planowanie to czasownik. Plan jest dokumentem. To migawka tego, co wiedzieliśmy w konkretnym...","categories": ["Zarządzanie projektami"],
+        "tags": ["planowanie","Eisenhower","niepewność","założenia","zarządzanie projektami"],
+        "url": "/blog/2026-03-10-ten-o-planie-i-planowaniu/",
         "teaser": null
       },{
         "title": "Ten o celach, które giną w taskach",
@@ -192,7 +240,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o potrzebie znalezienia właściwego problemu",
-        "excerpt":"Jaki problem próbujesz rozwiązać? Nie znoszę tego pytania. Jest oklepane. Brzmi jak z podręcznika. I mimo to — wciąż robi robotę. Za rzadko się przy nim zatrzymujemy. A nawet najlepsze rozwiązanie złego problemu to tylko sprawnie wykonana nikomu niepotrzebna robota. 💬 Dołącz do dyskusji na LinkedIn → Komentuj i podziel...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Jaki problem próbujesz rozwiązać? Nie znoszę tego pytania. Jest oklepane. Brzmi jak z podręcznika. I mimo to — wciąż robi robotę. Za rzadko się przy nim zatrzymujemy. A nawet najlepsze rozwiązanie złego problemu to tylko sprawnie wykonana nikomu niepotrzebna robota. Jak sprawdzić problem, zanim zaczniesz budować, opisałem przy Design Thinking....","categories": ["Zarządzanie produktem"],
         "tags": ["Problem","Produkt","Myślenie"],
         "url": "/blog/2026-04-16-wlasciwy-problem/",
         "teaser": null
@@ -251,10 +299,28 @@ var store = [{
         "url": "/blog/2026-05-26-ten-o-backendzie-bez-uzytkownika/",
         "teaser": null
       },{
+        "title": "Ten o koszcie epistemicznym",
+        "excerpt":"Są koszty, które wyglądają jak błędy. Projekt, który nie wypalił. Kwartał poświęcony na coś, z czego nic nie wyszło i o czym wszyscy wolą nie pamiętać na retrospektywie. Co Drucker mówi o robieniu niewłaściwych rzeczy? Że nie ma nic bardziej bezużytecznego niż efektywne robienie czegoś, czego w ogóle nie należy...","categories": ["Zarządzanie"],
+        "tags": ["niepewność","porażka","uczenie się","innowacje","Drucker"],
+        "url": "/blog/2026-05-28-ten-o-koszcie-epistemicznym/",
+        "teaser": null
+      },{
+        "title": "Ten o domykaniu i opcjach",
+        "excerpt":"Każda decyzja w produkcie cyfrowym albo coś domyka, albo zostawia otwarte. I obie opcje mają rację jednocześnie. Dlaczego warto domykać? Bo prostota jest tania i szybka. Im prostszy produkt, tym taniej go utrzymać, tym szybciej dowozisz, tym łatwiej użytkownik go rozumie. Każda wycięta funkcja to mniej kodu, mniej decyzji, mniej...","categories": ["Zarządzanie produktem"],
+        "tags": ["strategia produktowa","opcjonalność","prostota","architektura","decyzje"],
+        "url": "/blog/2026-06-02-ten-o-domykaniu-i-opcjach/",
+        "teaser": null
+      },{
         "title": "Ten o wiedzy, za którą nikt nie płaci",
         "excerpt":"W 1962 roku Kenneth Arrow opisał, dlaczego rynek systematycznie za mało inwestuje w postęp. Co odkrył Kenneth Arrow? Że wiedza powstaje przy okazji pracy, a rynek za nią nie płaci. Jego argument dotyczył produkcji samolotów. Mówił mniej więcej tak: kiedy firma buduje maszynę, uczy się przy tym czegoś, co obniży...","categories": ["Zarządzanie"],
         "tags": ["Kenneth Arrow","optymalizacja lokalna","dług techniczny","motywacja","myślenie systemowe"],
         "url": "/blog/2026-06-05-ten-o-wiedzy-za-ktora-nikt-nie-placi/",
+        "teaser": null
+      },{
+        "title": "Ten o trzech scenariuszach",
+        "excerpt":"Jest taka technika: PERT. Może znasz. Może nawet używasz. Mechanizm jest dość prosty. Bierzesz wariant optymistyczny, najbardziej prawdopodobny i pesymistyczny, wrzucasz do wzoru i dostajesz wartość oczekiwaną. Jedna liczba, można wstawić do planu. Jak działa PERT? Liczy średnią ważoną z trzech oszacowań. Wzór to (O + 4M + P) /...","categories": ["Zarządzanie projektami"],
+        "tags": ["PERT","estymacja","ryzyko","scenariusze","planowanie"],
+        "url": "/blog/2026-06-09-ten-o-trzech-scenariuszach/",
         "teaser": null
       },{
         "title": "Ten o trójkącie projektu w erze AI",
@@ -275,10 +341,64 @@ var store = [{
         "url": "/blog/2026-06-23-ten-o-scrumie-i-ryzyku/",
         "teaser": null
       },{
+        "title": "Ten o limitach WIP",
+        "excerpt":"Większość zespołów zajmuje się zbyt wieloma rzeczami naraz. Zaczyna pięć rzeczy naraz. Kończy dwie. Reszta czeka: w kolejce, w komentarzu, w czyjejś głowie. Dlaczego zbyt wiele zadań naraz spowalnia zespół? Bo każde zaczęte zadanie wydłuża czas oczekiwania na wszystkie pozostałe. Mówi o tym prawo Little’a z teorii kolejek: średni czas...","categories": ["Zarządzanie projektami"],
+        "tags": ["Kanban","WIP","przepływ pracy","przełączanie kontekstu","prawo Little'a"],
+        "url": "/blog/2026-06-25-ten-o-limitach-wip/",
+        "teaser": null
+      },{
+        "title": "Ten o kosztach, które nie są pracą",
+        "excerpt":"Część kosztów w projekcie pochodzi z rzeczy, które nie powinny istnieć. Pytanie tylko, jaka to część? Zbędne kroki i funkcje, których nikt nie użył. Błędy wykryte za późno, żeby były tanie. Dokumentacja pisana dla spokoju sumienia zamiast dla odbiorcy. Jak Lean nazywa koszty bez wartości? Nazywa je wprost: marnotrawstwo. Japońskie...","categories": ["Zarządzanie"],
+        "tags": ["Lean","marnotrawstwo","Value Stream Mapping","koszty projektu","myślenie systemowe"],
+        "url": "/blog/2026-06-30-ten-o-kosztach-ktore-nie-sa-praca/",
+        "teaser": null
+      },{
+        "title": "Ten o płocie między Dev i Ops",
+        "excerpt":"Przez lata development i operations działały osobno. Dev pisał kod i „przerzucał przez płot” do Ops. Ops wdrażał, gasił pożary i obwiniał Dev za błędy. Dev obwiniał Ops za wolne wdrożenia. Skąd się wziął płot między Dev i Ops? Z różnych celów. Development był rozliczany ze zmian: nowych funkcji, terminów,...","categories": ["Zarządzanie"],
+        "tags": ["DevOps","CI/CD","Infrastructure as Code","kultura bez szukania winnych","niezawodność"],
+        "url": "/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/",
+        "teaser": null
+      },{
+        "title": "Ten o produkcie, którego nikt nie potrzebował",
+        "excerpt":"Produkty upadają z różnych powodów. Najczęstszy rzadko jest techniczny. Nikt ich nie potrzebował. Zespół spędził miesiące na budowaniu czegoś technicznie poprawnego, funkcjonalnie kompletnego i niemającego sensu dla użytkownika, który miał z tego korzystać. Dlaczego produkty upadają? Najczęściej dlatego, że rozwiązują problem, którego nikt nie ma. CB Insights zbiera analizy upadłych...","categories": ["Zarządzanie produktem"],
+        "tags": ["Design Thinking","badania z użytkownikami","prototypowanie","mapa empatii","odkrywanie produktu"],
+        "url": "/blog/2026-07-07-ten-o-produkcie-ktorego-nikt-nie-potrzebowal/",
+        "teaser": null
+      },{
+        "title": "Ten o błędzie, który wraca",
+        "excerpt":"Naprawiasz błąd. Błąd wraca. Naprawiasz mocniej. Błąd wraca szybciej. Za takim powrotem zwykle stoi pętla. I dopóki jej nie zobaczysz, będziesz naprawiać objawy, a przyczyny zostaną na miejscu. Dlaczego naprawiony błąd wraca? Bo naprawa uruchamia skutki, których nie widać od razu. Peter Senge opisał ten wzorzec jako archetyp „poprawki, która...","categories": ["Zarządzanie"],
+        "tags": ["myślenie systemowe","pętle przyczynowo-skutkowe","Senge","Meadows","przyczyny problemów"],
+        "url": "/blog/2026-07-08-ten-o-bledzie-ktory-wraca/",
+        "teaser": null
+      },{
+        "title": "Ten o Extreme Programming",
+        "excerpt":"XP, czyli Extreme Programming, brzmi ekstremalnie i właśnie takie jest. XP to zestaw nawyków, które sprawiają, że praca zespołu technicznego staje się przewidywalna i bezpieczna. Skąd się wzięło Extreme Programming? Z projektu, który miał kłopoty. Kent Beck rozwijał XP pod koniec lat 90., między innymi w projekcie systemu płacowego C3...","categories": ["Zarządzanie projektami"],
+        "tags": ["Extreme Programming","TDD","pair programming","continuous integration","jakość"],
+        "url": "/blog/2026-07-09-ten-o-extreme-programming/",
+        "teaser": null
+      },{
         "title": "Ten o LeSS i upraszczaniu",
         "excerpt":"Im więcej zespołów, tym więcej koordynacji. Im więcej koordynacji, tym więcej spotkań. Im więcej spotkań, tym mniej pracy. Większość frameworków skalowania rozwiązuje ten problem dodając warstwy. Nowe role, nowe ceremonie, nowe artefakty. Koordynacja staje się osobnym zawodem. Czym LeSS różni się od innych frameworków skalowania? LeSS (Large-Scale Scrum) idzie w...","categories": ["Zarządzanie"],
         "tags": ["LeSS","skalowanie","koordynacja","Product Backlog","Product Owner"],
         "url": "/blog/2026-07-14-ten-o-less-i-upraszczaniu/",
+        "teaser": null
+      },{
+        "title": "Ten o jednym wąskim gardle",
+        "excerpt":"Możesz przyspieszyć każdy zespół z osobna i nadal dostarczać wolniej niż rok temu. Lokalna optymalizacja rzadko przekłada się na globalny wynik. Jeśli praca blokuje się w jednym miejscu, reszta tylko produkuje kolejkę przed tym miejscem. Co mówi teoria ograniczeń? Że w każdym systemie jest jedno wąskie gardło i to ono...","categories": ["Zarządzanie"],
+        "tags": ["teoria ograniczeń","TOC","wąskie gardło","Goldratt","przepływ pracy"],
+        "url": "/blog/2026-07-16-ten-o-jednym-waskim-gardle/",
+        "teaser": null
+      },{
+        "title": "Ten o prostych liniach",
+        "excerpt":"Struktury organizacyjne powstają, żeby dało się zarządzać pracą. Dopasowanie do samej pracy jest sprawą drugorzędną. Czego uczy pruski las? Że uporządkowanie dla obserwatora może zniszczyć to, co porządkuje. W XVIII wieku pruscy leśnicy zaczęli sadzić lasy w równych rzędach, z jednego gatunku drzew, pod łatwe liczenie metrów sześciennych drewna. Przez...","categories": ["Zarządzanie"],
+        "tags": ["struktura organizacyjna","James C. Scott","złożoność","planowanie","mêtis"],
+        "url": "/blog/2026-07-21-ten-o-prostych-liniach/",
+        "teaser": null
+      },{
+        "title": "Ten o sudoku",
+        "excerpt":"Piątek, głowa w połowie już przy weekendzie, i wpada mi do ręki sudoku. I tak myślę, że organizacja działa podobnie. To, że wypełniłeś jeden kwadrat poprawnie, nie znaczy, że rozwiązałeś całą planszę. Dlaczego w sudoku nie ma ruchu lokalnego? Bo każda cyfra działa w trzech wymiarach naraz. Kiedy wpisujesz cyfrę,...","categories": ["Zarządzanie"],
+        "tags": ["kultura organizacyjna","myślenie systemowe","zmiana","złożoność"],
+        "url": "/blog/2026-08-07-ten-o-sudoku/",
         "teaser": null
       },{
         "title": "Ten o resolverze z wyboru i z przymusu",
@@ -309,6 +429,12 @@ var store = [{
         "excerpt":"Zajętość łatwo wyprodukować. W kosztach firmy wygląda identycznie jak praca, która coś zmienia — różnica siedzi dopiero w wynikach. Goldratt zaczął „Cel” od pytania, które w fabryce brzmiało niewygodnie: po co to wszystko robimy. Nie chodziło o to, czy maszyny pracują ani czy ludzie są zajęci — tylko po co....","categories": ["Zarządzanie"],
         "tags": ["zajętość","postęp","efektywność","cel"],
         "url": "/blog/2026-08-19-zajetosc-vs-postep/",
+        "teaser": null
+      },{
+        "title": "Ten o jednozdaniowcach",
+        "excerpt":"Backlog: „Luźna lista pomysłów na funkcje i usprawnienia, które warto kiedyś rozważyć”? Tak to ujął Claude, kiedy poprosiłem go o miejsce do trzymania pomysłów w aplikacji, którą rozwijam po godzinach. Moja prośba brzmiała: „dodajmy jakiś backlog pomysłów, które chciałbym dodać w tej aplikacji”. Co zaproponowało AI? Plik BACKLOG.md z krótką...","categories": ["Zarządzanie produktem"],
+        "tags": ["backlog","user story","refinement","AI","planowanie"],
+        "url": "/blog/2026-08-24-ten-o-jednozdaniowcach/",
         "teaser": null
       },{
         "title": "Ten o przewidywalności, która buduje zaufanie",

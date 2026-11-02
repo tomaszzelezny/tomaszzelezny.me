@@ -1,0 +1,376 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Kanban i limity WIP: mniej zadań naraz - Tomasz Żelezny</title>
+<meta name="description" content="Kanban i limity WIP: dlaczego zespół spowalnia liczba zadań zaczętych naraz, jak tablica pokazuje, gdzie praca stoi, i co zmienia limit WIP.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Kanban i limity WIP: mniej zadań naraz">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-06-25-ten-o-limitach-wip/">
+
+
+  <meta property="og:description" content="Kanban i limity WIP: dlaczego zespół spowalnia liczba zadań zaczętych naraz, jak tablica pokazuje, gdzie praca stoi, i co zmienia limit WIP.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/limity-wip.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-06-25T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-06-25-ten-o-limitach-wip/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kanban i limity WIP: mniej zadań naraz",
+  "description": "Kanban i limity WIP: dlaczego zespół spowalnia liczba zadań zaczętych naraz, jak tablica pokazuje, gdzie praca stoi, i co zmienia limit WIP.",
+  "url": "https://tomaszzelezny.me/blog/2026-06-25-ten-o-limitach-wip/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-06-25-ten-o-limitach-wip/",
+  "datePublished": "2026-06-25T00:00:00+00:00",
+  "dateModified": "2026-06-25T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/limity-wip.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie projektami",
+  "keywords": "Kanban, WIP, przepływ pracy, przełączanie kontekstu, prawo Little'a",
+  "wordCount": 451
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie projektami</span>
+        <span><time class="dt-published" datetime="2026-06-25T00:00:00+00:00">25.06.2026</time> · 3 min czytania</span></p>
+      <h1 class="p-name">Ten o limitach <em>WIP</em></h1><p class="lead p-summary">Kanban i limity WIP: dlaczego zespół spowalnia liczba zadań zaczętych naraz, jak tablica pokazuje, gdzie praca stoi, i co zmienia limit WIP.</p>
+    </header>
+    <div class="prose e-content">
+      <p>Większość zespołów zajmuje się zbyt wieloma rzeczami naraz.</p>
+
+<p>Zaczyna pięć rzeczy naraz. Kończy dwie. Reszta czeka: w kolejce, w komentarzu, w czyjejś głowie.</p>
+
+<h2 id="dlaczego-zbyt-wiele-zadań-naraz-spowalnia-zespół">Dlaczego zbyt wiele zadań naraz spowalnia zespół?</h2>
+
+<p>Bo każde zaczęte zadanie wydłuża czas oczekiwania na wszystkie pozostałe. Mówi o tym prawo Little’a z teorii kolejek: średni czas przejścia zadania przez system to liczba zadań w toku podzielona przez przepustowość. Jeśli zespół kończy pięć zadań tygodniowo i ma ich w toku dwadzieścia, każde zadanie przechodzi przez system średnio cztery tygodnie. Przy dziesięciu w toku są to dwa tygodnie, choć nikt nie zaczął pracować szybciej.</p>
+
+<p>Do tego dochodzi przełączanie kontekstu. Każdy powrót do zadania odłożonego tydzień temu zaczyna się od przypominania sobie, na czym się skończyło.</p>
+
+<h2 id="co-robi-kanban">Co robi Kanban?</h2>
+
+<p>Sprawia, że praca w toku jest widoczna. Nie zarządzimy czymś, czego nie widać. Kanban pozwala to zobaczyć, potem tym zarządzić, a na końcu optymalizować.</p>
+
+<p>Tablica z kolumnami służy do czegoś więcej niż raportowanie. To rentgen przepływu pracy. Widzisz, gdzie praca stoi. Widzisz, co blokuje. Widzisz, ile rzeczy jest „prawie gotowych” od trzech tygodni. Jak zrobić z tego proste ćwiczenie dla zespołu, opisałem we wpisie o <a href="/blog/2026-10-29-ten-o-tym-co-czeka/">pracy, która czeka</a>.</p>
+
+<p><img src="/assets/images/limity-wip.webp" alt="Kanban i limity WIP. Bez limitu: zespół zaczyna pięć rzeczy naraz, kończy dwie, reszta czeka w kolejce, w komentarzu albo w czyjejś głowie. Prawo Little'a: czas przejścia to praca w toku podzielona przez przepustowość, więc 20 zadań w toku przy 5 skończonych tygodniowo to 4 tygodnie, a 10 zadań to 2 tygodnie. Z limitem WIP zespół najpierw kończy, potem zaczyna: szybszy przepływ, mniej przełączania kontekstu, problemy widoczne na tablicy." /></p>
+
+<h2 id="jak-działają-limity-wip">Jak działają limity WIP?</h2>
+
+<p>Zmuszają do zrobienia porządku z poprzednim zadaniem, zanim zaczniesz coś nowego. Limit WIP (<em>work in progress</em>) to maksymalna liczba zadań, które mogą jednocześnie być w danej kolumnie albo w całym procesie. Kiedy kolumna jest pełna, nikt nie bierze nowego zadania. Zamiast tego pomaga skończyć to, co już jest w toku.</p>
+
+<p>To proste ograniczenie zmienia dynamikę całego zespołu. David Anderson, który przeniósł Kanban do pracy nad oprogramowaniem, opisuje to hasłem: przestań zaczynać, zacznij kończyć. Ludzie zaczynają pytać, co blokuje zadanie obok, zamiast brać kolejne z backlogu.</p>
+
+<h2 id="co-zespół-z-tego-dostaje">Co zespół z tego dostaje?</h2>
+
+<p>Szybszy przepływ i mniej przełączania kontekstu. A problemy, które wcześniej były niewidoczne, teraz są na tablicy.</p>
+
+<p>Limit WIP działa też jak wykrywacz. Kiedy praca staje, bo kolumna jest pełna, widać od razu, gdzie jest wąskie gardło: w testach, w przeglądzie kodu, w czekaniu na decyzję. Bez limitu to samo wąskie gardło chowa się za rosnącą liczbą zaczętych zadań. Najczęściej okazuje się, że większość czasu zadanie <a href="/blog/2026-03-19-flow-efficiency/">czeka w kolejce</a>.</p>
+
+<p>Daniel Vacanti zwraca uwagę, że do zarządzania przepływem wystarczy kilka miar: praca w toku, czas przejścia, przepustowość i wiek zadań w toku. Wiek jest szczególnie ciekawy, bo pokazuje problem, zanim zadanie się skończy.</p>
+
+<p>Narzędzie jest narzędziem. Pytanie, co z niego wyciągniesz.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Anderson, D. J. (2010). <em>Kanban: Successful Evolutionary Change for Your Technology Business</em>. Blue Hole Press.</li>
+  <li>Little, J. D. C. (1961). A Proof for the Queuing Formula: L = λW. <em>Operations Research</em>, 9(3), 383–387.</li>
+  <li>Vacanti, D. S. (2015). <em>Actionable Agile Metrics for Predictability: An Introduction</em>. ActionableAgile Press.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_wi%C4%99kszo%C5%9B%C4%87-zespo%C5%82%C3%B3w-nie-ma-problemu-z-woln%C4%85-share-7473648981575716864-u1iF">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>Kanban</li><li>WIP</li><li>przepływ pracy</li><li>przełączanie kontekstu</li><li>prawo Little'a</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-06-23-ten-o-scrumie-i-ryzyku/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o Scrumie i ryzyku</h3>
+  </a>
+  <a class="post next" href="/blog/2026-06-30-ten-o-kosztach-ktore-nie-sa-praca/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o kosztach, które nie są pracą</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
