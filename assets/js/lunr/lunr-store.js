@@ -514,4 +514,10 @@ var store = [{
         "tags": ["przepływ pracy","czekanie","aging WIP","koszt opóźnienia"],
         "url": "/blog/2026-10-29-ten-o-tym-co-czeka/",
         "teaser": null
+      },{
+        "title": "Ten o rezultacie pracy developera",
+        "excerpt":"W zajawce serii zadałem pytanie, od którego zacząłem majową prezentację: co jest rezultatem pracy developera? Kod, nowa funkcjonalność, zamknięte tickety i poprawki błędów to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. Zmiana u użytkownika nie musi oznaczać nowego nawyku. Często polega na tym, że...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","AI","output i outcome","renaissance developer"],
+        "url": "/blog/2026-11-03-ten-o-rezultacie-pracy-developera/",
+        "teaser": null
       }]
