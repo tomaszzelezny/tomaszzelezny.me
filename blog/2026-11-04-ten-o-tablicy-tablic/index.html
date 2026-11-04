@@ -1,0 +1,391 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Ukryte kolejki pracy między zespołami - Tomasz Żelezny</title>
+<meta name="description" content="Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Ukryte kolejki pracy między zespołami">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/">
+
+
+  <meta property="og:description" content="Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/tablica-tablic.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2026-11-04T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ukryte kolejki pracy między zespołami",
+  "description": "Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.",
+  "url": "https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/",
+  "datePublished": "2026-11-04T00:00:00+00:00",
+  "dateModified": "2026-11-04T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/tablica-tablic.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie produktem",
+  "keywords": "kolejki, przepływ pracy, zależności między zespołami, flow efficiency, C++, C",
+  "wordCount": 934
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie produktem</span>
+        <span><time class="dt-published" datetime="2026-11-04T00:00:00+00:00">04.11.2026</time> · 6 min czytania</span></p>
+      <h1 class="p-name">Ten o tablicy <em>tablic</em></h1><p class="lead p-summary">Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.</p>
+    </header>
+    <div class="prose e-content">
+      <p>Kto pisał w C++, zna tablicę tablic, czyli <code class="language-plaintext highlighter-rouge">std::vector&lt;std::vector&lt;T&gt;&gt;</code>. Zewnętrzna tablica nie trzyma danych, tylko kolejne tablice, a każda z nich może mieć inną długość. (Zwykła tablica dwuwymiarowa, <code class="language-plaintext highlighter-rouge">int t[3][4]</code>, ma wszystkie wiersze równe, więc tu chodzi o tę pierwszą.) Na pierwszy rzut oka to zwykła lista z kilkoma pozycjami. Prawdziwa ilość danych siedzi poziom niżej i nie widać jej, dopóki nie zajrzysz do środka.</p>
+
+<p>Tak samo wygląda praca w wielu organizacjach. Na tablicy zespołu jest jedno zadanie „czekamy na zespół płatności”. W środku tego zadania jest cała kolejka innego zespołu, a w niej kolejne zadania, które czekają na jeszcze inny zespół.</p>
+
+<h2 id="co-pokazuje-tablica-tablic">Co pokazuje tablica tablic?</h2>
+
+<p>Pokazuje liczbę kolejek, a nie liczbę elementów. Weźmy taki kod:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Element</span><span class="o">&gt;&gt;</span> <span class="n">praca</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="p">{</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">},</span>           <span class="c1">// zespół A</span>
+    <span class="p">{</span><span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">g</span><span class="p">},</span>  <span class="c1">// zespół B</span>
+    <span class="p">{</span><span class="n">h</span><span class="p">}</span>               <span class="c1">// zespół C</span>
+<span class="p">};</span>
+
+<span class="n">praca</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>  <span class="c1">// 3</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">praca.size()</code> zwraca 3, bo tyle jest wewnętrznych tablic. Elementów jest osiem. Żeby się tego dowiedzieć, trzeba przejść pętlą po każdej wewnętrznej tablicy i zsumować ich rozmiary. Nikt tego nie robi przy każdym spojrzeniu, więc w głowie zostaje liczba 3.</p>
+
+<p>W C jest jeszcze gorzej: tablica tablic to tablica wskaźników, a wskaźnik nie wie, ile elementów jest pod nim.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Element</span> <span class="o">*</span><span class="n">praca</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="n">zespol_a</span><span class="p">,</span> <span class="n">zespol_b</span><span class="p">,</span> <span class="n">zespol_c</span><span class="p">};</span>
+</code></pre></div></div>
+
+<p>Element <code class="language-plaintext highlighter-rouge">praca[1]</code> to tylko adres miejsca w pamięci, gdzie zaczynają się elementy zespołu B. Długości wewnętrznych tablic trzeba pamiętać osobno, a jeśli nikt ich nie zapisał, nie da się ich odczytać. Na tablicy zespołu zadanie „czekamy na zespół B” działa tak samo: mówi, gdzie jest praca, ale nie mówi, ile jej tam jest ani jak długo potrwa.</p>
+
+<p><img src="/assets/images/tablica-tablic.webp" alt="Każda tablica widzi tylko swój poziom: na tablicy zespołu widać 3 karty, w tym „czekamy na zespół B”. Po rozwinięciu okazuje się, że w kolejce zespołu B czeka 15 próśb, w tym nasza, a zespół B sam czeka na zespół D, w którego kolejce jest 7 zadań. 3 karty na tablicy, 24 zadania w łańcuchu." /></p>
+
+<h2 id="gdzie-w-organizacji-chowają-się-kolejki">Gdzie w organizacji chowają się kolejki?</h2>
+
+<p>Chowają się wszędzie tam, gdzie jeden zespół potrzebuje czegoś od drugiego. Zgłoszenie do zespołu infrastruktury, prośba o zmianę w API, akceptacja od działu prawnego, przegląd bezpieczeństwa. Każda z tych rzeczy trafia do cudzego backlogu i tam czeka na swoją kolej.</p>
+
+<p>Na naszej tablicy widać jedną kartę w kolumnie „Zablokowane”. Nie widać, że przed nami w kolejce zespołu B jest czternaście innych próśb, więc nasza jest piętnasta. Nie widać też, że zespół B sam czeka na zespół D, więc nasza prośba stoi w kolejce, która stoi w kolejce. To jest zagnieżdżenie drugiego stopnia, a w dużej firmie bywa ich więcej.</p>
+
+<p>Każdy zespół widzi swój poziom. Nikt nie widzi całej struktury, bo nikt nie przechodzi po wszystkich tablicach naraz. Podobnie było z <a href="/blog/2026-10-21-ten-o-enkapsulacji/">rozmowami, które trzeba odbyć przy zmianie przekrojowej</a>: złożoność organizacji wycieka na zewnątrz, ale nie trafia na żadną tablicę.</p>
+
+<h2 id="dlaczego-ukryta-kolejka-wydłuża-czas-dostarczenia">Dlaczego ukryta kolejka wydłuża czas dostarczenia?</h2>
+
+<p>Bo czas dostarczenia zależy od tego, ile pracy czeka w systemie, a nie od tego, ile pracy widzimy. Prawo Little’a mówi, że w stabilnym systemie średni czas przejścia zadania to średnia ilość pracy w toku podzielona przez średnią przepustowość. Działa to też dla każdej kolejki z osobna. Jeśli w kolejce zespołu B czeka piętnaście próśb, a zespół B zamyka pięć tygodniowo, nasza prośba poczeka tam średnio około trzech tygodni. Na naszej tablicy to wciąż jedna karta, więc prognoza liczona tylko z naszej tablicy wychodzi zbyt optymistyczna.</p>
+
+<p>Stąd biorą się zadania, które idą trzy tygodnie, choć praca nad nimi trwa kilka godzin. Przez większość czasu zadanie <a href="/blog/2026-03-19-flow-efficiency/">po prostu czeka</a>, i to często nie u nas, tylko w czyjejś kolejce. Modig i Åhlström nazywają to niską efektywnością przepływu: liczy się, jaką część czasu zadanie jest naprawdę obrabiane, a nie jak zajęci są ludzie. Donald Reinertsen pisze, że kolejki w rozwoju produktu są niewidoczne, bo w przeciwieństwie do magazynu w fabryce nie zajmują miejsca. Nikt nie potyka się o stos niezałatwionych zgłoszeń.</p>
+
+<p>Do tego każdy zespół w łańcuchu może być w pełni zajęty. Wszyscy pracują, wszyscy mają pełne sprinty, a zadanie i tak stoi. To ta sama pułapka co <a href="/blog/2026-08-19-zajetosc-vs-postep/">zajętość, która udaje postęp</a>. Reinertsen pokazuje, że przy obciążeniu bliskim 100% kolejki rosną gwałtownie, a nie liniowo. Im bardziej zajęci są wszyscy, tym dłużej czeka praca.</p>
+
+<h2 id="jak-spłaszczyć-tablicę-tablic">Jak spłaszczyć tablicę tablic?</h2>
+
+<p>Pierwszy krok to policzyć elementy, a nie kolejki. Przy każdym zadaniu, które na kogoś czeka, warto zapisać, na kogo, od kiedy i które jest w ich kolejce. Samo to zmienia rozmowę na planowaniu, bo „czekamy na zespół B” zamienia się w „czekamy jedenaście dni i jesteśmy na piętnastym miejscu w kolejce”.</p>
+
+<p>Drugi krok to pokazać zagnieżdżenie. Wspólna tablica zależności albo prosta lista „co czeka na kogo” między kilkoma zespołami pozwala zobaczyć, gdzie kolejka jest najdłuższa. Zwykle okazuje się, że jeden zespół jest wskaźnikiem w połowie tablic w firmie.</p>
+
+<p>Trzeci krok to zmniejszyć liczbę poziomów. W programowaniu tablicę tablic często spłaszcza się do jednej, żeby dane leżały w jednym miejscu i dało się je przejść jedną pętlą. W organizacji oznacza to zespoły, które mogą dostarczyć zmianę bez czekania na innych, platformy z samoobsługą zamiast zgłoszeń albo zespół, z którym czasem pracujemy razem. Skelton i Pais w „Team Topologies” opisują właśnie takie układy: zespoły ułożone wzdłuż strumienia wartości, zespoły platformowe i współpracę na określony czas. Każdy usunięty poziom to jedna kolejka mniej, w której praca może utknąć.</p>
+
+<p>Nie da się usunąć wszystkich zależności. Da się sprawić, żeby było je widać i żeby liczyć je tak, jak liczy się pracę, a nie jako jedną kartę „zablokowane”.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Stroustrup, B. (2013). <em>The C++ Programming Language</em> (4th ed.). Addison-Wesley.</li>
+  <li>Kernighan, B. W., Ritchie, D. M. (1988). <em>The C Programming Language</em> (2nd ed.). Prentice Hall.</li>
+  <li>Little, J. D. C. (1961). A Proof for the Queuing Formula: L = λW. <em>Operations Research</em>, 9(3), 383–387.</li>
+  <li>Reinertsen, D. G. (2009). <em>The Principles of Product Development Flow: Second Generation Lean Product Development</em>. Celeritas Publishing.</li>
+  <li>Modig, N., Åhlström, P. (2012). <em>This is Lean: Resolving the Efficiency Paradox</em>. Rheologica Publishing.</li>
+  <li>Skelton, M., Pais, M. (2019). <em>Team Topologies: Organizing Business and Technology Teams for Fast Flow</em>. IT Revolution Press.</li>
+</ul>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>kolejki</li><li>przepływ pracy</li><li>zależności między zespołami</li><li>flow efficiency</li><li>C++</li><li>C</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2026-11-03-ten-o-rezultacie-pracy-developera/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o rezultacie pracy developera</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

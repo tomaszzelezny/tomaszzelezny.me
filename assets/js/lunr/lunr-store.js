@@ -520,4 +520,10 @@ var store = [{
         "tags": ["inżynier produktu","developer","AI","output i outcome","renaissance developer"],
         "url": "/blog/2026-11-03-ten-o-rezultacie-pracy-developera/",
         "teaser": null
+      },{
+        "title": "Ten o tablicy tablic",
+        "excerpt":"Kto pisał w C++, zna tablicę tablic, czyli std::vector&lt;std::vector&lt;T&gt;&gt;. Zewnętrzna tablica nie trzyma danych, tylko kolejne tablice, a każda z nich może mieć inną długość. (Zwykła tablica dwuwymiarowa, int t[3][4], ma wszystkie wiersze równe, więc tu chodzi o tę pierwszą.) Na pierwszy rzut oka to zwykła lista z kilkoma pozycjami....","categories": ["Zarządzanie produktem"],
+        "tags": ["kolejki","przepływ pracy","zależności między zespołami","flow efficiency","C++","C"],
+        "url": "/blog/2026-11-04-ten-o-tablicy-tablic/",
+        "teaser": null
       }]
