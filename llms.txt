@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Dlaczego Taylor mierzył operacje](https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/): Dlaczego Frederick Taylor mierzył czas operacji, a nie przepływ pracy? Wspólny interes firmy i pracownika, dzisiejszy obraz Taylora i osiem obszarów wiedzy.
 - [Ukryte kolejki pracy między zespołami](https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/): Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.
 - [Rezultat pracy developera a AI](https://tomaszzelezny.me/blog/2026-11-03-ten-o-rezultacie-pracy-developera/): Rezultat pracy developera: kod i zamknięte tickety to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść dla firmy. Co mówią Amazon i Vogels.
 - [Co czeka w Twoim zespole i na co?](https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/): Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.

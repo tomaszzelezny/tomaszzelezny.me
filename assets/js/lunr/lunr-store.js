@@ -526,4 +526,10 @@ var store = [{
         "tags": ["kolejki","przepływ pracy","zależności między zespołami","flow efficiency","C++","C"],
         "url": "/blog/2026-11-04-ten-o-tablicy-tablic/",
         "teaser": null
+      },{
+        "title": "Ten o tym, dlaczego Taylor mierzył operacje",
+        "excerpt":"„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika....","categories": ["Zarządzanie"],
+        "tags": ["Taylor","tayloryzm","zarządzanie naukowe","przepływ","historia zarządzania"],
+        "url": "/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/",
+        "teaser": null
       }]
