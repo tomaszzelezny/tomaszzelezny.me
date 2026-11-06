@@ -480,6 +480,41 @@ pre {
   border-radius: var(--radius-md);
 }
 
+/* Kod w zdaniu: 11 px było za drobne obok tekstu 16 px */
+:not(pre) > code {
+  font-size: 0.85em;
+  padding: 0.1em 0.3em;
+}
+
+/* Bloki kodu z podświetlaniem (rouge): granatowy blok jak w stylu Slate & Ember.
+   Kolory składni motywu (base16) są pod ciemne tło, więc tło musi być ciemne,
+   a wewnętrzny <code> nie może mieć własnego tła i ramki (dawało pasek na każdej linii). */
+div.highlighter-rouge,
+figure.highlight {
+  background: var(--color-block);
+  color: var(--color-block-text);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  line-height: 1.7;
+}
+div.highlighter-rouge pre.highlight,
+figure.highlight pre {
+  background: transparent;
+  color: var(--color-block-text);
+  border: none;
+  font-size: 1em;
+}
+pre code,
+.highlight code {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-size: 1em;
+  color: inherit;
+}
+
+
 /* ------------------------------------------------
    Table
    ------------------------------------------------ */
