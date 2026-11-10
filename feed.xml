@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-09T12:44:51+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o tym, dlaczego Taylor mierzył operacje</title><link href="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/" rel="alternate" type="text/html" title="Ten o tym, dlaczego Taylor mierzył operacje" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-05T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-dlaczego-taylor-mierzyl-operacje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/"><![CDATA[<p>„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika. Taylor uważał, że interes firmy i pracownika jest wspólny.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-10T04:54:12+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o cierpliwej nieefektywności</title><link href="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/" rel="alternate" type="text/html" title="Ten o cierpliwej nieefektywności" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-cierpliwej-nieefektywnosci</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/"><![CDATA[<p>Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem.</p>
+
+<p>Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać.</p>
+
+<p><img src="/assets/images/cierpliwa-nieefektywnosc.webp" alt="Nieefektywność jest cierpliwa. Czeka na pierwszą presję. 1. Spokojny okres: priorytety w głowie, zadania bez doprecyzowania, połowa pracy poza tablicą, a terminy się spinają. Przychodzi presja: zleceń jest dużo więcej. 2. Błędne koła przyspieszają: sprawy na szybko dają więcej zaczętych i mniej skończonych; dłuższe czekanie, naciski z góry i kolejne pilne sprawy; ostrzejsze rozmowy, ludzie milczą, zadania wracają do poprawki; nie widać, że zespół jest pełny, więc zleceń przybywa. 3. Co zatrzymuje koła: jawna lista priorytetów, limit spraw w toku, dopytanie przed startem, praca w jednym miejscu, bezpieczna rozmowa o problemach." /></p>
+
+<h2 id="dlaczego-nieefektywność-może-długo-nie-przeszkadzać">Dlaczego nieefektywność może długo nie przeszkadzać?</h2>
+
+<p>Bo przy spokojnym napływie pracy nic jej nie wyciąga na wierzch, a drobne tarcia gasną, zanim ktokolwiek je zauważy. Brak listy priorytetów nie boli, kiedy da się zrobić wszystko, co przyszło. Niedoprecyzowane zadanie można dopytać przy kawie. Praca, której nie ma na tablicy, i tak się kończy, bo ktoś o niej pamięta.</p>
+
+<p>Z zewnątrz widać wynik, a wynik jest dobry. Porządkowanie procesu wygląda wtedy na koszt bez zysku, więc nikt się za nie nie bierze. Trudno znaleźć powód do poprawy, skoro wszystko działa.</p>
+
+<h2 id="co-się-dzieje-gdy-przychodzi-presja">Co się dzieje, gdy przychodzi presja?</h2>
+
+<p>Wszystko zaczyna się sypać. Zleceń jest dużo więcej, a brak dyscypliny i procesu sprawia, że sytuacja rozsypuje się jak domek z kart. Pojawiają się nerwy i konflikty wewnątrz zespołu.</p>
+
+<p>Wtedy zaczyna się kręcić kilka błędnych kół naraz. Przychodzą sprawy „na szybko” i ludzie odkładają to, co robili, żeby się nimi zająć. Zaczętych rzeczy przybywa, a skończonych ubywa, bo im więcej spraw jest w toku, tym dłużej każda czeka na swoją kolej. Pisałem o tym przy <a href="/blog/2026-06-25-ten-o-limitach-wip/">limitach WIP</a>. Kto czeka za długo, idzie wyżej i naciska, a każdy taki nacisk wraca do zespołu jako kolejna pilna sprawa. Gdy rozmowy robią się ostrzejsze, ludzie przestają mówić o problemach. Amy Edmondson opisuje ten mechanizm w badaniach nad bezpieczeństwem psychologicznym: gdy zgłoszenie problemu grozi przykrością, ludzie milczą. Zadania, o które nikt nie dopytał, wracają do poprawki. Nikt nie umie pokazać, że zespół nie ma już miejsca na więcej pracy, więc zleceń przybywa.</p>
+
+<p>Te błędne koła działały od początku. Przy spokojnym napływie pracy kręciły się tak wolno, że wyglądały na stabilne. Donella Meadows nazywa takie koło pętlą wzmacniającą: sama się napędza i z każdym obrotem powiększa zmianę, w którąkolwiek stronę ona idzie. Presja przyspiesza koła, które już były w zespole.</p>
+
+<h2 id="dlaczego-obie-strony-opisują-objaw">Dlaczego obie strony opisują objaw?</h2>
+
+<p>Bo każda widzi tylko swój fragment koła. W środku kryzysu zespół mówi „za dużo pracy”, a kierownictwo „ludzie nie dowożą”. Każda ze stron ma rację, a przyczyna leży gdzie indziej.</p>
+
+<p>Nelson Repenning i John Sterman opisali to w artykule o tym, dlaczego usprawnienia procesów w firmach tak często upadają. Pod presją wyników ludzie zaczynają pracować ciężej zamiast mądrzej. Przez chwilę to pomaga, ale zjada czas na naprawę procesu, więc problemy wracają, a presja rośnie. Kierownictwo widzi przy tym ludzi, którzy się nie wyrabiają, i łatwo przypisuje winę im, a mniej strukturze, w której pracują. Ostrzejsza kontrola tylko rozpędza to samo koło.</p>
+
+<h2 id="co-zatrzymuje-te-błędne-koła">Co zatrzymuje te błędne koła?</h2>
+
+<p>Zmiany, które wyjmują z koła jedno ogniwo:</p>
+
+<ul>
+  <li><strong>Jawna lista priorytetów:</strong> pilna sprawa nie przeskakuje kolejki tylko dlatego, że ktoś głośno naciska.</li>
+  <li><strong>Limit spraw w toku:</strong> zespół kończy to, co zaczął, zanim weźmie coś nowego.</li>
+  <li><strong>Dopytanie przed startem:</strong> zespół wyjaśnia zadanie, zanim weźmie je do pracy, i mniej wraca do poprawki.</li>
+  <li><strong>Praca w jednym miejscu:</strong> widać wszystko, co zespół robi, i łatwo pokazać, że jest pełny.</li>
+  <li><strong>Bezpieczna rozmowa o problemach:</strong> ludzie mówią o nich, zanim urosną.</li>
+</ul>
+
+<p>Każda z tych zmian wymaga czasu, którego w takim momencie już nie ma, i dyscypliny, której zespół do tej pory nie potrzebował. Najtaniej wprowadzić je wtedy, gdy nieefektywność jeszcze nikomu nie przeszkadza.</p>
+
+<p>Nieefektywność jest cierpliwa. Czeka na pierwszą presję.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Edmondson, A. C. (2018). <em>The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth</em>. Wiley.</li>
+  <li>Meadows, D. H. (2008). <em>Thinking in Systems: A Primer</em>. Chelsea Green Publishing.</li>
+  <li>Repenning, N. P., Sterman, J. D. (2001). Nobody Ever Gets Credit for Fixing Problems that Never Happened: Creating and Sustaining Process Improvement. <em>California Management Review</em>, 43(4), 64–88.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="TODO_LINKEDIN_URL">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry><entry><title type="html">Ten o tym, dlaczego Taylor mierzył operacje</title><link href="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/" rel="alternate" type="text/html" title="Ten o tym, dlaczego Taylor mierzył operacje" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-dlaczego-taylor-mierzyl-operacje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/"><![CDATA[<p>„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika. Taylor uważał, że interes firmy i pracownika jest wspólny.</p>
 
 <p>Dlaczego więc mierzył stoperem pojedynczego pracownika i jego operację, a drogi wyrobu przez fabrykę nie mierzył? Dziś wygląda to na błąd, bo we współczesnych zakładach większość czasu realizacji zlecenia to czekanie między stanowiskami. Bronię innej tezy: pomiar operacji był racjonalną odpowiedzią na problem, który Taylor rozwiązywał, i na świat, w którym działał.</p>
 
@@ -20,7 +72,7 @@
 
 <h2 id="co-stało-na-drodze-do-wspólnej-pomyślności">Co stało na drodze do wspólnej pomyślności?</h2>
 
-<p>Soldiering, czyli celowe utrzymywanie niskiego tempa pracy. Taylor uważał go za największe zło, jakie dotyka zarówno robotników, jak i pracodawców. Część winy przypisywał zarządowi. Przy akordzie pracodawca obcinał stawkę, gdy robotnik zaczynał dobrze zarabiać, więc szybsza praca kończyła się tą samą zapłatą za większy wysiłek.</p>
+<p><a href="/blog/2026-11-11-ten-o-soldieringu/">Soldiering</a>, czyli celowe utrzymywanie niskiego tempa pracy. Taylor uważał go za największe zło, jakie dotyka zarówno robotników, jak i pracodawców. Część winy przypisywał zarządowi. Przy akordzie pracodawca obcinał stawkę, gdy robotnik zaczynał dobrze zarabiać, więc szybsza praca kończyła się tą samą zapłatą za większy wysiłek.</p>
 
 <p>Spór o tempo był sporem o to, ile powinna trwać praca, a tę wiedzę mieli głównie robotnicy. Pomiar operacji stoperem miał usunąć tę asymetrię i zamienić negocjacje w ustalony fakt. Na nim Taylor chciał zbudować system płac, w którym wyższa wydajność opłaca się obu stronom. Wspólny interes potrzebował więc normy na każde zadanie.</p>
 
@@ -337,16 +389,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d27N_VUu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="decyzje" /><category term="przepływ pracy" /><category term="przywództwo" /><summary type="html"><![CDATA[Gdy każda decyzja czeka na jedną osobę, kalendarz managera staje się wąskim gardłem. Jak oddać zespołowi decyzje: zakres, progi i informacje.]]></summary></entry><entry><title type="html">Ten o szarej strefie</title><link href="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/" rel="alternate" type="text/html" title="Ten o szarej strefie" /><published>2026-10-12T00:00:00+00:00</published><updated>2026-10-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-szarej-strefie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/"><![CDATA[<p>Shadow IT zwykle zaczyna się od kogoś, kto chce <a href="/blog/2025-02-21-ten-o-efektywnosci-w-cieniu/">zrobić swoją robotę szybciej</a>, niż pozwalają mu firmowe narzędzia.</p>
-
-<p><img src="/assets/images/shadow-it-szara-strefa.webp" alt="Twój zespół pracuje w narzędziach, których nie znasz: zatwierdzone narzędzia i szara strefa Shadow IT" /></p>
-
-<p>Tak powstaje szara strefa: arkusz na prywatnym dysku, notatki w aplikacji, której nikt nie zatwierdził, automatyzacja podpięta pod osobiste konto. Każda z tych rzeczy z osobna wygląda niewinnie. Razem tworzą obszar, o którym firma nie wie, że nie wie.</p>
-
-<p>To właśnie „unknown unknowns”. Ryzyko, które znamy, możemy ocenić, ograniczyć albo świadomie zaakceptować. Z tym, czego nie widzimy, nie da się zrobić nic, dopóki samo się nie ujawni, zwykle w najgorszym momencie.</p>
-
-<p>Ile takich rzeczy działa dziś w Waszym zespole?</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dHYCqkc2">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="Shadow IT" /><category term="bezpieczeństwo" /><category term="efektywność" /><summary type="html"><![CDATA[Shadow IT jako szara strefa: prywatne arkusze, niezatwierdzone aplikacje i automatyzacje tworzą ryzyko, o którym firma nie wie (unknown unknowns).]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d27N_VUu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="decyzje" /><category term="przepływ pracy" /><category term="przywództwo" /><summary type="html"><![CDATA[Gdy każda decyzja czeka na jedną osobę, kalendarz managera staje się wąskim gardłem. Jak oddać zespołowi decyzje: zakres, progi i informacje.]]></summary></entry></feed>

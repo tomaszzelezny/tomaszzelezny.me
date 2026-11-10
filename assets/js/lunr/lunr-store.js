@@ -532,4 +532,10 @@ var store = [{
         "tags": ["Taylor","tayloryzm","zarządzanie naukowe","przepływ","historia zarządzania"],
         "url": "/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/",
         "teaser": null
+      },{
+        "title": "Ten o cierpliwej nieefektywności",
+        "excerpt":"Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem. Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać. Dlaczego nieefektywność może...","categories": ["Zarządzanie produktem"],
+        "tags": ["efektywność","myślenie systemowe","przepływ pracy","presja"],
+        "url": "/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/",
+        "teaser": null
       }]
