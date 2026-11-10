@@ -1,0 +1,383 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Evidence-Based Management: cele i hipotezy - Tomasz Żelezny</title>
+<meta name="description" content="Evidence-Based Management Guide z 2020 roku dodał cele strategiczne, hipotezy i pętlę eksperymentu. Co się zmieniło i dlaczego metryki przestały być sednem.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Evidence-Based Management: cele i hipotezy">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2020-10-01-ten-o-nowym-ebm/">
+
+
+  <meta property="og:description" content="Evidence-Based Management Guide z 2020 roku dodał cele strategiczne, hipotezy i pętlę eksperymentu. Co się zmieniło i dlaczego metryki przestały być sednem.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/nowe-ebm.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2020-10-01T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2020-10-01-ten-o-nowym-ebm/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Evidence-Based Management: cele i hipotezy",
+  "description": "Evidence-Based Management Guide z 2020 roku dodał cele strategiczne, hipotezy i pętlę eksperymentu. Co się zmieniło i dlaczego metryki przestały być sednem.",
+  "url": "https://tomaszzelezny.me/blog/2020-10-01-ten-o-nowym-ebm/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2020-10-01-ten-o-nowym-ebm/",
+  "datePublished": "2020-10-01T00:00:00+00:00",
+  "dateModified": "2020-10-01T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/nowe-ebm.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie",
+  "keywords": "Evidence-Based Management, EBM, empiryzm, cele strategiczne, eksperymenty",
+  "wordCount": 483
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie</span>
+        <span><time class="dt-published" datetime="2020-10-01T00:00:00+00:00">01.10.2020</time> · 4 min czytania</span></p>
+      <h1 class="p-name">Ten o nowym Evidence-Based <em>Management</em></h1><p class="lead p-summary">Evidence-Based Management Guide z 2020 roku dodał cele strategiczne, hipotezy i pętlę eksperymentu. Co się zmieniło i dlaczego metryki przestały być sednem.</p>
+    </header>
+    <div class="prose e-content">
+      <p>Sięgając dziś po Evidence-Based Management Guide, mocno się zdziwiłem, kiedy zobaczyłem nową wersję.</p>
+
+<p>W porównaniu do poprzedniej widzę, że pojawiły się nawiązania do celów strategicznych, eksperymentów i hipotez. Metryki zostały, ale nie wydają się już sednem.</p>
+
+<h2 id="czym-jest-evidence-based-management">Czym jest Evidence-Based Management?</h2>
+
+<p>Podejściem, które Scrum.org opisuje jako empiryczny sposób na ciągłe poprawianie wyników dla klientów, zdolności organizacji i wyników biznesowych w warunkach niepewności. W skrócie: zamiast zakładać, że plan zadziała, sprawdzamy na podstawie danych, czy przybliżamy się do celu, i korygujemy kurs.</p>
+
+<p>Wcześniejsze wersje przewodnika koncentrowały się na czterech obszarach wartości i wskaźnikach, którymi można je mierzyć. W wersji z września 2020 roku te obszary zostały, ale stały się narzędziem do sprawdzania postępu.</p>
+
+<h2 id="jakie-cele-opisuje-nowa-wersja">Jakie cele opisuje nowa wersja?</h2>
+
+<p>Trzy poziomy, które łączą codzienną pracę ze strategią:</p>
+
+<ul>
+  <li><strong>Cel strategiczny.</strong> Duży, ambitny cel, mierzony wpływem na wynik. Przewodnik podaje przykład ograniczenia skutków choroby zamiast osiągnięcia określonego odsetka szczepień.</li>
+  <li><strong>Cele pośrednie.</strong> Mierzalne kamienie milowe, które pokazują, że zbliżamy się do celu strategicznego. Droga do nich jest niepewna, ale nie całkiem nieznana.</li>
+  <li><strong>Najbliższe cele taktyczne.</strong> Cele zespołu albo kilku zespołów na najbliższy czas, które przybliżają do celu pośredniego.</li>
+</ul>
+
+<p>Do tego dochodzi stan początkowy i stan obecny. Na wykresie z przewodnika droga od jednego do drugiego jest kręta, bo tak wygląda prawdziwa praca: część kroków przybliża do celu, część oddala.</p>
+
+<h2 id="czym-jest-pętla-eksperymentu">Czym jest pętla eksperymentu?</h2>
+
+<p>Sposobem przechodzenia od stanu obecnego do kolejnego celu. Przewodnik opisuje ją jako odmianę cyklu Shewharta, znanego jako PDCA:</p>
+
+<ol>
+  <li><strong>Hipoteza.</strong> Jeden pomysł, jak zbliżyć się do następnego celu, i sposób, w jaki zmierzymy sukces.</li>
+  <li><strong>Eksperyment i pomiar.</strong> Sprawdzamy pomysł w praktyce i mierzymy wyniki, zarówno opóźnione, jak i wyprzedzające.</li>
+  <li><strong>Inspekcja.</strong> Na podstawie pomiarów patrzymy, czego się nauczyliśmy. Niektóre zmiany pogarszają sytuację i to też jest wynik.</li>
+  <li><strong>Adaptacja.</strong> Decydujemy, co spróbować dalej i czy trzeba zmienić sam cel.</li>
+</ol>
+
+<p>Przewodnik mówi wprost, że każda funkcja i każde wymaganie to w gruncie rzeczy hipoteza o wartości. O różnicy między wskaźnikami opóźnionymi i wyprzedzającymi pisałem przy <a href="/blog/2025-08-01-ten-o-wskaznikach-wyprzedzajacych/">wskaźnikach wyprzedzających</a>.</p>
+
+<p><img src="/assets/images/nowe-ebm.webp" alt="Nowe Evidence-Based Management. Na górze trzy poziomy celów: strategiczny (ambitny, mierzony wpływem na wynik), pośrednie (mierzalne kamienie milowe), najbliższe taktyczne (cele zespołów). Pod spodem pętla eksperymentu: hipoteza, eksperyment i pomiar (wskaźniki opóźnione i wyprzedzające), inspekcja, adaptacja. Na dole cztery obszary wartości jako narzędzie: obecna wartość, niewykorzystana wartość, czas wprowadzenia na rynek, zdolność do innowacji." /></p>
+
+<h2 id="co-z-metrykami">Co z metrykami?</h2>
+
+<p>Zostały, w czterech obszarach wartości: obecna wartość, niewykorzystana wartość, czas wprowadzenia na rynek i zdolność do innowacji. Zmieniło się ich miejsce. Służą do sprawdzania hipotez i postępu w stronę celów. Przewodnik zwraca uwagę, że mierzenie aktywności i produktów pracy jest łatwe, a mierzenie wyników trudne. Łatwo więc skończyć z tablicą pełną liczb, które nic nie mówią o tym, czy klientom jest lepiej.</p>
+
+<h2 id="dlaczego-ta-zmiana-jest-ważna">Dlaczego ta zmiana jest ważna?</h2>
+
+<p>Bo metryki bez celu prowadzą do optymalizacji tego, co da się policzyć. Cel bez metryk prowadzi do wiary, że idziemy w dobrą stronę. Nowa wersja łączy jedno z drugim przez hipotezę i eksperyment, czyli przez <a href="/blog/2025-04-24-ten-o-empiryzmie/">empiryzm</a>, który jest też fundamentem Scruma. Przewodnik zaznacza, że da się wdrożyć tylko część EBM, ale wtedy nie jest to już Evidence-Based Management.</p>
+
+<p>Czas na dokładne przeczytanie jeszcze nadejdzie. :)</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Scrum.org (2020). <em>The Evidence-Based Management Guide: Improving Value Delivery under Conditions of Uncertainty</em>. scrum.org.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_si%C4%99gaj%C4%85c-dzi%C5%9B-po-evidence-based-management-share-6717438652433141760-pQNj">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>Evidence-Based Management</li><li>EBM</li><li>empiryzm</li><li>cele strategiczne</li><li>eksperymenty</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post next" href="/blog/2025-02-13-ten-o-effortcie-i-timelinie/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o effortcie i timelinie</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

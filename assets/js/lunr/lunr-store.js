@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Ten o nowym Evidence-Based Management",
+        "excerpt":"Sięgając dziś po Evidence-Based Management Guide, mocno się zdziwiłem, kiedy zobaczyłem nową wersję. W porównaniu do poprzedniej widzę, że pojawiły się nawiązania do celów strategicznych, eksperymentów i hipotez. Metryki zostały, ale nie wydają się już sednem. Czym jest Evidence-Based Management? Podejściem, które Scrum.org opisuje jako empiryczny sposób na ciągłe poprawianie...","categories": ["Zarządzanie"],
+        "tags": ["Evidence-Based Management","EBM","empiryzm","cele strategiczne","eksperymenty"],
+        "url": "/blog/2020-10-01-ten-o-nowym-ebm/",
+        "teaser": null
+      },{
         "title": "Ten o effortcie i timelinie",
         "excerpt":"Jedną z rzeczy, na które zwracam uwagę podczas różnych rozmów, jest rozróżnianie “effortu” od “timeline’u”. Jakoś tak naturalnie wychodzi, że na pytanie “Jak to jest duże?” często słyszy się odpowiedź: “4h” albo “No, tak z tydzień pracy”. W moim mniemaniu używanie jednostki związanej z czasem wprowadza nas w myślenie: “Na...","categories": ["Zarządzanie produktem"],
         "tags": ["estymacje","effort","timeline","koszty"],
@@ -33,6 +39,258 @@ var store = [{
         "excerpt":"Współczesny biznes wymaga elastyczności i zdolności szybkiego dostosowania się do zmian. Oprogramowanie to kluczowy zasób wspierający cele firmy – narzędzie, które powinno budować przewagę konkurencyjną. Aby spełniało tę rolę, jego rozwój musi nadążać za potrzebami użytkowników i strategią biznesową. Systemy IT rzadko są czymś skończonym – powinny pozostać otwarte na...","categories": ["Zarządzanie produktem"],
         "tags": ["oprogramowanie","rozwój produktu","zwinność"],
         "url": "/blog/2025-04-01-ten-o-oprogramowaniu-ktore-nigdy/",
+        "teaser": null
+      },{
+        "title": "Ten o teście Coopera i Sprincie",
+        "excerpt":"Test Coopera w rozwoju oprogramowania? Test Coopera to dwunastominutowy bieg, w którym mierzy się pokonany dystans. Nie jest to sprint na 100 metrów. Chodzi o sprawdzenie swoich możliwości podczas dłuższego wysiłku. Test pozwala ocenić własną kondycję. Skąd taka analogia? Lubię łączyć wiedzę z różnych obszarów. Analogie sportowe pomagają wyjaśniać pojęcia...","categories": ["Zarządzanie projektami"],
+        "tags": ["Sprint","Scrum","timebox","analogie","ciągłe dostarczanie"],
+        "url": "/blog/2025-04-10-ten-o-tescie-coopera/",
+        "teaser": null
+      },{
+        "title": "Ten o bańce językowej",
+        "excerpt":"Są takie zjawiska, które napędzają się same. Ostatnio zainspirował mnie temat hermetycznego języka używanego przez specjalistów i postanowiłem spojrzeć na niego systemowo. Jak powstaje bańka językowa? Przez kilka pętli, które się wzajemnie wzmacniają. Narysowałem je jako diagram przyczynowo-skutkowy. Schemat wygląda mniej więcej tak: Im więcej specjaliści rozmawiają głównie między sobą,...","categories": ["Myślenie i nauka"],
+        "tags": ["myślenie systemowe","komunikacja","żargon","klątwa wiedzy","pętle sprzężenia zwrotnego"],
+        "url": "/blog/2025-04-17-ten-o-bance-jezykowej/",
+        "teaser": null
+      },{
+        "title": "Ten o empiryzmie",
+        "excerpt":"O Scrumie mówi się wiele: sprinty, Daily, role, wydarzenia. Jak często słyszycie rozmowę o empiryzmie? To dziwne, bo bez niego cała reszta traci swoją istotę. Czy ktoś kiedyś powiedział: „Wdrażamy podejście empiryczne w naszej organizacji”? Czym jest empiryzm? Podejściem, w którym wiedza pochodzi z doświadczenia, a decyzje opierają się na...","categories": ["Scrum i Agile"],
+        "tags": ["Scrum","empiryzm","inspekcja i adaptacja","eksperymenty","Evidence-Based Management"],
+        "url": "/blog/2025-04-24-ten-o-empiryzmie/",
+        "teaser": null
+      },{
+        "title": "Ten o błędach poznawczych przy pracy z AI",
+        "excerpt":"Użyłem AI, żeby dowiedzieć się, których błędów poznawczych mogę doświadczyć podczas używania AI. ;) Dostałem siedem punktów. Część z nich ma solidne podstawy w badaniach, część to raczej zgrabne nazwy dla znanych zjawisk. Poniżej lista, którą dostałem, uzupełniona o to, co wiemy o tych błędach z psychologii, i o pytanie,...","categories": ["Myślenie i nauka"],
+        "tags": ["AI","błędy poznawcze","automation bias","efekt zakotwiczenia","krytyczne myślenie"],
+        "url": "/blog/2025-05-23-ten-o-bledach-poznawczych-przy-ai/",
+        "teaser": null
+      },{
+        "title": "Ten o właściwym rozwiązaniu",
+        "excerpt":"Wypracowywanie „właściwych rozwiązań”, czyli jakich? Ostatnio dyskutowaliśmy w zespole, jakie rozwiązanie wybrać w jednym z projektów. Pewnie znacie tę sytuację: jest potrzeba biznesowa, kilka zaangażowanych zespołów, presja czasu i różne propozycje, jak to zrobić „właściwie”. Co właściwie znaczy „właściwe”? To zależy, kogo zapytasz. „Właściwe” rozwiązanie może: najszybciej dostarczyć wartość biznesową...","categories": ["Zarządzanie produktem"],
+        "tags": ["decyzje architektoniczne","kompromisy","horyzont czasowy","jakość","koszt utrzymania"],
+        "url": "/blog/2025-05-27-ten-o-wlasciwym-rozwiazaniu/",
+        "teaser": null
+      },{
+        "title": "Ten o fabryce funkcji",
+        "excerpt":"„Wypuściliśmy 20 funkcji w Q1!” czy „Zwiększyliśmy konwersję o 15%”? Od lat widzę, jak zespoły IT są oceniane głównie przez pryzmat dowożenia: liczby funkcji, szybkości pracy, trzymania terminów. Efekt? Fabryka funkcji, po angielsku feature factory. Czym jest fabryka funkcji? Zespołem, który mierzy sukces aktywnością związaną z wytwarzaniem. Liczy funkcje, zamknięte...","categories": ["Zarządzanie produktem"],
+        "tags": ["feature factory","outcome","impact","delivery","mierzenie sukcesu"],
+        "url": "/blog/2025-06-03-ten-o-fabryce-funkcji/",
+        "teaser": null
+      },{
+        "title": "Ten o złym systemie i dobrej osobie",
+        "excerpt":"„Zły system zawsze pokona dobrą osobę”. Te słowa W. Edwards Deming powiedział na swoim czterodniowym seminarium w Phoenix w lutym 1993 roku. Są ponadczasowe i bardzo aktualne w dzisiejszych organizacjach. Pokazują, jak duże znaczenie ma system, który wpływa na codzienną pracę każdej osoby. Nawet najlepsze intencje i umiejętności nie wystarczą,...","categories": ["Zarządzanie"],
+        "tags": ["W. Edwards Deming","myślenie systemowe","efektywność","rotacja","kultura organizacyjna"],
+        "url": "/blog/2025-06-06-ten-o-zlym-systemie/",
+        "teaser": null
+      },{
+        "title": "Ten o czterech filmach o discovery i delivery",
+        "excerpt":"Każdy zespół produktowy balansuje między dwiema siłami. Delivery mówi, jak szybko dostarczamy. Discovery mówi, jak dobrze rozumiemy potrzeby. Te dwa wymiary wyznaczają cztery scenariusze, w których może znaleźć się każda organizacja. A skoro mowa o scenariuszach, można sięgnąć po analogię do kina. Czym różnią się discovery i delivery? Discovery to...","categories": ["Zarządzanie produktem"],
+        "tags": ["discovery","delivery","zespół produktowy","zarządzanie produktem","perfekcjonizm"],
+        "url": "/blog/2025-06-10-ten-o-czterech-filmach/",
+        "teaser": null
+      },{
+        "title": "Ten o jedzeniu własnej karmy",
+        "excerpt":"„Eat your own dog food” w praktyce. W zeszłym tygodniu zespół tworzący aplikację mobilną Vattenfall InCharge miał okazję przekonać się na własnej skórze, jak to jest być jej użytkownikiem. Często mówimy o metrykach i badaniach z użytkownikami, ale chyba nic nie dostarcza tylu emocji co używanie tego, nad czym się...","categories": ["Zarządzanie produktem"],
+        "tags": ["dogfooding","empatia","Design Thinking","badania z użytkownikami","jakość"],
+        "url": "/blog/2025-06-12-ten-o-jedzeniu-wlasnej-karmy/",
+        "teaser": null
+      },{
+        "title": "Ten o nadprodukcji z AI",
+        "excerpt":"Jak AI wpłynie na wytwarzanie rozwiązań cyfrowych? Obserwacje ostatnich miesięcy wskazują, że sztuczna inteligencja może mocno zmieniać sposób, w jaki tworzymy różne elementy, od kodu po treści marketingowe. Produkcja staje się szybsza i bardziej dostępna. Czy na pewno prowadzi to do wzrostu efektywności całej organizacji? Czy szybsze działy oznaczają szybszą...","categories": ["Zarządzanie"],
+        "tags": ["AI","nadprodukcja","wąskie gardło","przepływ pracy","optymalizacja lokalna"],
+        "url": "/blog/2025-06-17-ten-o-nadprodukcji-z-ai/",
+        "teaser": null
+      },{
+        "title": "Ten o modelach mentalnych",
+        "excerpt":"Masz je Ty, mam i ja. Modele mentalne, czyli nasze niewidzialne, uproszczone obrazy świata. Czym są modele mentalne? Naszymi „mapami” rzeczywistości. Pomagają interpretować świat, podejmować decyzje i przewidywać skutki działań. To jednak tylko uproszczenia rzeczywistości. Psycholog Philip Johnson-Laird opisał w 1983 roku, że rozumujemy, budując w głowie małe modele sytuacji...","categories": ["Zarządzanie produktem"],
+        "tags": ["modele mentalne","myślenie","UX","zmiana","Peter Senge"],
+        "url": "/blog/2025-06-24-ten-o-modelach-mentalnych/",
+        "teaser": null
+      },{
+        "title": "Ten o strukturze według produktu i funkcji",
+        "excerpt":"Może tego doświadczasz: tematy przechodzą z działu do działu, nikt nie patrzy na cel biznesowy w całości, decyzje są wolne, bo każdy czeka na zatwierdzenie z innego działu, „to nie my, to oni”, czyli klasyczne zrzucanie odpowiedzialności. Dobre pomysły toną w strukturze. Zespoły mają energię, są inicjatywy, ale wszystko rozmywa...","categories": ["Zarządzanie"],
+        "tags": ["struktura organizacyjna","model produktowy","silosy","projektowanie organizacji","Jay Lorsch"],
+        "url": "/blog/2025-07-03-ten-o-produkcie-i-funkcji/",
+        "teaser": null
+      },{
+        "title": "Ten o prawie Goodharta i story pointach",
+        "excerpt":"„Kiedy miara staje się celem, przestaje być dobrą miarą”. To słynne prawo Goodharta i trudno o lepszy przykład niż story pointy w zespołach zwinnych. Narzędzie, które miało ułatwiać planowanie, często staje się źródłem nieporozumień i frustracji. Skąd się wzięło prawo Goodharta? Z ekonomii. Charles Goodhart, ekonomista Banku Anglii, zauważył w...","categories": ["Zarządzanie projektami"],
+        "tags": ["prawo Goodharta","story pointy","velocity","metryki","estymacje"],
+        "url": "/blog/2025-07-10-ten-o-prawie-goodharta/",
+        "teaser": null
+      },{
+        "title": "Ten o nadprodukcji w security",
+        "excerpt":"Pracowałem nad materiałami o marnotrawstwach w Lean i zatrzymałem się na jednej myśli. Lean uczy ograniczania nadprodukcji, czyli tworzenia dokładnie tyle, ile potrzeba, i dokładnie wtedy, kiedy potrzeba. Czy to podejście da się stosować wszędzie? Czym jest nadprodukcja w Lean? Robieniem więcej, wcześniej albo szybciej, niż potrzebuje następny krok. Taiichi...","categories": ["Zarządzanie produktem"],
+        "tags": ["Lean","marnotrawstwo","nadprodukcja","bezpieczeństwo","ryzyko"],
+        "url": "/blog/2025-07-16-ten-o-nadprodukcji-w-security/",
+        "teaser": null
+      },{
+        "title": "Ten o stabilności i zmianie",
+        "excerpt":"Stabilność to brak zmian? Może czas spojrzeć na to inaczej. W organizacjach często widzimy dylemat: zachować stabilność czy wprowadzać zmiany? Czy rzeczywiście musimy wybierać? Skąd bierze się utożsamianie stabilności z niezmiennością? Z intuicji, że to, co działa, lepiej zostawić w spokoju. Proces, który przez lata dawał wyniki, wydaje się bezpieczny....","categories": ["Zarządzanie"],
+        "tags": ["stabilność","zmiana","odporność","antykruchość","adaptacja"],
+        "url": "/blog/2025-07-23-ten-o-stabilnosci-i-zmianie/",
+        "teaser": null
+      },{
+        "title": "Ten o starzejącym się backlogu",
+        "excerpt":"Backlog to nie sklep vintage. Nie wszystko staje się cenniejsze z wiekiem. Kiedy ostatnio usunęliście coś z backlogu? Dlaczego backlog rośnie bez końca? Bo dopisać jest łatwo, a usunąć trudno. Każdy pomysł, prośba klienta i uwaga z przeglądu trafia do backlogu, bo „może kiedyś się przyda”. Usunięcie wygląda jak odrzucenie...","categories": ["Zarządzanie produktem"],
+        "tags": ["backlog","Product Owner","refinement","przepływ pracy","marnotrawstwo"],
+        "url": "/blog/2025-07-25-ten-o-starzejacym-sie-backlogu/",
+        "teaser": null
+      },{
+        "title": "Ten o autonomii i integracji",
+        "excerpt":"Autonomia czy integracja? To jedno z wyzwań organizacji, w których pracuje wiele zespołów. Pojawia się wtedy, gdy każdy zespół staje się osobnym bytem. Wiele zespołów, każdy ze swoim backlogiem, zasadami pracy, narzędziami i definicją sukcesu. Brzmi znajomo? Co się dzieje, gdy autonomia rośnie bez integracji? Z jednej strony widzimy entuzjazm...","categories": ["Zarządzanie"],
+        "tags": ["autonomia","integracja","wiele zespołów","silosy","alignment"],
+        "url": "/blog/2025-07-31-ten-o-autonomii-i-integracji/",
+        "teaser": null
+      },{
+        "title": "Ten o wskaźnikach wyprzedzających",
+        "excerpt":"Dużo pracujemy na wskaźnikach opóźnionych. Pokazują, co już się wydarzyło. Dopiero połączenie ich z wyprzedzającymi, czyli takimi, które pokazują kierunek, zanim pojawi się wynik, otwiera nowe możliwości działania. Czym różnią się wskaźniki opóźnione od wyprzedzających? Momentem, w którym dają informację. Wskaźnik opóźniony mierzy wynik: przychód za kwartał, odejścia klientów, liczbę...","categories": ["Zarządzanie"],
+        "tags": ["wskaźniki","lead measures","lag measures","mierzenie","realizacja strategii"],
+        "url": "/blog/2025-08-01-ten-o-wskaznikach-wyprzedzajacych/",
+        "teaser": null
+      },{
+        "title": "Ten o adopcji w czasach AI",
+        "excerpt":"AI zmienia tworzenie produktów cyfrowych. Czy rozwiązuje jednak problem, który naprawdę nas ogranicza? Coraz częściej słyszymy, że AI pozwala budować szybciej, taniej i przy mniejszym zaangażowaniu zespołów technicznych. Brzmi jak przyszłość. Jest jednak temat, który ginie w tym entuzjazmie: adopcja. Dlaczego więcej produktów nie oznacza większej konsumpcji? Bo ograniczenie leży...","categories": ["Zarządzanie produktem"],
+        "tags": ["AI","adopcja","zarządzanie zmianą","produkt cyfrowy","dyfuzja innowacji"],
+        "url": "/blog/2025-08-06-ten-o-adopcji-w-czasach-ai/",
+        "teaser": null
+      },{
+        "title": "Ten o pytaniu anty-bohatera",
+        "excerpt":"Dziś eksperyment. Weź swój najważniejszy projekt i zadaj sobie pytanie anty-bohatera: „Gdybym chciał zagwarantować, że ten projekt się nie uda, co bym robił?” Wypisz te rzeczy. Potem sprawdź szczerze, ile z nich już robisz. Dlaczego to pytanie działa lepiej niż „co może pójść źle”? Bo omija optymizm planowania. Gdy pytamy...","categories": ["Zarządzanie projektami"],
+        "tags": ["pre-mortem","ryzyko","inwersja","zarządzanie projektem","eksperyment"],
+        "url": "/blog/2025-08-08-ten-o-pytaniu-anty-bohatera/",
+        "teaser": null
+      },{
+        "title": "Ten o odrzuconych pomysłach",
+        "excerpt":"Po co wracać do pomysłów, których nie zrealizowaliśmy? Przeszłości już nie zmienimy… prawda? Kto ze mną pracował, wie, że powtarzam: „Nie można robić wszystkiego naraz”. Bo to strasznie męczące i trwa strasznie długo. Dlaczego musimy odrzucać pomysły? Bo pomysłów od użytkowników, zespołu i biznesu jest zawsze więcej niż sił przerobowych....","categories": ["Zarządzanie produktem"],
+        "tags": ["błąd przeżywalności","portfel projektów","priorytetyzacja","koszt utraconych szans","eksperymenty"],
+        "url": "/blog/2025-08-12-ten-o-odrzuconych-pomyslach/",
+        "teaser": null
+      },{
+        "title": "Ten o dwutygodniowych sprintach",
+        "excerpt":"Dlaczego dwutygodniowe sprinty stały się „świętością” w Scrumie? Wielu rezygnuje ze Scruma, bo „nie pasują im dwutygodniowe sprinty”. W Scrum Guide nie ma jednak ani słowa o obowiązkowych dwóch tygodniach. Przewodnik mówi tylko, że Sprint trwa miesiąc albo krócej. Skąd wzięły się dwa tygodnie? Nie znalazłem jednego źródła. Prawdopodobnie to...","categories": ["Zarządzanie projektami"],
+        "tags": ["Scrum","Sprint","długość sprintu","Scrum Guide","rytm pracy"],
+        "url": "/blog/2025-08-20-ten-o-dwutygodniowych-sprintach/",
+        "teaser": null
+      },{
+        "title": "Ten o trzymaniu się priorytetów",
+        "excerpt":"Umiejętność priorytetyzacji i umiejętność trzymania się priorytetów to dwie różne umiejętności. Wybraliśmy najważniejszą rzecz do realizacji, a w sumie zajmujemy się czym innym. Dlaczego ustalony priorytet przegrywa z codziennością? Bo codzienność jest pilna, a priorytet zwykle tylko ważny. Chris McChesney, Sean Covey i Jim Huling w „The 4 Disciplines of...","categories": ["Zarządzanie"],
+        "tags": ["priorytety","skupienie","realizacja strategii","WIP","4 dyscypliny realizacji"],
+        "url": "/blog/2025-08-22-ten-o-trzymaniu-sie-priorytetow/",
+        "teaser": null
+      },{
+        "title": "Ten o przesuwaniu ciężaru",
+        "excerpt":"Łatwo wpaść w pułapkę „Shifting the Burden”. To sytuacja, w której zamiast zająć się źródłem problemu, skupiamy się na szybkim „uśmierzeniu bólu”. Hotfix zamiast naprawy procesu. Więcej ludzi zamiast lepszych priorytetów. Nowe narzędzie zamiast jasnej strategii. Czym jest „shifting the burden”? Jednym z archetypów systemowych, które Peter Senge opisał w...","categories": ["Zarządzanie"],
+        "tags": ["myślenie systemowe","shifting the burden","archetypy systemowe","dług techniczny","przyczyny problemów"],
+        "url": "/blog/2025-08-27-ten-o-przesuwaniu-ciezaru/",
+        "teaser": null
+      },{
+        "title": "Ten o powodach inwestycji cyfrowych",
+        "excerpt":"Zastanawiałem się ostatnio, po co firmy inwestują w rozwiązania cyfrowe. Patrząc z perspektywy finansów, wyszło mi, że główne powody mieszczą się w trzech kategoriach. Jakie są trzy powody inwestycji cyfrowych? 1. Zwiększanie przychodów. Nowe modele biznesowe, lepsze doświadczenie klienta, wykorzystanie danych do innowacji. Sklep internetowy, który skraca proces zakupu z...","categories": ["Zarządzanie produktem"],
+        "tags": ["inwestycje IT","wartość biznesowa","przychody","koszty","ryzyko"],
+        "url": "/blog/2025-08-28-ten-o-powodach-inwestycji-cyfrowych/",
+        "teaser": null
+      },{
+        "title": "Ten o dwóch obozach",
+        "excerpt":"Na pierwszy rzut oka taki podział wydaje się rozsądny: jedni dbają o codzienną operacyjność, drudzy rozwijają nowe rozwiązania. W praktyce prowadzi to do utraty efektu synergii. Co się dzieje, gdy oddzielimy codzienność od innowacji? Wiedza i projektowanie lądują w dwóch różnych miejscach. Zespół operacyjny, który zna każdy problem klienta, zostaje...","categories": ["Zarządzanie"],
+        "tags": ["innowacje","business as usual","kaizen","struktura zespołów","rotacja"],
+        "url": "/blog/2025-09-04-ten-o-dwoch-obozach/",
+        "teaser": null
+      },{
+        "title": "Ten o pytaniu o wynik",
+        "excerpt":"„Co robiłeś?” czy „Co zrobiłeś?” „Jak spędziłeś czas?” czy „Co skończyłeś?” Pierwsze pytanie dotyczy czynności, drugie wyniku. Pierwsze buduje zrozumienie, drugie mierzy postęp. Dlaczego jedno słowo zmienia rozmowę? Bo pytanie ustawia, o czym będziemy mówić. „Co robiłeś?” zaprasza do opowieści o wysiłku: spotkania, analiza, rozmowy, próby. Każda odpowiedź brzmi dobrze,...","categories": ["Zarządzanie projektami"],
+        "tags": ["Daily Scrum","pytania","postęp","cel Sprintu","komunikacja w zespole"],
+        "url": "/blog/2025-09-05-ten-o-pytaniu-o-wynik/",
+        "teaser": null
+      },{
+        "title": "Ten o koszcie bezczynności",
+        "excerpt":"Są koszty, których nie widać w raportach i budżetach. Brak decyzji. Zwlekanie. Odkładanie na później. To właśnie cost of inaction, czyli cena, którą płacimy, gdy nic nie robimy. Dlaczego koszt bezczynności jest niewidoczny? Bo nie ma faktury. Błędna decyzja zostawia ślad: wydany budżet, nieudane wdrożenie, kogoś, kto za nią odpowiada....","categories": ["Zarządzanie"],
+        "tags": ["podejmowanie decyzji","cost of inaction","koszt opóźnienia","małe kroki","ryzyko"],
+        "url": "/blog/2025-09-10-ten-o-koszcie-bezczynnosci/",
+        "teaser": null
+      },{
+        "title": "Ten o podzielonym słoniu",
+        "excerpt":"Podzielony słoń nigdy nie działa tak, jak powinien. Russell Ackoff lubił ten obraz: jeśli przetniesz słonia na pół, nie dostaniesz dwóch małych słoni. Dostaniesz bałagan. Właściwości systemu wynikają z tego, jak jego części ze sobą współdziałają, i znikają, gdy części się rozdzieli. Co się dzieje, gdy organizacja oddziela biznes od...","categories": ["Zarządzanie"],
+        "tags": ["biznes i IT","myślenie systemowe","Russell Ackoff","współpraca","wymagania"],
+        "url": "/blog/2025-09-12-ten-o-podzielonym-sloniu/",
+        "teaser": null
+      },{
+        "title": "Ten o modelu Kano",
+        "excerpt":"Dlaczego nie wszystkie funkcje są sobie równe? Analizując proces ładowania samochodów elektrycznych, widzę, że nie każdy element wpływa na satysfakcję użytkowników w ten sam sposób. Brak jednych wywołuje złość, a obecność nikogo nie cieszy. Inne cieszą tym bardziej, im są lepsze. Jeszcze inne zaskakują, choć nikt o nie nie prosił....","categories": ["Zarządzanie produktem"],
+        "tags": ["model Kano","priorytetyzacja","satysfakcja użytkowników","elektromobilność","discovery"],
+        "url": "/blog/2025-09-16-ten-o-modelu-kano/",
+        "teaser": null
+      },{
+        "title": "Ten o potrzebie i wartości",
+        "excerpt":"Ile razy widzieliście projekt, który pochłonął miesiące pracy, a na końcu nikt z niego nie korzystał? Moim zdaniem to klasyczny przykład sytuacji, w której zabrakło połączenia dwóch rzeczy: potrzeby i wartości biznesowej. Czym jest business need? Odpowiedzią na pytanie, dlaczego w ogóle się tym zajmujemy. To może być problem, który...","categories": ["Zarządzanie produktem"],
+        "tags": ["business need","business value","analiza biznesowa","priorytetyzacja","impact"],
+        "url": "/blog/2025-09-19-ten-o-potrzebie-i-wartosci/",
+        "teaser": null
+      },{
+        "title": "Ten o rozpuszczaniu konfliktów",
+        "excerpt":"Czy zastanawialiście się kiedyś, dlaczego w jednej organizacji działy kłócą się ze sobą częściej niż z zewnętrzną konkurencją? Skąd biorą się konflikty między działami? Z tego, jak organizacja jest zbudowana. Różne działy mają różne cele i priorytety, i to jest naturalna cecha złożonych organizacji. Sprzedaż chce obiecać klientowi termin, produkcja...","categories": ["Zarządzanie"],
+        "tags": ["konflikt","Russell Ackoff","myślenie systemowe","współpraca między działami","projektowanie organizacji"],
+        "url": "/blog/2025-09-23-ten-o-rozpuszczaniu-konfliktow/",
+        "teaser": null
+      },{
+        "title": "Ten o zespole zamiast gwiazd",
+        "excerpt":"Dlaczego zwykły zespół czasem wyprzedza najlepszych specjalistów? Widziałem to już kilka razy. Firma zatrudnia same gwiazdy, a rezultaty są średnie. Z drugiej strony zwykli ludzie ze świetną chemią między sobą osiągają rzeczy, na które nikt nie liczył. Dlaczego suma talentów nie daje dobrego zespołu? Bo wynik zespołu zależy od tego,...","categories": ["Przywództwo"],
+        "tags": ["zespół","współpraca","Pixar","Braintrust","kultura organizacyjna"],
+        "url": "/blog/2025-09-25-ten-o-zespole-zamiast-gwiazd/",
+        "teaser": null
+      },{
+        "title": "Ten o autonomii i kontroli",
+        "excerpt":"Autonomia czy kontrola? To tu toczą się spory w firmach. TypeScript czy JavaScript? Automatyczne testy czy szybkie dostarczanie? Dokumentacja czy kolejne funkcje? Ile razy w Twojej firmie padło zdanie: „Musimy wybrać”? A co, gdyby zamiast wybierać opcję, zmienić sposób myślenia? Co się dzieje, gdy wahadło przechyla się w jedną stronę?...","categories": ["Zarządzanie"],
+        "tags": ["autonomia zespołów","standaryzacja","platforma","governance","kontrakty API"],
+        "url": "/blog/2025-09-30-ten-o-autonomii-i-kontroli/",
+        "teaser": null
+      },{
+        "title": "Ten o firmie w trzech pytaniach",
+        "excerpt":"Czy każdą firmę można opisać w trzech pytaniach? Niezależnie od tego, czy mówimy o kawiarni, startupie czy korporacji, trzy proste pytania odsłaniają najważniejsze rzeczy. Jakie to pytania? Co umiesz? Kompetencje firmy: obsługa klienta, produkcja, marketing, logistyka. To, co naprawdę potrafisz robić, niezależnie od procesów czy systemów, które to wspierają. Co...","categories": ["Zarządzanie"],
+        "tags": ["model biznesowy","kompetencje","propozycja wartości","segmenty klientów","silosy"],
+        "url": "/blog/2025-10-02-ten-o-firmie-w-trzech-pytaniach/",
+        "teaser": null
+      },{
+        "title": "Ten o szukaniu winnych",
+        "excerpt":"Dlaczego najlepsi menedżerowie przestali szukać winnych? Spotkanie zarządu. Atmosfera napięta. CFO rzuca raport: „Kampania kosztowała 200 000 zł, a konwersje spadły o 40%. Kto za to odpowiada?” Wszyscy patrzą na marketing. Marketing pokazuje dane: „Mamy 23% więcej leadów, niż zakładaliśmy”. Cisza. Bo jeśli nie marketing, to kto? Co się dzieje,...","categories": ["Zarządzanie"],
+        "tags": ["myślenie systemowe","kultura winy","przepływ","KPI","współpraca między działami"],
+        "url": "/blog/2025-10-07-ten-o-szukaniu-winnych/",
+        "teaser": null
+      },{
+        "title": "Ten o projektowaniu zamiast naprawiania",
+        "excerpt":"Część firm działa według prostego schematu: „naprawmy to, co nie działa”. Takie podejście często przypomina gaszenie pożarów. Coś się sypie, więc poprawiamy, łatamy, dokładamy kolejny proces. A potem znów to samo. Dlaczego naprawianie wraca w kółko? Bo każda łatka odpowiada na objaw, a system, który ten objaw wytworzył, zostaje taki...","categories": ["Zarządzanie"],
+        "tags": ["projektowanie organizacji","myślenie systemowe","Russell Ackoff","idealized design","cel systemu"],
+        "url": "/blog/2025-10-09-ten-o-projektowaniu-zamiast-naprawiania/",
+        "teaser": null
+      },{
+        "title": "Ten o organizacji projektowanej jak architektura",
+        "excerpt":"Coraz częściej o tym myślę: organizacje da się projektować przez świadome kształtowanie zależności, odpowiedzialności i przepływów. Kopiowanie struktur to za mało. Czego architektura oprogramowania uczy o organizacji? Że złożone systemy rosną bez utraty sensu, gdy trzymają się kilku prostych zasad. Dobra architektura, niezależnie od kontekstu, opiera się na tych samych...","categories": ["Zarządzanie"],
+        "tags": ["projektowanie organizacji","architektura","capabilities","governance","prawo Conwaya"],
+        "url": "/blog/2025-10-14-ten-o-organizacji-jak-architekturze/",
+        "teaser": null
+      },{
+        "title": "Ten o punkcie dźwigni",
+        "excerpt":"Rozmawiasz z managerami. IT mówi o systemach legacy. HR o rotacji. Operacje o wąskich gardłach. Sprzedaż o niespójnych procesach. Każdy ma rację. I każdy widzi tylko swój kawałek. Czym jest organizacyjny bałagan? Splotem problemów, których nie da się rozwiązać pojedynczo. Russell Ackoff nazwał to po angielsku „mess”: system powiązanych problemów,...","categories": ["Zarządzanie"],
+        "tags": ["myślenie systemowe","punkt dźwigni","mess","mapowanie systemu","Jamshid Gharajedaghi"],
+        "url": "/blog/2025-10-16-ten-o-punkcie-dzwigni/",
+        "teaser": null
+      },{
+        "title": "Ten o impedimencie, wąskim gardle i ograniczeniu",
+        "excerpt":"Impediment, bottleneck, constraint. Akademicka rozprawa? Ostatnio na retrospektywie usłyszałem: „Mamy bottleneck w testowaniu, Scrum Master, usuń ten impediment”. I pomyślałem: czy dobre rozpoznanie przeszkody pomaga ją lepiej rozwiązać? Moim zdaniem tak, bo każde z tych trzech słów prowadzi do innej strategii. Czym jest impediment? Lokalną przeszkodą, która blokuje pracę zespołu...","categories": ["Zarządzanie projektami"],
+        "tags": ["impediment","wąskie gardło","Teoria Ograniczeń","Scrum","przepływ"],
+        "url": "/blog/2025-10-21-ten-o-impedimencie-i-ograniczeniu/",
+        "teaser": null
+      },{
+        "title": "Ten o niewidzialnych połączeniach",
+        "excerpt":"Wyobraź sobie, że Twoja organizacja wciąż nie osiąga celów, a Ty nie wiesz dlaczego. Tradycyjnie zaczynamy od szukania winnych. Słaby lider? Nieefektywne procesy? Brak odpowiedzialności? A co, jeśli problem leży w tym, co dzieje się między elementami, a jakość każdego z nich jest w porządku? Gdzie szukać przyczyny, gdy każdy...","categories": ["Zarządzanie"],
+        "tags": ["myślenie systemowe","pętle przyczynowe","przepływ informacji","Donella Meadows","Peter Senge"],
+        "url": "/blog/2025-10-23-ten-o-niewidzialnych-polaczeniach/",
+        "teaser": null
+      },{
+        "title": "Ten o niechęci do Agile",
+        "excerpt":"„Nie lubię Agile” słyszałem wiele razy. Zazwyczaj chwilę później pada doprecyzowanie: „bo to tylko te zadania w Jirze”, „bo codziennie trzeba gadać o tym samym”, „bo to nic nie zmienia”. I trudno się dziwić. Jeśli Agile kojarzy się z tablicą z zadaniami, to faktycznie trudno go polubić. Skąd bierze się...","categories": ["Zarządzanie projektami"],
+        "tags": ["Agile","praca z wiedzą","daily","Jira","cel"],
+        "url": "/blog/2025-10-28-ten-o-niecheci-do-agile/",
         "teaser": null
       },{
         "title": "Ten o strategii i wykonaniu",

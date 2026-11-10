@@ -1,0 +1,387 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Dlaczego sprint trwa dwa tygodnie? - Tomasz Żelezny</title>
+<meta name="description" content="Scrum Guide mówi tylko, że Sprint trwa najwyżej miesiąc. Skąd wzięły się dwa tygodnie i co oznacza, gdy wydają się za krótkie albo za długie.">
+
+
+  <meta name="author" content="Tomasz Żelezny">
+  
+  <meta property="article:author" content="Tomasz Żelezny">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Tomasz Żelezny">
+<meta property="og:title" content="Dlaczego sprint trwa dwa tygodnie?">
+<meta property="og:url" content="https://tomaszzelezny.me/blog/2025-08-20-ten-o-dwutygodniowych-sprintach/">
+
+
+  <meta property="og:description" content="Scrum Guide mówi tylko, że Sprint trwa najwyżej miesiąc. Skąd wzięły się dwa tygodnie i co oznacza, gdy wydają się za krótkie albo za długie.">
+
+
+
+  <meta property="og:image" content="https://tomaszzelezny.me/assets/images/og/dwutygodniowe-sprinty.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-08-20T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tomaszzelezny.me/blog/2025-08-20-ten-o-dwutygodniowych-sprintach/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tomasz Żelezny",
+      "url": "https://tomaszzelezny.me/",
+      "sameAs": ["https://www.linkedin.com/in/tomasz-zelezny/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Tomasz Żelezny Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+<!-- Design tokens: self-hosted fonts (no third-party requests) -->
+<link rel="stylesheet" href="/assets/css/fonts.css">
+
+<!-- Design tokens: CSS custom properties -->
+<link rel="stylesheet" href="/assets/css/tokens.css">
+
+<!-- Design tokens: theme overrides -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Komponenty podstron landingowych (.landing) -->
+<link rel="stylesheet" href="/assets/css/landing.css">
+
+<!-- Dane strukturalne (JSON-LD): Person na każdej stronie, BlogPosting we wpisach -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tomaszzelezny.me/#osoba",
+  "name": "Tomasz Żelezny",
+  "url": "https://tomaszzelezny.me/",
+  "image": "https://tomaszzelezny.me/assets/images/tomasz-zelezny.jpg",
+  "description": "Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.",
+  "jobTitle": "Scrum Master, Agile Coach",
+  "knowsAbout": ["Scrum", "Agile", "Kanban", "Lean", "Zarządzanie produktem", "Przepływ pracy", "Prognozowanie dostaw", "Zespoły IT", "Transformacja organizacji"],
+  "sameAs": [
+    "https://www.linkedin.com/in/tomasz-zelezny/"
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dlaczego sprint trwa dwa tygodnie?",
+  "description": "Scrum Guide mówi tylko, że Sprint trwa najwyżej miesiąc. Skąd wzięły się dwa tygodnie i co oznacza, gdy wydają się za krótkie albo za długie.",
+  "url": "https://tomaszzelezny.me/blog/2025-08-20-ten-o-dwutygodniowych-sprintach/",
+  "mainEntityOfPage": "https://tomaszzelezny.me/blog/2025-08-20-ten-o-dwutygodniowych-sprintach/",
+  "datePublished": "2025-08-20T00:00:00+00:00",
+  "dateModified": "2025-08-20T00:00:00+00:00",
+  "inLanguage": "pl-PL",
+  "image": "https://tomaszzelezny.me/assets/images/og/dwutygodniowe-sprinty.jpg",
+  "author": { "@id": "https://tomaszzelezny.me/#osoba", "@type": "Person", "name": "Tomasz Żelezny", "url": "https://tomaszzelezny.me/" },
+  "publisher": { "@id": "https://tomaszzelezny.me/#osoba" },
+  "articleSection": "Zarządzanie projektami",
+  "keywords": "Scrum, Sprint, długość sprintu, Scrum Guide, rytm pracy",
+  "wordCount": 458
+}
+</script>
+
+
+<!-- Analytics -->
+
+<script data-goatcounter="https://tomaszzelezny.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+<!-- Elementy .landing pojawiające się przy przewijaniu -->
+<script src="/assets/js/reveal.js" defer></script>
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Tomasz Żelezny
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Tomasz Żelezny</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item masthead__menu-item--sub">
+              <details class="masthead__sub">
+                <summary>Współpraca</summary>
+                <ul>
+                  <li><a href="/mentoring/"><span class="masthead__sub-title">Mentoring</span><span class="masthead__sub-desc">Rozmowy jeden na jeden o pracy i rozwoju.</span></a></li>
+                  <li><a href="/twoj-zespol-moze-wiecej/"><span class="masthead__sub-title">Twój zespół może więcej</span><span class="masthead__sub-desc">Zespół jest zajęty, a efektów nie widać.</span></a></li>
+                  <li><a href="/inzynier-produktu/"><span class="masthead__sub-title">Inżynier produktu</span><span class="masthead__sub-desc">Od ticketu i kodu do rezultatu u klienta.</span></a></li>
+                </ul>
+              </details>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/o-mnie/"
+                
+                
+              >O mnie</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Przełącz menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Menu rozwijane: kliknięcie w nagłówek nie zamyka menu pod hamburgerem (motyw chowa je po każdym kliknięciu w środku)
+  document.querySelectorAll('.masthead__sub summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { e.stopPropagation(); });
+  });
+  // Menu rozwijane: zamknij po kliknięciu poza nim albo po Esc
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('.masthead__sub[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+  // Menu rozwijane: na komputerze (mysz) otwiera się po najechaniu i zamyka chwilę po zjechaniu.
+  // Na telefonie i w menu pod hamburgerem działa jak dotąd, po kliknięciu.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.masthead__sub').forEach(function (d) {
+      var timer, hovered = false;
+      var desktop = function () { return d.closest('.visible-links'); };
+      d.addEventListener('mouseenter', function () {
+        if (!desktop()) return;
+        clearTimeout(timer);
+        if (!d.open) { d.open = true; hovered = true; }
+      });
+      d.addEventListener('mouseleave', function () {
+        if (!desktop()) return;
+        timer = setTimeout(function () { d.removeAttribute('open'); hovered = false; }, 200);
+      });
+      // Kliknięcie w nagłówek tuż po otwarciu najechaniem nie zamyka menu
+      d.querySelector('summary').addEventListener('click', function (e) {
+        if (desktop() && hovered) { e.preventDefault(); hovered = false; }
+      });
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.masthead__sub[open]').forEach(function (d) { d.removeAttribute('open'); });
+  });
+</script>
+
+
+    <div class="initial-content">
+      <div class="landing">
+<div class="wrap">
+  <article class="post-page h-entry">
+    <header class="post-head">
+      <p class="post-kicker"><span class="tag">Zarządzanie projektami</span>
+        <span><time class="dt-published" datetime="2025-08-20T00:00:00+00:00">20.08.2025</time> · 4 min czytania</span></p>
+      <h1 class="p-name">Ten o dwutygodniowych <em>sprintach</em></h1><p class="lead p-summary">Scrum Guide mówi tylko, że Sprint trwa najwyżej miesiąc. Skąd wzięły się dwa tygodnie i co oznacza, gdy wydają się za krótkie albo za długie.</p>
+    </header>
+    <div class="prose e-content">
+      <p>Dlaczego dwutygodniowe sprinty stały się „świętością” w Scrumie?</p>
+
+<p>Wielu rezygnuje ze Scruma, bo „nie pasują im dwutygodniowe sprinty”. W Scrum Guide nie ma jednak ani słowa o obowiązkowych dwóch tygodniach. Przewodnik mówi tylko, że Sprint trwa miesiąc albo krócej.</p>
+
+<h2 id="skąd-wzięły-się-dwa-tygodnie">Skąd wzięły się dwa tygodnie?</h2>
+
+<p>Nie znalazłem jednego źródła. Prawdopodobnie to połączenie kilku czynników: praktycznych doświadczeń zespołów, cykli biznesowych w organizacjach i „bezpiecznej” rekomendacji dla początkujących zespołów. Dwa tygodnie wyglądają na kompromis. Są wystarczająco długie, żeby dostarczyć coś, co ma wartość, i wystarczająco krótkie, żeby szybko dostać informację zwrotną i zmienić kierunek.</p>
+
+<p>Z czasem kompromis zamienił się w domyślne ustawienie. Narzędzia proponują dwa tygodnie przy zakładaniu projektu, szkolenia pokazują przykłady na dwóch tygodniach, a organizacje synchronizują wszystkie zespoły do jednego kalendarza. Liczba, która miała być punktem startu, stała się regułą.</p>
+
+<h2 id="co-oznacza-gdy-dwa-tygodnie-to-za-mało">Co oznacza, gdy dwa tygodnie to za mało?</h2>
+
+<p>Czasem to, że problem leży gdzie indziej. Gdy zespół mówi, że w dwa tygodnie nie da się nic skończyć, warto sprawdzić, dlaczego:</p>
+
+<ul>
+  <li>zadania są zbyt duże i nikt ich nie dzieli,</li>
+  <li>zespół zależy od innych zespołów i czeka na ich pracę,</li>
+  <li>w zespole brakuje kompetencji, więc część pracy idzie na zewnątrz,</li>
+  <li>proces obciąża biurokracja: akceptacje, formularze, okna wdrożeniowe.</li>
+</ul>
+
+<p>Wydłużenie sprintu ukryje te problemy, ale ich nie rozwiąże. Lepiej najpierw je zidentyfikować i usunąć. O tym, ile trwa praca, która tylko czeka, pisałem przy <a href="/blog/2026-03-19-flow-efficiency/">efektywności przepływu</a>.</p>
+
+<h2 id="a-gdy-dwa-tygodnie-to-za-długo">A gdy dwa tygodnie to za długo?</h2>
+
+<p>To również bywa sygnał głębszych problemów. Jeśli w ciągu dwóch tygodni priorytety zmieniają się kilka razy, przyczyną często są chaotyczne zarządzanie priorytetami, brak stabilnej wizji produktu albo interesariusze, którzy wchodzą w szczegóły pracy zespołu. To, co nazywamy „zmiennością rynku”, bywa chaosem organizacyjnym.</p>
+
+<p>Skrócenie sprintu do tygodnia może wtedy pomóc na chwilę, ale problem wraca. Zespół zaczyna planować częściej, a chaos dalej przychodzi z zewnątrz. Pomaga dopiero <a href="/blog/2026-08-19-cel-sprintu/">cel Sprintu</a>, którego nikt nie zmienia w połowie, i rozmowa z interesariuszami o tym, skąd biorą się nagłe zmiany.</p>
+
+<p><img src="/assets/images/dwutygodniowe-sprinty.webp" alt="Dwutygodniowe sprinty. Na górze zapis z Scrum Guide: Sprint trwa miesiąc albo krócej, bez obowiązkowych dwóch tygodni. Pod spodem dwie sytuacje. Gdy dwa tygodnie to za mało, sprawdź: zbyt duże zadania, zależności od innych zespołów, brak kompetencji w zespole, biurokrację. Gdy dwa tygodnie to za długo, sprawdź: chaotyczne priorytety, brak wizji produktu, interesariuszy wchodzących w szczegóły. Na dole: liczy się rytm i przewidywalność dostarczania wartości, długość dobierz eksperymentem." /></p>
+
+<h2 id="jak-dobrać-długość-sprintu">Jak dobrać długość sprintu?</h2>
+
+<p>Eksperymentem. Liczy się rytm i przewidywalność dostarczania wartości, a konkretna liczba dni ma mniejsze znaczenie. Niektóre zespoły świetnie funkcjonują z tygodniowymi sprintami, inne potrzebują trzech albo czterech tygodni.</p>
+
+<p>Kilka pytań pomaga wybrać:</p>
+
+<ul>
+  <li>Jak często potrzebujemy informacji zwrotnej od użytkowników i interesariuszy?</li>
+  <li>Jak długo trwa zrobienie najmniejszej sensownej zmiany od początku do końca?</li>
+  <li>Jak często zmieniają się priorytety i z jakiego powodu?</li>
+</ul>
+
+<p>Warto też pamiętać, że długość sprintu nie musi być taka sama we wszystkich zespołach w organizacji. Wspólny kalendarz ułatwia planowanie między zespołami, ale ma swoją cenę, gdy zespoły pracują nad bardzo różnymi rzeczami.</p>
+
+<p>A jeśli dwa tygodnie faktycznie Wam nie pasują, po prostu to zmieńcie. Sprawdźcie nową długość przez kilka sprintów i porównajcie, co się poprawiło.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Schwaber, K., Sutherland, J. (2020). <em>The Scrum Guide</em>. scrumguides.org.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://www.linkedin.com/posts/tomasz-zelezny_dlaczego-2-tygodniowe-sprinty-sta%C5%82y-si%C4%99-share-7363673119879786496-ZvfX">Komentuj i podziel się swoim podejściem</a></p>
+
+    </div>
+    
+<ul class="post-tags" aria-label="Tagi"><li>Scrum</li><li>Sprint</li><li>długość sprintu</li><li>Scrum Guide</li><li>rytm pracy</li>
+</ul>
+<nav class="post-nav" aria-label="Sąsiednie wpisy">
+  <a class="post" href="/blog/2025-08-12-ten-o-odrzuconych-pomyslach/">
+    <span class="meta">← Starszy wpis</span>
+    <h3>Ten o odrzuconych pomysłach</h3>
+  </a>
+  <a class="post next" href="/blog/2025-08-22-ten-o-trzymaniu-sie-priorytetow/">
+    <span class="meta">Nowszy wpis →</span>
+    <h3>Ten o trzymaniu się priorytetów</h3>
+  </a>
+</nav>
+
+<section class="post-author">
+  <div class="about">
+    <img class="avatar" src="/assets/images/tomasz-zelezny-240.jpg" alt="" width="120" height="120">
+    <div>
+      <h2>Tomasz Żelezny</h2>
+      <p class="role">Scrum Master · Agile Coach</p>
+      <p>Pomagam zespołom robić mniej rzeczy naraz i kończyć więcej. Piszę o przepływie pracy, decyzjach i o tym, gdzie znika wysiłek zespołów.</p>
+      <p><a href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <p>Twój zespół może więcej niż dowozi.</p>
+    <a class="btn btn-primary" href="/twoj-zespol-moze-wiecej/">Zobacz, jak pomagam</a>
+  </div>
+</section>
+
+  </article>
+</div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-copyright">&copy; 2026 Tomasz Żelezny. Powstało dzięki <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
