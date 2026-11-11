@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-10T21:43:11+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o cierpliwej nieefektywności</title><link href="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/" rel="alternate" type="text/html" title="Ten o cierpliwej nieefektywności" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-cierpliwej-nieefektywnosci</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/"><![CDATA[<p>Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-11T04:53:44+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o soldieringu</title><link href="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/" rel="alternate" type="text/html" title="Ten o soldieringu" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-soldieringu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/"><![CDATA[<p>Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców.</p>
+
+<p>To pierwsza z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Ta dotyczy stosunków pracy.</p>
+
+<p><img src="/assets/images/taylor-soldiering.webp" alt="Dlaczego robotnicy zwalniali? Soldiering to celowe utrzymywanie niskiego tempa, uzgodnione w grupie. Akord: robotnik pracuje szybciej i zaczyna dobrze zarabiać, pracodawca obcina stawkę za sztukę, zostaje ta sama zapłata za większy wysiłek. Dniówka: szybki robotnik dostaje tyle samo co powolny, szybkość nic mu nie daje, z czasem zwalnia do tempa powolnego. Wynik: grupa trzyma wspólne tempo, a ile powinna trwać praca, wiedzą głównie robotnicy. Odpowiedź Taylora: stoper, czyli pomiar operacji, który zamienia spór o tempo w ustalony fakt." /></p>
+
+<h2 id="czym-był-soldiering">Czym był soldiering?</h2>
+
+<p>Celowym utrzymywaniem niskiego tempa pracy. Taylor odróżniał dwie jego odmiany. Naturalną nazywał zwykłą ludzką skłonność do oszczędzania sił. Systematyczną nazywał spowalnianie uzgodnione w grupie i podtrzymywane świadomie, które wynikało z tego, jak robotnicy oceniali własny interes. Za poważniejszą uważał tę drugą.</p>
+
+<p>Systematyczny soldiering wynikał więc z decyzji, a decyzje mają powody. Taylor szukał ich w tym, jak robotnicy postrzegali swój interes, i w systemie, w którym pracowali.</p>
+
+<h2 id="dlaczego-robotnicy-zwalniali">Dlaczego robotnicy zwalniali?</h2>
+
+<p>Bo z ich punktu widzenia szybsza praca się nie opłacała. W „The Principles of Scientific Management” z 1911 roku Taylor wymienił trzy przyczyny. Pierwsza to przekonanie, że większa wydajność każdego robotnika wyrzuci część kolegów z pracy. Druga to wadliwe systemy zarządzania i płac, w których robotnik tracił na szybszej pracy, więc zwalniał, żeby chronić własny zarobek. Trzecia to metody „na oko”, na których opierało się wtedy niemal każde rzemiosło.</p>
+
+<p>Druga przyczyna miała konkretny mechanizm. Przy akordzie pracodawca obcinał stawkę, gdy robotnik zaczynał dobrze zarabiać. Szybsza praca kończyła się tą samą zapłatą za większy wysiłek. Przy dniówce szybki robotnik dostawał tyle samo co powolny, więc z czasem zwalniał do jego tempa. W każdym z tych systemów najbezpieczniej było trzymać tempo uzgodnione z grupą.</p>
+
+<h2 id="co-taylor-zobaczył-w-midvale">Co Taylor zobaczył w Midvale?</h2>
+
+<p>Soldiering z obu stron. W Midvale Steel zaczął w 1878 roku jako robotnik. Gdy został brygadzistą tokarzy, przez około trzy lata walczył z własną brygadą o tempo. Używał zwolnień, obniżek stawek akordowych i przyjmowania nowych, niewyszkolonych ludzi, których sam uczył pracy. Sięgał więc po to samo obcinanie stawek, które później wskazał jako jedną z przyczyn soldieringu. Wydajność maszyn wzrosła, w wielu przypadkach dwukrotnie.</p>
+
+<p>Taylor twierdził, że w ówczesnych warsztatach pracą faktycznie rządzili robotnicy. To oni wiedzieli, jak ustawić obróbkę, ile trwa cięcie i jakie tempo jest możliwe. Kierownictwo mogło naciskać, ale zwykle nie miało jak sprawdzić, ile dana praca naprawdę powinna trwać.</p>
+
+<p>Pisał też, że gdyby sam był jednym z robotników i mieszkał tam, gdzie oni, koledzy wywarliby na niego presję, której nie dałoby się oprzeć („impossible to have stood out against them”). On sam wśród nich nie mieszkał, więc ta presja go nie dosięgała. Tempo pilnowała więc grupa. Źródło problemu Taylor widział jednak przede wszystkim w systemie płac, który karał za szybkość, a robotnicy reagowali na niego racjonalnie.</p>
+
+<h2 id="po-co-taylorowi-był-stoper">Po co Taylorowi był stoper?</h2>
+
+<p>Żeby spór o tempo zamienić w ustalony fakt. W tym sporze chodziło o to, ile powinna trwać praca, a tę wiedzę mieli głównie robotnicy. Kierownik, który nie wie, ile trwa toczenie wałka, nie ma jak ocenić, czy ktoś zwalnia. Pomiar operacji stoperem miał usunąć tę asymetrię, a na jego podstawie Taylor chciał zbudować system płac, w którym wyższa wydajność opłaca się obu stronom.</p>
+
+<p>Stąd pierwszy powód, dla którego Taylor mierzył operację i pojedynczego robotnika. Problem tempa dotyczył konkretnego zadania i konkretnej stawki, więc tam trafił pomiar.</p>
+
+<p>Pomiar odpowiadał też na trzecią przyczynę. Skoro rzemiosło opierało się na metodach „na oko”, pierwszą z czterech zasad Taylora była nauka w miejsce zgadywania, a pomiar operacji był jej podstawowym narzędziem.</p>
+
+<p>Pytanie z Midvale zostaje aktualne: co dostaje u Ciebie ktoś, kto pracuje szybciej, wyższą pensję czy więcej pracy?</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Taylor, F. W. (1911). The Principles of Scientific Management. Harper &amp; Brothers. Rozdział 1, s. 15–22 (trzy przyczyny, soldiering naturalny i systematyczny, akord i dniówka), rozdział 2, s. 48–52 (Midvale, warsztat rządzony przez robotników, walka o tempo, presja grupy).</li>
+  <li>University of Pennsylvania, archiwum Midvale Steel Company (początek pracy Taylora w 1878 roku).</li>
+</ul>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="TODO_LINKEDIN_URL">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="soldiering" /><category term="stosunki pracy" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Soldiering, czyli celowe spowalnianie pracy: dlaczego robotnicy w czasach Taylora zwalniali, jak działał akord z obcinaną stawką i po co Taylorowi był stoper.]]></summary></entry><entry><title type="html">Ten o cierpliwej nieefektywności</title><link href="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/" rel="alternate" type="text/html" title="Ten o cierpliwej nieefektywności" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-cierpliwej-nieefektywnosci</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/"><![CDATA[<p>Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem.</p>
 
 <p>Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać.</p>
 
@@ -373,20 +418,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dm9KdRhe">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="koszt opóźnienia" /><category term="przepływ pracy" /><category term="priorytety" /><summary type="html"><![CDATA[Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.]]></summary></entry><entry><title type="html">Ten o kalendarzu jednej osoby</title><link href="https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/" rel="alternate" type="text/html" title="Ten o kalendarzu jednej osoby" /><published>2026-10-14T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-kalendarzu-jednej-osoby</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-14-ten-o-kalendarzu-jednej-osoby/"><![CDATA[<p><strong>Kto u Was decyduje, kiedy Ciebie nie ma?</strong></p>
-
-<p><img src="/assets/images/kalendarz-jednej-osoby.webp" alt="Kto u Was decyduje, kiedy Ciebie nie ma? Dziś wszystko czeka na jedną osobę, cel to zespół, który decyduje sam" /></p>
-
-<p>Najwolniejszy proces w firmie to często kalendarz jednej osoby.</p>
-
-<p>Każdy z nas chciałby, żeby zespół po prostu ogarniał sprawy sam i nie musiał co chwilę pytać. Tymczasem wszystko leci w górę „na wszelki wypadek”, bo nikt do końca nie wie, czy może o tym zdecydować. Zadanie wisi jako „w toku”, a <a href="/blog/2026-03-19-flow-efficiency/">od ośmiu dni leży w czyjejś skrzynce</a>. Na tablicy tego nie widać.</p>
-
-<p>Najczęściej kończy się na tym, że jesteśmy cały czas pod telefonem. Odpisujemy na komunikatorze między spotkaniami i akceptujemy coś wieczorem z kanapy, żeby rano praca mogła ruszyć. Przez jakiś czas to nawet działa. Tyle że wszystko dalej przechodzi przez jedną osobę, która teraz pracuje także w weekendy. Na dłuższą metę tak się nie da: najpierw przychodzi zmęczenie, potem decyzje podejmowane na autopilocie, a w końcu wypalenie.</p>
-
-<p>Praca rusza, kiedy zespół może zdecydować bez nas. Ludzie wiedzą wtedy, o czym decydują sami, mają progi, do których nie muszą pytać, i dostają informacje, dzięki którym ich decyzje są dobre. Każda taka decyzja odciąża nas bardziej niż kolejna godzina pod telefonem.</p>
-
-<p>Ile dni czeka u Was typowa decyzja, zanim praca ruszy dalej?</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d27N_VUu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="decyzje" /><category term="przepływ pracy" /><category term="przywództwo" /><summary type="html"><![CDATA[Gdy każda decyzja czeka na jedną osobę, kalendarz managera staje się wąskim gardłem. Jak oddać zespołowi decyzje: zakres, progi i informacje.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dm9KdRhe">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="koszt opóźnienia" /><category term="przepływ pracy" /><category term="priorytety" /><summary type="html"><![CDATA[Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.]]></summary></entry></feed>

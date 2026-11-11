@@ -796,4 +796,10 @@ var store = [{
         "tags": ["efektywność","myślenie systemowe","przepływ pracy","presja"],
         "url": "/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/",
         "teaser": null
+      },{
+        "title": "Ten o soldieringu",
+        "excerpt":"Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców. To pierwsza z ośmiu części serii, która zaczęła się od...","categories": ["Zarządzanie"],
+        "tags": ["Taylor","tayloryzm","soldiering","stosunki pracy","historia zarządzania"],
+        "url": "/blog/2026-11-11-ten-o-soldieringu/",
+        "teaser": null
       }]
