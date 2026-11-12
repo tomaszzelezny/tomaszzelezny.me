@@ -92,7 +92,7 @@
       gE.appendChild(e.el);
     });
     P.forEach(function (p) {
-      var a = el('a', { href: p.u, 'aria-label': p.t });
+      var a = el('a', { href: p.u, 'aria-label': p.t, 'class': 't-' + p.c });
       a.appendChild(el('circle', { cx: p.x.toFixed(1), cy: p.y.toFixed(1), r: p.r.toFixed(1) }));
       var t = el('title', {}); t.textContent = p.t; a.appendChild(t);
       a.addEventListener('click', function (e) { e.preventDefault(); select(p.id); });
@@ -102,7 +102,7 @@
       var ns = P.filter(function (p) { return p.c === k; });
       var x = ns.reduce(function (s, p) { return s + p.x; }, 0) / ns.length;
       var y = Math.min.apply(null, ns.map(function (p) { return p.y - p.r; })) - 12;
-      var t = el('text', { x: x.toFixed(0), y: Math.max(16, y).toFixed(0), 'text-anchor': 'middle' });
+      var t = el('text', { x: x.toFixed(0), y: Math.max(16, y).toFixed(0), 'text-anchor': 'middle', 'class': 't-' + k });
       t.textContent = T[k]; gL.appendChild(t);
     });
     svg.appendChild(gE); svg.appendChild(gN); svg.appendChild(gL);
@@ -111,7 +111,7 @@
     /* Panel po prawej: wybrany wpis i jego powiązania, bez wyboru wpisy, do których prowadzi najwięcej linków */
     var selected = null;
     var fmt = function (d) { return new Date(d + 'T12:00:00').toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }); };
-    var item = function (id) { var p = byId[id]; return '<li><button type="button" data-id="' + esc(id) + '">' + esc(p.t) + '</button></li>'; };
+    var item = function (id) { var p = byId[id]; return '<li><button type="button" data-id="' + esc(id) + '"><i class="dot t-' + esc(p.c) + '"></i><span>' + esc(p.t) + '</span></button></li>'; };
     function renderPanel() {
       var p = selected && byId[selected];
       if (!p) {
@@ -121,10 +121,10 @@
         return;
       }
       var outs = p.l.filter(function (l) { return byId[l]; });
-      panel.innerHTML = '<span class="meta">' + esc(T[p.c]) + '</span><h3>' + esc(p.t) + '</h3><time>' + fmt(p.d) + '</time><p>' + esc(p.e) + '</p>' +
+      panel.innerHTML = '<span class="meta t-' + esc(p.c) + '">' + esc(T[p.c]) + '</span><h3>' + esc(p.t) + '</h3><time>' + fmt(p.d) + '</time><p>' + esc(p.e) + '</p>' +
+        '<a class="open" href="' + esc(p.u) + '" data-id="' + esc(p.id) + '">Otwórz wpis →</a>' +
         '<h4>Linkuje do (' + outs.length + ')</h4>' + (outs.length ? '<ul>' + outs.map(item).join('') + '</ul>' : '<p>Ten wpis nie linkuje do innych wpisów.</p>') +
-        '<h4>Linkują do niego (' + p.ins.length + ')</h4>' + (p.ins.length ? '<ul>' + p.ins.map(item).join('') + '</ul>' : '<p>Żaden wpis jeszcze tu nie prowadzi.</p>') +
-        '<a class="open" href="' + esc(p.u) + '" data-id="' + esc(p.id) + '">Otwórz wpis →</a>';
+        '<h4>Linkują do niego (' + p.ins.length + ')</h4>' + (p.ins.length ? '<ul>' + p.ins.map(item).join('') + '</ul>' : '<p>Żaden wpis jeszcze tu nie prowadzi.</p>');
     }
     function select(id) {
       selected = selected === id ? null : id;
@@ -142,6 +142,12 @@
       if (a) track((input.value.trim() ? 'szukaj-klik/' : 'graf-klik/') + a.getAttribute('data-id'), byId[a.getAttribute('data-id')].t);
     });
     renderPanel();
+    /* Kliknięcie w puste miejsce grafu wraca do stanu początkowego */
+    svg.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      if (selected) select(selected);
+      if (input.value) { logQuery(); input.value = ''; search(); }
+    });
 
     /* Szukanie */
     function search() {
@@ -157,8 +163,11 @@
       E.forEach(function (e) { e.el.classList.toggle('hit', !!(on[e[0].id] && on[e[1].id])); });
       if (!words.length) { out.innerHTML = ''; count.textContent = ''; return; }
       count.textContent = hit.length ? (hit.length + ' ' + (hit.length === 1 ? 'wpis' : (hit.length % 10 >= 2 && hit.length % 10 <= 4 && (hit.length % 100 < 10 || hit.length % 100 >= 20) ? 'wpisy' : 'wpisów'))) : 'Nic nie znalazłem. Spróbuj innego słowa.';
-      out.innerHTML = hit.slice(0, 8).map(function (p) {
-        return '<li><a href="' + esc(p.u) + '" data-id="' + esc(p.id) + '"><span class="meta">' + esc(T[p.c]) + '</span><b>' + esc(p.t) + '</b></a></li>';
+      /* Ten sam wygląd co lista „Wszystkie wpisy” (.index-list), data z rokiem, bo wyniki są z różnych lat */
+      out.innerHTML = hit.map(function (p) {
+        var d = p.d.split('-');
+        return '<li><time datetime="' + esc(p.d) + '">' + d[2] + '.' + d[1] + '.' + d[0] + '</time><a href="' + esc(p.u) + '" data-id="' + esc(p.id) + '"><h3>' + esc(p.t) + '</h3><p>' + esc(p.e) + '</p></a>' +
+          (p.g[0] ? '<span class="meta">' + esc(p.g[0]) + '</span>' : '') + '</li>';
       }).join('');
     }
     input.addEventListener('input', function () { search(); clearTimeout(timer); timer = setTimeout(logQuery, 1500); });
@@ -166,7 +175,7 @@
     input.form && input.form.addEventListener('submit', function (e) { e.preventDefault(); });
     out.addEventListener('click', function (e) {
       var a = e.target.closest('a');
-      if (a) { logQuery(); track('szukaj-klik/' + a.getAttribute('data-id'), a.textContent); }
+      if (a) { logQuery(); track('szukaj-klik/' + a.getAttribute('data-id'), a.querySelector('h3').textContent); }
     });
     window.addEventListener('pagehide', logQuery);
     if (input.value) search();
