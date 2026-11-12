@@ -11,7 +11,11 @@
   var svg = box.querySelector('svg');
   var panel = document.getElementById('graf-panel');
   var NS = 'http://www.w3.org/2000/svg';
-  var W = 1120, H = 560;
+  /* Na telefonie (do 700 px) graf ma osobny, pionowy układ: tematy w siatce 3 × 3, mniejsze kropki z większym polem do dotknięcia */
+  var mobile = window.matchMedia('(max-width: 700px)').matches;
+  var W = mobile ? 400 : 1120, H = mobile ? 460 : 560;
+  var SHORT = { flow: 'Przepływ', prog: 'Prognozy', agile: 'Agile', prod: 'Produkt', team: 'Zespół', org: 'Organizacja', lean: 'Lean', risk: 'Bezpieczeństwo', me: 'Pisanie', inne: 'Inne' };
+  if (mobile) { svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); box.classList.add('mobile'); }
 
   var norm = function (s) {
     return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ł/g, 'l');
@@ -33,6 +37,15 @@
     if (q.length >= 3) track('szukaj/' + q, q + ' (' + (lastN || 'brak') + ' wyników)');
   }
 
+  /* Na telefonie mapa jest domyślnie złożona; rozwinięcia liczymy w GoatCounter jako „graf-mobile/pokaz” */
+  var toggle = document.querySelector('.graf-toggle');
+  if (toggle) toggle.addEventListener('click', function () {
+    var open = box.parentNode.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+    toggle.textContent = open ? 'Schowaj mapę wpisów' : 'Pokaż mapę wpisów';
+    if (open) track('graf-mobile/pokaz', 'Rozwinięcie mapy wpisów na telefonie');
+  });
+
   fetch(box.getAttribute('data-src')).then(function (r) { return r.json(); }).then(init).catch(function () {});
 
   function init(data) {
@@ -52,13 +65,15 @@
     var keys = Object.keys(T).filter(function (k) { return P.some(function (p) { return p.c === k; }); });
     var C = {};
     keys.forEach(function (k, i) {
+      if (mobile) { C[k] = { x: 68 + (i % 3) * 132, y: 85 + Math.floor(i / 3) * 150 }; return; }
       var a = -Math.PI / 2 + i * 2 * Math.PI / keys.length;
       C[k] = { x: W / 2 + Math.cos(a) * 380, y: H / 2 + 12 + Math.sin(a) * 190 };
     });
+    var REP = mobile ? 70 : 90, CUT = mobile ? 10000 : 22500, PULL = mobile ? .012 : .012, SPREAD = mobile ? 30 : 60;
     var seed = 7, rnd = function () { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
     P.forEach(function (p) {
-      p.r = 4 + Math.sqrt(p.in) * 3.2;
-      p.x = C[p.c].x + (rnd() - .5) * 60; p.y = C[p.c].y + (rnd() - .5) * 60; p.vx = 0; p.vy = 0;
+      p.r = mobile ? 3 + Math.sqrt(p.in) * 1.9 : 4 + Math.sqrt(p.in) * 3.2;
+      p.x = C[p.c].x + (rnd() - .5) * SPREAD; p.y = C[p.c].y + (rnd() - .5) * SPREAD; p.vx = 0; p.vy = 0;
     });
     for (var it = 0; it < 300; it++) {
       var alpha = 1 - it / 300;
@@ -66,12 +81,12 @@
         var a = P[i];
         for (var j = i + 1; j < P.length; j++) {
           var b = P[j], dx = b.x - a.x, dy = b.y - a.y, d2 = dx * dx + dy * dy || .01, d = Math.sqrt(d2);
-          if (d2 > 22500) continue;
-          var f = 90 / d2, min = a.r + b.r + 4;
+          if (d2 > CUT) continue;
+          var f = REP / d2, min = a.r + b.r + (mobile ? 2.5 : 4);
           if (d < min) f += (min - d) / d * .5;
           a.vx -= dx * f * alpha; a.vy -= dy * f * alpha; b.vx += dx * f * alpha; b.vy += dy * f * alpha;
         }
-        a.vx += (C[a.c].x - a.x) * .012; a.vy += (C[a.c].y - a.y) * .012;
+        a.vx += (C[a.c].x - a.x) * PULL; a.vy += (C[a.c].y - a.y) * PULL;
       }
       E.forEach(function (e) {
         var dx = e[1].x - e[0].x, dy = e[1].y - e[0].y;
@@ -80,7 +95,7 @@
       P.forEach(function (p) {
         var v = Math.sqrt(p.vx * p.vx + p.vy * p.vy); if (v > 8) { p.vx *= 8 / v; p.vy *= 8 / v; }
         p.x += p.vx; p.y += p.vy; p.vx *= .6; p.vy *= .6;
-        p.x = Math.max(p.r + 6, Math.min(W - p.r - 6, p.x)); p.y = Math.max(p.r + 30, Math.min(H - p.r - 6, p.y));
+        p.x = Math.max(p.r + 6, Math.min(W - p.r - 6, p.x)); p.y = Math.max(p.r + (mobile ? 24 : 30), Math.min(H - p.r - 6, p.y));
       });
     }
 
@@ -101,9 +116,9 @@
     keys.forEach(function (k) {
       var ns = P.filter(function (p) { return p.c === k; });
       var x = ns.reduce(function (s, p) { return s + p.x; }, 0) / ns.length;
-      var y = Math.min.apply(null, ns.map(function (p) { return p.y - p.r; })) - 12;
+      var y = Math.min.apply(null, ns.map(function (p) { return p.y - p.r; })) - (mobile ? 8 : 12);
       var t = el('text', { x: x.toFixed(0), y: Math.max(16, y).toFixed(0), 'text-anchor': 'middle', 'class': 't-' + k });
-      t.textContent = T[k]; gL.appendChild(t);
+      t.textContent = mobile ? (SHORT[k] || T[k]) : T[k]; gL.appendChild(t);
     });
     svg.appendChild(gE); svg.appendChild(gN); svg.appendChild(gL);
     box.classList.add('ready');
@@ -145,8 +160,18 @@
     });
     renderPanel();
     /* Kliknięcie w puste miejsce grafu wraca do stanu początkowego */
+    /* Na telefonie kropki są małe, więc dotknięcie wybiera najbliższy wpis w promieniu ok. 14 px */
+    function nearest(e) {
+      var m = svg.getScreenCTM(); if (!m) return null;
+      var pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY; pt = pt.matrixTransform(m.inverse());
+      var lim = 14 / m.a, best = null, bd = Infinity;
+      P.forEach(function (p) { var d = Math.hypot(p.x - pt.x, p.y - pt.y) - p.r; if (d < bd) { bd = d; best = p; } });
+      return bd <= lim ? best : null;
+    }
     svg.addEventListener('click', function (e) {
       if (e.target.closest('a')) return;
+      var hit = mobile && nearest(e);
+      if (hit) { select(hit.id); return; }
       if (selected) select(selected);
       if (input.value) { logQuery(); input.value = ''; search(); }
     });

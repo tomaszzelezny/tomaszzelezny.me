@@ -312,9 +312,17 @@
 .landing .graf.searching .edges line { stroke-opacity: .05; }
 .landing .graf.searching .edges line.hit { stroke: var(--accent); stroke-opacity: .7; }
 .landing .graf-hint { margin: 0; padding: 10px 14px; border-top: 1px solid var(--line); font: 400 13px var(--body); color: var(--muted); }
+/* Telefon: pionowy układ grafu (graf.js liczy go osobno), panel pod grafem, bez legendy (nazwy tematów są na grafie) */
+.landing .graf-toggle { display: none; }
 @media (max-width: 700px) {
-  .landing .graf, .landing .graf-legenda { display: none; }
-  .landing .graf-search { margin-top: 0; }
+  .landing .graf-legenda { display: none; }
+  .landing .graf-toggle { display: inline-flex; margin-bottom: 16px; background: var(--bg); cursor: pointer; }
+  .landing .graf-sec:not(.open) .graf { display: none; }
+  .landing .graf { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 300px auto; }
+  .landing .graf svg { height: auto; }
+  .landing .graf-panel { border-left: 0; border-top: 1px solid var(--line); padding: 16px; }
+  .landing .graf .topics text { font-size: 10px; letter-spacing: .04em; stroke-width: 4px; }
+  .landing .graf-hint { font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .landing .graf .nodes circle { transition: none; }
