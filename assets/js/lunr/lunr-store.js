@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o złym systemie i dobrej osobie",
-        "excerpt":"„Zły system zawsze pokona dobrą osobę”. Te słowa W. Edwards Deming powiedział na swoim czterodniowym seminarium w Phoenix w lutym 1993 roku. Są ponadczasowe i bardzo aktualne w dzisiejszych organizacjach. Pokazują, jak duże znaczenie ma system, który wpływa na codzienną pracę każdej osoby. Nawet najlepsze intencje i umiejętności nie wystarczą,...","categories": ["Zarządzanie"],
+        "excerpt":"„Zły system zawsze pokona dobrą osobę”. Te słowa W. Edwards Deming powiedział na swoim czterodniowym seminarium w Phoenix w lutym 1993 roku. Są ponadczasowe i bardzo aktualne w dzisiejszych organizacjach. Pokazują, jak duże znaczenie ma system, który wpływa na codzienną pracę każdej osoby. Nawet najlepsze intencje i umiejętności nie wystarczą,...","categories": ["Organizacja i systemy"],
         "tags": ["W. Edwards Deming","myślenie systemowe","efektywność","rotacja","kultura organizacyjna"],
         "url": "/blog/2025-06-06-ten-o-zlym-systemie/",
         "teaser": null
@@ -96,7 +96,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o nadprodukcji z AI",
-        "excerpt":"Jak AI wpłynie na wytwarzanie rozwiązań cyfrowych? Obserwacje ostatnich miesięcy wskazują, że sztuczna inteligencja może mocno zmieniać sposób, w jaki tworzymy różne elementy, od kodu po treści marketingowe. Produkcja staje się szybsza i bardziej dostępna. Czy na pewno prowadzi to do wzrostu efektywności całej organizacji? Czy szybsze działy oznaczają szybszą...","categories": ["Zarządzanie"],
+        "excerpt":"Jak AI wpłynie na wytwarzanie rozwiązań cyfrowych? Obserwacje ostatnich miesięcy wskazują, że sztuczna inteligencja może mocno zmieniać sposób, w jaki tworzymy różne elementy, od kodu po treści marketingowe. Produkcja staje się szybsza i bardziej dostępna. Czy na pewno prowadzi to do wzrostu efektywności całej organizacji? Czy szybsze działy oznaczają szybszą...","categories": ["Organizacja i systemy"],
         "tags": ["AI","nadprodukcja","wąskie gardło","przepływ pracy","optymalizacja lokalna"],
         "url": "/blog/2025-06-17-ten-o-nadprodukcji-z-ai/",
         "teaser": null
@@ -108,7 +108,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o strukturze według produktu i funkcji",
-        "excerpt":"Może tego doświadczasz: tematy przechodzą z działu do działu, nikt nie patrzy na cel biznesowy w całości, decyzje są wolne, bo każdy czeka na zatwierdzenie z innego działu, „to nie my, to oni”, czyli klasyczne zrzucanie odpowiedzialności. Dobre pomysły toną w strukturze. Zespoły mają energię, są inicjatywy, ale wszystko rozmywa...","categories": ["Zarządzanie"],
+        "excerpt":"Może tego doświadczasz: tematy przechodzą z działu do działu, nikt nie patrzy na cel biznesowy w całości, decyzje są wolne, bo każdy czeka na zatwierdzenie z innego działu, „to nie my, to oni”, czyli klasyczne zrzucanie odpowiedzialności. Dobre pomysły toną w strukturze. Zespoły mają energię, są inicjatywy, ale wszystko rozmywa...","categories": ["Organizacja i systemy"],
         "tags": ["struktura organizacyjna","model produktowy","silosy","projektowanie organizacji","Jay Lorsch"],
         "url": "/blog/2025-07-03-ten-o-produkcie-i-funkcji/",
         "teaser": null
@@ -126,7 +126,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o stabilności i zmianie",
-        "excerpt":"Stabilność to brak zmian? Może czas spojrzeć na to inaczej. W organizacjach często widzimy dylemat: zachować stabilność czy wprowadzać zmiany? Czy rzeczywiście musimy wybierać? Skąd bierze się utożsamianie stabilności z niezmiennością? Z intuicji, że to, co działa, lepiej zostawić w spokoju. Proces, który przez lata dawał wyniki, wydaje się bezpieczny....","categories": ["Zarządzanie"],
+        "excerpt":"Stabilność to brak zmian? Może czas spojrzeć na to inaczej. W organizacjach często widzimy dylemat: zachować stabilność czy wprowadzać zmiany? Czy rzeczywiście musimy wybierać? Skąd bierze się utożsamianie stabilności z niezmiennością? Z intuicji, że to, co działa, lepiej zostawić w spokoju. Proces, który przez lata dawał wyniki, wydaje się bezpieczny....","categories": ["Organizacja i systemy"],
         "tags": ["stabilność","zmiana","odporność","antykruchość","adaptacja"],
         "url": "/blog/2025-07-23-ten-o-stabilnosci-i-zmianie/",
         "teaser": null
@@ -138,7 +138,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o autonomii i integracji",
-        "excerpt":"Autonomia czy integracja? To jedno z wyzwań organizacji, w których pracuje wiele zespołów. Pojawia się wtedy, gdy każdy zespół staje się osobnym bytem. Wiele zespołów, każdy ze swoim backlogiem, zasadami pracy, narzędziami i definicją sukcesu. Brzmi znajomo? Co się dzieje, gdy autonomia rośnie bez integracji? Z jednej strony widzimy entuzjazm...","categories": ["Zarządzanie"],
+        "excerpt":"Autonomia czy integracja? To jedno z wyzwań organizacji, w których pracuje wiele zespołów. Pojawia się wtedy, gdy każdy zespół staje się osobnym bytem. Wiele zespołów, każdy ze swoim backlogiem, zasadami pracy, narzędziami i definicją sukcesu. Brzmi znajomo? Co się dzieje, gdy autonomia rośnie bez integracji? Z jednej strony widzimy entuzjazm...","categories": ["Organizacja i systemy"],
         "tags": ["autonomia","integracja","wiele zespołów","silosy","alignment"],
         "url": "/blog/2025-07-31-ten-o-autonomii-i-integracji/",
         "teaser": null
@@ -180,7 +180,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o przesuwaniu ciężaru",
-        "excerpt":"Łatwo wpaść w pułapkę „Shifting the Burden”. To sytuacja, w której zamiast zająć się źródłem problemu, skupiamy się na szybkim „uśmierzeniu bólu”. Hotfix zamiast naprawy procesu. Więcej ludzi zamiast lepszych priorytetów. Nowe narzędzie zamiast jasnej strategii. Czym jest „shifting the burden”? Jednym z archetypów systemowych, które Peter Senge opisał w...","categories": ["Zarządzanie"],
+        "excerpt":"Łatwo wpaść w pułapkę „Shifting the Burden”. To sytuacja, w której zamiast zająć się źródłem problemu, skupiamy się na szybkim „uśmierzeniu bólu”. Hotfix zamiast naprawy procesu. Więcej ludzi zamiast lepszych priorytetów. Nowe narzędzie zamiast jasnej strategii. Czym jest „shifting the burden”? Jednym z archetypów systemowych, które Peter Senge opisał w...","categories": ["Organizacja i systemy"],
         "tags": ["myślenie systemowe","shifting the burden","archetypy systemowe","dług techniczny","przyczyny problemów"],
         "url": "/blog/2025-08-27-ten-o-przesuwaniu-ciezaru/",
         "teaser": null
@@ -192,7 +192,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o dwóch obozach",
-        "excerpt":"Na pierwszy rzut oka taki podział wydaje się rozsądny: jedni dbają o codzienną operacyjność, drudzy rozwijają nowe rozwiązania. W praktyce prowadzi to do utraty efektu synergii. Co się dzieje, gdy oddzielimy codzienność od innowacji? Wiedza i projektowanie lądują w dwóch różnych miejscach. Zespół operacyjny, który zna każdy problem klienta, zostaje...","categories": ["Zarządzanie"],
+        "excerpt":"Na pierwszy rzut oka taki podział wydaje się rozsądny: jedni dbają o codzienną operacyjność, drudzy rozwijają nowe rozwiązania. W praktyce prowadzi to do utraty efektu synergii. Co się dzieje, gdy oddzielimy codzienność od innowacji? Wiedza i projektowanie lądują w dwóch różnych miejscach. Zespół operacyjny, który zna każdy problem klienta, zostaje...","categories": ["Organizacja i systemy"],
         "tags": ["innowacje","business as usual","kaizen","struktura zespołów","rotacja"],
         "url": "/blog/2025-09-04-ten-o-dwoch-obozach/",
         "teaser": null
@@ -210,7 +210,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o podzielonym słoniu",
-        "excerpt":"Podzielony słoń nigdy nie działa tak, jak powinien. Russell Ackoff lubił ten obraz: jeśli przetniesz słonia na pół, nie dostaniesz dwóch małych słoni. Dostaniesz bałagan. Właściwości systemu wynikają z tego, jak jego części ze sobą współdziałają, i znikają, gdy części się rozdzieli. Co się dzieje, gdy organizacja oddziela biznes od...","categories": ["Zarządzanie"],
+        "excerpt":"Podzielony słoń nigdy nie działa tak, jak powinien. Russell Ackoff lubił ten obraz: jeśli przetniesz słonia na pół, nie dostaniesz dwóch małych słoni. Dostaniesz bałagan. Właściwości systemu wynikają z tego, jak jego części ze sobą współdziałają, i znikają, gdy części się rozdzieli. Co się dzieje, gdy organizacja oddziela biznes od...","categories": ["Organizacja i systemy"],
         "tags": ["biznes i IT","myślenie systemowe","Russell Ackoff","współpraca","wymagania"],
         "url": "/blog/2025-09-12-ten-o-podzielonym-sloniu/",
         "teaser": null
@@ -228,7 +228,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o rozpuszczaniu konfliktów",
-        "excerpt":"Czy zastanawialiście się kiedyś, dlaczego w jednej organizacji działy kłócą się ze sobą częściej niż z zewnętrzną konkurencją? Skąd biorą się konflikty między działami? Z tego, jak organizacja jest zbudowana. Różne działy mają różne cele i priorytety, i to jest naturalna cecha złożonych organizacji. Sprzedaż chce obiecać klientowi termin, produkcja...","categories": ["Zarządzanie"],
+        "excerpt":"Czy zastanawialiście się kiedyś, dlaczego w jednej organizacji działy kłócą się ze sobą częściej niż z zewnętrzną konkurencją? Skąd biorą się konflikty między działami? Z tego, jak organizacja jest zbudowana. Różne działy mają różne cele i priorytety, i to jest naturalna cecha złożonych organizacji. Sprzedaż chce obiecać klientowi termin, produkcja...","categories": ["Organizacja i systemy"],
         "tags": ["konflikt","Russell Ackoff","myślenie systemowe","współpraca między działami","projektowanie organizacji"],
         "url": "/blog/2025-09-23-ten-o-rozpuszczaniu-konfliktow/",
         "teaser": null
@@ -240,7 +240,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o autonomii i kontroli",
-        "excerpt":"Autonomia czy kontrola? To tu toczą się spory w firmach. TypeScript czy JavaScript? Automatyczne testy czy szybkie dostarczanie? Dokumentacja czy kolejne funkcje? Ile razy w Twojej firmie padło zdanie: „Musimy wybrać”? A co, gdyby zamiast wybierać opcję, zmienić sposób myślenia? Co się dzieje, gdy wahadło przechyla się w jedną stronę?...","categories": ["Zarządzanie"],
+        "excerpt":"Autonomia czy kontrola? To tu toczą się spory w firmach. TypeScript czy JavaScript? Automatyczne testy czy szybkie dostarczanie? Dokumentacja czy kolejne funkcje? Ile razy w Twojej firmie padło zdanie: „Musimy wybrać”? A co, gdyby zamiast wybierać opcję, zmienić sposób myślenia? Co się dzieje, gdy wahadło przechyla się w jedną stronę?...","categories": ["Organizacja i systemy"],
         "tags": ["autonomia zespołów","standaryzacja","platforma","governance","kontrakty API"],
         "url": "/blog/2025-09-30-ten-o-autonomii-i-kontroli/",
         "teaser": null
@@ -252,25 +252,25 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o szukaniu winnych",
-        "excerpt":"Dlaczego najlepsi menedżerowie przestali szukać winnych? Spotkanie zarządu. Atmosfera napięta. CFO rzuca raport: „Kampania kosztowała 200 000 zł, a konwersje spadły o 40%. Kto za to odpowiada?” Wszyscy patrzą na marketing. Marketing pokazuje dane: „Mamy 23% więcej leadów, niż zakładaliśmy”. Cisza. Bo jeśli nie marketing, to kto? Co się dzieje,...","categories": ["Zarządzanie"],
+        "excerpt":"Dlaczego najlepsi menedżerowie przestali szukać winnych? Spotkanie zarządu. Atmosfera napięta. CFO rzuca raport: „Kampania kosztowała 200 000 zł, a konwersje spadły o 40%. Kto za to odpowiada?” Wszyscy patrzą na marketing. Marketing pokazuje dane: „Mamy 23% więcej leadów, niż zakładaliśmy”. Cisza. Bo jeśli nie marketing, to kto? Co się dzieje,...","categories": ["Organizacja i systemy"],
         "tags": ["myślenie systemowe","kultura winy","przepływ","KPI","współpraca między działami"],
         "url": "/blog/2025-10-07-ten-o-szukaniu-winnych/",
         "teaser": null
       },{
         "title": "Ten o projektowaniu zamiast naprawiania",
-        "excerpt":"Część firm działa według prostego schematu: „naprawmy to, co nie działa”. Takie podejście często przypomina gaszenie pożarów. Coś się sypie, więc poprawiamy, łatamy, dokładamy kolejny proces. A potem znów to samo. Dlaczego naprawianie wraca w kółko? Bo każda łatka odpowiada na objaw, a system, który ten objaw wytworzył, zostaje taki...","categories": ["Zarządzanie"],
+        "excerpt":"Część firm działa według prostego schematu: „naprawmy to, co nie działa”. Takie podejście często przypomina gaszenie pożarów. Coś się sypie, więc poprawiamy, łatamy, dokładamy kolejny proces. A potem znów to samo. Dlaczego naprawianie wraca w kółko? Bo każda łatka odpowiada na objaw, a system, który ten objaw wytworzył, zostaje taki...","categories": ["Organizacja i systemy"],
         "tags": ["projektowanie organizacji","myślenie systemowe","Russell Ackoff","idealized design","cel systemu"],
         "url": "/blog/2025-10-09-ten-o-projektowaniu-zamiast-naprawiania/",
         "teaser": null
       },{
         "title": "Ten o organizacji projektowanej jak architektura",
-        "excerpt":"Coraz częściej o tym myślę: organizacje da się projektować przez świadome kształtowanie zależności, odpowiedzialności i przepływów. Kopiowanie struktur to za mało. Czego architektura oprogramowania uczy o organizacji? Że złożone systemy rosną bez utraty sensu, gdy trzymają się kilku prostych zasad. Dobra architektura, niezależnie od kontekstu, opiera się na tych samych...","categories": ["Zarządzanie"],
+        "excerpt":"Coraz częściej o tym myślę: organizacje da się projektować przez świadome kształtowanie zależności, odpowiedzialności i przepływów. Kopiowanie struktur to za mało. Czego architektura oprogramowania uczy o organizacji? Że złożone systemy rosną bez utraty sensu, gdy trzymają się kilku prostych zasad. Dobra architektura, niezależnie od kontekstu, opiera się na tych samych...","categories": ["Organizacja i systemy"],
         "tags": ["projektowanie organizacji","architektura","capabilities","governance","prawo Conwaya"],
         "url": "/blog/2025-10-14-ten-o-organizacji-jak-architekturze/",
         "teaser": null
       },{
         "title": "Ten o punkcie dźwigni",
-        "excerpt":"Rozmawiasz z managerami. IT mówi o systemach legacy. HR o rotacji. Operacje o wąskich gardłach. Sprzedaż o niespójnych procesach. Każdy ma rację. I każdy widzi tylko swój kawałek. Czym jest organizacyjny bałagan? Splotem problemów, których nie da się rozwiązać pojedynczo. Russell Ackoff nazwał to po angielsku „mess”: system powiązanych problemów,...","categories": ["Zarządzanie"],
+        "excerpt":"Rozmawiasz z managerami. IT mówi o systemach legacy. HR o rotacji. Operacje o wąskich gardłach. Sprzedaż o niespójnych procesach. Każdy ma rację. I każdy widzi tylko swój kawałek. Czym jest organizacyjny bałagan? Splotem problemów, których nie da się rozwiązać pojedynczo. Russell Ackoff nazwał to po angielsku „mess”: system powiązanych problemów,...","categories": ["Organizacja i systemy"],
         "tags": ["myślenie systemowe","punkt dźwigni","mess","mapowanie systemu","Jamshid Gharajedaghi"],
         "url": "/blog/2025-10-16-ten-o-punkcie-dzwigni/",
         "teaser": null
@@ -282,7 +282,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o niewidzialnych połączeniach",
-        "excerpt":"Wyobraź sobie, że Twoja organizacja wciąż nie osiąga celów, a Ty nie wiesz dlaczego. Tradycyjnie zaczynamy od szukania winnych. Słaby lider? Nieefektywne procesy? Brak odpowiedzialności? A co, jeśli problem leży w tym, co dzieje się między elementami, a jakość każdego z nich jest w porządku? Gdzie szukać przyczyny, gdy każdy...","categories": ["Zarządzanie"],
+        "excerpt":"Wyobraź sobie, że Twoja organizacja wciąż nie osiąga celów, a Ty nie wiesz dlaczego. Tradycyjnie zaczynamy od szukania winnych. Słaby lider? Nieefektywne procesy? Brak odpowiedzialności? A co, jeśli problem leży w tym, co dzieje się między elementami, a jakość każdego z nich jest w porządku? Gdzie szukać przyczyny, gdy każdy...","categories": ["Organizacja i systemy"],
         "tags": ["myślenie systemowe","pętle przyczynowe","przepływ informacji","Donella Meadows","Peter Senge"],
         "url": "/blog/2025-10-23-ten-o-niewidzialnych-polaczeniach/",
         "teaser": null
@@ -372,7 +372,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o wspólnym pastwisku",
-        "excerpt":"Wyobraźcie sobie jedno pole, kilka grup pasterzy i ich stada. Pole jest wspólne, więc każdy pasterz chce, żeby jego owce najadły się jak najwięcej. Nikt nie odpowiada za trawę. Po kilku sezonach pole zamienia się w klepisko. Czym jest tragedia wspólnego pastwiska? To sytuacja, w której wspólny zasób niszczeje, bo...","categories": ["Zarządzanie"],
+        "excerpt":"Wyobraźcie sobie jedno pole, kilka grup pasterzy i ich stada. Pole jest wspólne, więc każdy pasterz chce, żeby jego owce najadły się jak najwięcej. Nikt nie odpowiada za trawę. Po kilku sezonach pole zamienia się w klepisko. Czym jest tragedia wspólnego pastwiska? To sytuacja, w której wspólny zasób niszczeje, bo...","categories": ["Organizacja i systemy"],
         "tags": ["tragedia wspólnego pastwiska","dług techniczny","interesariusze","priorytetyzacja","wypalenie"],
         "url": "/blog/2026-02-03-ten-o-wspolnym-pastwisku/",
         "teaser": null
@@ -408,13 +408,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o narzędziach z epoki fabryk",
-        "excerpt":"Czy narzędzia, które znamy, nadążają za czasami, w których żyjemy? Większość firm działa jak maszyny zaprojektowane w XIX wieku. Hierarchia, roczny budżet, kontrola wykonania planu. To narzędzia z epoki fabryk, skuteczne, gdy zadania są powtarzalne, a świat stoi w miejscu. Tyle że świat nie stoi w miejscu. Skąd się wzięły...","categories": ["Zarządzanie"],
+        "excerpt":"Czy narzędzia, które znamy, nadążają za czasami, w których żyjemy? Większość firm działa jak maszyny zaprojektowane w XIX wieku. Hierarchia, roczny budżet, kontrola wykonania planu. To narzędzia z epoki fabryk, skuteczne, gdy zadania są powtarzalne, a świat stoi w miejscu. Tyle że świat nie stoi w miejscu. Skąd się wzięły...","categories": ["Organizacja i systemy"],
         "tags": ["hierarchia","autonomia","misja","struktura organizacyjna","uczenie się"],
         "url": "/blog/2026-02-24-ten-o-narzedziach-z-epoki-fabryk/",
         "teaser": null
       },{
         "title": "Ten o książce 10X Org",
-        "excerpt":"Alexey Krivitsky i Roland Flemm: jedna kopia już w moich rękach. Dwa dni temu miała miejsce premiera książki „10X Org”, która jest kolejnym etapem rozwoju Org Topologies. Śledzę ten rozwój od kilku lat. Czego nauczyło mnie Org Topologies? Że struktura organizacji wpływa na jej efektywność głębiej, niż się wydaje. Dzięki...","categories": ["Zarządzanie"],
+        "excerpt":"Alexey Krivitsky i Roland Flemm: jedna kopia już w moich rękach. Dwa dni temu miała miejsce premiera książki „10X Org”, która jest kolejnym etapem rozwoju Org Topologies. Śledzę ten rozwój od kilku lat. Czego nauczyło mnie Org Topologies? Że struktura organizacji wpływa na jej efektywność głębiej, niż się wydaje. Dzięki...","categories": ["Organizacja i systemy"],
         "tags": ["Org Topologies","design organizacji","struktura organizacji","strategia","AI","książki"],
         "url": "/blog/2026-02-26-ten-o-ksiazce-10x-org/",
         "teaser": null
@@ -516,7 +516,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o matematycznej pułapce lokalnej optymalizacji",
-        "excerpt":"Optymalizacja lokalna to matematyczna pułapka. W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Optymalizacja lokalna to matematyczna pułapka. W analizie funkcji maksimum lokalne to punkt, w którym pochodna wynosi zero. Każdy krok w prawo i każdy krok w lewo prowadzi chwilowo w dół. System stojący w tym punkcie nie ma informacji o tym, że wyżej leży gdzie indziej — bo każda próba ruchu...","categories": ["Organizacja i systemy"],
         "tags": ["Optymalizacja","Metryki","Procesy","Organizacja","Myślenie systemowe"],
         "url": "/blog/2026-04-28-ten-o-matematycznej-pulapce-lokalnej/",
         "teaser": null
@@ -540,7 +540,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o stylu zarządzania",
-        "excerpt":"Deming powiedział coś innego: 94% problemów pochodzi z systemu, nie z ludzi. Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić. Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem wiedzy o...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Deming widział to inaczej: około 94% problemów należy do systemu, a nie do ludzi. Tayloryzm dał nam normy i czas pracy mierzony w sekundach. Mierzenie miało sens — stanowisko można było usprawnić. Problem w tym, co z tymi pomiarami zrobiono potem: założono, że człowiek jest elementem do zoptymalizowania, nie źródłem...","categories": ["Zarządzanie produktem"],
         "tags": ["Deming","Tayloryzm","kultura organizacyjna"],
         "url": "/blog/2026-05-12-ten-o-stylu-zarzadzania/",
         "teaser": null
@@ -624,7 +624,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o błędzie, który wraca",
-        "excerpt":"Naprawiasz błąd. Błąd wraca. Naprawiasz mocniej. Błąd wraca szybciej. Za takim powrotem zwykle stoi pętla. I dopóki jej nie zobaczysz, będziesz naprawiać objawy, a przyczyny zostaną na miejscu. Dlaczego naprawiony błąd wraca? Bo naprawa uruchamia skutki, których nie widać od razu. Peter Senge opisał ten wzorzec jako archetyp „poprawki, która...","categories": ["Zarządzanie"],
+        "excerpt":"Naprawiasz błąd. Błąd wraca. Naprawiasz mocniej. Błąd wraca szybciej. Za takim powrotem zwykle stoi pętla. I dopóki jej nie zobaczysz, będziesz naprawiać objawy, a przyczyny zostaną na miejscu. Dlaczego naprawiony błąd wraca? Bo naprawa uruchamia skutki, których nie widać od razu. Peter Senge opisał ten wzorzec jako archetyp „poprawki, która...","categories": ["Organizacja i systemy"],
         "tags": ["myślenie systemowe","pętle przyczynowo-skutkowe","Senge","Meadows","przyczyny problemów"],
         "url": "/blog/2026-07-08-ten-o-bledzie-ktory-wraca/",
         "teaser": null
@@ -636,25 +636,25 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o LeSS i upraszczaniu",
-        "excerpt":"Im więcej zespołów, tym więcej koordynacji. Im więcej koordynacji, tym więcej spotkań. Im więcej spotkań, tym mniej pracy. Większość frameworków skalowania rozwiązuje ten problem dodając warstwy. Nowe role, nowe ceremonie, nowe artefakty. Koordynacja staje się osobnym zawodem. Czym LeSS różni się od innych frameworków skalowania? LeSS (Large-Scale Scrum) idzie w...","categories": ["Zarządzanie"],
+        "excerpt":"Im więcej zespołów, tym więcej koordynacji. Im więcej koordynacji, tym więcej spotkań. Im więcej spotkań, tym mniej pracy. Większość frameworków skalowania rozwiązuje ten problem dodając warstwy. Nowe role, nowe ceremonie, nowe artefakty. Koordynacja staje się osobnym zawodem. Czym LeSS różni się od innych frameworków skalowania? LeSS (Large-Scale Scrum) idzie w...","categories": ["Organizacja i systemy"],
         "tags": ["LeSS","skalowanie","koordynacja","Product Backlog","Product Owner"],
         "url": "/blog/2026-07-14-ten-o-less-i-upraszczaniu/",
         "teaser": null
       },{
         "title": "Ten o jednym wąskim gardle",
-        "excerpt":"Możesz przyspieszyć każdy zespół z osobna i nadal dostarczać wolniej niż rok temu. Lokalna optymalizacja rzadko przekłada się na globalny wynik. Jeśli praca blokuje się w jednym miejscu, reszta tylko produkuje kolejkę przed tym miejscem. Co mówi teoria ograniczeń? Że w każdym systemie jest jedno wąskie gardło i to ono...","categories": ["Zarządzanie"],
+        "excerpt":"Możesz przyspieszyć każdy zespół z osobna i nadal dostarczać wolniej niż rok temu. Lokalna optymalizacja rzadko przekłada się na globalny wynik. Jeśli praca blokuje się w jednym miejscu, reszta tylko produkuje kolejkę przed tym miejscem. Co mówi teoria ograniczeń? Że w każdym systemie jest ograniczenie, które dyktuje tempo całości. Najczęściej...","categories": ["Organizacja i systemy"],
         "tags": ["teoria ograniczeń","TOC","wąskie gardło","Goldratt","przepływ pracy"],
         "url": "/blog/2026-07-16-ten-o-jednym-waskim-gardle/",
         "teaser": null
       },{
         "title": "Ten o prostych liniach",
-        "excerpt":"Struktury organizacyjne powstają, żeby dało się zarządzać pracą. Dopasowanie do samej pracy jest sprawą drugorzędną. Czego uczy pruski las? Że uporządkowanie dla obserwatora może zniszczyć to, co porządkuje. W XVIII wieku pruscy leśnicy zaczęli sadzić lasy w równych rzędach, z jednego gatunku drzew, pod łatwe liczenie metrów sześciennych drewna. Przez...","categories": ["Zarządzanie"],
+        "excerpt":"Struktury organizacyjne powstają, żeby dało się zarządzać pracą. Dopasowanie do samej pracy jest sprawą drugorzędną. Czego uczy pruski las? Że uporządkowanie dla obserwatora może zniszczyć to, co porządkuje. W XVIII wieku pruscy leśnicy zaczęli sadzić lasy w równych rzędach, z jednego gatunku drzew, pod łatwe liczenie metrów sześciennych drewna. Przez...","categories": ["Organizacja i systemy"],
         "tags": ["struktura organizacyjna","James C. Scott","złożoność","planowanie","mêtis"],
         "url": "/blog/2026-07-21-ten-o-prostych-liniach/",
         "teaser": null
       },{
         "title": "Ten o sudoku",
-        "excerpt":"Piątek, głowa w połowie już przy weekendzie, i wpada mi do ręki sudoku. I tak myślę, że organizacja działa podobnie. To, że wypełniłeś jeden kwadrat poprawnie, nie znaczy, że rozwiązałeś całą planszę. Dlaczego w sudoku nie ma ruchu lokalnego? Bo każda cyfra działa w trzech wymiarach naraz. Kiedy wpisujesz cyfrę,...","categories": ["Zarządzanie"],
+        "excerpt":"Piątek, głowa w połowie już przy weekendzie, i wpada mi do ręki sudoku. I tak myślę, że organizacja działa podobnie. To, że wypełniłeś jeden kwadrat poprawnie, nie znaczy, że rozwiązałeś całą planszę. Dlaczego w sudoku nie ma ruchu lokalnego? Bo każda cyfra działa w trzech wymiarach naraz. Kiedy wpisujesz cyfrę,...","categories": ["Organizacja i systemy"],
         "tags": ["kultura organizacyjna","myślenie systemowe","zmiana","złożoność"],
         "url": "/blog/2026-08-07-ten-o-sudoku/",
         "teaser": null
@@ -750,7 +750,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o enkapsulacji",
-        "excerpt":"W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie....","categories": ["Zarządzanie produktem"],
+        "excerpt":"W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie....","categories": ["Organizacja i systemy"],
         "tags": ["enkapsulacja","organizacja","zależności między zespołami","skalowanie"],
         "url": "/blog/2026-10-21-ten-o-enkapsulacji/",
         "teaser": null
@@ -792,7 +792,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o cierpliwej nieefektywności",
-        "excerpt":"Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem. Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać. Dlaczego nieefektywność może...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem. Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać. Dlaczego nieefektywność może...","categories": ["Organizacja i systemy"],
         "tags": ["efektywność","myślenie systemowe","przepływ pracy","presja"],
         "url": "/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/",
         "teaser": null
@@ -801,5 +801,11 @@ var store = [{
         "excerpt":"Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców. To pierwsza z ośmiu części serii, która zaczęła się od...","categories": ["Zarządzanie"],
         "tags": ["Taylor","tayloryzm","soldiering","stosunki pracy","historia zarządzania"],
         "url": "/blog/2026-11-11-ten-o-soldieringu/",
+        "teaser": null
+      },{
+        "title": "Ten o czterech postawach wobec planowania",
+        "excerpt":"Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i...","categories": ["Zarządzanie"],
+        "tags": ["Russell Ackoff","planowanie","myślenie systemowe","projektowanie organizacji","zmiana"],
+        "url": "/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/",
         "teaser": null
       }]

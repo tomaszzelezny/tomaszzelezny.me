@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-11T11:48:06+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o soldieringu</title><link href="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/" rel="alternate" type="text/html" title="Ten o soldieringu" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-soldieringu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/"><![CDATA[<p>Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-12T04:54:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
+
+<p>Każda z tych postaw ma swoją logikę i każda daje inny rodzaj planu. Warto wiedzieć, którą z nich przyjmuje Twoja organizacja, zanim zacznie planować kolejny rok.</p>
+
+<h2 id="co-mówi-o-firmie-sposób-w-jaki-planuje">Co mówi o firmie sposób, w jaki planuje?</h2>
+
+<p>Mówi, jak firma traktuje przyszłość. Może ją traktować jak zagrożenie, przed którym trzeba się bronić, jak coś, co trzeba przeczekać, jak pogodę, którą da się tylko przewidzieć, albo jak coś, co można zaprojektować. Donella Meadows w tekście z 1990 roku przypomina, że Ackoff opisał te postawy już w „Redesigning the Future” z 1974 roku. W książce z 1981 roku zbudował na nich swoje podejście do planowania.</p>
+
+<p>Plan roczny zwykle nie mówi tego wprost. Widać to dopiero w tym, od czego zaczyna się rozmowa: od listy problemów z zeszłego roku, od budżetu „jak w poprzednim roku plus kilka procent”, od prognozy rynku albo od opisu stanu, do którego chcemy dojść.</p>
+
+<h2 id="jak-wygląda-każda-z-czterech-postaw">Jak wygląda każda z czterech postaw?</h2>
+
+<p><strong>Reaktywna.</strong> Zmiany idą za szybko i w złą stronę, więc trzeba je odkręcić. Punktem odniesienia jest przeszłość, kiedy „wszystko działało”. Plan reaktywny to lista rzeczy do naprawienia. O tym, dlaczego takie naprawianie wraca w kółko, pisałem we wpisie o <a href="/blog/2025-10-09-ten-o-projektowaniu-zamiast-naprawiania/">projektowaniu zamiast naprawiania</a>.</p>
+
+<p><strong>Nieaktywna.</strong> Teraźniejszość jest w porządku, a duże ruchy mogą tylko zaszkodzić. Celem jest przetrwanie i utrzymanie tego, co jest. Zmiany są małe i powolne, a plan zapisuje stan obecny z drobnymi korektami.</p>
+
+<p><strong>Preaktywna.</strong> Przeszłość i teraźniejszość nie wystarczają, więc firma chce wyprzedzić zmianę. Prognozuje i przygotowuje się na najbardziej prawdopodobny scenariusz. Przyszłość traktuje przy tym jak coś, na co nie ma wpływu. Ackoff nazywał takie planowanie strategicznym i odgórnym, w przeciwieństwie do reaktywnego, które idzie od dołu i łata konkretne braki.</p>
+
+<p><strong>Interaktywna.</strong> Przyszłość w dużej mierze zależy od tego, co zrobimy dziś. Planowanie to więc projektowanie pożądanego stanu i wymyślanie dróg, które do niego prowadzą. Ackoff rozwinął to w podejście nazwane interactive planning, a razem z Jasonem Magidsonem i Herbertem Addisonem opisał jego rdzeń w książce „Idealized Design”. W krótkim przewodniku z 2001 roku dodaje, że organizację powinni stale przeprojektowywać jej interesariusze, zarówno wewnętrzni, jak i zewnętrzni.</p>
+
+<p><img src="/assets/images/cztery-postawy-wobec-planowania.webp" alt="Cztery postawy wobec planowania według Ackoffa na osi od przeszłości do przyszłości. 01 Reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu, jej plan to lista rzeczy do odkręcenia. 02 Nieaktywna trzyma się teraźniejszości i uważa, że duże ruchy tylko szkodzą, jej plan to stan obecny z drobnymi korektami. 03 Preaktywna przewiduje i szykuje się na najbardziej prawdopodobny scenariusz, jej plan to prognoza i przygotowanie. 04 Interaktywna projektuje, bo uważa, że przyszłość zależy od tego, co zrobimy dziś, jej plan to pożądany stan i droga do niego. Na dole: firmy liczą błędy działania, a błędów zaniechania nikt nie zapisuje, więc najbezpieczniej jest robić mało." /></p>
+
+<h2 id="jak-ta-sama-sytuacja-wygląda-z-czterech-stron">Jak ta sama sytuacja wygląda z czterech stron?</h2>
+
+<p>Weźmy umowny przykład: do firmy, która od lat ma stałych klientów, wchodzi konkurent z tańszym i prostszym produktem.</p>
+
+<p>Firma reaktywna szuka winnego i chce wrócić do warunków sprzed wejścia konkurenta. Obniża ceny, naciska na handlowców i wspomina czasy, kiedy klienci sami przychodzili. Firma nieaktywna uznaje, że to chwilowe, i czeka, aż rynek się uspokoi. Firma preaktywna zamawia analizę rynku, prognozuje, ile klientów straci, i przygotowuje plan ograniczenia strat. Firma interaktywna pyta, jaką ofertę zbudowałaby dziś od zera dla tych samych klientów, i projektuje drogę do niej, zanim konkurent zdąży tę przestrzeń zająć.</p>
+
+<p>Każda z tych reakcji ma sens, jeśli przyjąć założenie, od którego wychodzi. Różnią się odpowiedzią na pytanie, czy na przyszłość mamy wpływ.</p>
+
+<h2 id="dlaczego-tak-wiele-firm-wybiera-bezruch">Dlaczego tak wiele firm wybiera bezruch?</h2>
+
+<p>Ackoff wskazywał na sposób, w jaki firmy liczą błędy. Błąd działania to zrobienie czegoś, czego nie trzeba było robić. Błąd zaniechania to niezrobienie czegoś, co trzeba było zrobić. W artykule „Why Few Organizations Adopt Systems Thinking” pisał, że systemy rachunkowe zapisują tylko błędy pierwszego rodzaju, a drugich nikt nie odnotowuje, więc często nikt się do nich nie przyznaje.</p>
+
+<p>Wniosek Ackoffa jest prosty: menedżer, który chce uniknąć nagany, ogranicza błędy działania, a najłatwiej zrobić to, nie robiąc nic albo tak mało, jak się da. W tym samym tekście uznał to za jeden z głównych powodów, dla których organizacje nie przeprowadzają radykalnych zmian. System ocen wzmacnia więc postawę nieaktywną, nawet jeśli w strategii stoi „innowacja”.</p>
+
+<h2 id="czy-krótkie-cykle-planowania-zmieniają-postawę">Czy krótkie cykle planowania zmieniają postawę?</h2>
+
+<p>Same nie. Zespół może planować co dwa tygodnie i nadal tylko reagować na to, co wpadło w ostatnim sprincie. Częstsze planowanie daje więcej okazji do zmiany kierunku, ale kierunek trzeba najpierw mieć. O tym, czym <a href="/blog/2026-03-10-ten-o-planie-i-planowaniu/">planowanie różni się od planu</a>, pisałem przy okazji słów Eisenhowera.</p>
+
+<p>Postawa interaktywna przydaje się też przy konfliktach. Ackoff opisywał <a href="/blog/2025-09-23-ten-o-rozpuszczaniu-konfliktow/">rozpuszczanie konfliktu</a> przez zmianę systemu, w którym powstał. Żeby to zrobić, trzeba najpierw uznać, że system da się zaprojektować inaczej.</p>
+
+<p>Którą postawę widać w Waszym ostatnim planie rocznym?</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Ackoff, R. L. (1974). <em>Redesigning the Future: A Systems Approach to Societal Problems</em>. John Wiley &amp; Sons.</li>
+  <li>Ackoff, R. L. (1981). <em>Creating the Corporate Future: Plan or Be Planned For</em>. John Wiley &amp; Sons.</li>
+  <li>Ackoff, R. L. (2001). <em>A Brief Guide to Interactive Planning and Idealized Design</em>. Materiał udostępniony przez Uniwersytet w Linköping.</li>
+  <li>Ackoff, R. L., Magidson, J., Addison, H. J. (2006). <em>Idealized Design: Creating an Organization’s Future</em>. Wharton School Publishing.</li>
+  <li>Ackoff, R. L. (2006). Why Few Organizations Adopt Systems Thinking. <em>Systems Research and Behavioral Science</em>, 23, 705–708.</li>
+  <li>Meadows, D. (1990, 15 lutego). Inactive Bush; Interactive Gorbachev. Donella Meadows Archives, Sustainability Institute.</li>
+</ol>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="TODO_LINKEDIN_URL">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Russell Ackoff" /><category term="planowanie" /><category term="myślenie systemowe" /><category term="projektowanie organizacji" /><category term="zmiana" /><summary type="html"><![CDATA[Reaktywna, nieaktywna, preaktywna i interaktywna. Cztery postawy wobec planowania według Russella Ackoffa i to, co mówią o tym, jak firma traktuje przyszłość.]]></summary></entry><entry><title type="html">Ten o soldieringu</title><link href="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/" rel="alternate" type="text/html" title="Ten o soldieringu" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-soldieringu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/"><![CDATA[<p>Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców.</p>
 
 <p>To pierwsza z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Ta dotyczy stosunków pracy.</p>
 
@@ -95,7 +152,7 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dgB897fv">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry><entry><title type="html">Ten o tym, dlaczego Taylor mierzył operacje</title><link href="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/" rel="alternate" type="text/html" title="Ten o tym, dlaczego Taylor mierzył operacje" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-dlaczego-taylor-mierzyl-operacje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/"><![CDATA[<p>„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika. Taylor uważał, że interes firmy i pracownika jest wspólny.</p>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dgB897fv">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry><entry><title type="html">Ten o tym, dlaczego Taylor mierzył operacje</title><link href="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/" rel="alternate" type="text/html" title="Ten o tym, dlaczego Taylor mierzył operacje" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-dlaczego-taylor-mierzyl-operacje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/"><![CDATA[<p>„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika. Taylor uważał, że interes firmy i pracownika jest wspólny.</p>
 
 <p>Dlaczego więc mierzył stoperem pojedynczego pracownika i jego operację, a drogi wyrobu przez fabrykę nie mierzył? Dziś wygląda to na błąd, bo we współczesnych zakładach większość czasu realizacji zlecenia to czekanie między stanowiskami. Bronię innej tezy: pomiar operacji był racjonalną odpowiedzią na problem, który Taylor rozwiązywał, i na świat, w którym działał.</p>
 
@@ -392,30 +449,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/djeEttuP">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="enkapsulacja" /><category term="organizacja" /><category term="zależności między zespołami" /><category term="skalowanie" /><summary type="html"><![CDATA[Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wymaga rozmów z wieloma zespołami.]]></summary></entry><entry><title type="html">Ten o miesiącu opóźnienia</title><link href="https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/" rel="alternate" type="text/html" title="Ten o miesiącu opóźnienia" /><published>2026-10-20T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-miesiacu-opoznienia</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-20-ten-o-miesiacu-opoznienia/"><![CDATA[<p><strong>Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia?</strong></p>
-
-<p><img src="/assets/images/koszt-opoznienia.webp" alt="Dlaczego tak mało osób wie, ile kosztuje miesiąc opóźnienia? Dane Reinertsena: 85% nie zna kosztu opóźnienia, odpowiedzi w zespole różnią się 50 razy, 2% mierzy kolejki" /></p>
-
-<p>Don Reinertsen pisze o koszcie opóźnienia od 1983 roku. W swojej książce zauważa, że kiedy pyta osoby rozwijające produkty, o ile spadnie zysk z produktu przez tydzień opóźnienia, zwykle nie znają odpowiedzi. Według jego obserwacji zna ją tylko 15% z nich.</p>
-
-<p>Najczęściej nikt tego nigdy nie policzył. Bez choćby jednego wyliczenia nie ma z czego zbudować intuicji, dlatego odpowiedzi osób pracujących nad tym samym projektem potrafią różnić się nawet 50 razy.</p>
-
-<p><a href="/blog/2026-03-19-flow-efficiency/">Czekającej pracy też nie widać</a>. W fabryce zapas leży na hali i każdy się o niego potyka. U nas zapasem są pomysły w backlogu, specyfikacje i kod czekający na testy. Według Reinertsena kolejki mierzy tylko 2% osób, które rozwijają produkty.</p>
-
-<p>Mierzymy więc to, co łatwo zmierzyć, czyli obłożenie ludzi, realizację planu i liczbę zamkniętych zadań. Menedżerowie, którzy przychodzą na szkolenia Reinertsena, podają w ankietach obłożenie na poziomie 98,5%. <a href="/blog/2026-08-19-zajetosc-vs-postep/">Wszyscy są zajęci</a>, a kolejki rosną po cichu. Kiedy trzeba wybrać, co robić najpierw, sięgamy po punktację w rodzaju RICE. Wygląda to jak liczby, ale „8 punktów wartości” nie da się porównać z tygodniem czekania ani przeliczyć na pieniądze.</p>
-
-<p>Na początek wystarczy zgrubny szacunek. Ilu klientów możemy stracić przez miesiąc bez tej funkcji i ile od nich zarabiamy? Taka liczba będzie niedokładna, ale założenia leżą wtedy na stole i można się o nie spierać.</p>
-
-<p>Czy ktoś u Was kiedyś policzył, ile kosztuje tydzień opóźnienia?</p>
-
-<hr />
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ol>
-  <li>Reinertsen, D. G. (2009). The Principles of Product Development Flow: Second Generation Lean Product Development. Celeritas Publishing. <a href="http://lpd2.com/wp-content/uploads/2013/06/ReinertsenFLOWChap1.pdf">Rozdział 1 (PDF)</a></li>
-</ol>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dm9KdRhe">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="koszt opóźnienia" /><category term="przepływ pracy" /><category term="priorytety" /><summary type="html"><![CDATA[Koszt opóźnienia (cost of delay) według Reinertsena: dlaczego 85% osób nie wie, ile kosztuje miesiąc opóźnienia, i czemu prawie nikt nie mierzy kolejek.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/djeEttuP">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="enkapsulacja" /><category term="organizacja" /><category term="zależności między zespołami" /><category term="skalowanie" /><summary type="html"><![CDATA[Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wymaga rozmów z wieloma zespołami.]]></summary></entry></feed>
