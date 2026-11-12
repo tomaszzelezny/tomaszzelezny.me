@@ -224,7 +224,8 @@
 /* Wariant B */
 .landing .blog-head { margin-block: 56px 48px; max-width: 820px; }
 .landing .blog-head h1 { font-size: clamp(30px, 4.4vw, 48px); line-height: 1.2; margin-top: 20px; }
-.landing .blog-head .lead { margin-bottom: 0; }
+.landing .blog-head .lead { margin-bottom: 0; max-width: none; text-wrap: pretty; }
+.landing .blog-head .lead strong { display: block; margin-top: 4px; }
 .landing .index-head { font-size: clamp(24px, 3vw, 32px); line-height: 1.2; margin-top: 32px; padding-top: 0; border-top: 0; }
 .landing .index-head small { font: 400 14px var(--mono); color: var(--muted); letter-spacing: .06em; vertical-align: middle; }
 .landing .index { padding-block: 40px; }
