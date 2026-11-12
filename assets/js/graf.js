@@ -120,11 +120,13 @@
           '<p>Kliknij kropkę na grafie albo jeden z wpisów, do których prowadzi najwięcej linków:</p><ul>' + top.map(function (t) { return item(t.id); }).join('') + '</ul>';
         return;
       }
-      var outs = p.l.filter(function (l) { return byId[l]; });
+      /* Powiązane: linki w obie strony, bez powtórzeń, od najnowszego */
+      var rel = [], seenRel = {};
+      p.l.concat(p.ins).forEach(function (l) { if (byId[l] && !seenRel[l]) { seenRel[l] = 1; rel.push(l); } });
+      rel.sort(function (x, y) { return byId[y].d.localeCompare(byId[x].d); });
       panel.innerHTML = '<span class="meta t-' + esc(p.c) + '">' + esc(T[p.c]) + '</span><h3>' + esc(p.t) + '</h3><time>' + fmt(p.d) + '</time><p>' + esc(p.e) + '</p>' +
         '<a class="open" href="' + esc(p.u) + '" data-id="' + esc(p.id) + '">Otwórz wpis →</a>' +
-        '<h4>Linkuje do (' + outs.length + ')</h4>' + (outs.length ? '<ul>' + outs.map(item).join('') + '</ul>' : '<p>Ten wpis nie linkuje do innych wpisów.</p>') +
-        '<h4>Linkują do niego (' + p.ins.length + ')</h4>' + (p.ins.length ? '<ul>' + p.ins.map(item).join('') + '</ul>' : '<p>Żaden wpis jeszcze tu nie prowadzi.</p>');
+        '<h4>Powiązane (' + rel.length + ')</h4>' + (rel.length ? '<ul>' + rel.map(item).join('') + '</ul>' : '<p>Ten wpis nie ma jeszcze powiązanych wpisów.</p>');
     }
     function select(id) {
       selected = selected === id ? null : id;
