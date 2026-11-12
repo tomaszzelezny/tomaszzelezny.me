@@ -225,7 +225,7 @@
 .landing .blog-head { margin-block: 56px 48px; max-width: 820px; }
 .landing .blog-head h1 { font-size: clamp(30px, 4.4vw, 48px); line-height: 1.2; margin-top: 20px; }
 .landing .blog-head .lead { margin-bottom: 0; }
-.landing .index-head { font-size: clamp(24px, 3vw, 32px); line-height: 1.2; margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--line); }
+.landing .index-head { font-size: clamp(24px, 3vw, 32px); line-height: 1.2; margin-top: 32px; padding-top: 0; border-top: 0; }
 .landing .index-head small { font: 400 14px var(--mono); color: var(--muted); letter-spacing: .06em; vertical-align: middle; }
 .landing .index { padding-block: 40px; }
 .landing .index-year { font-size: 14px; color: var(--accent); letter-spacing: .12em; margin-bottom: 8px; }
@@ -251,7 +251,7 @@
    Blog: graf wpisów i szukajka na górze /blog/
    _layouts/blog-list.html, assets/js/graf.js
    ================================================ */
-.landing .graf-sec { margin-bottom: 24px; }
+.landing .graf-sec { margin-bottom: 0; padding-block: 0; }
 /* Kolory tematów grafu (jak w mapie tematów bloga); używane tylko w grafie, legendzie i panelu */
 .landing .t-flow { --c: #c2400c; } .landing .t-prog { --c: #2f5d8a; } .landing .t-prod { --c: #0f766e; }
 .landing .t-agile { --c: #8b3a8f; } .landing .t-lean { --c: #5f7313; } .landing .t-org { --c: #1e2a3a; }
