@@ -244,3 +244,62 @@
 .landing .post-head h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.2; }
 .landing .post-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0 0 20px; font: 400 13px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .09em; }
 .landing .post-head .lead { margin: 20px 0 0; font-size: 20px; }
+
+/* ================================================
+   Blog: graf wpisów i szukajka na górze /blog/
+   _layouts/blog-list.html, assets/js/graf.js
+   ================================================ */
+.landing .graf-sec { margin-bottom: 24px; }
+.landing .graf-search { max-width: 640px; margin: 28px 0 0; padding: 0; background: none; border: 0; }
+.landing .graf-search label { display: block; font: 700 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--accent); margin-bottom: 10px; }
+.landing .graf-search input { width: 100%; font: 400 18px var(--body); color: var(--ink); background: var(--bg); border: 2px solid var(--ink); border-radius: 0; padding: 14px 16px; -webkit-appearance: none; appearance: none; }
+.landing .graf-search input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.landing .graf-ile { margin: 10px 0 0; font: 400 13px var(--mono); color: var(--muted); }
+.landing .graf-ile:empty { display: none; }
+.landing .graf-wyniki { list-style: none; margin: 8px 0 0; padding: 0; }
+.landing .graf-wyniki:empty { display: none; }
+.landing .graf-wyniki a { display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; }
+.landing .graf-wyniki a:hover b { color: var(--accent); }
+.landing .graf-wyniki .meta { font: 700 11px var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: .1em; }
+.landing .graf-wyniki b { font: 700 17px/1.35 var(--display); }
+.landing .graf { position: relative; border: 1px solid var(--line); background: var(--bg); display: grid; grid-template-columns: minmax(0, 1fr) 320px; grid-template-rows: 520px auto; }
+.landing .graf-hint { grid-column: 1 / -1; }
+.landing .graf-panel { border-left: 1px solid var(--line); padding: 20px; min-width: 0; min-height: 0; overflow-y: auto; font-size: 15px; }
+.landing .graf-panel .meta { font: 700 11px var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: .1em; }
+.landing .graf-panel h3 { font-size: 18px; line-height: 1.3; margin: 6px 0 4px; }
+.landing .graf-panel time { font: 400 12px var(--mono); color: var(--muted); }
+.landing .graf-panel p { margin: 10px 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.landing .graf-panel h4 { font: 700 11px var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink); margin: 16px 0 6px; }
+.landing .graf-panel ul { list-style: none; margin: 0; padding: 0; }
+.landing .graf-panel li { margin: 0; }
+.landing .graf-panel button { display: block; width: 100%; text-align: left; background: none; border: 0; padding: 5px 0; font: 400 14px/1.4 var(--body); color: var(--ink); cursor: pointer; }
+.landing .graf-panel button:hover { color: var(--accent); }
+.landing .graf-panel button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.landing .graf-panel .open { display: inline-block; margin-top: 16px; font: 700 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--accent); text-decoration: none; }
+.landing .graf.selecting .nodes a circle { opacity: .14; }
+.landing .graf.selecting .nodes a.nb circle { opacity: 1; }
+.landing .graf.selecting .nodes a.sel circle { fill: var(--accent); }
+.landing .graf.selecting .edges line { stroke-opacity: .05; }
+.landing .graf.selecting .edges line.on { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.5; }
+@media (max-width: 1000px) {
+  .landing .graf { grid-template-columns: minmax(0, 1fr); grid-template-rows: 400px 360px auto; }
+  .landing .graf-panel { border-left: 0; border-top: 1px solid var(--line); }
+}
+.landing .graf svg { display: block; width: 100%; height: 100%; min-height: 0; }
+.landing .graf .edges line { stroke: var(--muted); stroke-opacity: .28; stroke-width: 1; }
+.landing .graf .nodes circle { fill: var(--block); stroke: var(--bg); stroke-width: 1.5; transition: fill .15s, opacity .15s; }
+.landing .graf .nodes a:hover circle, .landing .graf .nodes a:focus-visible circle { fill: var(--accent); }
+.landing .graf .nodes a:focus-visible { outline: none; }
+.landing .graf .topics text { font: 700 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; fill: var(--ink); paint-order: stroke; stroke: var(--bg); stroke-width: 5px; stroke-linejoin: round; pointer-events: none; }
+.landing .graf.searching .nodes a circle { opacity: .14; }
+.landing .graf.searching .nodes a.hit circle { opacity: 1; fill: var(--accent); }
+.landing .graf.searching .edges line { stroke-opacity: .05; }
+.landing .graf.searching .edges line.hit { stroke: var(--accent); stroke-opacity: .7; }
+.landing .graf-hint { margin: 0; padding: 10px 14px; border-top: 1px solid var(--line); font: 400 13px var(--body); color: var(--muted); }
+@media (max-width: 700px) {
+  .landing .graf { display: none; }
+  .landing .graf-search { margin-top: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing .graf .nodes circle { transition: none; }
+}

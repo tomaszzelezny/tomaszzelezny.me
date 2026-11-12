@@ -239,6 +239,21 @@
     <h1>Notatki z praktyki i <em>teorii</em></h1>
     <p class="lead">Zbiór przemyśleń opartych na doświadczeniu, teorii i ciekawości. Bierz, co Ci się przyda.</p>
   </header>
+
+  <section class="graf-sec" aria-labelledby="graf-h">
+    <div id="graf" class="graf" data-src="/assets/data/graf.json">
+      <svg viewBox="0 0 1120 560" role="img" aria-label="Graf wpisów: kropka to wpis, linia to link między wpisami, wpisy pogrupowane w tematy"></svg>
+      <aside id="graf-panel" class="graf-panel" aria-live="polite"></aside>
+      <p class="graf-hint">Kropka to wpis, linia to link między wpisami. Im większa kropka, tym więcej wpisów do niej prowadzi.</p>
+    </div>
+    <form class="graf-search" role="search" action="#">
+      <label for="graf-q" id="graf-h">Szukaj wśród 135 wpisów</label>
+      <input id="graf-q" type="search" placeholder="np. estymacja, Scrum, ryzyko" autocomplete="off">
+      <p id="graf-ile" class="graf-ile" aria-live="polite"></p>
+      <ol id="graf-wyniki" class="graf-wyniki"></ol>
+    </form>
+  </section>
+  <script src="/assets/js/graf.js" defer></script>
   <section class="index">
     <h2 class="index-year">2026</h2>
     <ol class="index-list">
