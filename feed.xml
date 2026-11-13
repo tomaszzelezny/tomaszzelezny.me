@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-13T04:53:39+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-13T05:54:18+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o czterech poziomach efektu pracy</title><link href="https://tomaszzelezny.me/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/" rel="alternate" type="text/html" title="Ten o czterech poziomach efektu pracy" /><published>2026-11-13T00:00:00+00:00</published><updated>2026-11-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-poziomach-efektu-pracy</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/"><![CDATA[<p>W <a href="/blog/2026-11-03-ten-o-rezultacie-pracy-developera/">poprzednim wpisie serii</a> oddzieliłem wynik od rezultatu. Wynik to to, co zespół dostarcza: kod, funkcja, zamknięty ticket. Rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. W tym wpisie rozdzielam go na dwa poziomy: zmianę u użytkownika, którą dalej nazywam rezultatem, i korzyść dla firmy. Razem z wynikiem i dźwignią daje to cztery poziomy, tak jak w prezentacji, bo między „wdrożyliśmy” a „firma jest w lepszym miejscu” jest kilka kroków i na każdym coś może pójść inaczej, niż zakładaliśmy. Rozpisuję je poniżej na jednym przykładzie.</p>
+
+<p><img src="/assets/images/cztery-poziomy-efektu-pracy.webp" alt="Cztery poziomy efektu pracy na przykładzie zamawiania online. Wynik: co wyprodukowaliśmy? Formularz zamówienia, integracja z systemem obsługi, testy, wdrożenie; widać w dniu wdrożenia, zespół ma pełną kontrolę. Rezultat: co się zmieniło u użytkowników? Klient zamawia sam, bez maila i telefonu, zamówienie ma komplet danych; widać po tygodniach. Korzyść: na co przełożyła się ta zmiana? Krótsza obsługa zamówienia, mniej poprawek, więcej zamówień tym samym składem; widać po miesiącu lub kwartale. Dźwignia: dlaczego to ważne dla firmy? Firma rośnie bez kosztów obsługi rosnących w tym samym tempie; widać w ciągu roku. Im wyżej, tym mniej zależy od zespołu i tym później widać efekt. Łańcuch najczęściej urywa się zaraz po wyniku." /></p>
+
+<h2 id="jakie-są-cztery-poziomy-efektu-pracy">Jakie są cztery poziomy efektu pracy?</h2>
+
+<p>Wynik, rezultat, korzyść i dźwignia. Każdemu poziomowi odpowiada jedno pytanie:</p>
+
+<ul>
+  <li><strong>Wynik:</strong> co wyprodukowaliśmy?</li>
+  <li><strong>Rezultat:</strong> co się zmieniło u użytkowników?</li>
+  <li><strong>Korzyść:</strong> na co przełożyła się ta zmiana?</li>
+  <li><strong>Dźwignia:</strong> dlaczego jest to ważne dla firmy?</li>
+</ul>
+
+<p>W literaturze o produkcie pierwsze trzy poziomy występują jako output, outcome i impact. Josh Seiden definiuje outcome jako zmianę w zachowaniu ludzi, która prowadzi do wyników biznesowych. W tej serii mówię o zaspokojonej potrzebie, bo zmiana u użytkownika często polega na tym, że coś znika z jego dnia: telefon, mail z pytaniem, ręczne przepisywanie danych. Czwarty poziom, dźwignię, opisałem krótko we wpisie o <a href="/blog/2026-03-26-laczenie-perspektyw/">łączeniu perspektyw</a>.</p>
+
+<h2 id="jak-wyglądają-cztery-poziomy-na-jednym-przykładzie">Jak wyglądają cztery poziomy na jednym przykładzie?</h2>
+
+<p>Weźmy firmę, która przyjmuje zamówienia mailem i przez telefon. Dział obsługi przepisuje je do systemu, dopytuje klientów o brakujące dane i poprawia błędy. Zespół dostaje zadanie: zamawianie online.</p>
+
+<p><strong>Wynik.</strong> Formularz zamówienia w aplikacji, integracja z systemem obsługi zamówień, sprawdzanie danych w formularzu, testy i wdrożenie. Widać go w dniu wdrożenia, a zespół ma nad nim pełną kontrolę.</p>
+
+<p><strong>Rezultat.</strong> Klient zamawia sam, kiedy mu wygodnie, i nie czeka na odpowiedź na maila. Zamówienie od razu ma komplet poprawnych danych, więc nikt do niego nie dzwoni z pytaniem. Po kilku tygodniach dane pokażą, ile zamówień przychodzi przez formularz, ile nadal mailem i czy klienci wracają z pytaniami.</p>
+
+<p><strong>Korzyść.</strong> Obsługa jednego zamówienia zajmuje mniej czasu, poprawek jest mniej, a ten sam dział przyjmuje więcej zamówień. Zobaczy to w swoich danych po miesiącu albo kwartale.</p>
+
+<p><strong>Dźwignia.</strong> Firma uwalnia się od kosztów obsługi, które rosną razem z liczbą klientów. Może pozyskiwać klientów szybciej, niż rośnie zespół obsługi. Ten poziom ocenia się w planach i wynikach rocznych.</p>
+
+<p>Im wyższy poziom, tym mniej zależy od samego zespołu i tym później widać efekt. Wynik zespół kontroluje w całości. Na rezultat wpływają też klienci i to, czy ktoś im powie o formularzu. Korzyść zależy od tego, co firma zrobi z odzyskanym czasem. Dźwignia zależy od strategii firmy.</p>
+
+<h2 id="dlaczego-korzyść-dla-jednego-zamówienia-nie-musi-być-korzyścią-dla-firmy">Dlaczego korzyść dla jednego zamówienia nie musi być korzyścią dla firmy?</h2>
+
+<p>Bo korzyść policzona na jednym zamówieniu nie sumuje się sama. Przy tym przykładzie zapisałem w notatkach do prezentacji: „w skali jednostki pewnie tak, w skali globalnej nie do końca”. Każde zamówienie z formularza jest tańsze w obsłudze. Jeśli jednak przez formularz przychodzi mała część zamówień, a reszta nadal mailem, dział obsługi pracuje jak wcześniej, tylko w dwóch kanałach. Jeśli odzyskany czas nie trafia do innej pracy, firma nie widzi różnicy w kosztach.</p>
+
+<p>Dlatego każdy poziom trzeba sprawdzić osobno. Działający formularz nie dowodzi, że klienci z niego korzystają. Krótsza obsługa jednego zamówienia nie dowodzi, że firma może rosnąć taniej.</p>
+
+<h2 id="gdzie-ten-łańcuch-najczęściej-się-urywa">Gdzie ten łańcuch najczęściej się urywa?</h2>
+
+<p>Zaraz po wyniku. Wynik ma datę i status w Jirze, a rezultat i korzyść widać tygodnie albo miesiące później, w danych, do których zespół często nie ma dostępu. Kiedy ticket jest zamknięty, zespół bierze następny i nikt nie wraca do pytania, czy klienci zamawiają przez formularz. Tak zaczyna się <a href="/blog/2025-06-03-ten-o-fabryce-funkcji/">fabryka funkcji</a>: liczba dostarczonych funkcji rośnie, a nikt nie wie, które z nich coś zmieniły.</p>
+
+<p>Odwrotny przypadek też się zdarza. Ktoś w firmie pamięta o dźwigni („musimy rosnąć bez zatrudniania”), ale nie łączy jej z konkretną pracą zespołu. Zespół dostaje wtedy cel, z którym nie wie, co zrobić w najbliższym sprincie.</p>
+
+<h2 id="co-z-czterema-poziomami-może-zrobić-developer">Co z czterema poziomami może zrobić developer?</h2>
+
+<p>Zapisać przy zadaniu, zanim napisze kod, po jednym zdaniu na każdy poziom. Dla zamawiania online mogłoby to wyglądać tak:</p>
+
+<ul>
+  <li><strong>Wynik:</strong> formularz zamówienia połączony z systemem obsługi.</li>
+  <li><strong>Rezultat:</strong> większość nowych zamówień przychodzi przez formularz i nie wymaga dopytywania.</li>
+  <li><strong>Korzyść:</strong> dział obsługi przyjmuje więcej zamówień w tym samym składzie.</li>
+  <li><strong>Dźwignia:</strong> firma zwiększa liczbę klientów bez zwiększania w tym samym tempie zespołu obsługi.</li>
+</ul>
+
+<p>Do tego dwie informacje: kto sprawdzi rezultat i kiedy. Zdania nie muszą być pewne. Jeśli na pytanie o rezultat nikt w zespole nie umie odpowiedzieć, to też jest informacja, i lepiej mieć ją przed pracą niż po wdrożeniu.</p>
+
+<p>Kiedy AI obniża koszt wyniku, takie zdania zyskują na wartości. Kod da się napisać szybciej, ale to, czy formularz zmieni coś u klienta i w kosztach firmy, nadal trzeba przemyśleć i sprawdzić.</p>
+
+<p>A w Waszym zespole: na którym poziomie zwykle kończy się rozmowa o zadaniu?</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Seiden, J. (2019). <em>Outcomes Over Output: Why Customer Behavior Is the Key Metric for Business Success</em>. Sense &amp; Respond Press.</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
 
 <p>Każda z tych postaw ma swoją logikę i każda daje inny rodzaj planu. Warto wiedzieć, którą z nich przyjmuje Twoja organizacja, zanim zacznie planować kolejny rok.</p>
 
@@ -268,7 +332,7 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="kolejki" /><category term="przepływ pracy" /><category term="zależności między zespołami" /><category term="flow efficiency" /><category term="C++" /><category term="C" /><summary type="html"><![CDATA[Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.]]></summary></entry><entry><title type="html">Ten o rezultacie pracy developera</title><link href="https://tomaszzelezny.me/blog/2026-11-03-ten-o-rezultacie-pracy-developera/" rel="alternate" type="text/html" title="Ten o rezultacie pracy developera" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-rezultacie-pracy-developera</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-03-ten-o-rezultacie-pracy-developera/"><![CDATA[<p>W <a href="/blog/2026-10-27-ten-o-inzynierze-produktu/">zajawce serii</a> zadałem pytanie, od którego zacząłem <a href="/inzynier-produktu/">majową prezentację</a>: co jest rezultatem pracy developera? Kod, nowa funkcjonalność, zamknięte tickety i poprawki błędów to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. Zmiana u użytkownika nie musi oznaczać nowego nawyku. Często polega na tym, że coś znika z jego dnia, bo rozwiązanie zajmuje się potrzebą samo: telefon na infolinię albo ręczne przepisywanie danych. Na sali większość osób odpowiadała jednak wynikami, choć pytanie dotyczyło rezultatu. Ten wpis jest o tym, skąd bierze się to pomieszanie i jak sprawdzić rezultat w codziennej pracy zespołu.</p>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="kolejki" /><category term="przepływ pracy" /><category term="zależności między zespołami" /><category term="flow efficiency" /><category term="C++" /><category term="C" /><summary type="html"><![CDATA[Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.]]></summary></entry><entry><title type="html">Ten o rezultacie pracy developera</title><link href="https://tomaszzelezny.me/blog/2026-11-03-ten-o-rezultacie-pracy-developera/" rel="alternate" type="text/html" title="Ten o rezultacie pracy developera" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-13T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-rezultacie-pracy-developera</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-03-ten-o-rezultacie-pracy-developera/"><![CDATA[<p>W <a href="/blog/2026-10-27-ten-o-inzynierze-produktu/">zajawce serii</a> zadałem pytanie, od którego zacząłem <a href="/inzynier-produktu/">majową prezentację</a>: co jest rezultatem pracy developera? Kod, nowa funkcjonalność, zamknięte tickety i poprawki błędów to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. Zmiana u użytkownika nie musi oznaczać nowego nawyku. Często polega na tym, że coś znika z jego dnia, bo rozwiązanie zajmuje się potrzebą samo: telefon na infolinię albo ręczne przepisywanie danych. Na sali większość osób odpowiadała jednak wynikami, choć pytanie dotyczyło rezultatu. Ten wpis jest o tym, skąd bierze się to pomieszanie i jak sprawdzić rezultat w codziennej pracy zespołu.</p>
 
 <p><img src="/assets/images/rezultat-pracy-developera.webp" alt="Wynik czy rezultat? Wynik odpowiada na pytanie, co zespół dostarczył: kod, nowa funkcjonalność, zamknięty ticket, poprawka błędu; widać go od razu, w Jirze i w PR. Rezultat odpowiada na pytanie, jaką potrzebę zaspokaja rozwiązanie i co zyskuje firma: sprawa załatwia się sama, użytkownik nie musi dzwonić na infolinię, dane trafiają tam, gdzie są potrzebne, a firma ma niższy koszt obsługi albo większy przychód; widać go po tygodniach, w danych z produkcji, rozmowach z klientem i wynikach firmy. AI: prosta strona w 2 godziny zamiast 3 tygodni (W. Vogels). Wynik tanieje. Rezultat zaczyna się od potrzeby człowieka, którą rozwiązanie ma zaspokoić." /></p>
 
@@ -276,7 +340,7 @@
 
 <p>Bo wyniki widać od razu, a rezultat dopiero po czasie. Ticket ma status, PR ma datę scalenia, a liczbę wdrożeń da się policzyć w każdym narzędziu. To, czy potrzeba użytkownika została zaspokojona, widać tygodnie później, często w danych, do których zespół nie ma dostępu, albo w rozmowach, w których nie uczestniczy. Korzyść dla firmy, na przykład niższy koszt obsługi albo większy przychód, widać jeszcze później, w wynikach miesiąca albo kwartału.</p>
 
-<p>Dochodzi do tego sposób rozliczania. Zespół, który na przeglądzie pokazuje, co dostarczył, i słyszy w odpowiedzi tylko pytanie o kolejne zadania, uczy się, że liczy się wynik. W notatkach do prezentacji zapisałem to jednym zdaniem: myśląc o rezultatach, skupiamy się na mechanice i na artefaktach, które z niej powstają. O tym, jak połączyć wynik z tym, co dzieje się u użytkownika i w biznesie, pisałem we wpisie o <a href="/blog/2026-03-26-laczenie-perspektyw/">łączeniu perspektyw</a>. Zmianę u użytkownika nazwałem tam outcome, a korzyść dla firmy impact. Rezultat, o który pytam w tej serii, obejmuje oba poziomy.</p>
+<p>Dochodzi do tego sposób rozliczania. Zespół, który na przeglądzie pokazuje, co dostarczył, i słyszy w odpowiedzi tylko pytanie o kolejne zadania, uczy się, że liczy się wynik. W notatkach do prezentacji zapisałem to jednym zdaniem: myśląc o rezultatach, skupiamy się na mechanice i na artefaktach, które z niej powstają. O tym, jak połączyć wynik z tym, co dzieje się u użytkownika i w biznesie, pisałem we wpisie o <a href="/blog/2026-03-26-laczenie-perspektyw/">łączeniu perspektyw</a>. Zmianę u użytkownika nazwałem tam outcome, a korzyść dla firmy impact. Rezultat, o który pytam w tej serii, obejmuje oba poziomy. Jak te poziomy łączą się z wynikiem i dźwignią, rozpisałem na jednym przykładzie we wpisie o <a href="/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/">czterech poziomach efektu pracy</a>.</p>
 
 <h2 id="co-zmienia-w-tym-ai">Co zmienia w tym AI?</h2>
 
@@ -320,7 +384,11 @@
   <li>Werner Vogels’ final keynote: The Renaissance Developer era (2025, 4 grudnia). Implicator.ai. Relacja z wystąpienia na AWS re:Invent 2025. https://www.implicator.ai/werner-vogels-hands-out-newspapers-at-his-likely-final-re-invent-the-man-who-built-the-cloud-isnt-done-teaching/</li>
   <li>Amazon CTO: „In the AI Era, Evolve into a Renaissance Developer” (2026, 21 maja). BigGo Finance. Relacja z AWS Summit Seoul 2026. https://finance.biggo.com/news/PffVTZ4BDXrLZJaAAYxj</li>
   <li>Terkowitz, T. (2026, 27 października). An update from Amazon engineering leadership on the role of the developer in the age of AI. About Amazon. https://aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><category term="renaissance developer" /><summary type="html"><![CDATA[Rezultat pracy developera: kod i zamknięte tickety to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść dla firmy. Co mówią Amazon i Vogels.]]></summary></entry><entry><title type="html">Ten o tym, co czeka</title><link href="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/" rel="alternate" type="text/html" title="Ten o tym, co czeka" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-co-czeka</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/"><![CDATA[<p>Jest jedno pytanie, od którego warto zacząć każdą rozmowę o terminach: co w tej chwili czeka w Twoim zespole i na co?</p>
+</ul>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><category term="renaissance developer" /><summary type="html"><![CDATA[Rezultat pracy developera: kod i zamknięte tickety to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść dla firmy. Co mówią Amazon i Vogels.]]></summary></entry><entry><title type="html">Ten o tym, co czeka</title><link href="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/" rel="alternate" type="text/html" title="Ten o tym, co czeka" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-co-czeka</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/"><![CDATA[<p>Jest jedno pytanie, od którego warto zacząć każdą rozmowę o terminach: co w tej chwili czeka w Twoim zespole i na co?</p>
 
 <p>Praca, która stoi, wydłuża każdą prognozę. W raportach prawie jej nie widać, bo raporty liczą to, co skończone.</p>
 
@@ -418,34 +486,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dREUZUbu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><summary type="html"><![CDATA[Developer czy inżynier produktu? Kod i zamknięte tickety to wyniki, rezultat jest u użytkownika. Jak AI zmienia rolę developera. Zapowiedź serii.]]></summary></entry><entry><title type="html">Ten o enkapsulacji</title><link href="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/" rel="alternate" type="text/html" title="Ten o enkapsulacji" /><published>2026-10-21T00:00:00+00:00</published><updated>2026-10-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-enkapsulacji</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-21-ten-o-enkapsulacji/"><![CDATA[<p>W projektowaniu systemów jest enkapsulacja: nie wystawiamy złożoności na zewnątrz. Moduł ma interfejs, a to, co dzieje się w środku, nie jest sprawą wywołującego. Organizacji, które te systemy budują, ta zasada jakoś nie dotyczy. Jeśli doświadczyliście pracy w dużej organizacji, wiecie, z iloma zespołami trzeba pracować, żeby załatwić swoje zadanie.</p>
-
-<p>Weźmy zespoły podzielone według domen biznesowych. Dopóki zmiana mieści się w jednej domenie, wszystko działa. Teraz zmiana przekrojowa: firmy mają kupować na fakturę z NIP. Każdy zespół musi coś dołożyć:</p>
-
-<ul>
-  <li><strong>Konto klienta:</strong> dane firmy przy profilu.</li>
-  <li><strong>Cennik:</strong> ceny netto obok brutto.</li>
-  <li><strong>Koszyk:</strong> pole NIP i jego walidacja.</li>
-  <li><strong>Zamówienia:</strong> nowy typ klienta, firma zamiast osoby.</li>
-  <li><strong>Faktury:</strong> faktura VAT na firmę zamiast paragonu.</li>
-</ul>
-
-<p>Żeby wprowadzić tę zmianę, muszę porozmawiać z każdym z tych zespołów osobno.</p>
-
-<p><img src="/assets/images/enkapsulacja-rozmowy.webp" alt="System chowa złożoność, organizacja ją wystawia: w organizacji zmiana przekrojowa wymaga osobnych rozmów z zespołami konta klienta, cennika, koszyka, zamówień i faktur. W systemie jeden interfejs, a moduły zostają w środku. Dlaczego w organizacji jest inaczej?" /></p>
-
-<p>I każda z tych rozmów jest trochę inna. Jeden zespół chce zgłoszenia w swoim backlogu, drugi zaprasza na refinement, trzeci pyta, dlaczego ma to być ważniejsze od jego celów na kwartał. Za każdym razem tłumaczę kontekst od początku, bo nikt poza mną nie widzi całej zmiany. Ustalenia z jednym zespołem zmieniają to, o co muszę poprosić kolejny, więc część rozmów odbywam dwa razy.</p>
-
-<p>Samo napisanie kodu to może kilka dni. Rozmowy, notatki, uzgadnianie wymagań i pilnowanie, żeby wszyscy mieli tę samą wersję, kosztują więcej niż kod. Ten wysiłek nie trafia na żadną tablicę i nikt go nie mierzy.</p>
-
-<p>W kodzie nazwalibyśmy to wyciekającą abstrakcją. Żeby coś zrobić, muszę znać wewnętrzną budowę organizacji: kto za co odpowiada, z kim i w jakiej formie rozmawiać, czyj priorytet jest ważniejszy. Ta wiedza nie ma nic wspólnego z problemem klienta.</p>
-
-<p>W środowisku skalowanym rozmów przybywa szybciej niż zespołów. <a href="/blog/2026-07-14-ten-o-less-i-upraszczaniu/">Frameworki skalowania dokładają kolejne warstwy synchronizacji</a>: wspólne planowanie, tablice zależności, spotkania koordynacyjne. Zależności lepiej widać, ale ktoś nadal musi je przegadać jedna po drugiej.</p>
-
-<p>W dobrze zaprojektowanym systemie złożoność zostaje w środku i nie wycieka do tego, kto z niego korzysta. Wywołuję jeden interfejs i nie muszę wiedzieć, ile modułów pracuje po drugiej stronie.</p>
-
-<p>Dlaczego więc w strukturze organizacji jest inaczej?</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/djeEttuP">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="enkapsulacja" /><category term="organizacja" /><category term="zależności między zespołami" /><category term="skalowanie" /><summary type="html"><![CDATA[Enkapsulacja w organizacji: system chowa złożoność, a firma wystawia ją na zewnątrz. Dlaczego zmiana przekrojowa wymaga rozmów z wieloma zespołami.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dREUZUbu">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><summary type="html"><![CDATA[Developer czy inżynier produktu? Kod i zamknięte tickety to wyniki, rezultat jest u użytkownika. Jak AI zmienia rolę developera. Zapowiedź serii.]]></summary></entry></feed>

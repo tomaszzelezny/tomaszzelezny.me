@@ -808,4 +808,10 @@ var store = [{
         "tags": ["Russell Ackoff","planowanie","myślenie systemowe","projektowanie organizacji","zmiana"],
         "url": "/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/",
         "teaser": null
+      },{
+        "title": "Ten o czterech poziomach efektu pracy",
+        "excerpt":"W poprzednim wpisie serii oddzieliłem wynik od rezultatu. Wynik to to, co zespół dostarcza: kod, funkcja, zamknięty ticket. Rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. W tym wpisie rozdzielam go na dwa poziomy: zmianę u użytkownika, którą dalej nazywam rezultatem, i korzyść dla firmy. Razem z...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","output i outcome","dźwignia"],
+        "url": "/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/",
+        "teaser": null
       }]
