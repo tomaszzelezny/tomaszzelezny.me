@@ -814,4 +814,10 @@ var store = [{
         "tags": ["inżynier produktu","developer","output i outcome","dźwignia"],
         "url": "/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/",
         "teaser": null
+      },{
+        "title": "Ten o fabryce, w której nie widać przepływu",
+        "excerpt":"Frederick Taylor mierzył stoperem operację przy maszynie. Drogi zlecenia przez fabrykę nie mierzył, a jednym z powodów był sam warsztat, w którym pracował. Przepływ pracy był w nim prawie niewidoczny, a powtarzalna była tylko operacja. To druga z ośmiu części serii, która zaczęła się od pytania, dlaczego Taylor mierzył operacje....","categories": ["Zarządzanie"],
+        "tags": ["Taylor","tayloryzm","przepływ","zarządzanie operacjami","historia zarządzania"],
+        "url": "/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/",
+        "teaser": null
       }]

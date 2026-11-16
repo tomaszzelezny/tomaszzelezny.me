@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Dlaczego Taylor nie widział przepływu](https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/): Dlaczego Taylor nie mierzył przepływu: warsztat z maszynami według rodzaju, osobna marszruta każdego zlecenia, kolejki przed maszynami i linia Forda z 1913.
 - [Wynik, rezultat, korzyść i dźwignia](https://tomaszzelezny.me/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/): Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.
 - [Cztery postawy wobec planowania: Ackoff](https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/): Reaktywna, nieaktywna, preaktywna i interaktywna. Cztery postawy wobec planowania według Russella Ackoffa i to, co mówią o tym, jak firma traktuje przyszłość.
 - [Soldiering: celowe spowalnianie pracy](https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/): Soldiering, czyli celowe spowalnianie pracy: dlaczego robotnicy w czasach Taylora zwalniali, jak działał akord z obcinaną stawką i po co Taylorowi był stoper.
