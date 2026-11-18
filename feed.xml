@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-17T13:08:02+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o fabryce, w której nie widać przepływu</title><link href="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/" rel="alternate" type="text/html" title="Ten o fabryce, w której nie widać przepływu" /><published>2026-11-16T00:00:00+00:00</published><updated>2026-11-16T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-fabryce-w-ktorej-nie-widac-przeplywu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/"><![CDATA[<p>Frederick Taylor mierzył stoperem operację przy maszynie. Drogi zlecenia przez fabrykę nie mierzył, a jednym z powodów był sam warsztat, w którym pracował. Przepływ pracy był w nim prawie niewidoczny, a powtarzalna była tylko operacja.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-18T04:53:26+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o jednym Agile, którego nie było</title><link href="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/" rel="alternate" type="text/html" title="Ten o jednym Agile, którego nie było" /><published>2026-11-18T00:00:00+00:00</published><updated>2026-11-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-jednym-agile</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/"><![CDATA[<!-- SZKIC 1 z 3 (Tomasz, 9.11.2026, podział szkicu „Ten o śmierci Agile”): dychotomia, że Agile jest jednym i tym samym. 17.11.2026 Tomasz: „powiąż to z tym, że teraz przegrywa walkę o uwagę”. Para: docs/_drafts/ten-o-smierci-agile.md (zwinność umierała kilka razy) i docs/_drafts/ten-o-zwinnosci-w-2030.md (core skill 2030). -->
+<!-- Akapit otwierający z historią Tomasza usunięty na jego prośbę 17.11.2026. Tomasz 17.11.2026: przykładu z praktyki nie będzie. Zdanie „Moim zdaniem AI bez krótkiej pętli…” to opinia Tomasza (17.11.2026), bez źródła. -->
+<!-- Liczby State of Agile sprawdzone 17.11.2026 w komunikacie Digital.ai (Business Wire, 28.10.2025): 84% AI, 76% presja na ROI, 74% modele hybrydowe/własne, ok. 350 uczestników. Pełny raport (stateofagile.com) jest za formularzem. Punkt wyjścia dla AI różni się między źródłami (komunikat: 68%, ITPro: 64%), więc w tekście jest tylko 84%. Scrum.org opisuje 84% jako „używa albo planuje używać AI w cyklu wytwarzania”. -->
+
+<p>Hasło „Agile is dead” stawia sprawę tak, jakby były dwie możliwości: Agile żyje albo umarło. Pod tym wyborem leży założenie, że Agile jest jedną rzeczą, która znaczy wszędzie to samo. Tymczasem wiele założeń Agile jest ciągle żywych: działający produkt dostarczany w małych przyrostach, współpraca z klientem w trakcie pracy, zespół, który regularnie poprawia swój sposób działania. Dzieje się za to coś, czego żadna z dwóch odpowiedzi nie opisuje: Agile przegrywa walkę o uwagę.</p>
+
+<p><img src="/assets/images/jeden-agile.webp" alt="Agile is dead? To pytanie zakłada jedno Agile. Co jest ciągle żywe: działający produkt w małych przyrostach, współpraca z klientem w trakcie pracy, zespół, który regularnie poprawia sposób pracy. 74% firm pracuje w modelu hybrydowym albo własnym. Dlaczego Agile wygląda na martwe: przegrywa walkę o uwagę zarządu i budżet, 84% firm wdraża AI, 76% badanych mówi o presji na zwrot z Agile (State of Agile 2025). Zamiast pytać „tak czy nie”, zapytaj, co boli: gdzie praca utyka najdłużej, które decyzje zapadają za późno, gdzie o błędzie mówi dopiero klient. Pod konkretny problem dobierz praktykę i sprawdź, czy pomaga." /></p>
+
+<h2 id="czy-agile-kiedykolwiek-było-jednym-i-tym-samym">Czy Agile kiedykolwiek było jednym i tym samym?</h2>
+
+<p>Od początku było kilkoma rzeczami naraz. Manifest z 2001 roku to cztery wartości i dwanaście zasad, bez ani jednej praktyki. Praktyki przyszły z różnych stron: <a href="/blog/2026-07-09-ten-o-extreme-programming/">Extreme Programming</a> dał testy, programowanie w parach i ciągłą integrację, Scrum dał rytm sprintów i role, Kanban dał limity pracy w toku. Sama iteracja jest <a href="/blog/2026-10-09-ten-o-iteracji-starszej-niz/">starsza niż jej nazwa</a> o kilkadziesiąt lat.</p>
+
+<p>Dziś jest tak samo. W badaniu State of Agile z 2025 roku 74% firm deklaruje, że pracuje w modelu hybrydowym, mieszanym albo własnym. Pod jedną nazwą działa więc wiele różnych sposobów pracy.</p>
+
+<h2 id="dlaczego-agile-wygląda-na-martwe">Dlaczego Agile wygląda na martwe?</h2>
+
+<p>Bo przegrywa walkę o uwagę zarządu i o budżet, a wygrywa w niej AI. Według tego samego badania odsetek firm, które wdrażają narzędzia AI, wzrósł w ciągu roku do 84%. W tym samym czasie 76% badanych mówi o rosnącej presji, żeby pokazać wpływ Agile na wyniki firmy i zwrot z inwestycji. Zarząd ma przed sobą dwa tematy: jeden jest nowy i obiecuje wyższy zwrot z inwestycji, drugi ma dwadzieścia pięć lat. Moim zdaniem AI bez krótkiej pętli sprawdzania da tylko <a href="/blog/2025-06-17-ten-o-nadprodukcji-z-ai/">szybszą produkcję rzeczy</a>, których nikt nie potrzebuje.</p>
+
+<p>Tymczasem potrzeba, z której Agile powstało, rośnie. Manifest stawia reagowanie na zmianę ponad trzymanie się planu, a chodzi przede wszystkim o zmianę na rynku. Jedna z jego dwunastu zasad mówi wprost, że zmiana wymagań, nawet późna, ma dawać klientowi przewagę konkurencyjną. Praktyki miały pomagać zespołom odpowiadać na świat, który zmienia się szybciej niż plan. W raporcie Future of Jobs 2025 Światowego Forum Ekonomicznego pracodawcy spodziewają się, że do 2030 roku zmieni się 39% kluczowych umiejętności pracowników, a odporność, elastyczność i zwinność są tuż za myśleniem analitycznym na liście najważniejszych.</p>
+
+<p>AI przyspiesza tę zmianę, więc korzyść z krótkiej pętli rośnie razem z nią. Zespół, który przez lata ćwiczył krótkie iteracje, umie weryfikować hipotezy i dostarczać małe, działające przyrosty. Nowe narzędzie szybko sprawdzi i porzuci je, jeśli nie działa.</p>
+
+<h2 id="na-co-patrzeć-zamiast-tego">Na co patrzeć zamiast tego?</h2>
+
+<p>Na praktyki i na korzyści, które z nich mamy. „Czy Agile działa?” to pytanie zamknięte: da się na nie odpowiedzieć tylko „tak” albo „nie”, a żadna z tych odpowiedzi nie mówi, gdzie jesteśmy.</p>
+
+<p>Zamiast pytać, czy Agile żyje, warto zapytać, co boli: w codziennej pracy organizacji albo we wdrażaniu różnych praktyk i narzędzi.</p>
+
+<p>Manifest zaczyna się od zdania, które dobrze tu pasuje:</p>
+
+<blockquote>
+  <p>We are uncovering better ways of developing software by doing it and helping others do it.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Beck, K. i in. (2001). Manifesto for Agile Software Development. <a href="https://agilemanifesto.org">agilemanifesto.org</a></li>
+  <li>Larman, C., Basili, V. R. (2003). Iterative and Incremental Development: A Brief History. IEEE Computer, 36(6), 47–56. <a href="https://doi.org/10.1109/MC.2003.1204375">DOI: 10.1109/MC.2003.1204375</a></li>
+  <li>World Economic Forum (2025). The Future of Jobs Report 2025, rozdział 3: Skills outlook. <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/3-skills-outlook">weforum.org</a></li>
+  <li>Digital.ai (2025). 18th State of Agile Report. Komunikat prasowy: <a href="https://www.businesswire.com/news/home/20251028047166/en">businesswire.com</a></li>
+</ol>
+
+<!-- Liczby WEF jak w szkicu ten-o-zwinnosci-w-2030.md (sprawdzone 9.11 na weforum.org); jeśli oba szkice wejdą, rozważyć, czy WEF zostaje tylko w jednym. -->]]></content><author><name>Tomasz Żelezny</name></author><category term="Agile" /><category term="Agile" /><category term="Manifest Agile" /><category term="AI" /><category term="kultura organizacji" /><summary type="html"><![CDATA[Agile is dead? Agile żyje czy umarło? Ten wybór zakłada jedno Agile. Tymczasem Agile przegrywa z AI walkę o uwagę zarządów i budżety. Co z tego wynika?]]></summary></entry><entry><title type="html">Ten o fabryce, w której nie widać przepływu</title><link href="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/" rel="alternate" type="text/html" title="Ten o fabryce, w której nie widać przepływu" /><published>2026-11-16T00:00:00+00:00</published><updated>2026-11-16T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-fabryce-w-ktorej-nie-widac-przeplywu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/"><![CDATA[<p>Frederick Taylor mierzył stoperem operację przy maszynie. Drogi zlecenia przez fabrykę nie mierzył, a jednym z powodów był sam warsztat, w którym pracował. Przepływ pracy był w nim prawie niewidoczny, a powtarzalna była tylko operacja.</p>
 
 <p>To druga z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Pierwsza dotyczyła <a href="/blog/2026-11-11-ten-o-soldieringu/">soldieringu</a>, czyli stosunków pracy. Ta dotyczy zarządzania operacjami.</p>
 
@@ -495,22 +540,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dxVEwr_u">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="przepływ pracy" /><category term="czekanie" /><category term="aging WIP" /><category term="koszt opóźnienia" /><summary type="html"><![CDATA[Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.]]></summary></entry><entry><title type="html">Ten o stałej cenie i sprintach</title><link href="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/" rel="alternate" type="text/html" title="Ten o stałej cenie i sprintach" /><published>2026-10-28T00:00:00+00:00</published><updated>2026-10-28T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stalej-cenie-i-sprintach</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-28-ten-o-stalej-cenie-i-sprintach/"><![CDATA[<p>Często słyszę, że fixed price i zwinność się wykluczają. Rozumiem, skąd to przekonanie. Stała cena kojarzy się ze sztywnym zakresem, a sztywny zakres z wodospadem, w którym każda zmiana oznacza aneks i spór o to, co właściwie było w specyfikacji.</p>
-
-<p>Tyle że praca w sprintach daje do ręki dokładnie to, czego potrzebuje stała cena. Budżet zamieniam na liczbę sprintów. Skład zespołu się nie zmienia, więc koszt sprintu też jest stały. Pieniądze i termin mam zamknięte pierwszego dnia. Jakość też jest stała, bo każdy sprint kończy się według tej samej Definition of Done. Ruchomy zostaje tylko zakres.</p>
-
-<p><img src="/assets/images/stala-cena-zakres.webp" alt="Stała cena, stała jakość, ruchomy jest tylko zakres: koszt, termin i jakość są zamknięte pierwszego dnia, a backlog dzieli linia końca budżetu. Najcenniejsze elementy trafiają do pierwszych sprintów, mniej ważne poniżej linii są zagrożone. Co sprint wycena tego, co jeszcze zostało do zrobienia." /></p>
-
-<p>Zarządzanie zakresem przy stałej cenie to umiejętność, której brakuje zespołom przyzwyczajonym do tego, że zakres sam się rozciąga. Składają się na nią trzy rzeczy.</p>
-
-<p>Pierwsza to kolejność. Najcenniejsze elementy trafiają do pierwszych sprintów, bo one muszą się zmieścić w budżecie bez względu na wszystko. Zespół, który zaczyna od infrastruktury i ekranu logowania, po wydaniu połowy pieniędzy nie ma klientowi nic do pokazania.</p>
-
-<p>Druga to ciągłe monitorowanie i wycena tego, co jeszcze zostało do zrobienia. Po każdym sprincie zespół szacuje na nowo resztę backlogu i porównuje ją z liczbą sprintów, które zostały w budżecie. Klient na bieżąco widzi, co się zmieści, a co jest zagrożone. Taka rozmowa brzmi inaczej niż „robimy, co możemy”.</p>
-
-<p>Trzecia to umowa, która przewiduje zmianę. Jeff Sutherland opisał dwie klauzule pod hasłem „Money for Nothing, Change for Free”. Według „Change for Free” klient może wymienić element backlogu na inny o tej samej wielkości bez dopłaty. „Money for Nothing” pozwala mu zakończyć projekt wcześniej, gdy uzna, że ma już wystarczająco dużo wartości, i zapłacić tylko 20% pozostałej kwoty. Obie strony dostają opcję, a ryzyko przestaje obciążać tylko dostawcę.</p>
-
-<p>Sprinty bez dyscypliny zakresu dają zespołowi komfort, a klientowi niepewność. Z tą dyscypliną klient co Sprint decyduje, na co wydać kolejną część budżetu. Trudno o bardziej zwinną umowę.</p>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dP75aCuc">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie projektami" /><category term="fixed price" /><category term="Scrum" /><category term="Agile" /><category term="prognozowanie" /><category term="zakres" /><summary type="html"><![CDATA[Sprinty dają stałej cenie to, czego potrzebuje: stały koszt i termin. Ruchomy zostaje zakres, a zarządzanie nim to osobna umiejętność.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dxVEwr_u">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="przepływ pracy" /><category term="czekanie" /><category term="aging WIP" /><category term="koszt opóźnienia" /><summary type="html"><![CDATA[Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.]]></summary></entry></feed>

@@ -820,4 +820,10 @@ var store = [{
         "tags": ["Taylor","tayloryzm","przepływ","zarządzanie operacjami","historia zarządzania"],
         "url": "/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/",
         "teaser": null
+      },{
+        "title": "Ten o jednym Agile, którego nie było",
+        "excerpt":"Hasło „Agile is dead” stawia sprawę tak, jakby były dwie możliwości: Agile żyje albo umarło. Pod tym wyborem leży założenie, że Agile jest jedną rzeczą, która znaczy wszędzie to samo. Tymczasem wiele założeń Agile jest ciągle żywych: działający produkt dostarczany w małych przyrostach, współpraca z klientem w trakcie pracy, zespół,...","categories": ["Agile"],
+        "tags": ["Agile","Manifest Agile","AI","kultura organizacji"],
+        "url": "/blog/2026-11-18-ten-o-jednym-agile/",
+        "teaser": null
       }]
