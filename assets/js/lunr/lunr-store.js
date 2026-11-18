@@ -618,7 +618,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o produkcie, którego nikt nie potrzebował",
-        "excerpt":"Produkty upadają z różnych powodów. Najczęstszy rzadko jest techniczny. Nikt ich nie potrzebował. Zespół spędził miesiące na budowaniu czegoś technicznie poprawnego, funkcjonalnie kompletnego i niemającego sensu dla użytkownika, który miał z tego korzystać. Dlaczego produkty upadają? Najczęściej dlatego, że rozwiązują problem, którego nikt nie ma. CB Insights zbiera analizy upadłych...","categories": ["Zarządzanie produktem"],
+        "excerpt":"Produkty upadają z różnych powodów. Najczęstszy rzadko jest techniczny. Nikt ich nie potrzebował. Zespół spędził miesiące na budowaniu czegoś technicznie poprawnego, funkcjonalnie kompletnego i niemającego sensu dla użytkownika, który miał z tego korzystać. To pierwszy z trzech powodów braku rezultatu, obok złego rozwiązania i złego kontekstu. Dlaczego produkty upadają? Najczęściej...","categories": ["Zarządzanie produktem"],
         "tags": ["Design Thinking","badania z użytkownikami","prototypowanie","mapa empatii","odkrywanie produktu"],
         "url": "/blog/2026-07-07-ten-o-produkcie-ktorego-nikt-nie-potrzebowal/",
         "teaser": null
