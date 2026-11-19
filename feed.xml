@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-18T22:10:11+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o jednym Agile, którego nie było</title><link href="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/" rel="alternate" type="text/html" title="Ten o jednym Agile, którego nie było" /><published>2026-11-18T00:00:00+00:00</published><updated>2026-11-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-jednym-agile</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/"><![CDATA[<!-- SZKIC 1 z 3 (Tomasz, 9.11.2026, podział szkicu „Ten o śmierci Agile”): dychotomia, że Agile jest jednym i tym samym. 17.11.2026 Tomasz: „powiąż to z tym, że teraz przegrywa walkę o uwagę”. Para: docs/_drafts/ten-o-smierci-agile.md (zwinność umierała kilka razy) i docs/_drafts/ten-o-zwinnosci-w-2030.md (core skill 2030). -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-19T04:53:53+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o czekaniu bez adresu</title><link href="https://tomaszzelezny.me/blog/2026-11-19-ten-o-czekaniu-bez-adresu/" rel="alternate" type="text/html" title="Ten o czekaniu bez adresu" /><published>2026-11-19T00:00:00+00:00</published><updated>2026-11-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czekaniu-bez-adresu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-19-ten-o-czekaniu-bez-adresu/"><![CDATA[<p>Stoper Taylora mierzył operację przy maszynie. Księgowość jego epoki też nie widziała czasu, przez który półprodukt czekał między maszynami. Czekanie nie miało w księgach adresu: żadnego konta, na którym dałoby się je zapisać.</p>
+
+<p>To trzecia z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Poprzednia opisywała <a href="/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/">fabrykę, w której nie widać przepływu</a>. Ta dotyczy rachunkowości zarządczej.</p>
+
+<p><img src="/assets/images/taylor-czekanie.webp" alt="Czego nie widziała księgowość Taylora? Trzy mechanizmy. Pierwszy: koszt pracy, materiału i narzutu trafia do zapasu, a do wyniku dopiero przy sprzedaży. Drugi: nadprodukcja może poprawiać wynik; przykład ze stałymi kosztami produkcji 100 000, produkcją 10 000 i sprzedażą 8 000 sztuk, gdzie 20 000 kosztów zostaje w magazynie. Trzeci: księgi zapisują transakcje, a półprodukt czekający w kolejce nie tworzy żadnej. Kto widział zapas: inżynier Harris w 1913 roku przy wielkości partii, zarząd DuPont w 1914 roku we wskaźniku zwrotu z inwestycji liczonym z zysków, kapitału obrotowego i majątku trwałego. Czekanie między operacjami nie miało w księgach adresu." /></p>
+
+<h2 id="co-widziała-księgowość-w-fabryce">Co widziała księgowość w fabryce?</h2>
+
+<p>Transakcje. Zakup materiału, wypłata, sprzedaż. Historyk rachunkowości H. Thomas Johnson opisuje, jak po 1900 roku amerykańscy producenci zaczęli pokazywać wyniki inwestorom spoza firmy. Zasady audytorów wymagały wyceny majątku po koszcie historycznym, czyli po cenie z pierwotnej transakcji. Żeby dopasować koszty do przychodów, księgowi przypisywali koszty z transakcji do wytworzonych wyrobów. Koszty pośrednie, czyli narzut, rozkładali najczęściej według godzin pracy bezpośredniej.</p>
+
+<h2 id="gdzie-trafiał-koszt-pracy-włożonej-w-półprodukt">Gdzie trafiał koszt pracy włożonej w półprodukt?</h2>
+
+<p>Do zapasu. W rachunku kosztów pełnych materiał, praca i część narzutu stają się kosztem wyrobu i razem z nim leżą w bilansie. Do wyniku przechodzą dopiero wtedy, gdy wyrób zostanie sprzedany. Godzina pracy włożona w półprodukt, który czeka w kolejce, zwiększa więc w księgach majątek firmy.</p>
+
+<h2 id="jak-nadprodukcja-mogła-poprawiać-wynik">Jak nadprodukcja mogła poprawiać wynik?</h2>
+
+<p>Przez narzut, który zostawał w magazynie. Przykład liczbowy: zakład ma 100 000 stałych kosztów produkcji (narzutu) miesięcznie, produkuje 10 000 sztuk i sprzedaje 8 000. Na każdą sztukę przypada 10 narzutu. Sprzedane sztuki zabierają do wyniku 80 000, a 20 000 zostaje w magazynie razem z 2 000 niesprzedanych sztuk.</p>
+
+<p>Gdyby zakład wyprodukował tylko 8 000 sztuk, wszystkie 100 000 obciążyłyby wynik. Ta sama sprzedaż daje więc zysk wyższy o 20 000 niż przy produkcji 8 000 sztuk tylko dlatego, że wyprodukowano za dużo. Współczesne podręczniki opisują ten mechanizm wprost: gdy firma produkuje więcej, niż sprzedaje, rachunek kosztów pełnych pokazuje wyższy zysk niż rachunek kosztów zmiennych, bo część kosztów stałych siedzi w zapasie.</p>
+
+<p>Ta arytmetyka działała już w epoce Taylora, bo rewidenci rozkładali narzut na wytworzone sztuki. Ówcześni inżynierowie widzieli jednak głównie jej drugą stronę. Henry Gantt w 1915 roku krytykował to, że przy małej produkcji narzut rozłożony na mniej sztuk zawyża koszt jednostkowy, i chciał pokazywać koszt niewykorzystanych maszyn osobno. Jako zachętę do produkcji na zapas Johnson opisuje ten mechanizm dopiero w praktyce firm z drugiej połowy XX wieku. W 1983 roku Eliyahu Goldratt zatytułował swój referat na konferencji APICS „Cost accounting: The number one enemy of productivity”, czyli rachunek kosztów jako wróg numer jeden produktywności. To już jednak inna epoka i temat na osobną część.</p>
+
+<h2 id="dlaczego-czekanie-nie-miało-adresu">Dlaczego czekanie nie miało adresu?</h2>
+
+<p>Bo nie tworzyło transakcji. Półprodukt, który czeka tydzień przed tokarką, niczego nie kupuje i niczego nie sprzedaje. W księgach zostaje po nim tylko wartość zapasu, taka sama w poniedziałek i w piątek.</p>
+
+<p>Kosztu zamrożonego kapitału inżynierowie byli przy tym świadomi. Ford Whitman Harris w artykule z 1913 roku pisał, że duży zapas oznacza dużo zamrożonych pieniędzy i dużą utratę wartości („a lot of money tied up and a heavy depreciation”). Odsetki i utratę wartości szacował na 10% wartości zapasu rocznie i ważył je z kosztem przezbrojenia, licząc, ile sztuk zrobić naraz. Jego wzór liczył jednak średni zapas gotowych części w magazynie, a czas, przez który półprodukt czekał między operacjami, zostawał poza nim.</p>
+
+<p>Księgowi spierali się wtedy, czy odsetki od kapitału zainwestowanego w produkcję w ogóle są kosztem wytworzenia. W „Journal of Accountancy” w latach 1911–1918 ukazała się seria artykułów za i przeciw, a znani biegli rewidenci, w tym George O. May, pisali przeciw.</p>
+
+<h2 id="co-widział-zarząd">Co widział zarząd?</h2>
+
+<p>Kapitał, ale z wysokości całej firmy. DuPont liczył zwrot z inwestycji co najmniej od 1903 roku. W 1914 roku Donaldson Brown z biura skarbnika DuPont rozpisał ten wskaźnik na składniki i połączył w nim zyski, kapitał obrotowy oraz majątek trwały. Johnson pisze, że DuPont używał zwrotu z inwestycji, żeby oceniać, gdzie w firmie opłaca się lokować kapitał. Zarząd widział więc, ile kapitału wiąże dany biznes, a tydzień w kolejce przed tokarką pozostawał w tej liczbie niewidoczny.</p>
+
+<h2 id="jak-koszty-spotkały-się-ze-stoperem">Jak koszty spotkały się ze stoperem?</h2>
+
+<p>W koszcie standardowym. Według historyka rachunkowości Michaela Chatfielda G. Charter Harrison zaprojektował w 1911 roku najwcześniejszy znany kompletny system kosztów standardowych. W latach 1918–1919 opisał go w serii artykułów „Cost Accounting to Aid Production”, której pierwsza część nosiła tytuł „Application of Scientific Management Principles”. Koszt standardowy mówił, ile powinna kosztować operacja, tak jak pomiar czasu mówił, ile powinna trwać.</p>
+
+<p>Pomiar Taylora patrzył na operację, a księgi jego epoki na transakcję. Czas między operacjami nie trafiał do żadnego z nich.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Johnson, H. T. (1991). Managing by Remote Control: Recent Management Accounting Practice in Historical Perspective. W: P. Temin (red.), Inside the Business Enterprise: Historical Perspectives on the Use of Information. University of Chicago Press, s. 41–70 (koszt historyczny, przypisywanie kosztów do wyrobów, narzut według godzin pracy bezpośredniej, s. 53–55; DuPont i zwrot z inwestycji, s. 50).</li>
+  <li>Franklin, M., Graybeal, P., Cooper, D. Principles of Accounting, Volume 2: Managerial Accounting. OpenStax, Rice University, rozdz. 6.5 (rachunek kosztów pełnych i zmiennych, wynik przy produkcji większej niż sprzedaż).</li>
+  <li>Goldratt, E. M. (1983). Cost Accounting: The Number One Enemy of Productivity. W: APICS 26th Annual International Conference Proceedings. American Production and Inventory Control Society, s. 433–435.</li>
+  <li>Gantt, H. L. (1915). The Relation between Production and Costs. Przedruk: Journal of Cost Management, wiosna 1994, s. 4–11.</li>
+  <li>Harris, F. W. (1913). How Many Parts to Make at Once. Factory, The Magazine of Management, 10(2), 135–136, 152. Przedruk: Operations Research, 38(6), 947–950, 1990.</li>
+  <li>May, G. O. (1916). Reasons for Excluding Interest from Cost. Journal of Accountancy, czerwiec 1916.</li>
+  <li>Martin, J. R. Interest Bibliography. Management And Accounting Web, maaw.info (artykuły o odsetkach jako koszcie w Journal of Accountancy z lat 1911–1918).</li>
+  <li>Johnson, H. T. (1975). Management Accounting in an Early Integrated Industrial: E. I. duPont de Nemours Powder Company, 1903–1912. Business History Review, 49(2), 184–204.</li>
+  <li>Hagley Museum and Library. The Father of ROI: Donaldson Brown (wskaźnik zwrotu z inwestycji w DuPont, 1914).</li>
+  <li>Chatfield, M. (2014). Harrison, G. Charter. W: M. Chatfield, R. Vangermeersch (red.), The History of Accounting: An International Encyclopedia. Routledge, s. 291.</li>
+  <li>Harrison, G. C. (1918–1919). Cost Accounting to Aid Production. Industrial Management, 56–57 (cz. I: Application of Scientific Management Principles, październik 1918).</li>
+</ul>
+
+<hr />
+
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="TODO_LINKEDIN_URL">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="rachunkowość zarządcza" /><category term="koszty" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Rachunkowość w czasach Taylora: koszt pracy trafiał do zapasu, nadprodukcja poprawiała wynik, a czekanie półproduktu w kolejce nie zostawiało śladu w księgach.]]></summary></entry><entry><title type="html">Ten o jednym Agile, którego nie było</title><link href="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/" rel="alternate" type="text/html" title="Ten o jednym Agile, którego nie było" /><published>2026-11-18T00:00:00+00:00</published><updated>2026-11-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-jednym-agile</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/"><![CDATA[<!-- SZKIC 1 z 3 (Tomasz, 9.11.2026, podział szkicu „Ten o śmierci Agile”): dychotomia, że Agile jest jednym i tym samym. 17.11.2026 Tomasz: „powiąż to z tym, że teraz przegrywa walkę o uwagę”. Para: docs/_drafts/ten-o-smierci-agile.md (zwinność umierała kilka razy) i docs/_drafts/ten-o-zwinnosci-w-2030.md (core skill 2030). -->
 <!-- Akapit otwierający z historią Tomasza usunięty na jego prośbę 17.11.2026. Tomasz 17.11.2026: przykładu z praktyki nie będzie. Zdanie „Moim zdaniem AI bez krótkiej pętli…” to opinia Tomasza (17.11.2026), bez źródła. -->
 <!-- Liczby State of Agile sprawdzone 17.11.2026 w komunikacie Digital.ai (Business Wire, 28.10.2025): 84% AI, 76% presja na ROI, 74% modele hybrydowe/własne, ok. 350 uczestników. Pełny raport (stateofagile.com) jest za formularzem. Punkt wyjścia dla AI różni się między źródłami (komunikat: 68%, ITPro: 64%), więc w tekście jest tylko 84%. Scrum.org opisuje 84% jako „używa albo planuje używać AI w cyklu wytwarzania”. -->
 
@@ -488,60 +546,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><category term="renaissance developer" /><summary type="html"><![CDATA[Rezultat pracy developera: kod i zamknięte tickety to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść dla firmy. Co mówią Amazon i Vogels.]]></summary></entry><entry><title type="html">Ten o tym, co czeka</title><link href="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/" rel="alternate" type="text/html" title="Ten o tym, co czeka" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-co-czeka</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-10-29-ten-o-tym-co-czeka/"><![CDATA[<p>Jest jedno pytanie, od którego warto zacząć każdą rozmowę o terminach: co w tej chwili czeka w Twoim zespole i na co?</p>
-
-<p>Praca, która stoi, wydłuża każdą prognozę. W raportach prawie jej nie widać, bo raporty liczą to, co skończone.</p>
-
-<p><img src="/assets/images/co-czeka-i-na-co.webp" alt="Co czeka i na co? Przykładowa tablica: przy każdym zaczętym zadaniu zapisane, na co czeka i od ilu dni. Czekanie na decyzję, na inny zespół, na środowisko testowe i na odpowiedź klienta. Ćwiczenie w trzech krokach: wypisz, co jest zaczęte, zapisz, na co czeka, i od kiedy." /></p>
-
-<h2 id="dlaczego-czekającej-pracy-nie-widać">Dlaczego czekającej pracy nie widać?</h2>
-
-<p>Bo mierzymy ludzi. Obłożenie, velocity i liczba zamkniętych zadań mówią, czy zespół jest zajęty. Nie mówią, czy konkretne zadanie posuwa się do przodu. <a href="/blog/2026-03-19-flow-efficiency/">Wszyscy mogą być zajęci, a praca i tak leży</a>.</p>
-
-<p>Don Reinertsen zwraca uwagę, że kolejki mierzy tylko 2% osób rozwijających produkty. W fabryce zapas leży na hali i każdy się o niego potyka. U nas zapasem są zadania w toku, specyfikacje i kod czekający na testy. Nie zajmują miejsca, więc nikt się o nie nie potyka.</p>
-
-<h2 id="na-co-najczęściej-czeka-praca">Na co najczęściej czeka praca?</h2>
-
-<p>Najczęściej na kogoś spoza zespołu: na decyzję osoby z pełnym kalendarzem, na odpowiedź innego zespołu, na środowisko testowe, na dostęp albo na klienta, który miał wrócić z uwagami.</p>
-
-<p>Rzadziej na samą pracę. Kiedy zadanie ma już wszystko, czego potrzebuje, zwykle kończy się szybko. Dłużej trwa to, co dzieje się pomiędzy: przekazanie, odpowiedź, zgoda.</p>
-
-<p>Każde z tych czekań ma inną przyczynę i innego właściciela. Dlatego samo „czeka” niewiele mówi. Dopiero „czeka na” daje coś, z czym można pójść do konkretnej osoby.</p>
-
-<h2 id="jak-to-sprawdzić-w-swoim-zespole">Jak to sprawdzić w swoim zespole?</h2>
-
-<p>Wystarczy kwadrans przy tablicy. Weź wszystko, co jest zaczęte, i przy każdym zadaniu zapisz dwie rzeczy: na co czeka i od kiedy.</p>
-
-<p>Nie potrzeba do tego narzędzia ani raportu. Wystarczy lista na kartce, byle powód czekania był konkretny, na przykład „czeka na odpowiedź zespołu płatności” zamiast ogólnej „blokady”.</p>
-
-<p>Od razu wyjdą zadania, przy których nikt nie umie powiedzieć, na co czekają. Zobaczysz też, że kilka z nich czeka na tę samą osobę albo <a href="/blog/2026-11-04-ten-o-tablicy-tablic/">ten sam zespół</a>, a niektóre wiszą tak długo, że wszyscy o nich zapomnieli.</p>
-
-<p>Z tymi ostatnimi jest najtrudniej. Status „w toku” albo <a href="/blog/2026-09-30-ten-o-tym-czy-kolumna/">kolumna Blocked</a> potrafią je przechować miesiącami. Kiedy ktoś je w końcu usunie, nie trafią nawet do statystyk cycle time, więc metryki wyglądają lepiej, niż było naprawdę. Dlatego oprócz czasu ukończonych zadań warto patrzeć na wiek tych, które są wciąż otwarte.</p>
-
-<h2 id="co-zrobić-z-tym-co-czeka">Co zrobić z tym, co czeka?</h2>
-
-<p>Najpierw zdecydować, czy to w ogóle ma się dalej toczyć. Część zadań czeka, bo przestała być ważna, tylko nikt tego nie powiedział na głos. Zamknięcie ich też jest postępem: mniej rzeczy w toku to krótsza kolejka dla reszty.</p>
-
-<p>Przy pozostałych pytanie brzmi: ile kosztuje każdy kolejny tydzień czekania? Nawet <a href="/blog/2026-10-20-ten-o-miesiacu-opoznienia/">zgrubny szacunek kosztu opóźnienia</a> pomaga wybrać, które czekanie rozwiązać najpierw. Bez niego wygrywa to, o co ktoś najgłośniej pyta.</p>
-
-<p>Na koniec warto spojrzeć na wzorzec. Jeśli połowa zadań czeka na tę samą osobę albo ten sam zespół, problem leży w tym, jak zespoły ze sobą współpracują. Szybsza praca nad pojedynczym zadaniem tego nie naprawi.</p>
-
-<h2 id="dlaczego-zacząć-od-pytania">Dlaczego zacząć od pytania?</h2>
-
-<p>Pytanie zadane na głos zmienia rozmowę. Na stand-upie zwykle słychać, kto co robił wczoraj. Pytanie o to, co czeka, przesuwa uwagę z ludzi na pracę. Zespół zaczyna szukać tego, co stoi.</p>
-
-<p>Metrykę można dodać później, kiedy wiadomo już, czego szukać. Na początek wystarczy jedno pytanie.</p>
-
-<p>Co w tej chwili czeka w Twoim zespole i na co?</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ol>
-  <li>Reinertsen, D. G. (2009). <em>The Principles of Product Development Flow: Second Generation Lean Product Development</em>. Celeritas Publishing.</li>
-  <li>Vacanti, D. S. (2015). <em>Actionable Agile Metrics for Predictability: An Introduction</em>. ActionableAgile Press.</li>
-  <li>Modig, N., Åhlström, P. (2012). <em>This is Lean: Resolving the Efficiency Paradox</em>. Rheologica Publishing.</li>
-</ol>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dxVEwr_u">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="przepływ pracy" /><category term="czekanie" /><category term="aging WIP" /><category term="koszt opóźnienia" /><summary type="html"><![CDATA[Jak zobaczyć pracę, która czeka w zespole: proste ćwiczenie z tablicą, powód i wiek czekania zamiast mierzenia, czy wszyscy są zajęci.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="AI" /><category term="output i outcome" /><category term="renaissance developer" /><summary type="html"><![CDATA[Rezultat pracy developera: kod i zamknięte tickety to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść dla firmy. Co mówią Amazon i Vogels.]]></summary></entry></feed>

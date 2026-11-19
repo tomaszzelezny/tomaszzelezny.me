@@ -826,4 +826,10 @@ var store = [{
         "tags": ["Agile","Manifest Agile","AI","kultura organizacji"],
         "url": "/blog/2026-11-18-ten-o-jednym-agile/",
         "teaser": null
+      },{
+        "title": "Ten o czekaniu bez adresu",
+        "excerpt":"Stoper Taylora mierzył operację przy maszynie. Księgowość jego epoki też nie widziała czasu, przez który półprodukt czekał między maszynami. Czekanie nie miało w księgach adresu: żadnego konta, na którym dałoby się je zapisać. To trzecia z ośmiu części serii, która zaczęła się od pytania, dlaczego Taylor mierzył operacje. Poprzednia opisywała...","categories": ["Zarządzanie"],
+        "tags": ["Taylor","tayloryzm","rachunkowość zarządcza","koszty","historia zarządzania"],
+        "url": "/blog/2026-11-19-ten-o-czekaniu-bez-adresu/",
+        "teaser": null
       }]
