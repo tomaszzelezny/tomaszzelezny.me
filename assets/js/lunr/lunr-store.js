@@ -832,4 +832,10 @@ var store = [{
         "tags": ["Taylor","tayloryzm","rachunkowość zarządcza","koszty","historia zarządzania"],
         "url": "/blog/2026-11-19-ten-o-czekaniu-bez-adresu/",
         "teaser": null
+      },{
+        "title": "Ten o trzech powodach braku rezultatu",
+        "excerpt":"W poprzednim wpisie serii rozpisałem cztery poziomy efektu pracy: wynik, rezultat, korzyść i dźwignię. Wynik zespół ma w ręku. Rezultat, czyli zmiana u użytkownika, pojawia się albo nie. W prezentacji o inżynierze produktu zebrałem powody, dla których się nie pojawia, w trzy grupy. Każda zdarza się przy wyniku bez zarzutu:...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","output i outcome","odkrywanie produktu"],
+        "url": "/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/",
+        "teaser": null
       }]
