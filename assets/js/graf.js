@@ -61,6 +61,9 @@
       });
     });
 
+    /* Liczba powiązanych wpisów (linki w obie strony, bez powtórzeń), ta sama co „Powiązane (N)” w panelu */
+    P.forEach(function (p) { var u = {}; p.l.concat(p.ins).forEach(function (l) { if (byId[l] && l !== p.id) u[l] = 1; }); p.rel = Object.keys(u).length; });
+
     /* Układ: tematy na elipsie, w środku prosta symulacja sił (odpychanie, sprężyny linków, przyciąganie do tematu) */
     var keys = Object.keys(T).filter(function (k) { return P.some(function (p) { return p.c === k; }); });
     var C = {};
@@ -130,9 +133,12 @@
     function renderPanel() {
       var p = selected && byId[selected];
       if (!p) {
-        var top = P.slice().sort(function (a, b) { return b.in - a.in; }).slice(0, 6);
+        /* Z każdego tematu wpis z największą liczbą powiązań (linki w obie strony), przy remisie więcej linków do wpisu */
+        var top = keys.filter(function (k) { return k !== 'inne'; }).map(function (k) {
+          return P.filter(function (q) { return q.c === k; }).sort(function (a, b) { return b.rel - a.rel || b.in - a.in || b.d.localeCompare(a.d); })[0];
+        });
         panel.innerHTML = '<span class="meta">Wybierz wpis</span><h3>Od czego zacząć</h3>' +
-          '<p>Kliknij kropkę na grafie albo jeden z wpisów, do których prowadzi najwięcej linków:</p><ul>' + top.map(function (t) { return item(t.id); }).join('') + '</ul>';
+          '<p>Kliknij kropkę na grafie albo najbardziej połączony wpis z każdego tematu:</p><ul>' + top.map(function (t) { return item(t.id); }).join('') + '</ul>';
         return;
       }
       /* Powiązane: linki w obie strony, bez powtórzeń, od najnowszego */
