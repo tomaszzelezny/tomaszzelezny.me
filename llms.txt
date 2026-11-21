@@ -14,6 +14,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 ## Wpisy
 
 - [Dlaczego funkcja nie daje rezultatu](https://tomaszzelezny.me/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/): Dlaczego dowieziona funkcja nie daje rezultatu? Trzy powody: problem wartości, złe rozwiązanie i zły kontekst. Przykłady i pytania do zadania przed startem.
+- [Pierwszy raz ktoś zacytował mój blog](https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/): Pierwszy raz ktoś w sieci powołał się na mój blog: iNEWS przywołał wpis o czterech postawach wobec planowania Ackoffa. Skąd o tym wiem i co z tego wynika.
 - [Czego nie widziała księgowość Taylora](https://tomaszzelezny.me/blog/2026-11-19-ten-o-czekaniu-bez-adresu/): Rachunkowość w czasach Taylora: koszt pracy trafiał do zapasu, nadprodukcja poprawiała wynik, a czekanie półproduktu w kolejce nie zostawiało śladu w księgach.
 - [Agile is dead? Fałszywa dychotomia](https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/): Agile is dead? Agile żyje czy umarło? Ten wybór zakłada jedno Agile. Tymczasem Agile przegrywa z AI walkę o uwagę zarządów i budżety. Co z tego wynika?
 - [Dlaczego Taylor nie widział przepływu](https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/): Dlaczego Taylor nie mierzył przepływu: warsztat z maszynami według rodzaju, osobna marszruta każdego zlecenia, kolejki przed maszynami i linia Forda z 1913.

@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-20T12:59:52+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o trzech powodach braku rezultatu</title><link href="https://tomaszzelezny.me/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/" rel="alternate" type="text/html" title="Ten o trzech powodach braku rezultatu" /><published>2026-11-20T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-powodach-braku-rezultatu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/"><![CDATA[<p>W poprzednim wpisie serii rozpisałem <a href="/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/">cztery poziomy efektu pracy</a>: wynik, rezultat, korzyść i dźwignię. Wynik zespół ma w ręku. Rezultat, czyli zmiana u użytkownika, pojawia się albo nie. W prezentacji o inżynierze produktu zebrałem powody, dla których się nie pojawia, w trzy grupy. Każda zdarza się przy wyniku bez zarzutu: kod przechodzi testy, funkcja jest na produkcji, ticket zamknięty.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-21T04:53:05+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o pierwszym cytowaniu</title><link href="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/" rel="alternate" type="text/html" title="Ten o pierwszym cytowaniu" /><published>2026-11-20T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-pierwszym-cytowaniu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/"><![CDATA[<p>Pierwszy raz ktoś w sieci powołał się na mój blog. 20 listopada 2026 roku Grzegorz Szeliga opublikował w iNEWS, cyfrowym tygodniku dla operatorów, tekst „Ile chcesz zarobić w przyszłym roku?”. W jednym z pierwszych akapitów linkuje do mojego wpisu o <a href="/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/">czterech postawach wobec planowania</a>, w którym opisałem myśl Russella Ackoffa.</p>
+
+<h2 id="skąd-wiem-że-ktoś-mnie-zacytował">Skąd wiem, że ktoś mnie zacytował?</h2>
+
+<p>Ze statystyk bloga. Używam GoatCounter, który pokazuje między innymi, z jakich stron przychodzą odwiedzający. Na liście źródeł pojawił się adres inews.pl. Wszedłem na niego i dopiero wtedy zobaczyłem, w jakim kontekście ktoś użył mojego tekstu.</p>
+
+<p>Nikt mnie o tym nie uprzedzał i nie musiał. Wpis leży na otwartej stronie, więc każdy może do niego linkować. Bez statystyk pewnie długo bym się o tym nie dowiedział.</p>
+
+<h2 id="do-czego-autor-użył-wpisu">Do czego autor użył wpisu?</h2>
+
+<p>Do pytania o plan roczny w firmie. Artykuł jest skierowany do operatorów sieci i dostawców internetu. Autor pisze, że plan to sposób, w jaki firma zamienia obietnice dla rynku na wydatki pieniędzy i energii: ilu klientów potrzebuje, ile inwestycji w sieć i ile gotówki. Cztery postawy Ackoffa, czyli reaktywna, nieaktywna, preaktywna i interaktywna, służą mu do pokazania, że sposób planowania mówi o firmie więcej niż sam plan.</p>
+
+<p>Każdą postawę opisuje swoimi słowami. Reaktywna to u niego tęsknota za tym, jak było kiedyś. Nieaktywna broni obecnego stanu przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna projektuje przyszłość, której chce, i szuka sposobu, żeby do niej dojść.</p>
+
+<p>Wniosek zamyka powiedzeniem „Szukasz powodu, albo sposobu” i zaprasza na warsztat o przekładaniu celów biznesowych na liczby. Pomysł warsztatu wyszedł z jego rozmowy z Andrzejem Koniukiem. Spotkanie z nimi o planowaniu wyniku finansowego firmy odbędzie się 8 grudnia na 21. Wigilii Kablowej. Ostatnie zdanie artykułu brzmi: „Plan jest niczym a planowanie wszystkim”. Tę samą myśl Eisenhowera opisałem we wpisie o <a href="/blog/2026-03-10-ten-o-planie-i-planowaniu/">planie i planowaniu</a>.</p>
+
+<h2 id="co-ten-link-mówi-o-wpisie">Co ten link mówi o wpisie?</h2>
+
+<p>Mówi, że myśl Ackoffa działa też poza IT. Na blogu piszę głównie o zespołach, produktach i organizacjach, które robią oprogramowanie. Wpis trafił do branży, która kładzie kable i sprzedaje łącza, i tam też dało się go użyć. Pytanie o to, jak firma traktuje przyszłość, nie zależy od tego, co firma produkuje.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ol>
+  <li>Szeliga, G. (2026, 20 listopada). Ile chcesz zarobić w przyszłym roku? <em>iNEWS</em>. <a href="https://inews.pl/2026/11/20/ile-chcesz-zarobic-w-przyszlym-roku/">inews.pl</a></li>
+  <li>Redakcja iNEWS (2026, 20 listopada). Ile chcesz zarobić w przyszłym roku? Porozmawiajmy o tym na 21. Wigilii Kablowej. <em>iNEWS</em>. <a href="https://inews.pl/2026/11/20/ile-chcesz-zarobic-w-przyszlym-roku-porozmawiajmy-o-tym-na-21-wigilii-kablowej/">inews.pl</a></li>
+  <li>Ackoff, R. L. (1981). <em>Creating the Corporate Future: Plan or Be Planned For</em>. John Wiley &amp; Sons.</li>
+</ol>]]></content><author><name>Tomasz Żelezny</name></author><category term="Marka osobista" /><category term="pisanie" /><category term="blog" /><category term="Russell Ackoff" /><category term="planowanie" /><summary type="html"><![CDATA[Pierwszy raz ktoś w sieci powołał się na mój blog: iNEWS przywołał wpis o czterech postawach wobec planowania Ackoffa. Skąd o tym wiem i co z tego wynika.]]></summary></entry><entry><title type="html">Ten o trzech powodach braku rezultatu</title><link href="https://tomaszzelezny.me/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/" rel="alternate" type="text/html" title="Ten o trzech powodach braku rezultatu" /><published>2026-11-20T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trzech-powodach-braku-rezultatu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/"><![CDATA[<p>W poprzednim wpisie serii rozpisałem <a href="/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/">cztery poziomy efektu pracy</a>: wynik, rezultat, korzyść i dźwignię. Wynik zespół ma w ręku. Rezultat, czyli zmiana u użytkownika, pojawia się albo nie. W prezentacji o inżynierze produktu zebrałem powody, dla których się nie pojawia, w trzy grupy. Każda zdarza się przy wyniku bez zarzutu: kod przechodzi testy, funkcja jest na produkcji, ticket zamknięty.</p>
 
 <p><img src="/assets/images/trzy-powody-braku-rezultatu.webp" alt="Trzy powody braku rezultatu. Problem wartości: działa, ale nikt tego nie potrzebował; przykład Fire Phone Amazona, 170 mln dolarów odpisu w 2014 roku; pytanie: kto tego potrzebuje i skąd to wiemy? Złe rozwiązanie: potrzebne, ale nie to, co powstało; przykład HealthCare.gov, awarie od dnia startu 1 października 2013; pytanie: czy to zadziała w warunkach, w jakich ludzie tego użyją? Zły kontekst: dobre, ale nie tu albo nie teraz; przykład funkcja na Black Friday gotowa w grudniu; pytanie: dlaczego teraz i co w firmie może to zablokować? Na dole: każdy powód wymaga innego pytania i innej osoby." /></p>
 
@@ -281,7 +307,7 @@
 
 <ul>
   <li>Seiden, J. (2019). <em>Outcomes Over Output: Why Customer Behavior Is the Key Metric for Business Success</em>. Sense &amp; Respond Press.</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-12T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
 
 <p>Każda z tych postaw ma swoją logikę i każda daje inny rodzaj planu. Warto wiedzieć, którą z nich przyjmuje Twoja organizacja, zanim zacznie planować kolejny rok.</p>
 
@@ -322,6 +348,8 @@
 <p>Same nie. Zespół może planować co dwa tygodnie i nadal tylko reagować na to, co wpadło w ostatnim sprincie. Częstsze planowanie daje więcej okazji do zmiany kierunku, ale kierunek trzeba najpierw mieć. O tym, czym <a href="/blog/2026-03-10-ten-o-planie-i-planowaniu/">planowanie różni się od planu</a>, pisałem przy okazji słów Eisenhowera.</p>
 
 <p>Postawa interaktywna przydaje się też przy konfliktach. Ackoff opisywał <a href="/blog/2025-09-23-ten-o-rozpuszczaniu-konfliktow/">rozpuszczanie konfliktu</a> przez zmianę systemu, w którym powstał. Żeby to zrobić, trzeba najpierw uznać, że system da się zaprojektować inaczej.</p>
+
+<p>Na ten wpis powołał się artykuł w iNEWS o planie rocznym operatorów sieci, o czym piszę we wpisie o <a href="/blog/2026-11-20-ten-o-pierwszym-cytowaniu/">pierwszym cytowaniu bloga</a>.</p>
 
 <p>Którą postawę widać w Waszym ostatnim planie rocznym?</p>
 
@@ -484,71 +512,4 @@
   <li>Taylor, F. W. (1911). The Principles of Scientific Management. Harper &amp; Brothers. Rozdział 1 (cel zarządzania, przyczyny soldieringu), rozdział 2 (o robotnikach), s. 130 (mechanizm i istota zarządzania).</li>
   <li>Taylor, F. W. (1903). Shop Management. Harper &amp; Brothers.</li>
   <li>Braverman, H. (1974). Labor and Monopoly Capital: The Degradation of Work in the Twentieth Century. Monthly Review Press.</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="zarządzanie naukowe" /><category term="przepływ" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Dlaczego Frederick Taylor mierzył czas operacji, a nie przepływ pracy? Wspólny interes firmy i pracownika, dzisiejszy obraz Taylora i osiem obszarów wiedzy.]]></summary></entry><entry><title type="html">Ten o tablicy tablic</title><link href="https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/" rel="alternate" type="text/html" title="Ten o tablicy tablic" /><published>2026-11-04T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tablicy-tablic</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-04-ten-o-tablicy-tablic/"><![CDATA[<p>Kto pisał w C++, zna tablicę tablic, czyli <code class="language-plaintext highlighter-rouge">std::vector&lt;std::vector&lt;T&gt;&gt;</code>. Zewnętrzna tablica nie trzyma danych, tylko kolejne tablice, a każda z nich może mieć inną długość. (Zwykła tablica dwuwymiarowa, <code class="language-plaintext highlighter-rouge">int t[3][4]</code>, ma wszystkie wiersze równe, więc tu chodzi o tę pierwszą.) Na pierwszy rzut oka to zwykła lista z kilkoma pozycjami. Prawdziwa ilość danych siedzi poziom niżej i nie widać jej, dopóki nie zajrzysz do środka.</p>
-
-<p>Tak samo wygląda praca w wielu organizacjach. Na tablicy zespołu jest jedno zadanie „czekamy na zespół płatności”. W środku tego zadania jest cała kolejka innego zespołu, a w niej kolejne zadania, które czekają na jeszcze inny zespół.</p>
-
-<h2 id="co-pokazuje-tablica-tablic">Co pokazuje tablica tablic?</h2>
-
-<p>Pokazuje liczbę kolejek, a nie liczbę elementów. Weźmy taki kod:</p>
-
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Element</span><span class="o">&gt;&gt;</span> <span class="n">praca</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="p">{</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">},</span>           <span class="c1">// zespół A</span>
-    <span class="p">{</span><span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">g</span><span class="p">},</span>  <span class="c1">// zespół B</span>
-    <span class="p">{</span><span class="n">h</span><span class="p">}</span>               <span class="c1">// zespół C</span>
-<span class="p">};</span>
-
-<span class="n">praca</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>  <span class="c1">// 3</span>
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">praca.size()</code> zwraca 3, bo tyle jest wewnętrznych tablic. Elementów jest osiem. Żeby się tego dowiedzieć, trzeba przejść pętlą po każdej wewnętrznej tablicy i zsumować ich rozmiary. Nikt tego nie robi przy każdym spojrzeniu, więc w głowie zostaje liczba 3.</p>
-
-<p>W C jest jeszcze gorzej: tablica tablic to tablica wskaźników, a wskaźnik nie wie, ile elementów jest pod nim.</p>
-
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Element</span> <span class="o">*</span><span class="n">praca</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="n">zespol_a</span><span class="p">,</span> <span class="n">zespol_b</span><span class="p">,</span> <span class="n">zespol_c</span><span class="p">};</span>
-</code></pre></div></div>
-
-<p>Element <code class="language-plaintext highlighter-rouge">praca[1]</code> to tylko adres miejsca w pamięci, gdzie zaczynają się elementy zespołu B. Długości wewnętrznych tablic trzeba pamiętać osobno, a jeśli nikt ich nie zapisał, nie da się ich odczytać. Na tablicy zespołu zadanie „czekamy na zespół B” działa tak samo: mówi, gdzie jest praca, ale nie mówi, ile jej tam jest ani jak długo potrwa.</p>
-
-<p><img src="/assets/images/tablica-tablic.webp" alt="Każda tablica widzi tylko swój poziom: na tablicy zespołu widać 3 karty, w tym „czekamy na zespół B”. Po rozwinięciu okazuje się, że w kolejce zespołu B czeka 15 próśb, w tym nasza, a zespół B sam czeka na zespół D, w którego kolejce jest 7 zadań. 3 karty na tablicy, 24 zadania w łańcuchu." /></p>
-
-<h2 id="gdzie-w-organizacji-chowają-się-kolejki">Gdzie w organizacji chowają się kolejki?</h2>
-
-<p>Chowają się wszędzie tam, gdzie jeden zespół potrzebuje czegoś od drugiego. Zgłoszenie do zespołu infrastruktury, prośba o zmianę w API, akceptacja od działu prawnego, przegląd bezpieczeństwa. Każda z tych rzeczy trafia do cudzego backlogu i tam czeka na swoją kolej.</p>
-
-<p>Na naszej tablicy widać jedną kartę w kolumnie „Zablokowane”. Nie widać, że przed nami w kolejce zespołu B jest czternaście innych próśb, więc nasza jest piętnasta. Nie widać też, że zespół B sam czeka na zespół D, więc nasza prośba stoi w kolejce, która stoi w kolejce. To jest zagnieżdżenie drugiego stopnia, a w dużej firmie bywa ich więcej.</p>
-
-<p>Każdy zespół widzi swój poziom. Nikt nie widzi całej struktury, bo nikt nie przechodzi po wszystkich tablicach naraz. Podobnie było z <a href="/blog/2026-10-21-ten-o-enkapsulacji/">rozmowami, które trzeba odbyć przy zmianie przekrojowej</a>: złożoność organizacji wycieka na zewnątrz, ale nie trafia na żadną tablicę.</p>
-
-<h2 id="dlaczego-ukryta-kolejka-wydłuża-czas-dostarczenia">Dlaczego ukryta kolejka wydłuża czas dostarczenia?</h2>
-
-<p>Bo czas dostarczenia zależy od tego, ile pracy czeka w systemie, a nie od tego, ile pracy widzimy. Prawo Little’a mówi, że w stabilnym systemie średni czas przejścia zadania to średnia ilość pracy w toku podzielona przez średnią przepustowość. Działa to też dla każdej kolejki z osobna. Jeśli w kolejce zespołu B czeka piętnaście próśb, a zespół B zamyka pięć tygodniowo, nasza prośba poczeka tam średnio około trzech tygodni. Na naszej tablicy to wciąż jedna karta, więc prognoza liczona tylko z naszej tablicy wychodzi zbyt optymistyczna.</p>
-
-<p>Stąd biorą się zadania, które idą trzy tygodnie, choć praca nad nimi trwa kilka godzin. Przez większość czasu zadanie <a href="/blog/2026-03-19-flow-efficiency/">po prostu czeka</a>, i to często nie u nas, tylko w czyjejś kolejce. Modig i Åhlström nazywają to niską efektywnością przepływu: liczy się, jaką część czasu zadanie jest naprawdę obrabiane, a nie jak zajęci są ludzie. Donald Reinertsen pisze, że kolejki w rozwoju produktu są niewidoczne, bo w przeciwieństwie do magazynu w fabryce nie zajmują miejsca. Nikt nie potyka się o stos niezałatwionych zgłoszeń.</p>
-
-<p>Do tego każdy zespół w łańcuchu może być w pełni zajęty. Wszyscy pracują, wszyscy mają pełne sprinty, a zadanie i tak stoi. To ta sama pułapka co <a href="/blog/2026-08-19-zajetosc-vs-postep/">zajętość, która udaje postęp</a>. Reinertsen pokazuje, że przy obciążeniu bliskim 100% kolejki rosną gwałtownie, a nie liniowo. Im bardziej zajęci są wszyscy, tym dłużej czeka praca.</p>
-
-<h2 id="jak-spłaszczyć-tablicę-tablic">Jak spłaszczyć tablicę tablic?</h2>
-
-<p>Pierwszy krok to policzyć elementy, a nie kolejki. Przy każdym zadaniu, które na kogoś czeka, warto zapisać, na kogo, od kiedy i które jest w ich kolejce. Samo to zmienia rozmowę na planowaniu, bo „czekamy na zespół B” zamienia się w „czekamy jedenaście dni i jesteśmy na piętnastym miejscu w kolejce”.</p>
-
-<p>Drugi krok to pokazać zagnieżdżenie. Wspólna tablica zależności albo prosta lista „co czeka na kogo” między kilkoma zespołami pozwala zobaczyć, gdzie kolejka jest najdłuższa. Zwykle okazuje się, że jeden zespół jest wskaźnikiem w połowie tablic w firmie.</p>
-
-<p>Trzeci krok to zmniejszyć liczbę poziomów. W programowaniu tablicę tablic często spłaszcza się do jednej, żeby dane leżały w jednym miejscu i dało się je przejść jedną pętlą. W organizacji oznacza to zespoły, które mogą dostarczyć zmianę bez czekania na innych, platformy z samoobsługą zamiast zgłoszeń albo zespół, z którym czasem pracujemy razem. Skelton i Pais w „Team Topologies” opisują właśnie takie układy: zespoły ułożone wzdłuż strumienia wartości, zespoły platformowe i współpracę na określony czas. Każdy usunięty poziom to jedna kolejka mniej, w której praca może utknąć.</p>
-
-<p>Nie da się usunąć wszystkich zależności. Da się sprawić, żeby było je widać i żeby liczyć je tak, jak liczy się pracę, a nie jako jedną kartę „zablokowane”.</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li>Stroustrup, B. (2013). <em>The C++ Programming Language</em> (4th ed.). Addison-Wesley.</li>
-  <li>Kernighan, B. W., Ritchie, D. M. (1988). <em>The C Programming Language</em> (2nd ed.). Prentice Hall.</li>
-  <li>Little, J. D. C. (1961). A Proof for the Queuing Formula: L = λW. <em>Operations Research</em>, 9(3), 383–387.</li>
-  <li>Reinertsen, D. G. (2009). <em>The Principles of Product Development Flow: Second Generation Lean Product Development</em>. Celeritas Publishing.</li>
-  <li>Modig, N., Åhlström, P. (2012). <em>This is Lean: Resolving the Efficiency Paradox</em>. Rheologica Publishing.</li>
-  <li>Skelton, M., Pais, M. (2019). <em>Team Topologies: Organizing Business and Technology Teams for Fast Flow</em>. IT Revolution Press.</li>
-</ul>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dk_w2BUm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="kolejki" /><category term="przepływ pracy" /><category term="zależności między zespołami" /><category term="flow efficiency" /><category term="C++" /><category term="C" /><summary type="html"><![CDATA[Ukryte kolejki pracy w organizacji przypominają tablicę tablic z C++: widać liczbę zespołów, a nie pracę, która czeka w ich kolejkach. Jak je policzyć.]]></summary></entry></feed>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="zarządzanie naukowe" /><category term="przepływ" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Dlaczego Frederick Taylor mierzył czas operacji, a nie przepływ pracy? Wspólny interes firmy i pracownika, dzisiejszy obraz Taylora i osiem obszarów wiedzy.]]></summary></entry></feed>

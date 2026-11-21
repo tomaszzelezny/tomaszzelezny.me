@@ -833,6 +833,12 @@ var store = [{
         "url": "/blog/2026-11-19-ten-o-czekaniu-bez-adresu/",
         "teaser": null
       },{
+        "title": "Ten o pierwszym cytowaniu",
+        "excerpt":"Pierwszy raz ktoś w sieci powołał się na mój blog. 20 listopada 2026 roku Grzegorz Szeliga opublikował w iNEWS, cyfrowym tygodniku dla operatorów, tekst „Ile chcesz zarobić w przyszłym roku?”. W jednym z pierwszych akapitów linkuje do mojego wpisu o czterech postawach wobec planowania, w którym opisałem myśl Russella Ackoffa....","categories": ["Marka osobista"],
+        "tags": ["pisanie","blog","Russell Ackoff","planowanie"],
+        "url": "/blog/2026-11-20-ten-o-pierwszym-cytowaniu/",
+        "teaser": null
+      },{
         "title": "Ten o trzech powodach braku rezultatu",
         "excerpt":"W poprzednim wpisie serii rozpisałem cztery poziomy efektu pracy: wynik, rezultat, korzyść i dźwignię. Wynik zespół ma w ręku. Rezultat, czyli zmiana u użytkownika, pojawia się albo nie. W prezentacji o inżynierze produktu zebrałem powody, dla których się nie pojawia, w trzy grupy. Każda zdarza się przy wyniku bez zarzutu:...","categories": ["Zarządzanie produktem"],
         "tags": ["inżynier produktu","developer","output i outcome","odkrywanie produktu"],
