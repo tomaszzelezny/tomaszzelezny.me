@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-22T12:28:32+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o pierwszym cytowaniu</title><link href="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/" rel="alternate" type="text/html" title="Ten o pierwszym cytowaniu" /><published>2026-11-20T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-pierwszym-cytowaniu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/"><![CDATA[<p>Pierwszy raz ktoś w sieci powołał się na mój blog. 20 listopada 2026 roku Grzegorz Szeliga opublikował w iNEWS, cyfrowym tygodniku dla operatorów, tekst „Ile chcesz zarobić w przyszłym roku?”. W jednym z pierwszych akapitów linkuje do mojego wpisu o <a href="/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/">czterech postawach wobec planowania</a>, w którym opisałem myśl Russella Ackoffa.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-23T04:53:04+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o kryzysach i wspólnym interesie</title><link href="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/" rel="alternate" type="text/html" title="Ten o kryzysach i wspólnym interesie" /><published>2026-11-23T00:00:00+00:00</published><updated>2026-11-23T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-kryzysach-i-wspolnym-interesie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/"><![CDATA[<p>Frederick Taylor obiecywał, że wyższa wydajność stworzy więcej miejsc pracy. Ludzie, którym to obiecywał, żyli w gospodarce, w której po panice 1893 roku bez pracy zostało, zależnie od szacunku, od 12 do 18 procent siły roboczej. Ten wpis opisuje tę gospodarkę i obietnicę, którą Taylor w niej sformułował.</p>
+
+<p>To czwarta z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Poprzednia opisywała <a href="/blog/2026-11-19-ten-o-czekaniu-bez-adresu/">czekanie, które nie miało adresu w księgach</a>. Ta dotyczy ekonomii.</p>
+
+<p><img src="/assets/images/taylor-kryzysy.webp" alt="Gospodarka czasów Taylora w czterech krokach. 1873: bankructwo banku Jay Cooke, nowojorska giełda zamknięta na dziesięć dni. 1893: bezrobocie rośnie z 3 do 18 procent według Lebergotta, z 3,7 do 12,3 według Romer, w samym 1893 roku upada ponad 15 tysięcy firm. Lata 1880–1896: ceny spadają, a dochody rosną. 1895–1904: wojny cenowe w branżach z wysokimi kosztami stałymi kończą się ponad 150 fuzjami. Obok dwie wiary. Taylor: niższy koszt, tańszy towar, większy popyt, więcej pracy. Robotnicy: szybsza praca, mniej potrzebnych ludzi, bezrobocie. Założenie obietnicy Taylora: tańszy towar znajdzie nabywców." /></p>
+
+<h2 id="co-stało-się-w-1873-roku">Co stało się w 1873 roku?</h2>
+
+<p>Panika finansowa. 18 września 1873 roku zbankrutował bank Jay Cooke and Co. Dwa dni później nowojorska giełda po raz pierwszy w historii zamknęła się i przez dziesięć dni nie handlowano na niej. W całym kraju upadło co najmniej sto banków. Pięć lat później Taylor zaczął pracę w zakładach Midvale Steel, gdzie powstały jego pierwsze obserwacje.</p>
+
+<h2 id="jak-głęboki-był-kryzys-po-1893-roku">Jak głęboki był kryzys po 1893 roku?</h2>
+
+<p>Bardzo głęboki. Historycy Rezerwy Federalnej zaliczają panikę 1893 roku do najcięższych kryzysów finansowych w historii USA. Bezrobocia nikt wtedy nie mierzył wprost, więc historycy szacują je z danych o produkcji, a szacunki się różnią. Według Stanleya Lebergotta bezrobocie wzrosło z 3 procent w 1892 roku do 18,4 procent w 1894. Christina Romer szacuje ten wzrost ostrożniej: z 3,7 do 12,3 procent. Według obu szacunków przez kilka kolejnych lat bez pracy pozostawało ponad 10 procent siły roboczej.</p>
+
+<p>W samym 1893 roku zbankrutowały 15 242 firmy. Produkcja przemysłowa spadła między 1892 a 1894 rokiem o 15,3 procent. Gospodarka zaczęła się odbudowywać dopiero w połowie 1897 roku.</p>
+
+<h2 id="co-działo-się-z-cenami">Co działo się z cenami?</h2>
+
+<p>Spadały. Według ekonomistów Michaela Bordo, Johna Landona Lane’a i Angeli Redish poziom cen w USA spadał od 1880 roku do połowy lat 90., mocniej niż w innych krajach. Mimo ciężkich recesji dochody w długim okresie rosły. Przy spadających cenach zysk firmy zależał od tego, czy jej koszt spada szybciej niż cena, po której sprzedaje.</p>
+
+<h2 id="jak-firmy-broniły-się-przed-wojną-cenową">Jak firmy broniły się przed wojną cenową?</h2>
+
+<p>Fuzjami. Historyczka gospodarcza Naomi Lamoreaux opisuje, jak po 1887 roku szybko rosły branże kapitałochłonne, z produkcją masową i wysokimi kosztami stałymi. Gdy w 1893 roku przyszła głęboka depresja, zaczęły się w nich wojny cenowe, których zwykłe porozumienia producentów nie umiały powstrzymać. Kiedy ceny akcji wzrosły, wyczerpani producenci zaczęli łączyć całe branże. W latach 1895–1904 powstało ponad 150 takich konsolidacji, z czego ponad 60 w samym 1899 roku.</p>
+
+<h2 id="co-obiecywał-taylor">Co obiecywał Taylor?</h2>
+
+<p>Tańszą produkcję i większy popyt. W „The Principles of Scientific Management” z 1911 roku pisał, że likwidacja soldieringu obniżyłaby koszt produkcji tak bardzo, że popyt na rynkach krajowych i zagranicznych bardzo by wzrósł („would so lower the cost of production that both our home and foreign markets would be greatly enlarged”). Miało to usunąć jedną z podstawowych przyczyn zastoju, braku pracy i biedy.</p>
+
+<p>Mechanizm opisał jednym zdaniem: niższa cena towaru w powszechnym użyciu niemal natychmiast zwiększa popyt na niego („The cheapening of any article in common use almost immediately results in a largely increased demand for that article”). Jako przykład podawał buty. Maszyny zwiększyły wydajność szewców, a mimo to w branży obuwniczej pracowało względnie więcej ludzi niż kiedykolwiek wcześniej.</p>
+
+<h2 id="w-co-wierzyli-robotnicy">W co wierzyli robotnicy?</h2>
+
+<p>W coś odwrotnego. Taylor nazywał to błędem („fallacy”), powszechnym wśród robotników od niepamiętnych czasów: przekonaniem, że duży wzrost wydajności każdego robotnika czy maszyny skończy się wyrzuceniem wielu ludzi z pracy. Wymieniał go jako pierwszą z trzech przyczyn <a href="/blog/2026-11-11-ten-o-soldieringu/">soldieringu</a>. Odpowiadał historią przemysłu, w której usprawnienia ostatecznie tworzyły pracę dla większej liczby ludzi.</p>
+
+<p>Kryzysów Taylor nie obiecywał usunąć. Pisał, że zawsze przyjdą okresy, w których ucierpią obie strony, a naukowe zarządzanie ma sprawić, że będą rzadsze, krótsze i mniej dotkliwe.</p>
+
+<p>Obietnica wspólnego interesu stała więc na założeniu, że tańszy towar znajdzie nabywców. W latach 90. przez kilka lat z rzędu go nie znajdował.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Taylor, F. W. (1911). The Principles of Scientific Management. Harper &amp; Brothers, rozdział 1 (błąd o wyrzucaniu ludzi z pracy, przykład branży obuwniczej, większe rynki dzięki niższemu kosztowi, okresy, w których cierpią obie strony).</li>
+  <li>Richardson, G., Sablik, T. (2015). Banking Panics of the Gilded Age. Federal Reserve History (panika 1873: Jay Cooke, zamknięcie giełdy na dziesięć dni; panika 1893: spadek produkcji przemysłowej o 15,3 procent według szacunków Jalila i Hoffmana).</li>
+  <li>Whitten, D. (2001). The Depression of 1893. W: R. Whaples (red.), EH.Net Encyclopedia (szacunki bezrobocia Lebergotta i Romer, tabela 1; 15 242 bankructwa w 1893 roku; początek odbudowy w połowie 1897 roku).</li>
+  <li>Bordo, M. D., Landon Lane, J., Redish, A. (2004). Good versus Bad Deflation: Lessons from the Gold Standard Era. NBER Working Paper 10329.</li>
+  <li>Lamoreaux, N. R. (1985). The Great Merger Movement in American Business, 1895–1904. Cambridge University Press (rozdz. 3: High Fixed Costs and Rapid Expansion: A Model of Price Warfare and Two Examples, s. 46–86).</li>
+  <li>Lamoreaux, N. R. The Great Merger Movement. Opis książki na stronie autorki (branże kapitałochłonne po 1887 roku, wojny cenowe w depresji lat 90., ponad 150 konsolidacji, ponad 60 w 1899 roku).</li>
+  <li>University of Pennsylvania, archiwum Midvale Steel Company (początek pracy Taylora w 1878 roku).</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="ekonomia" /><category term="kryzys 1893" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Gospodarka czasów Taylora: panika 1873 i 1893 roku, spadające ceny i wojny cenowe, a w nich obietnica, że tańsza produkcja da większy popyt i więcej pracy.]]></summary></entry><entry><title type="html">Ten o pierwszym cytowaniu</title><link href="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/" rel="alternate" type="text/html" title="Ten o pierwszym cytowaniu" /><published>2026-11-20T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-pierwszym-cytowaniu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-20-ten-o-pierwszym-cytowaniu/"><![CDATA[<p>Pierwszy raz ktoś w sieci powołał się na mój blog. 20 listopada 2026 roku Grzegorz Szeliga opublikował w iNEWS, cyfrowym tygodniku dla operatorów, tekst „Ile chcesz zarobić w przyszłym roku?”. W jednym z pierwszych akapitów linkuje do mojego wpisu o <a href="/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/">czterech postawach wobec planowania</a>, w którym opisałem myśl Russella Ackoffa.</p>
 
 <h2 id="skąd-wiem-że-ktoś-mnie-zacytował">Skąd wiem, że ktoś mnie zacytował?</h2>
 
@@ -143,7 +191,7 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="TODO_LINKEDIN_URL">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="rachunkowość zarządcza" /><category term="koszty" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Rachunkowość w czasach Taylora: koszt pracy trafiał do zapasu, nadprodukcja poprawiała wynik, a czekanie półproduktu w kolejce nie zostawiało śladu w księgach.]]></summary></entry><entry><title type="html">Ten o jednym Agile, którego nie było</title><link href="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/" rel="alternate" type="text/html" title="Ten o jednym Agile, którego nie było" /><published>2026-11-18T00:00:00+00:00</published><updated>2026-11-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-jednym-agile</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/"><![CDATA[<!-- SZKIC 1 z 3 (Tomasz, 9.11.2026, podział szkicu „Ten o śmierci Agile”): dychotomia, że Agile jest jednym i tym samym. 17.11.2026 Tomasz: „powiąż to z tym, że teraz przegrywa walkę o uwagę”. Para: docs/_drafts/ten-o-smierci-agile.md (zwinność umierała kilka razy) i docs/_drafts/ten-o-zwinnosci-w-2030.md (core skill 2030). -->
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dC8Dn6ND">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="rachunkowość zarządcza" /><category term="koszty" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Rachunkowość w czasach Taylora: koszt pracy trafiał do zapasu, nadprodukcja poprawiała wynik, a czekanie półproduktu w kolejce nie zostawiało śladu w księgach.]]></summary></entry><entry><title type="html">Ten o jednym Agile, którego nie było</title><link href="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/" rel="alternate" type="text/html" title="Ten o jednym Agile, którego nie było" /><published>2026-11-18T00:00:00+00:00</published><updated>2026-11-18T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-jednym-agile</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-18-ten-o-jednym-agile/"><![CDATA[<!-- SZKIC 1 z 3 (Tomasz, 9.11.2026, podział szkicu „Ten o śmierci Agile”): dychotomia, że Agile jest jednym i tym samym. 17.11.2026 Tomasz: „powiąż to z tym, że teraz przegrywa walkę o uwagę”. Para: docs/_drafts/ten-o-smierci-agile.md (zwinność umierała kilka razy) i docs/_drafts/ten-o-zwinnosci-w-2030.md (core skill 2030). -->
 <!-- Akapit otwierający z historią Tomasza usunięty na jego prośbę 17.11.2026. Tomasz 17.11.2026: przykładu z praktyki nie będzie. Zdanie „Moim zdaniem AI bez krótkiej pętli…” to opinia Tomasza (17.11.2026), bez źródła. -->
 <!-- Liczby State of Agile sprawdzone 17.11.2026 w komunikacie Digital.ai (Business Wire, 28.10.2025): 84% AI, 76% presja na ROI, 74% modele hybrydowe/własne, ok. 350 uczestników. Pełny raport (stateofagile.com) jest za formularzem. Punkt wyjścia dla AI różni się między źródłami (komunikat: 68%, ITPro: 64%), więc w tekście jest tylko 84%. Scrum.org opisuje 84% jako „używa albo planuje używać AI w cyklu wytwarzania”. -->
 
@@ -366,7 +414,7 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dtnYr-mH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Russell Ackoff" /><category term="planowanie" /><category term="myślenie systemowe" /><category term="projektowanie organizacji" /><category term="zmiana" /><summary type="html"><![CDATA[Reaktywna, nieaktywna, preaktywna i interaktywna. Cztery postawy wobec planowania według Russella Ackoffa i to, co mówią o tym, jak firma traktuje przyszłość.]]></summary></entry><entry><title type="html">Ten o soldieringu</title><link href="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/" rel="alternate" type="text/html" title="Ten o soldieringu" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-soldieringu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/"><![CDATA[<p>Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców.</p>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dtnYr-mH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Russell Ackoff" /><category term="planowanie" /><category term="myślenie systemowe" /><category term="projektowanie organizacji" /><category term="zmiana" /><summary type="html"><![CDATA[Reaktywna, nieaktywna, preaktywna i interaktywna. Cztery postawy wobec planowania według Russella Ackoffa i to, co mówią o tym, jak firma traktuje przyszłość.]]></summary></entry><entry><title type="html">Ten o soldieringu</title><link href="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/" rel="alternate" type="text/html" title="Ten o soldieringu" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-23T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-soldieringu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-11-ten-o-soldieringu/"><![CDATA[<p>Frederick Taylor był przekonany, że firma i pracownik mają wspólny interes. Na drodze do niego stał problem, który nazwał soldieringiem: robotnicy celowo pracowali wolniej, niż mogli. Jego systematyczną odmianę uważał za największe zło, jakie dotyka zarówno robotników, jak i pracodawców.</p>
 
 <p>To pierwsza z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Ta dotyczy stosunków pracy.</p>
 
@@ -380,7 +428,7 @@
 
 <h2 id="dlaczego-robotnicy-zwalniali">Dlaczego robotnicy zwalniali?</h2>
 
-<p>Bo z ich punktu widzenia szybsza praca się nie opłacała. W „The Principles of Scientific Management” z 1911 roku Taylor wymienił trzy przyczyny. Pierwsza to przekonanie, że większa wydajność każdego robotnika wyrzuci część kolegów z pracy. Druga to wadliwe systemy zarządzania i płac, w których robotnik tracił na szybszej pracy, więc zwalniał, żeby chronić własny zarobek. Trzecia to metody „na oko”, na których opierało się wtedy niemal każde rzemiosło.</p>
+<p>Bo z ich punktu widzenia szybsza praca się nie opłacała. W „The Principles of Scientific Management” z 1911 roku Taylor wymienił trzy przyczyny. Pierwsza to przekonanie, że większa wydajność każdego robotnika <a href="/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/">wyrzuci część kolegów z pracy</a>. Druga to wadliwe systemy zarządzania i płac, w których robotnik tracił na szybszej pracy, więc zwalniał, żeby chronić własny zarobek. Trzecia to metody „na oko”, na których opierało się wtedy niemal każde rzemiosło.</p>
 
 <p>Druga przyczyna miała konkretny mechanizm. Przy akordzie pracodawca obcinał stawkę, gdy robotnik zaczynał dobrze zarabiać. Szybsza praca kończyła się tą samą zapłatą za większy wysiłek. Przy dniówce szybki robotnik dostawał tyle samo co powolny, więc z czasem zwalniał do jego tempa. W każdym z tych systemów najbezpieczniej było trzymać tempo uzgodnione z grupą.</p>
 
@@ -463,53 +511,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dgB897fv">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry><entry><title type="html">Ten o tym, dlaczego Taylor mierzył operacje</title><link href="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/" rel="alternate" type="text/html" title="Ten o tym, dlaczego Taylor mierzył operacje" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-16T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-tym-dlaczego-taylor-mierzyl-operacje</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/"><![CDATA[<p>„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika. Taylor uważał, że interes firmy i pracownika jest wspólny.</p>
-
-<p>Dlaczego więc mierzył stoperem pojedynczego pracownika i jego operację, a <a href="/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/">drogi wyrobu przez fabrykę</a> nie mierzył? Dziś wygląda to na błąd, bo we współczesnych zakładach większość czasu realizacji zlecenia to czekanie między stanowiskami. Bronię innej tezy: pomiar operacji był racjonalną odpowiedzią na problem, który Taylor rozwiązywał, i na świat, w którym działał.</p>
-
-<p><img src="/assets/images/taylor-operacje.webp" alt="Dlaczego Taylor mierzył operacje? Osiem obszarów. Cel Taylora z 1911 roku: maksymalna pomyślność pracodawcy razem z maksymalną pomyślnością każdego pracownika. Obszary: stosunki pracy, zarządzanie operacjami, rachunkowość zarządcza, ekonomia, socjologia, filozofia nauki, teoria organizacji, psychologia organizacji." /></p>
-
-<h2 id="jaki-mamy-dziś-obraz-taylora">Jaki mamy dziś obraz Taylora?</h2>
-
-<p>Głównie obraz człowieka ze stoperem, normami i kontrolą nad robotnikami. Taki obraz łatwo zamienia go w karykaturę, a źródła pokazują kogoś bardziej złożonego. Za celowe spowalnianie pracy Taylor obwiniał w dużej mierze zarząd i jego systemy płac. Twierdził też, że w ówczesnych warsztatach pracą faktycznie rządzili robotnicy, bo to oni wiedzieli, ile powinna trwać.</p>
-
-<p>Sam ostrzegał w „Principles”: „The mechanism of management must not be mistaken for its essence, or underlying philosophy”. Stoper, karty instrukcji i normy były mechanizmem, a istotą miały być współpraca zarządu z robotnikami i nauka zamiast zgadywania. Wielu ekspertów od efektywności wzięło z jego systemu głównie stoper. Krytyka ma przy tym mocne podstawy, bo Taylor często pisał o robotnikach z pogardą, a Harry Braverman w 1974 roku odczytał naukowe zarządzanie jako przejęcie przez zarząd monopolu na wiedzę o pracy. Reformator i architekt kontroli to dwa obrazy, które mogą być prawdziwe jednocześnie. Jak wygląda zarządzanie, które w razie problemu szuka winy w ludziach, a jak takie, które szuka jej w systemie, opisałem we wpisie o <a href="/blog/2026-05-12-ten-o-stylu-zarzadzania/">stylu zarządzania</a>.</p>
-
-<h2 id="jak-taylor-rozumiał-wspólny-interes">Jak Taylor rozumiał wspólny interes?</h2>
-
-<p>Jako wspólne źródło płac i zysków. Według Taylora tych dwóch celów nie da się osiągnąć osobno, bo wysokie płace i niski koszt jednostkowy wynikają z tej samej wydajności. Im więcej robotnik wytworzy w danym czasie, tym więcej może zarobić, a firma tym taniej wytwarza i sprzedaje.</p>
-
-<p>Z tego wynikają trzy cele, które Taylor wymienia we wstępie do „Principles”. Chciał pokazać, ile cały kraj traci na nieefektywności codziennych działań, przekonać, że lekarstwem jest systematyczne zarządzanie zamiast szukania wyjątkowych ludzi, i udowodnić, że dobre zarządzanie jest nauką opartą na jasnych prawach.</p>
-
-<p>Drogą do tego miały być cztery zasady: nauka w miejsce metod „na oko”, naukowy dobór i szkolenie pracowników, współpraca zarządu z robotnikami oraz niemal równy podział pracy i odpowiedzialności między nich. Pomiar operacji służył pierwszej zasadzie i był punktem wyjścia dla pozostałych.</p>
-
-<h2 id="co-stało-na-drodze-do-wspólnej-pomyślności">Co stało na drodze do wspólnej pomyślności?</h2>
-
-<p><a href="/blog/2026-11-11-ten-o-soldieringu/">Soldiering</a>, czyli celowe utrzymywanie niskiego tempa pracy. Taylor uważał go za największe zło, jakie dotyka zarówno robotników, jak i pracodawców. Część winy przypisywał zarządowi. Przy akordzie pracodawca obcinał stawkę, gdy robotnik zaczynał dobrze zarabiać, więc szybsza praca kończyła się tą samą zapłatą za większy wysiłek.</p>
-
-<p>Spór o tempo był sporem o to, ile powinna trwać praca, a tę wiedzę mieli głównie robotnicy. Pomiar operacji stoperem miał usunąć tę asymetrię i zamienić negocjacje w ustalony fakt. Na nim Taylor chciał zbudować system płac, w którym wyższa wydajność opłaca się obu stronom. Wspólny interes potrzebował więc normy na każde zadanie.</p>
-
-<h2 id="z-jakich-ośmiu-obszarów-patrzę-na-taylora">Z jakich ośmiu obszarów patrzę na Taylora?</h2>
-
-<p>Z ciekawości pogłębiłem ten temat i spojrzałem na założenia Taylora z perspektywy ośmiu obszarów wiedzy. Każdy z nich kierował pomiar ku operacji i jednostce:</p>
-
-<ol>
-  <li>Stosunki pracy</li>
-  <li>Zarządzanie operacjami</li>
-  <li>Rachunkowość zarządcza</li>
-  <li>Ekonomia</li>
-  <li>Socjologia</li>
-  <li>Filozofia nauki</li>
-  <li>Teoria organizacji</li>
-  <li>Psychologia organizacji</li>
-</ol>
-
-<p>Każdy z tych tematów będzie osobnym wpisem. Jeśli nie możesz się doczekać całości, daj znać, prześlę ją na boku.</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li>Taylor, F. W. (1911). The Principles of Scientific Management. Harper &amp; Brothers. Rozdział 1 (cel zarządzania, przyczyny soldieringu), rozdział 2 (o robotnikach), s. 130 (mechanizm i istota zarządzania).</li>
-  <li>Taylor, F. W. (1903). Shop Management. Harper &amp; Brothers.</li>
-  <li>Braverman, H. (1974). Labor and Monopoly Capital: The Degradation of Work in the Twentieth Century. Monthly Review Press.</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="zarządzanie naukowe" /><category term="przepływ" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Dlaczego Frederick Taylor mierzył czas operacji, a nie przepływ pracy? Wspólny interes firmy i pracownika, dzisiejszy obraz Taylora i osiem obszarów wiedzy.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dgB897fv">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry></feed>

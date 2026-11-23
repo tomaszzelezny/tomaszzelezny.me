@@ -844,4 +844,10 @@ var store = [{
         "tags": ["inżynier produktu","developer","output i outcome","odkrywanie produktu"],
         "url": "/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/",
         "teaser": null
+      },{
+        "title": "Ten o kryzysach i wspólnym interesie",
+        "excerpt":"Frederick Taylor obiecywał, że wyższa wydajność stworzy więcej miejsc pracy. Ludzie, którym to obiecywał, żyli w gospodarce, w której po panice 1893 roku bez pracy zostało, zależnie od szacunku, od 12 do 18 procent siły roboczej. Ten wpis opisuje tę gospodarkę i obietnicę, którą Taylor w niej sformułował. To czwarta...","categories": ["Zarządzanie"],
+        "tags": ["Taylor","tayloryzm","ekonomia","kryzys 1893","historia zarządzania"],
+        "url": "/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/",
+        "teaser": null
       }]
