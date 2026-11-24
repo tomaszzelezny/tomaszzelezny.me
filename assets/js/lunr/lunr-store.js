@@ -852,7 +852,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o siedmiu zasadach struktury",
-        "excerpt":"N. Dean Meyer twierdzi, że ze schematu organizacyjnego da się przewidzieć, kto nie dowiezie swoich celów, kto będzie się kłócił z kim i kto się wypali. Brzmi jak przechwałka konsultanta. Według niego wystarczy sam schemat, bez arkusza z wynikami. Za tym zdaniem stoi jednak konkretne rozumowanie i siedem zasad, które...","categories": ["Organizacja i systemy"],
+        "excerpt":"N. Dean Meyer twierdzi, że ze schematu organizacyjnego da się przewidzieć, kto nie dowiezie celów, kto będzie się kłócił z kim i kto się wypali. Wystarczy mu do tego sam schemat, bez arkusza z wynikami. Brzmi jak przechwałka konsultanta, ale stoi za tym konkretne rozumowanie i siedem zasad projektowania organizacji....","categories": ["Organizacja i systemy"],
         "tags": ["struktura organizacyjna","projektowanie organizacji","myślenie systemowe","odpowiedzialność","specjalizacja"],
         "url": "/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/",
         "teaser": null
