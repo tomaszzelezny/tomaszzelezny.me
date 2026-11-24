@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-23T04:53:04+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o kryzysach i wspólnym interesie</title><link href="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/" rel="alternate" type="text/html" title="Ten o kryzysach i wspólnym interesie" /><published>2026-11-23T00:00:00+00:00</published><updated>2026-11-23T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-kryzysach-i-wspolnym-interesie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/"><![CDATA[<p>Frederick Taylor obiecywał, że wyższa wydajność stworzy więcej miejsc pracy. Ludzie, którym to obiecywał, żyli w gospodarce, w której po panice 1893 roku bez pracy zostało, zależnie od szacunku, od 12 do 18 procent siły roboczej. Ten wpis opisuje tę gospodarkę i obietnicę, którą Taylor w niej sformułował.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-24T04:52:51+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o siedmiu zasadach struktury</title><link href="https://tomaszzelezny.me/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/" rel="alternate" type="text/html" title="Ten o siedmiu zasadach struktury" /><published>2026-11-24T00:00:00+00:00</published><updated>2026-11-24T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-siedmiu-zasadach-struktury</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/"><![CDATA[<p>N. Dean Meyer twierdzi, że ze schematu organizacyjnego da się przewidzieć, kto nie dowiezie swoich celów, kto będzie się kłócił z kim i kto się wypali.</p>
+
+<p>Brzmi jak przechwałka konsultanta. Według niego wystarczy sam schemat, bez arkusza z wynikami. Za tym zdaniem stoi jednak konkretne rozumowanie i siedem zasad, które warto znać, zanim następnym razem ktoś narysuje nowe pudełka na slajdzie.</p>
+
+<h2 id="czy-projektowanie-organizacji-jest-nauką">Czy projektowanie organizacji jest nauką?</h2>
+
+<p>Meyer odpowiada, że tak, ale nauką formalną, podobnie jak matematyka, geometria czy logika. Jej zasady wynikają z rozumowania i analizy pojęć, więc do ich ustalenia nie są potrzebne eksperymenty na żywych firmach. Punktem wyjścia jest cybernetyka, a dokładniej prawo wymaganej różnorodności W. Rossa Ashby’ego. Meyer streszcza je tak: mechanizm kontroli musi być co najmniej tak złożony jak otoczenie, którym ma sterować. U Ashby’ego oznacza to, że żeby w pełni zrównoważyć każde zakłócenie, system musi mieć co najmniej tyle możliwych odpowiedzi, ile jest możliwych zakłóceń. To warunek konieczny, ale niewystarczający, bo odpowiedź trzeba jeszcze trafnie dobrać do zakłócenia. Na dziesięć różnych rodzajów problemów potrzeba co najmniej dziesięciu różnych sposobów reagowania. Ashby ujął to krótko: tylko różnorodność może zniwelować różnorodność (w oryginale „only variety can destroy variety”).</p>
+
+<p>Meyer opisuje różnorodność jako złożoność razy wolumen podzielone przez czas. Rośnie więc, gdy praca jest trudniejsza, gdy jest jej więcej i gdy trzeba szybciej reagować. Żaden człowiek nie przetworzy jej sam i dlatego, pisze Meyer, tworzymy organizacje: łączymy ludzi, żeby razem obsłużyli więcej. To, jak ci ludzie ze sobą współpracują, wynika z projektu organizacji.</p>
+
+<h2 id="co-się-dzieje-gdy-władza-i-odpowiedzialność-za-wynik-są-w-różnych-rękach">Co się dzieje, gdy władza i odpowiedzialność za wynik są w różnych rękach?</h2>
+
+<p>Przegrywa organizacja i ludzie, którzy odpowiadają za wynik. To pierwsza zasada, którą Meyer nazywa złotą regułą: władza decydowania i odpowiedzialność za wynik (accountability) muszą do siebie pasować. Kto ma władzę bez odpowiedzialności za wynik, może podejmować decyzje, tworzyć procesy i ustalać zasady, które szkodzą innym, i nie ponosi tego skutków. Kto odpowiada za wynik bez władzy, nie może zrobić swojej pracy, a gdy coś się sypie, zostaje bezradnym kozłem ofiarnym. Meyer wyprowadza to z Ashby’ego: odpowiedzialność za wynik jest pętlą sprzężenia zwrotnego, czyli mechanizmem kontroli, więc musi mieć tyle różnorodności, ile swoboda decyzji, którą kontroluje.</p>
+
+<h2 id="dlaczego-specjalizacja-wymaga-współpracy">Dlaczego specjalizacja wymaga współpracy?</h2>
+
+<p>Bo bez współpracy wąscy specjaliści nie złożą wyniku. Druga zasada mówi, że im bardziej struktura pozwala na specjalizację, tym większy jest potencjał wyników w zmiennym i niepewnym otoczeniu, pod warunkiem że między specjalistami działa współpraca ponad granicami zespołów. Przykład z artykułu dotyczy IT rozproszonego po działach biznesu. Każda taka grupa jest mniejsza, niż byłby wspólny dział IT, więc trudno jej się wyspecjalizować i ludzie robią wszystkiego po trochu. Biznes trzyma ją jednak u siebie, bo obawia się, że centralne IT nie zrozumie jego potrzeb. Meyer odpowiada, że tę obawę zdejmie centralny dział nastawiony na klienta, czyli dobra współpraca. Dlatego procesy współpracy trzeba zbudować, zanim powstanie nowy schemat, który pogłębi specjalizację. Drugą stronę tej zasady opisałem w tekście o tym, jak <a href="/blog/2026-08-13-specjalizacja-odpowiedzialnosc/">specjalizacja rozmywa odpowiedzialność</a>.</p>
+
+<h2 id="jak-opisać-zakres-zespołu">Jak opisać zakres zespołu?</h2>
+
+<p>Akapitem lub dwoma o tym, co zespół dostarcza. Trzecia zasada wymaga zakresów bez luk i bez nakładania się. Luka oznacza, że brakującą specjalizację ktoś łata poza swoją wiedzą, a specjalista ściągnięty z zewnątrz może nie przestrzegać zasad firmy ani działać w jej interesie. Dlatego za każdą specjalizację ktoś w firmie musi odpowiadać. Nakładanie się oznacza zdublowaną pracę i wyższe koszty, niezgodne wyniki oraz wewnętrzną rywalizację. Meyer podsumowuje to zdaniem: jeśli płacisz ludziom za walkę, to walczą.</p>
+
+<h2 id="jak-podzielić-dział-na-mniejsze-zespoły">Jak podzielić dział na mniejsze zespoły?</h2>
+
+<p>Po tym, w czym ma być specjalistą. Czwarta zasada każe dzielić obszar według jego specjalizacji. Meyer pokazuje to na sprzedaży, która ma znać klientów, więc powinna być podzielona po klientach. Podział sprzedaży po produktach pokazuje jako błędny. Inżynieria ma znać produkt, więc dzieli się ją po produktach i komponentach, z których produkty powstają.</p>
+
+<h2 id="których-funkcji-nie-łączyć-pod-jednym-szefem">Których funkcji nie łączyć pod jednym szefem?</h2>
+
+<p>Tych, które mają sprzeczne cele. Piąta zasada podaje przykład stabilnego utrzymania i inżynierii, która ma wprowadzać zmiany. Jeśli podlegają jednej osobie, równowagę między nimi ustalają jej upodobania. Ludzie w rolach ze sprzecznymi celami żyją w stresie, bo nie da się wygrać w obu naraz. Ten sam konflikt rozbierałem we wpisie o <a href="/blog/2026-07-02-ten-o-plocie-miedzy-dev-i-ops/">płocie między Dev i Ops</a>. Meyer wymienia pięć takich par, w tym wynalazki i duże innowacje kontra stabilność operacyjną, rozwiązania pod konkretny cel kontra platformy i komponenty wielokrotnego użytku oraz usługę kontra audyt. W pierwszej parze widać to najlepiej: duże innowacje oznaczają zmiany i ryzyko, stabilność operacyjna jak najmniej zmian, więc każda decyzja przesuwa jedno kosztem drugiego. Gdy obie funkcje ma jeden szef, o tym, w którą stronę, decydują jego upodobania.</p>
+
+<h2 id="kogo-łączyć-pod-jednym-szefem">Kogo łączyć pod jednym szefem?</h2>
+
+<p>Podobnych specjalistów. Według szóstej zasady menedżer odpowiada za wizję i strategię obszaru, rozwój ludzi i jakość warsztatu. Współpraca w projektach ma działać systemowo (o tym siódma zasada).</p>
+
+<h2 id="jak-w-takim-razie-ma-działać-współpraca">Jak w takim razie ma działać współpraca?</h2>
+
+<p>Jak firma w firmie. Siódma zasada definiuje każdy zespół przez rezultaty, które „sprzedaje” klientom wewnętrznym. Klient wybiera, co kupuje, a zespół decyduje, jak to dostarczy. Każda inicjatywa ma jeden zespół jako głównego wykonawcę, który odpowiada za całość i zleca części innym zespołom. Zespoły do inicjatyw składają się w poprzek struktury, z ludzi z różnych obszarów, bez przechodzenia przez kolejne szczeble hierarchii.</p>
+
+<h2 id="co-z-tego-biorę-dla-siebie">Co z tego biorę dla siebie?</h2>
+
+<p>Część problemów, które wracają w formie eskalacji, ma źródło w schemacie organizacyjnym. Zespół odpowiada za wynik, ale nie decyduje o priorytetach. Dwa zespoły robią to samo w innym kolorze. Lider ma jednocześnie dowozić nowe funkcje i pilnować stabilności. Kolejna eskalacja tego nie naprawi, bo konflikt wytwarza sama struktura. Meyer przyznaje, że nie ma jednego schematu dobrego dla wszystkich, ale każde odejście od zasad kosztuje wyniki. Dlatego zanim ktoś narysuje nowe pudełka, warto przeczytać obecny schemat jak diagnozę: kto odpowiada za wynik bez władzy, gdzie zakresy się nakładają i które sprzeczne cele podlegają jednej osobie. Siedem zasad Meyera daje do tego gotową listę pytań.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Meyer, N. D. (b.d.). Executive Summary: Is Organizational Structure a Science? N. Dean Meyer and Associates. https://www.ndma.com/resource/ndm31464.htm (dostęp 22.11.2026).</li>
+  <li>Meyer, N. D. (2017). Principle-based Organizational Structure: A Handbook to Help You Engineer Entrepreneurial Thinking and Teamwork into Organizations of Any Size. Danbury, CT: NDMA Publishing. ISBN 978-1-892606-32-7.</li>
+  <li>Ashby, W. R. (1956). An Introduction to Cybernetics. London: Chapman &amp; Hall, rozdz. 11 „Requisite Variety”, s. 202–207 (prawo wymaganej różnorodności).</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="struktura organizacyjna" /><category term="projektowanie organizacji" /><category term="myślenie systemowe" /><category term="odpowiedzialność" /><category term="specjalizacja" /><summary type="html"><![CDATA[Struktura organizacji według N. Deana Meyera: siedem zasad projektowania, prawo wymaganej różnorodności Ashby'ego i co schemat mówi o konfliktach.]]></summary></entry><entry><title type="html">Ten o kryzysach i wspólnym interesie</title><link href="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/" rel="alternate" type="text/html" title="Ten o kryzysach i wspólnym interesie" /><published>2026-11-23T00:00:00+00:00</published><updated>2026-11-23T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-kryzysach-i-wspolnym-interesie</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/"><![CDATA[<p>Frederick Taylor obiecywał, że wyższa wydajność stworzy więcej miejsc pracy. Ludzie, którym to obiecywał, żyli w gospodarce, w której po panice 1893 roku bez pracy zostało, zależnie od szacunku, od 12 do 18 procent siły roboczej. Ten wpis opisuje tę gospodarkę i obietnicę, którą Taylor w niej sformułował.</p>
 
 <p>To czwarta z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Poprzednia opisywała <a href="/blog/2026-11-19-ten-o-czekaniu-bez-adresu/">czekanie, które nie miało adresu w księgach</a>. Ta dotyczy ekonomii.</p>
 
@@ -459,56 +507,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d56Xgs2T">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="soldiering" /><category term="stosunki pracy" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Soldiering, czyli celowe spowalnianie pracy: dlaczego robotnicy w czasach Taylora zwalniali, jak działał akord z obcinaną stawką i po co Taylorowi był stoper.]]></summary></entry><entry><title type="html">Ten o cierpliwej nieefektywności</title><link href="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/" rel="alternate" type="text/html" title="Ten o cierpliwej nieefektywności" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-cierpliwej-nieefektywnosci</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-10-ten-o-cierpliwej-nieefektywnosci/"><![CDATA[<p>Zespół może długo pracować nieefektywnie i nikt tego nie zauważy. Dopóki nieefektywność siedzi w ukryciu, właściwie nie jest problemem.</p>
-
-<p>Priorytety każdy trzyma w głowie, zadania wpadają bez doprecyzowania, połowa pracy nie istnieje na tablicy. Mimo to terminy się spinają i nikt nie ma powodu, żeby cokolwiek zmieniać.</p>
-
-<p><img src="/assets/images/cierpliwa-nieefektywnosc.webp" alt="Nieefektywność jest cierpliwa. Czeka na pierwszą presję. 1. Spokojny okres: priorytety w głowie, zadania bez doprecyzowania, połowa pracy poza tablicą, a terminy się spinają. Przychodzi presja: zleceń jest dużo więcej. 2. Błędne koła przyspieszają: sprawy na szybko dają więcej zaczętych i mniej skończonych; dłuższe czekanie, naciski z góry i kolejne pilne sprawy; ostrzejsze rozmowy, ludzie milczą, zadania wracają do poprawki; nie widać, że zespół jest pełny, więc zleceń przybywa. 3. Co zatrzymuje koła: jawna lista priorytetów, limit spraw w toku, dopytanie przed startem, praca w jednym miejscu, bezpieczna rozmowa o problemach." /></p>
-
-<h2 id="dlaczego-nieefektywność-może-długo-nie-przeszkadzać">Dlaczego nieefektywność może długo nie przeszkadzać?</h2>
-
-<p>Bo przy spokojnym napływie pracy nic jej nie wyciąga na wierzch, a drobne tarcia gasną, zanim ktokolwiek je zauważy. Brak listy priorytetów nie boli, kiedy da się zrobić wszystko, co przyszło. Niedoprecyzowane zadanie można dopytać przy kawie. Praca, której nie ma na tablicy, i tak się kończy, bo ktoś o niej pamięta.</p>
-
-<p>Z zewnątrz widać wynik, a wynik jest dobry. Porządkowanie procesu wygląda wtedy na koszt bez zysku, więc nikt się za nie nie bierze. Trudno znaleźć powód do poprawy, skoro wszystko działa.</p>
-
-<h2 id="co-się-dzieje-gdy-przychodzi-presja">Co się dzieje, gdy przychodzi presja?</h2>
-
-<p>Wszystko zaczyna się sypać. Zleceń jest dużo więcej, a brak dyscypliny i procesu sprawia, że sytuacja rozsypuje się jak domek z kart. Pojawiają się nerwy i konflikty wewnątrz zespołu.</p>
-
-<p>Wtedy zaczyna się kręcić kilka błędnych kół naraz. Przychodzą sprawy „na szybko” i ludzie odkładają to, co robili, żeby się nimi zająć. Zaczętych rzeczy przybywa, a skończonych ubywa, bo im więcej spraw jest w toku, tym dłużej każda czeka na swoją kolej. Pisałem o tym przy <a href="/blog/2026-06-25-ten-o-limitach-wip/">limitach WIP</a>. Kto czeka za długo, idzie wyżej i naciska, a każdy taki nacisk wraca do zespołu jako kolejna pilna sprawa. Gdy rozmowy robią się ostrzejsze, ludzie przestają mówić o problemach. Amy Edmondson opisuje ten mechanizm w badaniach nad bezpieczeństwem psychologicznym: gdy zgłoszenie problemu grozi przykrością, ludzie milczą. Zadania, o które nikt nie dopytał, wracają do poprawki. Nikt nie umie pokazać, że zespół nie ma już miejsca na więcej pracy, więc zleceń przybywa.</p>
-
-<p>Te błędne koła działały od początku. Przy spokojnym napływie pracy kręciły się tak wolno, że wyglądały na stabilne. Donella Meadows nazywa takie koło pętlą wzmacniającą: sama się napędza i z każdym obrotem powiększa zmianę, w którąkolwiek stronę ona idzie. Presja przyspiesza koła, które już były w zespole.</p>
-
-<h2 id="dlaczego-obie-strony-opisują-objaw">Dlaczego obie strony opisują objaw?</h2>
-
-<p>Bo każda widzi tylko swój fragment koła. W środku kryzysu zespół mówi „za dużo pracy”, a kierownictwo „ludzie nie dowożą”. Każda ze stron ma rację, a przyczyna leży gdzie indziej.</p>
-
-<p>Nelson Repenning i John Sterman opisali to w artykule o tym, dlaczego usprawnienia procesów w firmach tak często upadają. Pod presją wyników ludzie zaczynają pracować ciężej zamiast mądrzej. Przez chwilę to pomaga, ale zjada czas na naprawę procesu, więc problemy wracają, a presja rośnie. Kierownictwo widzi przy tym ludzi, którzy się nie wyrabiają, i łatwo przypisuje winę im, a mniej strukturze, w której pracują. Ostrzejsza kontrola tylko rozpędza to samo koło.</p>
-
-<h2 id="co-zatrzymuje-te-błędne-koła">Co zatrzymuje te błędne koła?</h2>
-
-<p>Zmiany, które wyjmują z koła jedno ogniwo:</p>
-
-<ul>
-  <li><strong>Jawna lista priorytetów:</strong> pilna sprawa nie przeskakuje kolejki tylko dlatego, że ktoś głośno naciska.</li>
-  <li><strong>Limit spraw w toku:</strong> zespół kończy to, co zaczął, zanim weźmie coś nowego.</li>
-  <li><strong>Dopytanie przed startem:</strong> zespół wyjaśnia zadanie, zanim weźmie je do pracy, i mniej wraca do poprawki.</li>
-  <li><strong>Praca w jednym miejscu:</strong> widać wszystko, co zespół robi, i łatwo pokazać, że jest pełny.</li>
-  <li><strong>Bezpieczna rozmowa o problemach:</strong> ludzie mówią o nich, zanim urosną.</li>
-</ul>
-
-<p>Każda z tych zmian wymaga czasu, którego w takim momencie już nie ma, i dyscypliny, której zespół do tej pory nie potrzebował. Najtaniej wprowadzić je wtedy, gdy nieefektywność jeszcze nikomu nie przeszkadza.</p>
-
-<p>Nieefektywność jest cierpliwa. Czeka na pierwszą presję.</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ol>
-  <li>Edmondson, A. C. (2018). <em>The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth</em>. Wiley.</li>
-  <li>Meadows, D. H. (2008). <em>Thinking in Systems: A Primer</em>. Chelsea Green Publishing.</li>
-  <li>Repenning, N. P., Sterman, J. D. (2001). Nobody Ever Gets Credit for Fixing Problems that Never Happened: Creating and Sustaining Process Improvement. <em>California Management Review</em>, 43(4), 64–88.</li>
-</ol>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dgB897fv">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Organizacja i systemy" /><category term="efektywność" /><category term="myślenie systemowe" /><category term="przepływ pracy" /><category term="presja" /><summary type="html"><![CDATA[Nieefektywność w zespole może długo siedzieć w ukryciu. Pod presją błędne koła pilnych spraw, nacisków i milczenia rozsypują pracę jak domek z kart.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/d56Xgs2T">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="soldiering" /><category term="stosunki pracy" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Soldiering, czyli celowe spowalnianie pracy: dlaczego robotnicy w czasach Taylora zwalniali, jak działał akord z obcinaną stawką i po co Taylorowi był stoper.]]></summary></entry></feed>
