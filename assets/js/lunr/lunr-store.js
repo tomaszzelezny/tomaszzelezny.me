@@ -856,4 +856,10 @@ var store = [{
         "tags": ["struktura organizacyjna","projektowanie organizacji","myślenie systemowe","odpowiedzialność","specjalizacja"],
         "url": "/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/",
         "teaser": null
+      },{
+        "title": "Ten o stanie przed i po",
+        "excerpt":"Zmianę widać dopiero wtedy, gdy jest z czym porównać. Jeden raport mówi, jak jest dziś. Nie mówi, czy jest lepiej niż miesiąc temu. Do tego potrzebny jest stan przed i stan po. Taką możliwość dodałem w nowej wersji pluginu Aging WIP do Azure DevOps. Raport można teraz zapisać jako obraz...","categories": ["Zarządzanie produktem"],
+        "tags": ["aging WIP","Azure DevOps","work item age","raport"],
+        "url": "/blog/2026-11-25-ten-o-stanie-przed-i-po/",
+        "teaser": null
       }]
