@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-25T04:53:58+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o stanie przed i po</title><link href="https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/" rel="alternate" type="text/html" title="Ten o stanie przed i po" /><published>2026-11-25T00:00:00+00:00</published><updated>2026-11-25T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stanie-przed-i-po</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/"><![CDATA[<p>Zmianę widać dopiero wtedy, gdy jest z czym porównać. Jeden raport mówi, jak jest dziś. Nie mówi, czy jest lepiej niż miesiąc temu. Do tego potrzebny jest stan przed i stan po.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-26T04:52:52+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o trybie wykonawczym</title><link href="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/" rel="alternate" type="text/html" title="Ten o trybie wykonawczym" /><published>2026-11-26T00:00:00+00:00</published><updated>2026-11-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trybie-wykonawczym</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/"><![CDATA[<p>W prezentacji o inżynierze produktu jeden slajd ma cztery słowa: ticket, kod, PR, następny. Tak wygląda tryb wykonawczy. Na tablicy zadań wszystko się w nim zgadza, a jego koszt ponosi firma.</p>
+
+<p><img src="/assets/images/tryb-wykonawczy.webp" alt="Tryb wykonawczy na przykładzie aplikacji do dokumentowania prac na budowie. Co widzi zespół: ticket, kod, PR, wdrożenie, wszystko zamknięte. Co dzieje się po przekazaniu: zdjęcia robione na budowie przy słabej sieci, aplikacja bez pracy offline, część zdjęć nie dociera do firmy, po dwóch latach zgłasza to klient. Co traci firma: wiedzę o rezultacie (w Microsofcie skuteczna okazuje się jedna trzecia pomysłów sprawdzanych w eksperymentach), wartość inżynierów (według szacunku Cagana około połowy, gdy tylko dostarczają) i czas (dwa lata). Na dole pytania: przed ticketem, co firma dzięki temu próbuje osiągnąć; po wdrożeniu, co się zmieniło." /></p>
+
+<h2 id="czym-jest-tryb-wykonawczy">Czym jest tryb wykonawczy?</h2>
+
+<p>Tryb wykonawczy to praca, która kończy się w chwili przekazania. Z backlogu przychodzi ticket, powstają kod i testy, pull request przechodzi review, zmiana idzie dalej, a zespół bierze następny ticket. Nie wszędzie praca tak wygląda, ale w wielu firmach to domyślny sposób działania.</p>
+
+<p>Kłopot zaczyna się po przekazaniu. Temat jest zamknięty, więc zespół traci kontakt z rezultatem: nikt nie wraca do pytania, co zmiana dała użytkownikowi. Z <a href="/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/">czterech poziomów efektu pracy</a> zespół widzi wtedy tylko pierwszy, czyli wynik.</p>
+
+<h2 id="jak-tryb-wykonawczy-wygląda-w-praktyce">Jak tryb wykonawczy wygląda w praktyce?</h2>
+
+<p>Pracowaliśmy nad aplikacją mobilną dla firmy budowlanej. Służyła do dokumentowania prac w mieszkaniach, a jej ważną częścią było dodawanie zdjęć. Funkcje były gotowe, tickety zamknięte.</p>
+
+<p>Po dwóch latach zgłosił się do nas klient: części zdjęć brakowało, a użytkownicy twierdzili, że robią wszystko dobrze. Mieli rację. Robili wszystko dobrze, tylko sieć na budowie nie czytała specyfikacji. Okazało się, że sieć na budowie jest słaba, a aplikacji nie zaprojektowano do pracy offline. Później przeprojektowano ją tak, żeby wysyłała zdjęcia w częściach, odpornie na słaby zasięg. Dodaliśmy też kolejkę do wysyłki i licznik zdjęć, które czekają na urządzeniu.</p>
+
+<p>To przypadek złego rozwiązania z <a href="/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/">trzech powodów braku rezultatu</a>: potrzeba była prawdziwa, a rozwiązanie nie pasowało do warunków, w jakich ludzie go używali.</p>
+
+<h2 id="co-traci-firma-gdy-zespół-pracuje-w-trybie-wykonawczym">Co traci firma, gdy zespół pracuje w trybie wykonawczym?</h2>
+
+<p>Firma traci wiedzę o rezultacie, część wartości inżynierów i czas.</p>
+
+<p><strong>Wiedza o rezultacie.</strong> Większość pomysłów sprawdzanych w eksperymentach nie działa tak, jak zakładano. Ron Kohavi i Stefan Thomke piszą, że w Microsofcie jedna trzecia testowanych pomysłów okazuje się skuteczna, jedna trzecia nie daje istotnej zmiany, a jedna trzecia pogarsza wyniki. W Google i Bing pozytywny wynik daje około 10–20% eksperymentów. Zespół, który nie patrzy na rezultat, nie wie, do której grupy trafiła jego praca. Kolejne zlecenia powstają wtedy na założeniach, których nikt nie sprawdził.</p>
+
+<p><strong>Wartość inżynierów.</strong> Marty Cagan opisuje zespoły, które dostają listę funkcji do zbudowania (w jego znaczeniu feature teams). Za wartość i opłacalność odpowiada w nich osoba, która zamówiła funkcję, a inżynierowie zostają zepchnięci do dostarczania. Cagan szacuje, że firma dostaje wtedy mniej więcej połowę realnej wartości swoich inżynierów.</p>
+
+<p><strong>Czas.</strong> Problem, którego nikt nie szuka, wychodzi późno. W aplikacji budowlanej przez dwa lata wynik wyglądał bez zarzutu, a część dokumentacji prac nie docierała do firmy.</p>
+
+<h2 id="jak-przesunąć-koniec-pracy-za-zamknięty-ticket">Jak przesunąć koniec pracy za zamknięty ticket?</h2>
+
+<p>Wystarczy, że cel i sposób sprawdzenia rezultatu trafią do zlecenia, a zespół wróci do nich po wdrożeniu.</p>
+
+<p>Manager może przy każdym zleceniu podać, co firma chce dzięki funkcji osiągnąć, i sposób, w jaki zespół sprawdzi, czy to się udało. Wtedy dowiezienie funkcji przestaje być jedyną miarą. Gdyby od startu ktoś porównywał, ile zdjęć zrobiono na budowie, a ile dotarło do firmy, brak wyszedłby dużo wcześniej niż po dwóch latach i bez zgłoszenia od klienta.</p>
+
+<p>Inżynier może zapytać o ten cel, zanim napisze pierwszą linijkę kodu, a po wdrożeniu sprawdzić, czy użytkownicy dostali to, czego potrzebowali. W przykładzie z mieszkaniami pytanie o warunki użycia prowadzi wprost do zasięgu sieci.</p>
+
+<h2 id="od-jakiego-pytania-zacząć">Od jakiego pytania zacząć?</h2>
+
+<p>Od pytania, które warto zadać przed każdym ticketem: co firma dzięki temu próbuje osiągnąć?</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Cagan, M. (2019, 29 sierpnia). Product vs Feature Teams. SVPG. https://www.svpg.com/product-vs-feature-teams/</li>
+  <li>Kohavi, R., Thomke, S. (2017). The Surprising Power of Online Experiments. <em>Harvard Business Review</em>, 95(5), 74–82 (wrzesień–październik 2017). https://exp-platform.com/hbr-the-surprising-power-of-online-experiments/</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="feature teams" /><summary type="html"><![CDATA[Czym jest tryb wykonawczy developera (ticket, kod, PR, następny) i co traci przez niego firma: wiedzę o rezultacie, część wartości inżynierów i czas.]]></summary></entry><entry><title type="html">Ten o stanie przed i po</title><link href="https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/" rel="alternate" type="text/html" title="Ten o stanie przed i po" /><published>2026-11-25T00:00:00+00:00</published><updated>2026-11-25T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-stanie-przed-i-po</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/"><![CDATA[<p>Zmianę widać dopiero wtedy, gdy jest z czym porównać. Jeden raport mówi, jak jest dziś. Nie mówi, czy jest lepiej niż miesiąc temu. Do tego potrzebny jest stan przed i stan po.</p>
 
 <p>Taką możliwość dodałem w nowej wersji <a href="https://marketplace.visualstudio.com/items?itemName=TomaszZelezny.aging-wip">pluginu Aging WIP do Azure DevOps</a>. Raport można teraz zapisać jako obraz i odłożyć na później.</p>
 
@@ -458,63 +503,4 @@
 
 <ul>
   <li>Seiden, J. (2019). <em>Outcomes Over Output: Why Customer Behavior Is the Key Metric for Business Success</em>. Sense &amp; Respond Press.</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry><entry><title type="html">Ten o czterech postawach wobec planowania</title><link href="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/" rel="alternate" type="text/html" title="Ten o czterech postawach wobec planowania" /><published>2026-11-12T00:00:00+00:00</published><updated>2026-11-20T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-postawach-wobec-planowania</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/"><![CDATA[<p>Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i szuka drogi, żeby do niej dojść.</p>
-
-<p>Każda z tych postaw ma swoją logikę i każda daje inny rodzaj planu. Warto wiedzieć, którą z nich przyjmuje Twoja organizacja, zanim zacznie planować kolejny rok.</p>
-
-<h2 id="co-mówi-o-firmie-sposób-w-jaki-planuje">Co mówi o firmie sposób, w jaki planuje?</h2>
-
-<p>Mówi, jak firma traktuje przyszłość. Może ją traktować jak zagrożenie, przed którym trzeba się bronić, jak coś, co trzeba przeczekać, jak pogodę, którą da się tylko przewidzieć, albo jak coś, co można zaprojektować. Donella Meadows w tekście z 1990 roku przypomina, że Ackoff opisał te postawy już w „Redesigning the Future” z 1974 roku. W książce z 1981 roku zbudował na nich swoje podejście do planowania.</p>
-
-<p>Plan roczny zwykle nie mówi tego wprost. Widać to dopiero w tym, od czego zaczyna się rozmowa: od listy problemów z zeszłego roku, od budżetu „jak w poprzednim roku plus kilka procent”, od prognozy rynku albo od opisu stanu, do którego chcemy dojść.</p>
-
-<h2 id="jak-wygląda-każda-z-czterech-postaw">Jak wygląda każda z czterech postaw?</h2>
-
-<p><strong>Reaktywna.</strong> Zmiany idą za szybko i w złą stronę, więc trzeba je odkręcić. Punktem odniesienia jest przeszłość, kiedy „wszystko działało”. Plan reaktywny to lista rzeczy do naprawienia. O tym, dlaczego takie naprawianie wraca w kółko, pisałem we wpisie o <a href="/blog/2025-10-09-ten-o-projektowaniu-zamiast-naprawiania/">projektowaniu zamiast naprawiania</a>.</p>
-
-<p><strong>Nieaktywna.</strong> Teraźniejszość jest w porządku, a duże ruchy mogą tylko zaszkodzić. Celem jest przetrwanie i utrzymanie tego, co jest. Zmiany są małe i powolne, a plan zapisuje stan obecny z drobnymi korektami.</p>
-
-<p><strong>Preaktywna.</strong> Przeszłość i teraźniejszość nie wystarczają, więc firma chce wyprzedzić zmianę. Prognozuje i przygotowuje się na najbardziej prawdopodobny scenariusz. Przyszłość traktuje przy tym jak coś, na co nie ma wpływu. Ackoff nazywał takie planowanie strategicznym i odgórnym, w przeciwieństwie do reaktywnego, które idzie od dołu i łata konkretne braki.</p>
-
-<p><strong>Interaktywna.</strong> Przyszłość w dużej mierze zależy od tego, co zrobimy dziś. Planowanie to więc projektowanie pożądanego stanu i wymyślanie dróg, które do niego prowadzą. Ackoff rozwinął to w podejście nazwane interactive planning, a razem z Jasonem Magidsonem i Herbertem Addisonem opisał jego rdzeń w książce „Idealized Design”. W krótkim przewodniku z 2001 roku dodaje, że organizację powinni stale przeprojektowywać jej interesariusze, zarówno wewnętrzni, jak i zewnętrzni.</p>
-
-<p><img src="/assets/images/cztery-postawy-wobec-planowania.webp" alt="Cztery postawy wobec planowania według Ackoffa na osi od przeszłości do przyszłości. 01 Reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu, jej plan to lista rzeczy do odkręcenia. 02 Nieaktywna trzyma się teraźniejszości i uważa, że duże ruchy tylko szkodzą, jej plan to stan obecny z drobnymi korektami. 03 Preaktywna przewiduje i szykuje się na najbardziej prawdopodobny scenariusz, jej plan to prognoza i przygotowanie. 04 Interaktywna projektuje, bo uważa, że przyszłość zależy od tego, co zrobimy dziś, jej plan to pożądany stan i droga do niego. Na dole: firmy liczą błędy działania, a błędów zaniechania nikt nie zapisuje, więc najbezpieczniej jest robić mało." /></p>
-
-<h2 id="jak-ta-sama-sytuacja-wygląda-z-czterech-stron">Jak ta sama sytuacja wygląda z czterech stron?</h2>
-
-<p>Weźmy umowny przykład: do firmy, która od lat ma stałych klientów, wchodzi konkurent z tańszym i prostszym produktem.</p>
-
-<p>Firma reaktywna szuka winnego i chce wrócić do warunków sprzed wejścia konkurenta. Obniża ceny, naciska na handlowców i wspomina czasy, kiedy klienci sami przychodzili. Firma nieaktywna uznaje, że to chwilowe, i czeka, aż rynek się uspokoi. Firma preaktywna zamawia analizę rynku, prognozuje, ile klientów straci, i przygotowuje plan ograniczenia strat. Firma interaktywna pyta, jaką ofertę zbudowałaby dziś od zera dla tych samych klientów, i projektuje drogę do niej, zanim konkurent zdąży tę przestrzeń zająć.</p>
-
-<p>Każda z tych reakcji ma sens, jeśli przyjąć założenie, od którego wychodzi. Różnią się odpowiedzią na pytanie, czy na przyszłość mamy wpływ.</p>
-
-<h2 id="dlaczego-tak-wiele-firm-wybiera-bezruch">Dlaczego tak wiele firm wybiera bezruch?</h2>
-
-<p>Ackoff wskazywał na sposób, w jaki firmy liczą błędy. Błąd działania to zrobienie czegoś, czego nie trzeba było robić. Błąd zaniechania to niezrobienie czegoś, co trzeba było zrobić. W artykule „Why Few Organizations Adopt Systems Thinking” pisał, że systemy rachunkowe zapisują tylko błędy pierwszego rodzaju, a drugich nikt nie odnotowuje, więc często nikt się do nich nie przyznaje.</p>
-
-<p>Wniosek Ackoffa jest prosty: menedżer, który chce uniknąć nagany, ogranicza błędy działania, a najłatwiej zrobić to, nie robiąc nic albo tak mało, jak się da. W tym samym tekście uznał to za jeden z głównych powodów, dla których organizacje nie przeprowadzają radykalnych zmian. System ocen wzmacnia więc postawę nieaktywną, nawet jeśli w strategii stoi „innowacja”.</p>
-
-<h2 id="czy-krótkie-cykle-planowania-zmieniają-postawę">Czy krótkie cykle planowania zmieniają postawę?</h2>
-
-<p>Same nie. Zespół może planować co dwa tygodnie i nadal tylko reagować na to, co wpadło w ostatnim sprincie. Częstsze planowanie daje więcej okazji do zmiany kierunku, ale kierunek trzeba najpierw mieć. O tym, czym <a href="/blog/2026-03-10-ten-o-planie-i-planowaniu/">planowanie różni się od planu</a>, pisałem przy okazji słów Eisenhowera.</p>
-
-<p>Postawa interaktywna przydaje się też przy konfliktach. Ackoff opisywał <a href="/blog/2025-09-23-ten-o-rozpuszczaniu-konfliktow/">rozpuszczanie konfliktu</a> przez zmianę systemu, w którym powstał. Żeby to zrobić, trzeba najpierw uznać, że system da się zaprojektować inaczej.</p>
-
-<p>Na ten wpis powołał się artykuł w iNEWS o planie rocznym operatorów sieci, o czym piszę we wpisie o <a href="/blog/2026-11-20-ten-o-pierwszym-cytowaniu/">pierwszym cytowaniu bloga</a>.</p>
-
-<p>Którą postawę widać w Waszym ostatnim planie rocznym?</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ol>
-  <li>Ackoff, R. L. (1974). <em>Redesigning the Future: A Systems Approach to Societal Problems</em>. John Wiley &amp; Sons.</li>
-  <li>Ackoff, R. L. (1981). <em>Creating the Corporate Future: Plan or Be Planned For</em>. John Wiley &amp; Sons.</li>
-  <li>Ackoff, R. L. (2001). <em>A Brief Guide to Interactive Planning and Idealized Design</em>. Materiał udostępniony przez Uniwersytet w Linköping.</li>
-  <li>Ackoff, R. L., Magidson, J., Addison, H. J. (2006). <em>Idealized Design: Creating an Organization’s Future</em>. Wharton School Publishing.</li>
-  <li>Ackoff, R. L. (2006). Why Few Organizations Adopt Systems Thinking. <em>Systems Research and Behavioral Science</em>, 23, 705–708.</li>
-  <li>Meadows, D. (1990, 15 lutego). Inactive Bush; Interactive Gorbachev. Donella Meadows Archives, Sustainability Institute.</li>
-</ol>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dtnYr-mH">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Russell Ackoff" /><category term="planowanie" /><category term="myślenie systemowe" /><category term="projektowanie organizacji" /><category term="zmiana" /><summary type="html"><![CDATA[Reaktywna, nieaktywna, preaktywna i interaktywna. Cztery postawy wobec planowania według Russella Ackoffa i to, co mówią o tym, jak firma traktuje przyszłość.]]></summary></entry></feed>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry></feed>

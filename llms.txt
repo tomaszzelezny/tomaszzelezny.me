@@ -13,6 +13,7 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Tryb wykonawczy: co traci firma](https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/): Czym jest tryb wykonawczy developera (ticket, kod, PR, następny) i co traci przez niego firma: wiedzę o rezultacie, część wartości inżynierów i czas.
 - [Aging WIP: raport przed i po zmianie](https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/): Aging WIP 1.2.5 dla Azure DevOps: eksport raportu do PNG i spójne etykiety wieku pracy. Po co zapisywać stan przed i po, żeby zobaczyć zmianę.
 - [Struktura organizacji: siedem zasad Meyera](https://tomaszzelezny.me/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/): Struktura organizacji według N. Deana Meyera: siedem zasad projektowania, prawo wymaganej różnorodności Ashby'ego i co schemat mówi o konfliktach.
 - [Kryzysy 1873 i 1893 a obietnica Taylora](https://tomaszzelezny.me/blog/2026-11-23-ten-o-kryzysach-i-wspolnym-interesie/): Gospodarka czasów Taylora: panika 1873 i 1893 roku, spadające ceny i wojny cenowe, a w nich obietnica, że tańsza produkcja da większy popyt i więcej pracy.

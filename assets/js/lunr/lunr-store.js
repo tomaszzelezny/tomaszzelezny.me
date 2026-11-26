@@ -862,4 +862,10 @@ var store = [{
         "tags": ["aging WIP","Azure DevOps","work item age","raport"],
         "url": "/blog/2026-11-25-ten-o-stanie-przed-i-po/",
         "teaser": null
+      },{
+        "title": "Ten o trybie wykonawczym",
+        "excerpt":"W prezentacji o inżynierze produktu jeden slajd ma cztery słowa: ticket, kod, PR, następny. Tak wygląda tryb wykonawczy. Na tablicy zadań wszystko się w nim zgadza, a jego koszt ponosi firma. Czym jest tryb wykonawczy? Tryb wykonawczy to praca, która kończy się w chwili przekazania. Z backlogu przychodzi ticket, powstają...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","output i outcome","feature teams"],
+        "url": "/blog/2026-11-26-ten-o-trybie-wykonawczym/",
+        "teaser": null
       }]

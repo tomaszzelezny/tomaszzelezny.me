@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/</loc>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/</loc>
     <lastmod>2026-11-25T00:00:00+00:00</lastmod>
   </url>
@@ -108,7 +113,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-10-12-ten-o-szarej-strefie/</loc>
-    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -428,7 +433,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2026-01-20-ten-o-malych-poprawkach/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -668,7 +673,7 @@
   
   <url>
     <loc>https://tomaszzelezny.me/blog/2025-05-23-ten-o-bledach-poznawczych-przy-ai/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -727,7 +732,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/blog/</loc>
-    <lastmod>2026-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url>
     
   
@@ -738,7 +743,7 @@
     
   <url>
     <loc>https://tomaszzelezny.me/</loc>
-    <lastmod>2026-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url>
     
   
