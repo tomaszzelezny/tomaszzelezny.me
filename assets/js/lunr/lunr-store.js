@@ -773,6 +773,12 @@ var store = [{
         "url": "/blog/2026-10-29-ten-o-tym-co-czeka/",
         "teaser": null
       },{
+        "title": "Ten o pytaniu, od którego zaczęła się seria",
+        "excerpt":"Ostatnio sięgam trochę do tematu zarządzania naukowego, czyli tayloryzmu, i w sumie powstała mi w głowie zagwozdka. Taylor skupiał się na pomiarach, w czym nie ma nic złego. Dlaczego jednak skupiał się na pojedynczym stanowisku, a nie na całym strumieniu wartości? Co zrobić z pytaniem, które nie mieści się w...","categories": ["Pisanie"],
+        "tags": ["pisanie","seria","Taylor","zarządzanie naukowe"],
+        "url": "/blog/2026-10-30-ten-o-pytaniu-od-ktorego-zaczela-sie-seria/",
+        "teaser": null
+      },{
         "title": "Ten o rezultacie pracy developera",
         "excerpt":"W zajawce serii zadałem pytanie, od którego zacząłem majową prezentację: co jest rezultatem pracy developera? Kod, nowa funkcjonalność, zamknięte tickety i poprawki błędów to wyniki, a rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. Zmiana u użytkownika nie musi oznaczać nowego nawyku. Często polega na tym, że...","categories": ["Zarządzanie produktem"],
         "tags": ["inżynier produktu","developer","AI","output i outcome","renaissance developer"],
@@ -785,10 +791,22 @@ var store = [{
         "url": "/blog/2026-11-04-ten-o-tablicy-tablic/",
         "teaser": null
       },{
+        "title": "Ten o wspólnej tablicy",
+        "excerpt":"W pracy rzadko robisz coś sam. Żeby inicjatywa się udała, potrzeba ludzi z różnych obszarów i o różnych kompetencjach, więc prawie zawsze od kogoś zależysz. Tak jest ze stroną eMobility, nad którą ciągle pracujemy i którą usprawniamy. Ten wpis jest o tym, jak przy niej uzgodniliśmy kierunek zmian z ludźmi...","categories": ["Zarządzanie produktem"],
+        "tags": ["warsztat","UX","persony","współpraca","zależności"],
+        "url": "/blog/2026-11-04-ten-o-wspolnej-tablicy/",
+        "teaser": null
+      },{
         "title": "Ten o tym, dlaczego Taylor mierzył operacje",
         "excerpt":"„The Principles of Scientific Management” z 1911 roku Frederick Winslow Taylor otwiera zdaniem o celu zarządzania: „The principal object of management should be to secure the maximum prosperity for the employer, coupled with the maximum prosperity for each employé”. Zarządzanie ma więc zapewnić jednocześnie największą pomyślność pracodawcy i każdego pracownika....","categories": ["Zarządzanie"],
         "tags": ["Taylor","tayloryzm","zarządzanie naukowe","przepływ","historia zarządzania"],
         "url": "/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/",
+        "teaser": null
+      },{
+        "title": "Ten o prezentacji na Uniwersytecie Śląskim",
+        "excerpt":"9 listopada 2026 roku poprowadziłem wykład na Wydziale Nauk Ścisłych i Technicznych Uniwersytetu Śląskiego w Sosnowcu, w ramach cyklu „Poniedziałek z IT”. Było to możliwe dzięki współpracy uczelni z Vattenfall Poland. Mówiłem o tym, jak AI wpływa na branżę i co to zmienia w pracy developera. O czym był wykład?...","categories": ["Zarządzanie produktem"],
+        "tags": ["inżynier produktu","developer","AI","wykład","rezultat"],
+        "url": "/blog/2026-11-09-ten-o-prezentacji-na-uniwersytecie-slaskim/",
         "teaser": null
       },{
         "title": "Ten o cierpliwej nieefektywności",
@@ -813,6 +831,12 @@ var store = [{
         "excerpt":"W poprzednim wpisie serii oddzieliłem wynik od rezultatu. Wynik to to, co zespół dostarcza: kod, funkcja, zamknięty ticket. Rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. W tym wpisie rozdzielam go na dwa poziomy: zmianę u użytkownika, którą dalej nazywam rezultatem, i korzyść dla firmy. Razem z...","categories": ["Zarządzanie produktem"],
         "tags": ["inżynier produktu","developer","output i outcome","dźwignia"],
         "url": "/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/",
+        "teaser": null
+      },{
+        "title": "Ten o krótkiej drodze do decyzji",
+        "excerpt":"Tomasz Karwatka znowu coś kombinuje. Kolejne „The 5”? Przejrzałem przedpremierowo rozdziały jego nowej książki „+5” i dla mnie też się w niej coś znalazło. Książka jest pisana dla founderów, a dwie myśli z niej przydają się każdemu, kto planuje swoją pracę albo próbuje wprowadzić w firmie coś nowego. Od czego...","categories": ["Organizacja i systemy"],
+        "tags": ["Tomasz Karwatka","planowanie","innowacje","decyzje","książki"],
+        "url": "/blog/2026-11-15-ten-o-krotkiej-drodze-do-decyzji/",
         "teaser": null
       },{
         "title": "Ten o fabryce, w której nie widać przepływu",
