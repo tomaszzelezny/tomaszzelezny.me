@@ -804,7 +804,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Ten o czterech postawach wobec planowania",
-        "excerpt":"Russell Ackoff w „Creating the Corporate Future” opisał cztery postawy wobec planowania. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona z tego, co jest, i broni się przed zmianą. Preaktywna przewiduje przyszłość i przygotowuje się na nią. Interaktywna sama projektuje przyszłość, jakiej chce, i...","categories": ["Zarządzanie"],
+        "excerpt":"Russell Ackoff opisał cztery postawy wobec planowania w „Redesigning the Future” z 1974 roku i wrócił do nich w „Creating the Corporate Future” z 1981 roku. Opisy poniżej idą za streszczeniem Donelli Meadows z 1990 roku. Organizacja reaktywna patrzy wstecz i chce wrócić do stanu sprzed problemu. Nieaktywna jest zadowolona...","categories": ["Zarządzanie"],
         "tags": ["Russell Ackoff","planowanie","myślenie systemowe","projektowanie organizacji","zmiana"],
         "url": "/blog/2026-11-12-ten-o-czterech-postawach-wobec-planowania/",
         "teaser": null
@@ -867,5 +867,17 @@ var store = [{
         "excerpt":"W prezentacji o inżynierze produktu jeden slajd ma cztery słowa: ticket, kod, PR, następny. Tak wygląda tryb wykonawczy. Na tablicy zadań wszystko się w nim zgadza, a jego koszt ponosi firma. Czym jest tryb wykonawczy? Tryb wykonawczy to praca, która kończy się w chwili przekazania. Z backlogu przychodzi ticket, powstają...","categories": ["Zarządzanie produktem"],
         "tags": ["inżynier produktu","developer","output i outcome","feature teams"],
         "url": "/blog/2026-11-26-ten-o-trybie-wykonawczym/",
+        "teaser": null
+      },{
+        "title": "Ten o satysfakcji z vibe codingu",
+        "excerpt":"Teraz można zaobserwować zachwyt nad vibe codingiem. Jest fajny, bo robisz sam i nie czekasz. Masz pomysł wieczorem, a po godzinie klikasz w coś, co działa. Ten krótki odcinek między „przydałoby się” a „mam” daje więcej przyjemności niż wiele tygodni pracy nad dużym projektem. Czym jest vibe coding? Vibe coding...","categories": ["Zarządzanie produktem"],
+        "tags": ["vibe coding","samoobsługa","citizen developers","AI","motywacja"],
+        "url": "/blog/2026-11-27-ten-o-satysfakcji-z-vibe-codingu/",
+        "teaser": null
+      },{
+        "title": "Ten o wykorzystaniu tagów",
+        "excerpt":"Od kilku tygodni publikuję na LinkedIn serię „Inżynier produktu”. Hashtagi do postów dodaje Claude, asystent AI. Wśród nich był #InżynierProduktu, który miał łączyć posty serii. Dodawałem go do kolejnych postów, zanim sprawdziłem, dokąd prowadzi. Dokąd prowadził hashtag serii? Do ofert pracy. Po jakimś czasie wpisałem #InżynierProduktu w wyszukiwarkę LinkedIn i...","categories": ["Pisanie"],
+        "tags": ["LinkedIn","hashtagi","pisanie","AI"],
+        "url": "/blog/2026-11-27-ten-o-wykorzystaniu-tagow/",
         "teaser": null
       }]

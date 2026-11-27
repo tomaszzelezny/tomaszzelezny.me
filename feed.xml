@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-26T04:52:52+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o trybie wykonawczym</title><link href="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/" rel="alternate" type="text/html" title="Ten o trybie wykonawczym" /><published>2026-11-26T00:00:00+00:00</published><updated>2026-11-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trybie-wykonawczym</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/"><![CDATA[<p>W prezentacji o inżynierze produktu jeden slajd ma cztery słowa: ticket, kod, PR, następny. Tak wygląda tryb wykonawczy. Na tablicy zadań wszystko się w nim zgadza, a jego koszt ponosi firma.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://tomaszzelezny.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tomaszzelezny.me/" rel="alternate" type="text/html" /><updated>2026-11-27T04:53:13+00:00</updated><id>https://tomaszzelezny.me/feed.xml</id><title type="html">Tomasz Żelezny</title><subtitle>Organizacja to nie suma części, tylko iloczyn ich współpracy. Pomagam IT, biznesowi i produktowi pracować razem. Scrum Master i Agile Coach.</subtitle><author><name>Tomasz Żelezny</name></author><entry><title type="html">Ten o satysfakcji z vibe codingu</title><link href="https://tomaszzelezny.me/blog/2026-11-27-ten-o-satysfakcji-z-vibe-codingu/" rel="alternate" type="text/html" title="Ten o satysfakcji z vibe codingu" /><published>2026-11-27T00:00:00+00:00</published><updated>2026-11-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-satysfakcji-z-vibe-codingu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-27-ten-o-satysfakcji-z-vibe-codingu/"><![CDATA[<p>Teraz można zaobserwować zachwyt nad vibe codingiem. Jest fajny, bo robisz sam i nie czekasz. Masz pomysł wieczorem, a po godzinie klikasz w coś, co działa. Ten krótki odcinek między „przydałoby się” a „mam” daje więcej przyjemności niż wiele tygodni pracy nad dużym projektem.</p>
+
+<h2 id="czym-jest-vibe-coding">Czym jest vibe coding?</h2>
+
+<p>Vibe coding to pisanie programu przez rozmowę z modelem AI, bez czytania kodu, który model generuje. Nazwę wymyślił Andrej Karpathy 2 lutego 2025 roku. Napisał, że akceptuje wszystkie zmiany od modelu i nie czyta już kodu. Opisał go jako sposób pracy, w którym „poddajesz się wibracjom” i zapominasz, że kod w ogóle istnieje. Mówisz, co chcesz, patrzysz na wynik, prosisz o poprawkę i tak w kółko.</p>
+
+<p>W pracy programista rzadko widzi efekt tego samego dnia. Zadanie czeka na refinement, potem na review i na wdrożenie, a zmiana przekrojowa wymaga uzgodnień z innymi zespołami. <a href="/blog/2026-10-21-ten-o-enkapsulacji/">Rozmowy kosztują więcej niż sam kod</a>. Przy vibe codingu po godzinach cały ten odcinek znika, a efekt przychodzi tego samego wieczoru.</p>
+
+<p><img src="/assets/images/satysfakcja-vibe-coding.webp" alt="Skąd satysfakcja z vibe codingu? W pracy pomysł przechodzi przez refinement, review i wdrożenie, a efekt widać po tygodniach, często z drugiej ręki. Wieczorem z modelem AI pomysł, polecenie i działający wynik dzielą minuty. Trzy mechanizmy: postęp w pracy, która ma znaczenie (Amabile i Kramer), stan flow dzięki natychmiastowej informacji zwrotnej (Csikszentmihalyi) i efekt IKEA (Norton, Mochon, Ariely). Satysfakcja od razu, rachunek później: ktoś musi to utrzymać." /></p>
+
+<h2 id="skąd-bierze-się-satysfakcja-z-małego-efektu">Skąd bierze się satysfakcja z małego efektu?</h2>
+
+<p>Satysfakcję daje poczucie postępu, nawet małego. Teresa Amabile i Steven Kramer przeanalizowali blisko 12 000 codziennych wpisów w dziennikach pracy, które prowadziło 238 osób z 26 zespołów w siedmiu firmach. Ze wszystkich zdarzeń, które poprawiały ludziom emocje, motywację i postrzeganie pracy, najsilniej działał postęp w pracy, która ma dla nich znaczenie. Wystarczały małe kroki do przodu. Autorzy nazwali to zasadą postępu.</p>
+
+<p>Vibe coding daje taki krok do przodu co kilka minut. Przycisk działa, tabela się sortuje, raport liczy to, co miał liczyć. Każda udana poprawka jest małą wygraną, a następna przychodzi, zanim zdążysz się znudzić. <a href="/blog/2026-01-20-ten-o-malych-poprawkach/">Małych poprawek się nie świętuje</a>, a mimo to dają szybką gratyfikację. W pracy ten sam postęp rozkłada się na tygodnie, a efekt u użytkownika programista często zna tylko z drugiej ręki.</p>
+
+<h2 id="dlaczego-szybka-informacja-zwrotna-wciąga">Dlaczego szybka informacja zwrotna wciąga?</h2>
+
+<p>Szybka informacja zwrotna pozwala wejść w stan flow. Mihaly Csikszentmihalyi opisał flow jako stan pełnego zaangażowania, w którym traci się poczucie czasu. Jednym z warunków jest natychmiastowa informacja o tym, jak idzie. Przy vibe codingu każde polecenie kończy się widocznym wynikiem, więc ta pętla jest bardzo krótka. Stąd wieczory, które miały trwać kwadrans, a kończą się po północy.</p>
+
+<p>W zwykłym sprincie ta pętla rozciąga się na dni. Między pomysłem a wynikiem jest refinement, review, testy i okno wdrożeniowe. Trudno wejść w stan flow, gdy na wynik każdego kroku czeka się tydzień.</p>
+
+<h2 id="dlaczego-to-co-zrobiłem-sam-cieszy-bardziej">Dlaczego to, co zrobiłem sam, cieszy bardziej?</h2>
+
+<p>Własna praca podnosi wartość rzeczy w oczach autora. Michael Norton, Daniel Mochon i Dan Ariely nazwali to efektem IKEA. W ich eksperymentach ludzie, którzy sami złożyli pudełko z IKEA albo złożyli figurkę origami, wyceniali je wyżej niż osoby, które dostały to samo pudełko już złożone. Autorzy amatorskich figurek origami wyceniali je prawie tak wysoko, jak osoby z zewnątrz wyceniały prace ekspertów. Efekt znikał, gdy nie udało im się dokończyć pracy albo gdy złożoną rzecz rozebrali. Liczyło się to, że rzecz jest zrobiona i jest moja.</p>
+
+<p>Vibe coding daje dokładnie to połączenie: robię sam i kończę. Nawet jeśli większość kodu napisał model, pomysł, kolejne poprawki i decyzja, kiedy jest gotowe, należą do mnie. W pracy programista dokłada swój kawałek do większej całości i dzieli efekt z zespołem. Narzędzie zbudowane w jeden wieczór jest od pomysłu do wdrożenia moje.</p>
+
+<h2 id="gdzie-szybka-gratyfikacja-się-kończy">Gdzie szybka gratyfikacja się kończy?</h2>
+
+<p>Gratyfikacja przychodzi w chwili, gdy rzecz zaczyna działać, a koszty pojawiają się później. Sam Karpathy uznał ten sposób pracy za dobry do weekendowych projektów do wyrzucenia. Ktoś musi to narzędzie utrzymać, poprawić po zmianie danych, sprawdzić, czy nie wysyła danych klientów tam, gdzie nie powinien. O tym, jak takie narzędzia tworzą ryzyko, o którym firma nie wie, pisałem we wpisie o <a href="/blog/2026-10-12-ten-o-szarej-strefie/">szarej strefie</a>.</p>
+
+<p>Efekt IKEA działa też tu. Autorzy origami zakładali, że inni wycenią ich figurki tak wysoko jak oni sami. Jeśli tak samo patrzymy na narzędzie zbudowane w jeden wieczór, satysfakcja, która napędza pracę, utrudnia potem spojrzenie na wynik z dystansu. U Amabile i Kramer niepowodzenia działały dwa do trzech razy silniej niż postęp, a błąd w narzędziu, które zbudowałeś sam, jest właśnie takim niepowodzeniem.</p>
+
+<h2 id="co-z-tym-zrobić">Co z tym zrobić?</h2>
+
+<p>Warto potraktować tę satysfakcję jako informację o tym, czego ludziom brakuje w zwykłym trybie pracy. Jeśli programista woli spędzić wieczór z modelem AI nad własnym projektem, warto sprawdzić, ile tej satysfakcji dostaje w pracy: czy widzi skutek swojej poprawki w tym samym tygodniu i czy ktoś go zauważa. Można wtedy zapytać, które z tych małych wygranych da się dać zespołowi w zwykłej pracy, z kimś, kto pomoże potem rzecz utrzymać. Atlassian robił FedEx Day: przez dobę ludzie budowali coś spoza codziennych zadań, a następnego dnia pokazywali efekt, jak przesyłkę z dostawą na rano.</p>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<ul>
+  <li>Karpathy, A. (2025, 2 lutego). <a href="https://x.com/karpathy/status/1886192184808149383">Wpis na X</a>, w którym pada nazwa „vibe coding”. Omówienie: Simon Willison, <a href="https://simonwillison.net/2025/Feb/6/andrej-karpathy/">simonwillison.net/2025/Feb/6/andrej-karpathy</a>.</li>
+  <li>Willison, S. (2025, 19 marca). <a href="https://simonwillison.net/2025/Mar/19/vibe-coding/">Not all AI-assisted programming is vibe coding (but vibe coding rocks)</a>.</li>
+  <li>Amabile, T. M., Kramer, S. J. (2011). <em>The Power of Small Wins</em>. Harvard Business Review, maj 2011.</li>
+  <li>Amabile, T. M., Kramer, S. J. (2011). <em>The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work</em>. Harvard Business Review Press.</li>
+  <li>Csikszentmihalyi, M. (1990). <em>Flow: The Psychology of Optimal Experience</em>. Harper &amp; Row.</li>
+  <li>Norton, M. I., Mochon, D., Ariely, D. (2012). The IKEA effect: When labor leads to love. <em>Journal of Consumer Psychology</em>, 22(3), 453–460. doi:10.1016/j.jcps.2011.08.002</li>
+  <li>Pink, D. H. (2009). <em>Drive: The Surprising Truth About What Motivates Us</em>. Riverhead Books.</li>
+</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="vibe coding" /><category term="samoobsługa" /><category term="citizen developers" /><category term="AI" /><category term="motywacja" /><summary type="html"><![CDATA[Vibe coding daje satysfakcję i szybką gratyfikację: pomysł zamienia się w działającą rzecz w godzinę, bez kolejki. Skąd ta przyjemność i co kosztuje.]]></summary></entry><entry><title type="html">Ten o wykorzystaniu tagów</title><link href="https://tomaszzelezny.me/blog/2026-11-27-ten-o-wykorzystaniu-tagow/" rel="alternate" type="text/html" title="Ten o wykorzystaniu tagów" /><published>2026-11-27T00:00:00+00:00</published><updated>2026-11-27T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-wykorzystaniu-tagow</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-27-ten-o-wykorzystaniu-tagow/"><![CDATA[<p>Od kilku tygodni publikuję na LinkedIn serię „Inżynier produktu”. Hashtagi do postów dodaje Claude, asystent AI. Wśród nich był #InżynierProduktu, który miał łączyć posty serii. Dodawałem go do kolejnych postów, zanim sprawdziłem, dokąd prowadzi.</p>
+
+<h2 id="dokąd-prowadził-hashtag-serii">Dokąd prowadził hashtag serii?</h2>
+
+<p>Do ofert pracy. Po jakimś czasie wpisałem #InżynierProduktu w wyszukiwarkę LinkedIn i zamiast swoich postów zobaczyłem ogłoszenia o pracę. Tag miał zbierać serię w jednym miejscu, a czytelnik, który go kliknął, trafiał do rekrutacji. Hashtagi wyglądały na poprawne i robiły coś innego, niż chciałem.</p>
+
+<h2 id="co-zmieniłem">Co zmieniłem?</h2>
+
+<p>Przeszedłem na unikalne tagi bez polskich znaków. Każdy mój post na LinkedIn dostaje teraz jako pierwszy hashtag #ToMaszPost. Posty serii mają do tego #ToMaszInzynierProduktu i #SeriaInzynierProduktu, a na końcu dwa ogólne tagi: #Developer i #ProductManagement. Pierwszym postem z nowym zestawem jest „Ten o trybie wykonawczym”, piąty w serii.</p>
+
+<h2 id="co-sprawdzić-przed-użyciem-tagu">Co sprawdzić przed użyciem tagu?</h2>
+
+<p>Dokąd prowadzi. Zanim dodasz hashtag do posta, wpisz go w wyszukiwarkę LinkedIn i zobacz wyniki. Jeśli pokazują oferty pracy albo posty na inny temat, tag nie zbierze Twoich tekstów w jednym miejscu. Sprawdzenie zajmuje chwilę, a ja zrobiłem je dopiero po kilku postach serii.</p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Pisanie" /><category term="LinkedIn" /><category term="hashtagi" /><category term="pisanie" /><category term="AI" /><summary type="html"><![CDATA[Hashtag #InżynierProduktu prowadził na LinkedIn do ofert pracy zamiast do mojej serii. Opisuję problem, nowe unikalne tagi i sprawdzanie tagu przed użyciem.]]></summary></entry><entry><title type="html">Ten o trybie wykonawczym</title><link href="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/" rel="alternate" type="text/html" title="Ten o trybie wykonawczym" /><published>2026-11-26T00:00:00+00:00</published><updated>2026-11-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-trybie-wykonawczym</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/"><![CDATA[<p>W prezentacji o inżynierze produktu jeden slajd ma cztery słowa: ticket, kod, PR, następny. Tak wygląda tryb wykonawczy. Na tablicy zadań wszystko się w nim zgadza, a jego koszt ponosi firma.</p>
 
 <p><img src="/assets/images/tryb-wykonawczy.webp" alt="Tryb wykonawczy na przykładzie aplikacji do dokumentowania prac na budowie. Co widzi zespół: ticket, kod, PR, wdrożenie, wszystko zamknięte. Co dzieje się po przekazaniu: zdjęcia robione na budowie przy słabej sieci, aplikacja bez pracy offline, część zdjęć nie dociera do firmy, po dwóch latach zgłasza to klient. Co traci firma: wiedzę o rezultacie (w Microsofcie skuteczna okazuje się jedna trzecia pomysłów sprawdzanych w eksperymentach), wartość inżynierów (według szacunku Cagana około połowy, gdy tylko dostarczają) i czas (dwa lata). Na dole pytania: przed ticketem, co firma dzięki temu próbuje osiągnąć; po wdrożeniu, co się zmieniło." /></p>
 
@@ -388,119 +448,4 @@
 
 <hr />
 
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/drrwR8Hm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Agile" /><category term="Agile" /><category term="Manifest Agile" /><category term="AI" /><category term="kultura organizacji" /><summary type="html"><![CDATA[Agile is dead? Agile żyje czy umarło? Ten wybór zakłada jedno Agile. Tymczasem Agile przegrywa z AI walkę o uwagę zarządów i budżety. Co z tego wynika?]]></summary></entry><entry><title type="html">Ten o fabryce, w której nie widać przepływu</title><link href="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/" rel="alternate" type="text/html" title="Ten o fabryce, w której nie widać przepływu" /><published>2026-11-16T00:00:00+00:00</published><updated>2026-11-19T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-fabryce-w-ktorej-nie-widac-przeplywu</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-16-ten-o-fabryce-w-ktorej-nie-widac-przeplywu/"><![CDATA[<p>Frederick Taylor mierzył stoperem operację przy maszynie. Drogi zlecenia przez fabrykę nie mierzył, a jednym z powodów był sam warsztat, w którym pracował. Przepływ pracy był w nim prawie niewidoczny, a powtarzalna była tylko operacja.</p>
-
-<p>To druga z ośmiu części serii, która zaczęła się od pytania, <a href="/blog/2026-11-05-ten-o-tym-dlaczego-taylor-mierzyl-operacje/">dlaczego Taylor mierzył operacje</a>. Pierwsza dotyczyła <a href="/blog/2026-11-11-ten-o-soldieringu/">soldieringu</a>, czyli stosunków pracy. Ta dotyczy zarządzania operacjami.</p>
-
-<p><img src="/assets/images/taylor-przeplyw.webp" alt="Dlaczego Taylor nie widział przepływu? Warsztat Taylora: maszyny pogrupowane według rodzaju, tokarki, frezarki i wiertarki. Każde zlecenie ma własną drogę od grupy do grupy, a przed każdą grupą czeka kolejka zleceń. Powtarza się operacja, na przykład toczenie wałka, a droga zlecenia zwykle pojawia się raz. Zator przesuwa się razem z mieszanką zleceń. Linia Forda, 1913: maszyny w kolejności operacji, jedna droga dla każdego wyrobu, montaż podwozia z 12,5 godziny pracy do 93 minut. Taylor mierzył to, co się powtarzało: operację." /></p>
-
-<h2 id="jak-wyglądał-warsztat-w-którym-pracował-taylor">Jak wyglądał warsztat, w którym pracował Taylor?</h2>
-
-<p>Był zbiorem grup maszyn i ludzi, przez które zlecenia szły każde swoją drogą. W „Shop Management” z 1903 roku Taylor opisuje dział planowania ze stanowiskiem urzędnika od marszrut i kolejności pracy. Urzędnik ustalał dokładną drogę, jaką każda część ma przejść przez warsztat „from machine to machine”, tak żeby była gotowa na czas montażu. Codziennie wypisywał też kolejność, w jakiej pracę ma wykonać „each class of machines or men”, czyli każda grupa maszyn albo ludzi.</p>
-
-<p>Taki warsztat dziś nazywa się job shop. Maszyny stoją w nim pogrupowane według rodzaju, na przykład wszystkie prasy razem, i tak historyk David Nye opisuje fabryki sprzed Forda. Droga zależy od zlecenia: jedna część idzie z tokarki na frezarkę, inna z wiertarki na tokarkę i z powrotem. Skala bywała duża. Taylor pisze, że w Bethlehem Steel jeden dział planowania prowadził warsztat długi na ponad ćwierć mili.</p>
-
-<h2 id="co-się-w-takim-warsztacie-powtarzało">Co się w takim warsztacie powtarzało?</h2>
-
-<p>Operacja. Skoro każde zlecenie miało własną marszrutę, droga wyrobu przez warsztat często pojawiała się raz i znikała. Toczenie wałka czy wiercenie otworu wracało za to w wielu różnych zleceniach. Operację dało się więc zmierzyć, opisać na karcie instrukcji i wycenić, a wynik przydawał się przy każdym kolejnym zleceniu.</p>
-
-<p>Pomiar drogi zlecenia miałby wartość tylko dla tego jednego zlecenia. Z punktu widzenia kogoś, kto szuka praw rządzących pracą, operacja była jedyną jednostką stabilną na tyle, żeby ją badać.</p>
-
-<h2 id="dlaczego-przed-maszynami-stały-kolejki">Dlaczego przed maszynami stały kolejki?</h2>
-
-<p>Bo do każdej grupy maszyn trafiało jednocześnie wiele zleceń z różnych marszrut. Sama lista kolejności pracy dla każdej grupy maszyn zakłada, że coś na tę maszynę czeka. Kolejka miała też swoją logikę: przy zmiennych zleceniach i zmiennych czasach obróbki dbała o to, żeby droga maszyna nie stała bez pracy.</p>
-
-<p>Do tego dochodziło przezbrajanie. W 1913 roku Ford Whitman Harris opublikował w magazynie „Factory” artykuł „How Many Parts to Make at Once”. Zestawił w nim koszt przezbrojenia, który na sztukę maleje wraz z wielkością partii, z kosztem utrzymania zapasu, który rośnie. Wynikiem był wzór na najbardziej opłacalną wielkość partii. Im droższe przezbrojenie, tym większa partia, a duże partie oznaczały więcej <a href="/blog/2026-11-19-ten-o-czekaniu-bez-adresu/">pracy w toku</a> przed każdą maszyną.</p>
-
-<h2 id="dlaczego-zatoru-nie-było-widać">Dlaczego zatoru nie było widać?</h2>
-
-<p>Bo w takim warsztacie zator się przemieszcza. Jeśli w danym tygodniu przeważają zlecenia z długim toczeniem, kolejka rośnie przed tokarkami. Gdy przeważą zlecenia wymagające frezowania, rośnie przed frezarkami. Opóźnienie pojedynczego zlecenia zależy wtedy od tego, na jakie inne zlecenia trafiło po drodze.</p>
-
-<p>W takim obrazie trudno dostrzec, że wydajność całości wyznacza najbardziej obciążona w danej chwili grupa maszyn. Łatwiej zobaczyć, że ktoś przy maszynie pracuje wolno. Pomiar operacji odpowiadał na problem, który był widoczny.</p>
-
-<h2 id="gdzie-przepływ-stał-się-widoczny">Gdzie przepływ stał się widoczny?</h2>
-
-<p>Na linii Forda, dwa lata po wydaniu książki Taylora „The Principles of Scientific Management”. Ford ustawiał obrabiarki w kolejności, w jakiej wykonywano operacje. Sam pomysł był starszy i pochodził z fabryk broni, a Ford połączył go z ruchomą linią. Do lata 1913 roku podwozie Modelu T montowano w Highland Park w jednym miejscu i zajmowało to 12 godzin i 28 minut pracy jednego człowieka. W pierwszej próbie linii podwozie ciągnięto liną i kołowrotem przez 250 stóp i nakład pracy spadł do 5 godzin i 50 minut. 7 października 1913 roku na linii pracowało już 140 monterów, a na podwozie przypadały niecałe 3 godziny. 30 kwietnia 1914 roku były to 93 minuty.</p>
-
-<p>Na linii każdy wyrób szedł tą samą drogą, a części nie miały gdzie gromadzić się w stosach przy stanowiskach. Fabryka trzymała zapas części na 6–10 dni produkcji. Przy jednej drodze dla wszystkich wyrobów zatrzymanie jednego stanowiska widać na całej linii, a czas przejścia wyrobu przez fabrykę staje się liczbą, którą da się zmierzyć i skracać.</p>
-
-<p>Taylor pracował w warsztacie, w którym takiej drogi nie było. Mierzył to, co w jego fabryce się powtarzało.</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li>Taylor, F. W. (1903). Shop Management. Wyd. książkowe: Harper &amp; Brothers, 1911, s. 102 (urzędnik od marszrut, droga części „from machine to machine”, kolejność pracy dla każdej grupy maszyn), s. 110 (dział planowania w Bethlehem Steel, warsztat długi na ponad ćwierć mili).</li>
-  <li>Harris, F. W. (1913). How Many Parts to Make at Once. Factory, The Magazine of Management, 10(2), 135–136, 152. Przedruk: Operations Research, 38(6), 947–950, 1990.</li>
-  <li>Erlenkotter, D. (2014). Ford Whitman Harris’s Economical Lot Size Model. International Journal of Production Economics, 155, 12–15 (koszt przezbrojenia a koszt zapasu u Harrisa).</li>
-  <li>Potter, B. (2025). The Origins of Efficiency. Stripe Press. Fragment w serwisie Freethink, 6.10.2025 (obrabiarki Forda w kolejności operacji, brak stosów części przy stanowiskach, zapas części na 6–10 dni).</li>
-  <li>Arnold, H. L. (1914). Ford Methods and the Ford Shops. The Engineering Magazine, sierpień 1914. Za: Model T Ford Club of America, Model T Encyclopedia, 1913 (montaż stacjonarny 12 godzin 28 minut, próba z liną i kołowrotem, 7 października 1913, 30 kwietnia 1914; wszystkie czasy jako praca jednego człowieka na podwozie).</li>
-  <li>Nye, D. E. (2010). What Was the Assembly Line? Temp. Tidsskrift for Historie, 1(1), 59–81 (maszyny grupowane według rodzaju a ustawione w kolejności pracy, s. 68).</li>
-</ul>
-
-<hr />
-
-<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/dFNC9fNh">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie" /><category term="Taylor" /><category term="tayloryzm" /><category term="przepływ" /><category term="zarządzanie operacjami" /><category term="historia zarządzania" /><summary type="html"><![CDATA[Dlaczego Taylor nie mierzył przepływu: warsztat z maszynami według rodzaju, osobna marszruta każdego zlecenia, kolejki przed maszynami i linia Forda z 1913.]]></summary></entry><entry><title type="html">Ten o czterech poziomach efektu pracy</title><link href="https://tomaszzelezny.me/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/" rel="alternate" type="text/html" title="Ten o czterech poziomach efektu pracy" /><published>2026-11-13T00:00:00+00:00</published><updated>2026-11-26T00:00:00+00:00</updated><id>https://tomaszzelezny.me/blog/ten-o-czterech-poziomach-efektu-pracy</id><content type="html" xml:base="https://tomaszzelezny.me/blog/2026-11-13-ten-o-czterech-poziomach-efektu-pracy/"><![CDATA[<p>W <a href="/blog/2026-11-03-ten-o-rezultacie-pracy-developera/">poprzednim wpisie serii</a> oddzieliłem wynik od rezultatu. Wynik to to, co zespół dostarcza: kod, funkcja, zamknięty ticket. Rezultat to zaspokojona potrzeba użytkownika i korzyść, jaką daje to firmie. W tym wpisie rozdzielam go na dwa poziomy: zmianę u użytkownika, którą dalej nazywam rezultatem, i korzyść dla firmy. Razem z wynikiem i dźwignią daje to cztery poziomy, tak jak w prezentacji, bo między „wdrożyliśmy” a „firma jest w lepszym miejscu” jest kilka kroków i na każdym coś może pójść inaczej, niż zakładaliśmy. Rozpisuję je poniżej na jednym przykładzie.</p>
-
-<p><img src="/assets/images/cztery-poziomy-efektu-pracy.webp" alt="Cztery poziomy efektu pracy na przykładzie zamawiania online. Wynik: co wyprodukowaliśmy? Formularz zamówienia, integracja z systemem obsługi, testy, wdrożenie; widać w dniu wdrożenia, zespół ma pełną kontrolę. Rezultat: co się zmieniło u użytkowników? Klient zamawia sam, bez maila i telefonu, zamówienie ma komplet danych; widać po tygodniach. Korzyść: na co przełożyła się ta zmiana? Krótsza obsługa zamówienia, mniej poprawek, więcej zamówień tym samym składem; widać po miesiącu lub kwartale. Dźwignia: dlaczego to ważne dla firmy? Firma rośnie bez kosztów obsługi rosnących w tym samym tempie; widać w ciągu roku. Im wyżej, tym mniej zależy od zespołu i tym później widać efekt. Łańcuch najczęściej urywa się zaraz po wyniku." /></p>
-
-<h2 id="jakie-są-cztery-poziomy-efektu-pracy">Jakie są cztery poziomy efektu pracy?</h2>
-
-<p>Wynik, rezultat, korzyść i dźwignia. Każdemu poziomowi odpowiada jedno pytanie:</p>
-
-<ul>
-  <li><strong>Wynik:</strong> co wyprodukowaliśmy?</li>
-  <li><strong>Rezultat:</strong> co się zmieniło u użytkowników?</li>
-  <li><strong>Korzyść:</strong> na co przełożyła się ta zmiana?</li>
-  <li><strong>Dźwignia:</strong> dlaczego jest to ważne dla firmy?</li>
-</ul>
-
-<p>W literaturze o produkcie pierwsze trzy poziomy występują jako output, outcome i impact. Josh Seiden definiuje outcome jako zmianę w zachowaniu ludzi, która prowadzi do wyników biznesowych. W tej serii mówię o zaspokojonej potrzebie, bo zmiana u użytkownika często polega na tym, że coś znika z jego dnia: telefon, mail z pytaniem, ręczne przepisywanie danych. Czwarty poziom, dźwignię, opisałem krótko we wpisie o <a href="/blog/2026-03-26-laczenie-perspektyw/">łączeniu perspektyw</a>.</p>
-
-<h2 id="jak-wyglądają-cztery-poziomy-na-jednym-przykładzie">Jak wyglądają cztery poziomy na jednym przykładzie?</h2>
-
-<p>Weźmy firmę, która przyjmuje zamówienia mailem i przez telefon. Dział obsługi przepisuje je do systemu, dopytuje klientów o brakujące dane i poprawia błędy. Zespół dostaje zadanie: zamawianie online.</p>
-
-<p><strong>Wynik.</strong> Formularz zamówienia w aplikacji, integracja z systemem obsługi zamówień, sprawdzanie danych w formularzu, testy i wdrożenie. Widać go w dniu wdrożenia, a zespół ma nad nim pełną kontrolę.</p>
-
-<p><strong>Rezultat.</strong> Klient zamawia sam, kiedy mu wygodnie, i nie czeka na odpowiedź na maila. Zamówienie od razu ma komplet poprawnych danych, więc nikt do niego nie dzwoni z pytaniem. Po kilku tygodniach dane pokażą, ile zamówień przychodzi przez formularz, ile nadal mailem i czy klienci wracają z pytaniami.</p>
-
-<p><strong>Korzyść.</strong> Obsługa jednego zamówienia zajmuje mniej czasu, poprawek jest mniej, a ten sam dział przyjmuje więcej zamówień. Zobaczy to w swoich danych po miesiącu albo kwartale.</p>
-
-<p><strong>Dźwignia.</strong> Firma uwalnia się od kosztów obsługi, które rosną razem z liczbą klientów. Może pozyskiwać klientów szybciej, niż rośnie zespół obsługi. Ten poziom ocenia się w planach i wynikach rocznych.</p>
-
-<p>Im wyższy poziom, tym mniej zależy od samego zespołu i tym później widać efekt. Wynik zespół kontroluje w całości. Na rezultat wpływają też klienci i to, czy ktoś im powie o formularzu. Korzyść zależy od tego, co firma zrobi z odzyskanym czasem. Dźwignia zależy od strategii firmy.</p>
-
-<h2 id="dlaczego-korzyść-dla-jednego-zamówienia-nie-musi-być-korzyścią-dla-firmy">Dlaczego korzyść dla jednego zamówienia nie musi być korzyścią dla firmy?</h2>
-
-<p>Bo korzyść policzona na jednym zamówieniu nie sumuje się sama. Przy tym przykładzie zapisałem w notatkach do prezentacji: „w skali jednostki pewnie tak, w skali globalnej nie do końca”. Każde zamówienie z formularza jest tańsze w obsłudze. Jeśli jednak przez formularz przychodzi mała część zamówień, a reszta nadal mailem, dział obsługi pracuje jak wcześniej, tylko w dwóch kanałach. Jeśli odzyskany czas nie trafia do innej pracy, firma nie widzi różnicy w kosztach.</p>
-
-<p>Dlatego każdy poziom trzeba sprawdzić osobno. Działający formularz nie dowodzi, że klienci z niego korzystają. Krótsza obsługa jednego zamówienia nie dowodzi, że firma może rosnąć taniej. Dlaczego rezultat w ogóle się nie pojawia, rozpisałem we wpisie o <a href="/blog/2026-11-20-ten-o-trzech-powodach-braku-rezultatu/">trzech powodach braku rezultatu</a>.</p>
-
-<h2 id="gdzie-ten-łańcuch-najczęściej-się-urywa">Gdzie ten łańcuch najczęściej się urywa?</h2>
-
-<p>Zaraz po wyniku. Wynik ma datę i status w Jirze, a rezultat i korzyść widać tygodnie albo miesiące później, w danych, do których zespół często nie ma dostępu. Kiedy ticket jest zamknięty, <a href="/blog/2026-11-26-ten-o-trybie-wykonawczym/">zespół bierze następny</a> i nikt nie wraca do pytania, czy klienci zamawiają przez formularz. Tak zaczyna się <a href="/blog/2025-06-03-ten-o-fabryce-funkcji/">fabryka funkcji</a>: liczba dostarczonych funkcji rośnie, a nikt nie wie, które z nich coś zmieniły.</p>
-
-<p>Odwrotny przypadek też się zdarza. Ktoś w firmie pamięta o dźwigni („musimy rosnąć bez zatrudniania”), ale nie łączy jej z konkretną pracą zespołu. Zespół dostaje wtedy cel, z którym nie wie, co zrobić w najbliższym sprincie.</p>
-
-<h2 id="co-z-czterema-poziomami-może-zrobić-developer">Co z czterema poziomami może zrobić developer?</h2>
-
-<p>Zapisać przy zadaniu, zanim napisze kod, po jednym zdaniu na każdy poziom. Dla zamawiania online mogłoby to wyglądać tak:</p>
-
-<ul>
-  <li><strong>Wynik:</strong> formularz zamówienia połączony z systemem obsługi.</li>
-  <li><strong>Rezultat:</strong> większość nowych zamówień przychodzi przez formularz i nie wymaga dopytywania.</li>
-  <li><strong>Korzyść:</strong> dział obsługi przyjmuje więcej zamówień w tym samym składzie.</li>
-  <li><strong>Dźwignia:</strong> firma zwiększa liczbę klientów bez zwiększania w tym samym tempie zespołu obsługi.</li>
-</ul>
-
-<p>Do tego dwie informacje: kto sprawdzi rezultat i kiedy. Zdania nie muszą być pewne. Jeśli na pytanie o rezultat nikt w zespole nie umie odpowiedzieć, to też jest informacja, i lepiej mieć ją przed pracą niż po wdrożeniu.</p>
-
-<p>Kiedy AI obniża koszt wyniku, takie zdania zyskują na wartości. Kod da się napisać szybciej, ale to, czy formularz zmieni coś u klienta i w kosztach firmy, nadal trzeba przemyśleć i sprawdzić.</p>
-
-<p>A w Waszym zespole: na którym poziomie zwykle kończy się rozmowa o zadaniu?</p>
-
-<h2 id="bibliografia">Bibliografia</h2>
-
-<ul>
-  <li>Seiden, J. (2019). <em>Outcomes Over Output: Why Customer Behavior Is the Key Metric for Business Success</em>. Sense &amp; Respond Press.</li>
-</ul>]]></content><author><name>Tomasz Żelezny</name></author><category term="Zarządzanie produktem" /><category term="inżynier produktu" /><category term="developer" /><category term="output i outcome" /><category term="dźwignia" /><summary type="html"><![CDATA[Wynik, rezultat, korzyść i dźwignia: cztery poziomy efektu pracy zespołu na jednym przykładzie. Gdzie łańcuch się urywa i jak sprawdzić każdy poziom.]]></summary></entry></feed>
+<p>💬 <strong>Dołącz do dyskusji na LinkedIn</strong> → <a href="https://lnkd.in/p/drrwR8Hm">Komentuj i podziel się swoim podejściem</a></p>]]></content><author><name>Tomasz Żelezny</name></author><category term="Agile" /><category term="Agile" /><category term="Manifest Agile" /><category term="AI" /><category term="kultura organizacji" /><summary type="html"><![CDATA[Agile is dead? Agile żyje czy umarło? Ten wybór zakłada jedno Agile. Tymczasem Agile przegrywa z AI walkę o uwagę zarządów i budżety. Co z tego wynika?]]></summary></entry></feed>

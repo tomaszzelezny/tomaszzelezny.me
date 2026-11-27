@@ -13,6 +13,8 @@ Pracowałem z klientami z Norwegii, Wielkiej Brytanii, USA i Niemiec, z małymi 
 
 ## Wpisy
 
+- [Hashtag na LinkedIn: dokąd prowadzi?](https://tomaszzelezny.me/blog/2026-11-27-ten-o-wykorzystaniu-tagow/): Hashtag #InżynierProduktu prowadził na LinkedIn do ofert pracy zamiast do mojej serii. Opisuję problem, nowe unikalne tagi i sprawdzanie tagu przed użyciem.
+- [Vibe coding: satysfakcja szybkiego efektu](https://tomaszzelezny.me/blog/2026-11-27-ten-o-satysfakcji-z-vibe-codingu/): Vibe coding daje satysfakcję i szybką gratyfikację: pomysł zamienia się w działającą rzecz w godzinę, bez kolejki. Skąd ta przyjemność i co kosztuje.
 - [Tryb wykonawczy: co traci firma](https://tomaszzelezny.me/blog/2026-11-26-ten-o-trybie-wykonawczym/): Czym jest tryb wykonawczy developera (ticket, kod, PR, następny) i co traci przez niego firma: wiedzę o rezultacie, część wartości inżynierów i czas.
 - [Aging WIP: raport przed i po zmianie](https://tomaszzelezny.me/blog/2026-11-25-ten-o-stanie-przed-i-po/): Aging WIP 1.2.5 dla Azure DevOps: eksport raportu do PNG i spójne etykiety wieku pracy. Po co zapisywać stan przed i po, żeby zobaczyć zmianę.
 - [Struktura organizacji: siedem zasad Meyera](https://tomaszzelezny.me/blog/2026-11-24-ten-o-siedmiu-zasadach-struktury/): Struktura organizacji według N. Deana Meyera: siedem zasad projektowania, prawo wymaganej różnorodności Ashby'ego i co schemat mówi o konfliktach.
