@@ -114,6 +114,8 @@
       a.appendChild(el('circle', { cx: p.x.toFixed(1), cy: p.y.toFixed(1), r: p.r.toFixed(1) }));
       var t = el('title', {}); t.textContent = p.t; a.appendChild(t);
       a.addEventListener('click', function (e) { e.preventDefault(); select(p.id); });
+      a.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') hoverPost(p.id); });
+      a.addEventListener('pointerleave', unhover);
       p.el = a; gN.appendChild(a);
     });
     keys.forEach(function (k) {
@@ -149,7 +151,35 @@
         '<a class="open" href="' + esc(p.u) + '" data-id="' + esc(p.id) + '">Otwórz wpis →</a>' +
         '<h4>Powiązane (' + rel.length + ')</h4>' + (rel.length ? '<ul>' + rel.map(item).join('') + '</ul>' : '<p>Ten wpis nie ma jeszcze powiązanych wpisów.</p>');
     }
+    /* Najechanie myszą (kropka albo wpis w panelu) chwilowo podświetla połączenia, bez zmiany wyboru i panelu.
+       Na dotyku nie działa celowo: tam dotknięcie od razu wybiera wpis. */
+    function hover(ids, edges) {
+      var on = {}; ids.forEach(function (id) { on[id] = 1; });
+      box.classList.add('hovering');
+      P.forEach(function (q) { q.el.classList.toggle('hn', !!on[q.id]); });
+      E.forEach(function (e) { e.el.classList.toggle('hon', edges.indexOf(e) > -1); });
+    }
+    function hoverPost(id) {
+      var p = byId[id]; if (!p) return;
+      var ids = [p.id].concat(p.l, p.ins);
+      hover(ids, E.filter(function (e) { return e[0] === p || e[1] === p; }));
+      p.el.classList.add('hsel');
+    }
+    function unhover() {
+      if (!box.classList.contains('hovering')) return;
+      box.classList.remove('hovering');
+      P.forEach(function (q) { q.el.classList.remove('hn', 'hsel'); });
+      E.forEach(function (e) { e.el.classList.remove('hon'); });
+    }
+    panel.addEventListener('pointerover', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      var b = e.target.closest('button[data-id]');
+      if (b) hoverPost(b.getAttribute('data-id')); else unhover();
+    });
+    panel.addEventListener('pointerleave', unhover);
+
     function select(id) {
+      unhover();
       selected = selected === id ? null : id;
       var p = selected && byId[selected], nb = {};
       if (p) { nb[p.id] = 1; p.l.forEach(function (l) { nb[l] = 1; }); p.ins.forEach(function (l) { nb[l] = 1; }); }

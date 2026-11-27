@@ -311,6 +311,12 @@
 .landing .graf.searching .nodes a.hit circle { opacity: 1; }
 .landing .graf.searching .edges line { stroke-opacity: .05; }
 .landing .graf.searching .edges line.hit { stroke: var(--accent); stroke-opacity: .7; }
+/* Najechanie myszą (graf.js: hover): połączenia kropki albo wpisu z panelu, ma pierwszeństwo przed wyborem i szukaniem */
+.landing .graf.hovering .nodes a:not(.hn) circle { opacity: .14; }
+.landing .graf.hovering .nodes a.hn circle { opacity: 1; }
+.landing .graf.hovering .nodes a.hsel circle { stroke: var(--ink); stroke-width: 3; }
+.landing .graf.hovering .edges line:not(.hon) { stroke: var(--muted); stroke-opacity: .05; stroke-width: 1; }
+.landing .graf.hovering .edges line.hon { stroke: var(--accent); stroke-opacity: .85; stroke-width: 2; }
 .landing .graf-hint { margin: 0; padding: 10px 14px; border-top: 1px solid var(--line); font: 400 13px var(--body); color: var(--muted); }
 /* Telefon: pionowy układ grafu (graf.js liczy go osobno), panel pod grafem, bez legendy (nazwy tematów są na grafie) */
 .landing .graf-toggle { display: none; }
